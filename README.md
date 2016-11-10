@@ -8,4 +8,4 @@ Open source for http://trumptracker.github.io/
 4. Comment section -- Disqus Integration (might be too toxic)
 5. Sign up for weekly/ bi-weekly updates when he does actually get elected.
 6. Database for Policies -- top of the agenda
-7. Add Open Source Links and Credits on Footer 
+7. ~~Add Open Source Links and Credits on Footer~~
