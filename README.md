@@ -9,3 +9,7 @@ Open source for http://trumptracker.github.io/
 5. Sign up for weekly/ bi-weekly updates when he does actually get elected.
 6. Database for Policies -- top of the agenda
 7. ~~Add Open Source Links and Credits on Footer~~
+
+# Report Issues
+1. Pull Request would be the best option.
+2. Otherwise you can email me @ {firstName}.{lastName}+trump@gmail.com
