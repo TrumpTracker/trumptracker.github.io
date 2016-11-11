@@ -10,6 +10,7 @@ Open source for http://trumptracker.github.io/
 6. Database for Policies -- top of the agenda
 7. ~~Add Open Source Links and Credits on Footer~~
 8. Clean up duplicates, if any.
+9. Implement functionality to let me click on the "broken", "in progress", "achieved" categories so I can see which things fall into those categories.
 
 # Report Issues
 1. Pull Request would be the best option.
