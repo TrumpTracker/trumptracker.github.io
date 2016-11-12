@@ -13,6 +13,7 @@ with open('./../index.html') as f:
 panels = tree.xpath('//div[@role="tabpanel"]')
 
 output = {}
+counter = 0
 
 # For each panel, key is the id value.
 for panel in panels:
@@ -20,7 +21,7 @@ for panel in panels:
     output[panel.attrib['id']] = []
 
     # Get all headers - high level ideas.
-    headers = panel.xpath('//thead')
+    headers = panel.xpath('div/table/thead')
 
     # Iterate through headers and add, prepare to add points.
     for header in headers:
@@ -31,7 +32,8 @@ for panel in panels:
 
         # Retrieve the next body element and append all points.
         body = header.getnext()
-        output[panel.attrib['id']][len(output[panel.attrib['id']]) - 1]['points'].extend([x.text_content().replace('\n', '').replace('\r', '').strip() for x in body.xpath('tr/td')])
+        output[panel.attrib['id']][len(output[panel.attrib['id']]) - 1]['points'].extend([x.text_content().replace('\n', '').replace('\r', '').strip() for x in body.xpath('tr/td') if len(x.getprevious().text_content()) > 0])
+
 
 # Dump into a file.
 with open('data.json', 'w') as f:
