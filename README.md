@@ -11,6 +11,7 @@ Open source for http://trumptracker.github.io/
 7. ~~Add Open Source Links and Credits on Footer~~
 8. Clean up duplicates, if any.
 9. Implement functionality to let me click on the "broken", "in progress", "achieved" categories so I can see which things fall into those categories.
+10. Rich data so Google can parse it. Maybe something on http://schema.org/?
 
 # Report Issues
 1. Pull Request would be the best option.
