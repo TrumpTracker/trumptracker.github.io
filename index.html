@@ -6,17 +6,24 @@ layout: page
 ---
 
 <div class="container">
+    <div class="row search-results" style="display:none">
+        <div class="col-md-12">
+            <ul class="list-group" id="search-results">
+            </ul>
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-6">
             <ul class="list-group">
                 <li class="list-group-item list-group-item">            <i class="fa fa-calendar fa-fw"></i>            <b>Days in Office: 0</b></li>
+                <li class="list-group-item list-group-item">            <i class="fa fa-home fa-fw"></i>            <b>Days till Inauguration: 67</b></li>
                 <li class="list-group-item list-group-item-info">       <i class="fa fa-hourglass-start fa-fw"></i>     Not Yet Started: 201 of 201</li>
                 <li class="list-group-item list-group-item-warning">    <i class="fa fa-cogs fa-fw"></i>                In Progress: 0 of 201</li>
                 <li class="list-group-item list-group-item-success">    <i class="fa fa-check-circle-o fa-fw"></i>      Achieved: 0 of 201</li>
                 <li class="list-group-item list-group-item-danger">     <i class="fa fa-ban fa-fw"></i>                 Broken: 0 of 201</li>
             </ul>
             <p>
-                On Tuesday November 9th, 2016, Donald John Trump won the electoral vote and is currently standing to be the President-elect of the United States of America.
+                On Tuesday November 8th, 2016, Donald John Trump won the electoral vote and is currently standing to be the President-elect of the United States of America.
                 <br /><br />
                 He made <b>a lot of promises</b>. Trump Tracker will fact-check and see if he adheres to all of his stands on policies regarding culture, immigration, economy, and many more.
             </p>
@@ -64,13 +71,28 @@ layout: page
             {% for tab in site.data.data.tabs %}
               <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %}active{% endif %} fade in" id="{{tab.id}}">
                   <div class="row">
+                  <div class="input-group">
+                    <div class="input-group-addon"><span>Search </span></div>
+                    <input type="text" placeholder="keyword" class="form-control search"/>
+                  </div>
                     {% for section in tab.sections %}
-                      <ol class="points-list">
-                          <h4><a href="{{section.link}}">{{section.header}}</a></h4>
-                          {% for point in section.points %}
-                            <li>{{point}}</li>
-                          {% endfor %}
-                      </ol>
+                      <table class="table">
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <th><a href="{{section.link}}">{{section.header}}</a></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for point in section.points %}
+                            <tr>
+                                <th>{{forloop.index}}</th>
+                                <td>{{point}}</td>
+                                <td></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                      </table>
                     {% endfor %}
                   </div>
               </div>
