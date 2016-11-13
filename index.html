@@ -101,7 +101,7 @@
                     <form class="navbar-form navbar-right" action="https://viren8.typeform.com/to/CA1RiV" method="get">
                         <button type="submit" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Will need sources!">Submit a new policy</button>
                     </form>
-                    <form class="navbar-form navbar-left" target="_self">
+                    <form class="navbar-form navbar-left search" target="_self">
                         <div class="form-group">
                             <label class="control-label" for="search-field"><i class="glyphicon glyphicon-search"></i></label>
                             <input class="form-control search-field" type="search" name="search" id="search-field" placeholder="Keyword" />
@@ -125,7 +125,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <ul class="list-group">
-                        <li class="list-group-item list-group-item">            <i class="fa fa-home fa-fw"></i>            <b>Days till Inauguration: 67</b></li>                    
+                        <li class="list-group-item list-group-item">            <i class="fa fa-home fa-fw"></i>            <b>Days till Inauguration: 67</b></li>
                         <li class="list-group-item list-group-item">            <i class="fa fa-calendar fa-fw"></i>            Days in Office: 0</li>
                         <li class="list-group-item list-group-item-info">       <i class="fa fa-hourglass-start fa-fw"></i>     Not Yet Started: 201 of 201</li>
                         <li class="list-group-item list-group-item-warning">    <i class="fa fa-cogs fa-fw"></i>                In Progress: 0 of 201</li>
@@ -153,7 +153,7 @@
                     <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
                     </a>
                     </div>
-                </div>                    
+                </div>
                 </div>
                 <div class="col-md-6">
                     <div class="embed-responsive embed-responsive-16by9">
@@ -1426,7 +1426,7 @@
                 });
                 //search function
                 $("div.tab-pane input.search").keyup(function () {
-                    var search = $(this).val();
+                    var search = $(this).val().toLowerCase();
                     $(this).parent().parent().find("tr").hide();
                     $(this).parent().parent().find("tbody tr").each(function () {
                         if ($(this).text().toLowerCase().indexOf(search) != -1) {
@@ -1439,6 +1439,7 @@
                 $("#search-field").keyup(function () {
                     $("#search-results").html("");
                     if($("#search-field").val()!="") {
+                        var search = $("#search-field").val().toLowerCase();
                         //show the results div
                         $("div.row.search-results").show();
                         //loop through each tab panel (easier to grab heading info)
@@ -1447,7 +1448,7 @@
                             var display_section = true;
                             var display_heading = true
                             $(this).find("tbody td").each(function () {
-                                if ($(this).text().toLowerCase().indexOf($("#search-field").val()) != -1) {
+                                if ($(this).text().toLowerCase().indexOf(search) != -1) {
                                     if(display_section) {
                                         //appends section to search results
                                         $("#search-results").append('<li class="list-group-item active"><span>' +
@@ -1464,12 +1465,15 @@
                                     }
                                     $("#search-results").append('<li class="list-group-item"><span>' + $(this).text() + '</span></li>')
                                 }
-                            }, display_section, display_heading, panel_id);
+                            });
                         });
                     } else {
                         //fixes spacing caused by empty elements
                         $("div.row.search-results").hide();
                     }
+                });
+                $("form.search").submit(function(e){
+                    e.preventDefault();
                 });
             });
         </script>
