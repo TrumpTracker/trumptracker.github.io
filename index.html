@@ -101,6 +101,12 @@
                     <form class="navbar-form navbar-right" action="https://viren8.typeform.com/to/CA1RiV" method="get">
                         <button type="submit" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Will need sources!">Submit a new policy</button>
                     </form>
+                    <form class="navbar-form navbar-left" target="_self">
+                        <div class="form-group">
+                            <label class="control-label" for="search-field"><i class="glyphicon glyphicon-search"></i></label>
+                            <input class="form-control search-field" type="search" name="search" id="search-field" placeholder="Keyword" />
+                        </div>
+                    </form>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="about.html">About Us</a></li>
                     </ul>
@@ -110,6 +116,15 @@
             <!-- /.container-fluid -->
         </nav>
         <div class="container">
+            <div class="row search-results" style="display:none">
+                <div class="col-md-12">
+                    <ul class="list-group" id="search-results">
+                        <li class="list-group-item active"><span>List Group Item 1</span></li>
+                        <li class="list-group-item list-group-item-info"><span>List Group Item 2</span></li>
+                        <li class="list-group-item"><span>List Group Item 3</span></li>
+                    </ul>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-6">
                     <ul class="list-group">
@@ -1403,15 +1418,15 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <!-- Main JavaScript -->
-        <script language="JavaScript">
+        <script>
             $(document).ready(function () {
                 $('#myTabs a').click(function (e) {
                     e.preventDefault()
                     $(this).tab('show')
-                })
+                });
                 $(function () {
                     $('[data-toggle="tooltip"]').tooltip()
-                })
+                });
                 //search function
                 $("div.tab-pane input.search").keyup(function () {
                     var search = $(this).val();
@@ -1423,6 +1438,41 @@
                             $(this).parent().prev("thead").find("tr").show();
                         }
                     }, search);
+                });
+                $("#search-field").keyup(function () {
+                    $("#search-results").html("");
+                    if($("#search-field").val()!="") {
+                        //show the results div
+                        $("div.row.search-results").show();
+                        //loop through each tab panel (easier to grab heading info)
+                        $("div[role='tabpanel']").each(function () {
+                            var panel_id = $(this).attr("id");
+                            var display_section = true;
+                            var display_heading = true
+                            $(this).find("tbody td").each(function () {
+                                if ($(this).text().toLowerCase().indexOf($("#search-field").val()) != -1) {
+                                    if(display_section) {
+                                        //appends section to search results
+                                        $("#search-results").append('<li class="list-group-item active"><span>' +
+                                                $("ul.nav-tabs a[href='#" + panel_id + "']").html() + '</span></li>');
+                                        //prevents duplicate section titles
+                                        display_section = false;
+                                    }
+                                    if(display_heading) {
+                                        //appends heading to search results
+                                        $("#search-results").append('<li class="list-group-item list-group-item-info"><span>' +
+                                                $(this).parent().parent().prev("thead").find("tr th").html() + '</span></li>');
+                                        //prevents duplicate heading titles
+                                        display_heading = false;
+                                    }
+                                    $("#search-results").append('<li class="list-group-item"><span>' + $(this).text() + '</span></li>')
+                                }
+                            }, display_section, display_heading, panel_id);
+                        });
+                    } else {
+                        //fixes spacing caused by empty elements
+                        $("div.row.search-results").hide();
+                    }
                 });
             });
         </script>
