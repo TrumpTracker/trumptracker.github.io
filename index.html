@@ -173,6 +173,10 @@
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active fade in" id="100days">
                         <div class="row">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span>Search </span></div>
+                                <input type="text" placeholder="keyword" class="form-control search"/>
+                            </div>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -331,6 +335,10 @@
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="culture">
                         <div class="row">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span>Search </span></div>
+                                <input type="text" placeholder="keyword" class="form-control search"/>
+                            </div>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -409,6 +417,10 @@
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="economy">
                         <div class="row">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span>Search </span></div>
+                                <input type="text" placeholder="keyword" class="form-control search"/>
+                            </div>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -575,6 +587,10 @@
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="environment">
                         <div class="row">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span>Search </span></div>
+                                <input type="text" placeholder="keyword" class="form-control search"/>
+                            </div>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -597,6 +613,10 @@
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="government">
                         <div class="row">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span>Search </span></div>
+                                <input type="text" placeholder="keyword" class="form-control search"/>
+                            </div>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -663,6 +683,10 @@
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="immigration">
                         <div class="row">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span>Search </span></div>
+                                <input type="text" placeholder="keyword" class="form-control search"/>
+                            </div>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -766,6 +790,10 @@
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="indigenouspeoples">
                         <div class="row">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span>Search </span></div>
+                                <input type="text" placeholder="keyword" class="form-control search"/>
+                            </div>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -784,6 +812,10 @@
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="security">
                         <div class="row">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span>Search </span></div>
+                                <input type="text" placeholder="keyword" class="form-control search"/>
+                            </div>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -882,6 +914,10 @@
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="health">
                         <div class="row">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span>Search </span></div>
+                                <input type="text" placeholder="keyword" class="form-control search"/>
+                            </div>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -928,6 +964,10 @@
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="internationalpolicy">
                         <div class="row">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span>Search </span></div>
+                                <input type="text" placeholder="keyword" class="form-control search"/>
+                            </div>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -1151,6 +1191,10 @@
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="education">
                         <div class="row">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span>Search </span></div>
+                                <input type="text" placeholder="keyword" class="form-control search"/>
+                            </div>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -1169,6 +1213,10 @@
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="unsorted">
                         <div class="row">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span>Search </span></div>
+                                <input type="text" placeholder="keyword" class="form-control search"/>
+                            </div>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -1355,18 +1403,28 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <!-- Main JavaScript -->
-        <script>
-            $(document).ready(function(){
-                
+        <script language="JavaScript">
+            $(document).ready(function () {
                 $('#myTabs a').click(function (e) {
                     e.preventDefault()
                     $(this).tab('show')
                 })
-            
                 $(function () {
                     $('[data-toggle="tooltip"]').tooltip()
                 })
-            })   
+                //search function
+                $("div.tab-pane input.search").keyup(function () {
+                    var search = $(this).val();
+                    $(this).parent().parent().find("tr").hide();
+                    $(this).parent().parent().find("tbody tr").each(function () {
+                        if ($(this).text().toLowerCase().indexOf(search) != -1) {
+                            $(this).show();
+                            //show the heading for the section
+                            $(this).parent().prev("thead").find("tr").show();
+                        }
+                    }, search);
+                });
+            });
         </script>
     </body>
 </html>
