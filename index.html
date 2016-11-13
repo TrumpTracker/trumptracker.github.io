@@ -65,7 +65,7 @@ layout: page
               <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %}active{% endif %} fade in" id="{{tab.id}}">
                   <div class="row">
                     {% for section in tab.sections %}
-                      <ol>
+                      <ol class="points-list">
                           <h4><a href="{{section.link}}">{{section.header}}</a></h4>
                           {% for point in section.points %}
                             <li>{{point}}</li>
