@@ -96,17 +96,15 @@
                     <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#"><b>Trump Tracker</b></a>
+                    <div class="input-group search">
+                        <div class="input-group-addon"><span><i class="glyphicon glyphicon-search"></i> </span></div>
+                        <input type="text" placeholder="keyword" class="form-control" id="search-field">
+                    </div>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <form class="navbar-form navbar-right" action="https://viren8.typeform.com/to/CA1RiV" method="get">
                         <button type="submit" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Will need sources!">Submit a new policy</button>
-                    </form>
-                    <form class="navbar-form navbar-left" target="_self">
-                        <div class="form-group">
-                            <label class="control-label" for="search-field"><i class="glyphicon glyphicon-search"></i></label>
-                            <input class="form-control search-field" type="search" name="search" id="search-field" placeholder="Keyword" />
-                        </div>
                     </form>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="/about">About Us</a></li>
@@ -166,6 +164,7 @@
                 $("#search-field").keyup(function () {
                     $("#search-results").html("");
                     if($("#search-field").val()!="") {
+                        var search = $("#search-field").val().toLowerCase();
                         //show the results div
                         $("div.row.search-results").show();
                         //loop through each tab panel (easier to grab heading info)
@@ -174,7 +173,7 @@
                             var display_section = true;
                             var display_heading = true
                             $(this).find("tbody td").each(function () {
-                                if ($(this).text().toLowerCase().indexOf($("#search-field").val()) != -1) {
+                                if ($(this).text().toLowerCase().indexOf(search) != -1) {
                                     if(display_section) {
                                         //appends section to search results
                                         $("#search-results").append('<li class="list-group-item active"><span>' +
@@ -191,12 +190,15 @@
                                     }
                                     $("#search-results").append('<li class="list-group-item"><span>' + $(this).text() + '</span></li>')
                                 }
-                            }, display_section, display_heading, panel_id);
+                            });
                         });
                     } else {
                         //fixes spacing caused by empty elements
                         $("div.row.search-results").hide();
                     }
+                });
+                $("form.search").submit(function(e){
+                    e.preventDefault();
                 });
 
                 var oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
