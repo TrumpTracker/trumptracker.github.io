@@ -175,7 +175,7 @@
                             var display_section = true;
                             var display_heading = true
                             $(this).find("tbody td").each(function () {
-                                if ($(this).text().toLowerCase().indexOf($("#search-field").val()) != -1) {
+                                if ($(this).text().toLowerCase().indexOf(search) != -1) {
                                     if(display_section) {
                                         //appends section to search results
                                         $("#search-results").append('<li class="list-group-item active"><span>' +
