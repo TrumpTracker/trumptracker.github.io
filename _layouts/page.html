@@ -82,7 +82,8 @@
                 r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
                 a.appendChild(r);
             })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>        
+        </script>
+        <script id="site-data" type="application/json">{{site.data.data | jsonify}}</script>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -221,6 +222,38 @@
                     daysInOffice = 0;
                 }
                 $('#days-in-office').text(daysInOffice);
+
+                // Parse site data.json
+                var siteData = JSON.parse($('#site-data').html());
+                var totalPoints = 0;
+                var pointsNotStarted = 0;
+                var pointsInProgress = 0;
+                var pointsAchieved = 0;
+                var pointsBroken = 0;
+
+                for(var i = 0; i < siteData.tabs.length; i++) {
+                    for(var j = 0; j < siteData.tabs[i].sections.length; j++) {
+                        for(var k = 0; k < siteData.tabs[i].sections[j].points.length; k++) {
+                            var point = siteData.tabs[i].sections[j].points[k];
+                            totalPoints++;
+                            if (point.status === 'notStarted') {
+                                pointsNotStarted++;
+                            } else if (point.status === 'inProgress') {
+                                pointsInProgress++;
+                            } else if (point.status === 'achieved') {
+                                pointsAchieved++;
+                            } else if (point.status === 'broken') {
+                                pointsBroken++;
+                            }
+                        }
+                    }
+                }
+
+                $('.total-points').text(totalPoints || '0');
+                $('#points-achieved').text(pointsAchieved || '0');
+                $('#points-broken').text(pointsBroken || '0');
+                $('#points-not-started').text(pointsNotStarted || '0');
+                $('#points-in-progress').text(pointsInProgress || '0');
 
             });
         </script>
