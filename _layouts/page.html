@@ -152,7 +152,7 @@
                 });
                 //search function
                 $("div.tab-pane input.search").keyup(function () {
-                    var search = $(this).val();
+                    var search = $(this).val().toLowerCase();
                     $(this).parent().parent().find("tr").hide();
                     $(this).parent().parent().find("tbody tr").each(function () {
                         if ($(this).text().toLowerCase().indexOf(search) != -1) {
