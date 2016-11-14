@@ -216,7 +216,7 @@
                     $('.inauguration-time-container').hide();
                 }
 
-                var daysInOffice = Math.floor((todayDate.getTime() - inagurationDate)/(oneDay));
+                var daysInOffice = Math.floor((todayDate - inagurationDate)/(oneDay));
                 if (daysInOffice < 0) {
                     daysInOffice = 0;
                 }
