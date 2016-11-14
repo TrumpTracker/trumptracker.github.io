@@ -1,6 +1,15 @@
 # Trump Tracker
 Open source for http://trumptracker.github.io/
 
+# Setup
+
+Install [Jekyll](https://jekyllrb.com/) and Bundler:
+
+    gem install jekyll bundler
+    bundle exec jekyll serve
+
+Site is now running at [localhost:4000](http://localhost:4000)
+
 # To Do List
 1. Add Spanish Version
 2. Cleaner way to add and handle policies (not hardcode it...)
