@@ -85,10 +85,14 @@ layout: page
                         </thead>
                         <tbody>
                             {% for point in section.points %}
-                            <tr>
+                            <tr class="{% if point.status == 'broken' %}danger{% endif %} {% if point.status == 'achieved' %}success{% endif %}">
                                 <th>{{forloop.index}}</th>
-                                <td>{{point}}</td>
-                                <td></td>
+                                <td>{{point.text}}</td>
+                                <td>
+                                    {% if point.comments %}
+                                        <a href="{{point.comments}}" target="_blank" rel="nofollow">Comment</a>
+                                    {% endif %}
+                                </td>
                             </tr>
                             {% endfor %}
                         </tbody>
