@@ -198,6 +198,28 @@
                         $("div.row.search-results").hide();
                     }
                 });
+
+                var oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
+                var todayDate = Date.now();
+                // Inaguration date
+                var inagurationDate = new Date(2017,00,20);
+
+                var daysUntilInaguration = Math.round((inagurationDate.getTime() - todayDate)/(oneDay));
+
+                if (daysUntilInaguration === 0) {
+                    $('#inauguration-time').text('Inauguration day is today.');
+                } else if (daysUntilInaguration > 0) {
+                    $('#inauguration-days').text(daysUntilInaguration);
+                } else {
+                    $('.inauguration-time-container').hide();
+                }
+
+                var daysInOffice = Math.round((todayDate - inagurationDate.getTime())/(oneDay));
+                if (daysInOffice < 0) {
+                    daysInOffice = 0;
+                }
+                $('#days-in-office').text(daysInOffice);
+
             });
         </script>
     </body>
