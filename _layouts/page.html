@@ -206,7 +206,7 @@
                 // Inaguration date
                 var inagurationDate = new Date(2017,00,20);
 
-                var daysUntilInaguration = Math.round((inagurationDate.getTime() - todayDate)/(oneDay));
+                var daysUntilInaguration = Math.floor((inagurationDate.getTime() - todayDate)/(oneDay));
 
                 if (daysUntilInaguration === 0) {
                     $('#inauguration-time').text('Inauguration day is today.');
@@ -216,7 +216,7 @@
                     $('.inauguration-time-container').hide();
                 }
 
-                var daysInOffice = Math.round((todayDate - inagurationDate.getTime())/(oneDay));
+                var daysInOffice = Math.floor((todayDate.getTime() - inagurationDate)/(oneDay));
                 if (daysInOffice < 0) {
                     daysInOffice = 0;
                 }
