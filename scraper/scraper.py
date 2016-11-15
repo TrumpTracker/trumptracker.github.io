@@ -6,7 +6,7 @@ import json
 tree = None
 
 # Open index.html file.
-with open('./../index.html') as f:
+with open('./../_site/index.html') as f:
     tree = html.document_fromstring(f.read())
 
 # Grab all panels.
