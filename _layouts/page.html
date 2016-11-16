@@ -144,6 +144,11 @@
         <!-- Main JavaScript -->
         <script>
             $(document).ready(function () {
+
+                // temp fix for table alignment
+                $('html > head').append($('<style>tbody > tr:nth-child(1) > td:nth-child(2) { width:100%; }</style>'));
+
+                // tabs
                 $('#myTabs a').click(function (e) {
                     e.preventDefault()
                     $(this).tab('show')
@@ -151,7 +156,8 @@
                 $(function () {
                     $('[data-toggle="tooltip"]').tooltip()
                 });
-                //search function
+
+                // search function
                 $("div.tab-pane input.search").keyup(function () {
                     var search = $(this).val().toLowerCase();
                     $(this).parent().parent().find("tr").hide();
