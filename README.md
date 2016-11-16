@@ -14,7 +14,7 @@ Site is now running at [localhost:4000](http://localhost:4000)
 1. Add Spanish Version
 2. ~~Cleaner way to add and handle policies (not hardcode it...)~~
 3. ~~Fuzzy Search functionality for policies~~
-4. Comment section -- Reddit Integration (might be too toxic)
+4. ~~Comment section -- Reddit Integration (might be too toxic)~~
 5. Sign up for weekly/ bi-weekly updates when his term begins.
 6. ~~Database for Policies -- top of the agenda~~
 7. ~~Add Open Source Links and Credits on Footer~~
