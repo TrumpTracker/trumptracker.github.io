@@ -3,8 +3,9 @@
 [![Join the chat at https://gitter.im/trump-tracker/Lobby](https://badges.gitter.im/trump-tracker/Lobby.svg)](https://gitter.im/trump-tracker/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 # Setup
 
-Install [Jekyll](https://jekyllrb.com/) and Bundler:
+Install [Jekyll](https://jekyllrb.com/) and Bundler and [Bower](https://bower.io/):
 
+    ./bower_commands.sh
     gem install jekyll bundler
     bundle exec jekyll serve
 
