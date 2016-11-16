@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Trump Tracker
-email: viren.mohindra@gmail.com
+email: viren.mohindra+trump@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Track Donald J Trump's Electoral Promises with Trump Tracker.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -30,3 +30,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
+
+# Be sure to exclude vendor from your  _config.yml
+# Travis bundles all gems in the vendor directory on its build servers, which Jekyll will mistakenly read and explode on.
+# https://jekyllrb.com/docs/continuous-integration/
