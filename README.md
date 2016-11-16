@@ -1,5 +1,7 @@
 # Trump Tracker
 
+[![Build Status](https://travis-ci.org/TrumpTracker/trumptracker.github.io.svg?branch=master)](https://travis-ci.org/TrumpTracker/trumptracker.github.io)
+
 [![Join the chat at https://gitter.im/trump-tracker/Lobby](https://badges.gitter.im/trump-tracker/Lobby.svg)](https://gitter.im/trump-tracker/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 # Setup
 
