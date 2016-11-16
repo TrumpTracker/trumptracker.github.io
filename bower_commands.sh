@@ -80,3 +80,9 @@ echo "Successfully made $jspackage." \
 echo
 
 echo "Done Assembling Assets"
+
+echo "Moving fonts"
+echo "cp ./bower_components/bootstrap/dist/fonts ./fonts -r" | indent
+cp ./bower_components/bootstrap/dist/fonts ./fonts -r || echo "moving fonts failed"
+echo "done"
+echo
