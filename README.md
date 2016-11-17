@@ -1,6 +1,6 @@
 # Trump Tracker
 
-[![Travis](https://img.shields.io/travis/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://travis-ci.org/TrumpTracker/trumptracker.github.io) [![license](https://img.shields.io/github/license/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://github.com/TrumpTracker/trumptracker.github.io/blob/master/README.md) [![Gitter](https://img.shields.io/gitter/room/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://gitter.im/trump-tracker/Lobby)
+[![Travis](https://img.shields.io/travis/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://travis-ci.org/TrumpTracker/trumptracker.github.io) [![license](https://img.shields.io/github/license/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://github.com/TrumpTracker/trumptracker.github.io/blob/master/LICENSE) [![Gitter](https://img.shields.io/gitter/room/TrumpTracker/trumptracker.github.io.svg?style=flat-square)](https://gitter.im/trump-tracker/Lobby)
 
 # Setup
 
