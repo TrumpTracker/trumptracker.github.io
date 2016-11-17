@@ -112,6 +112,7 @@ layout: page
                             <tr class="{% if point.status == 'broken' %}danger{% endif %} {% if point.status == 'achieved' %}success{% endif %}">
                                 <th>{{forloop.index}}</th>
                                 <td>{{point.text}}</td>
+                                <td>{% if point.status == 'broken' %}<a href="https://twitter.com/intent/tweet?text=%40realDonaldTrump+What+have+you+done%3F+{{point.comments}}"><img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter"  width="24px" height="24px"></a>{% endif %} {% if point.status == 'achieved' %}<a href="https://twitter.com/intent/tweet?text=%40realDonaldTrump+Congratulations!+{{point.comments}}"><img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" width="24px" height="24px"></a>{% endif %}</td>
                                 <td>
                                     {% if point.comments %}
                                         <a href="{{point.comments}}" target="_blank" rel="nofollow">Comment</a>
