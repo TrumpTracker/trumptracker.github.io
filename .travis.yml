@@ -7,5 +7,7 @@ rvm:
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: jekyll build
+script: bundle exec jekyll build
+# http://stackoverflow.com/questions/28611513/travis-build-failing-on-jekyll-project-cannot-find-jekyll
 # for html5proof ./script/cibuild && jekyll build && htmlproofer ./_site
+sudo: required
