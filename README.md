@@ -4,8 +4,9 @@
 
 # Setup
 
-Install [Jekyll](https://jekyllrb.com/) and Bundler:
+Install [Jekyll](https://jekyllrb.com/) and Bundler and [Bower](https://bower.io/):
 
+    ./bower_commands.sh
     gem install jekyll bundler
     bundle install
     bundle exec jekyll serve
