@@ -10,7 +10,7 @@ class RSS {
 		$this->db_file = $db_file;
 	}
 	public function getYAML() {
-		return spyc_load(file_get_contents("https://raw.githubusercontent.com/TrumpTracker/trumptracker.github.io/master/_data/data.yaml"));
+		return Spyc::YAMLLoadString(file_get_contents("https://raw.githubusercontent.com/TrumpTracker/trumptracker.github.io/master/_data/data.yaml"));
 	}
 	public function stripQuotes($text) {
 		$unquoted = preg_replace('/^(\'(.*)\'|"(.*)")$/', '$2$3', $text);
