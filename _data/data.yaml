@@ -1,3 +1,14 @@
+promises:
+    -
+        id: test1
+        title: Propose a Constitutional Amendment to impose term limits on all members of Congress
+        status: notStarted
+        comments: 'https://redd.it/5d4r8m'
+        sources:
+            -
+                source_title: Here is what Donald Trump wants to do in his first 100 days
+                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+
 tabs:
   -
     id: 100days
@@ -353,7 +364,7 @@ tabs:
             status: notStarted
             comments: 'https://redd.it/5d7soc'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-      - 
+      -
         header: 'Jobs'
         points:
           -
@@ -750,7 +761,7 @@ tabs:
             status: notStarted
             comments: 'https://redd.it/5d7sql'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-      - 
+      -
         header: 'Military'
         points:
           -
