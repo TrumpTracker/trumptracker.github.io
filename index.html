@@ -3,126 +3,83 @@ layout: page
 comments: false
 ---
 
-<div class="container">
+{% assign tabs = site.data.data.tabs %}
+
+<div class="container promises-header">
     <div class="row search-results" style="display:none">
         <div class="col-md-12">
-            <ul class="list-group" id="search-results">
-            </ul>
+            <ul class="list-group" id="search-results"></ul>
         </div>
     </div>
     <div class="row">
         <div class="col-md-6">
-            <ul class="list-group">
-                <li class="list-group-item list-group-item inauguration-time-container">
-                    <i class="fa fa-home fa-fw"></i>
-                    <b id="inauguration-time">
-                        Days Till Inauguration:
-                        <span id="inauguration-days"></span>
-                    </b>
-                </li>
-                <li class="list-group-item list-group-item">
-                <i class="fa fa-calendar fa-fw"></i>
-                <b>Days In Office:
-                <span id="days-in-office"></span>
-                </b>
-                </li>                
-                <li class="list-group-item list-group-item-info">
-                <i class="fa fa-hourglass-start fa-fw"></i>
-                Not Yet Started: <span id="points-not-started"></span> of <span class="total-points"></span>
-                </li>
-                <li class="list-group-item list-group-item-warning">
-                <i class="fa fa-cogs fa-fw"></i>
-                In Progress:
-                <span id="points-in-progress"></span>
-                of <span class="total-points"></span>
-                </li>
-                <li class="list-group-item list-group-item-success">
-                <i class="fa fa-check-circle-o fa-fw"></i>
-                Achieved: <span id="points-achieved"></span>
-                of  <span class="total-points"> </span></li>
-                <li class="list-group-item list-group-item-danger">
-                <i class="fa fa-ban fa-fw"></i>
-                Broken: <span id="points-broken"></span> of <span class="total-points"></span>
-                </li>
-            </ul>
-            <p>
-                On Tuesday November 8th, 2016, Donald John Trump won the electoral vote and is currently standing to be the President-elect of the United States of America.
-                <br /><br />
-                He made <b>a lot of promises</b>. Trump Tracker will fact-check and see if he adheres to all of his stands on policies regarding culture, immigration, economy, and many more.
-            </p>
-            <div class="">
-            <!-- I got these buttons from simplesharebuttons.com -->
-            <div id="share-buttons">
-            <!-- Facebook -->
-            <a href="http://www.facebook.com/sharer.php?u=https://trumptracker.github.io/" target="_blank">
-            <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
-            </a>
-            <!-- Google+ -->
-            <a href="https://plus.google.com/share?url=https://trumptracker.github.io/" target="_blank">
-            <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
-            </a>
-            <!-- Twitter -->
-            <a href="https://twitter.com/share?url=https://trumptracker.github.io/&amp;text=Track&nbsp;&commat;realDonaldTrump&apos;s&nbsp;Electoral&nbsp;Promises&nbsp;with&nbsp;Trump&nbsp;Tracker.&amp;hashtags=TrumpTracker&amp;via=VirenMohindra" target="_blank">
-            <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
-            </a>
-            </div>
-        </div>                    
+            {% include scoreboard.html %}
         </div>
         <div class="col-md-6">
-            <img src="assets/trump-main.jpg" class="img-responsive center-block" alt="Donald Trump standing on a podium." />
+            <img src="assets/trump-main.jpg" class="img-responsive center-block" alt="Donald Trump standing on a podium."/>
         </div>
     </div>
 </div>
-<br />
-<div class="container-fluid">
+
+<div class="container-fluid promises">
     <div class="row">
-        <ul class="nav nav-tabs" id="myTabs" role="tablist">
-            {% for tab in site.data.data.tabs %}
+        <div class="col-md-12">
+
+            <ul class="nav nav-tabs" id="myTabs" role="tablist">
+                {% for tab in tabs %}
                 <li role="presentation" class="{{tab.id}} {% if forloop.index == 1 %}active{% endif %}">
                     <a href="#{{tab.id}}" aria-controls="{{tab.id}}" role="tab" data-toggle="tab">
                         <i class="fa fa-{{tab.icon}}"></i> {{tab.name}}
                     </a>
                 </li>
-            {% endfor %}
-        </ul>
-    </div>
-    <div>
-        <!-- Tab panes -->
-        <div class="tab-content">
-            {% for tab in site.data.data.tabs %}
-              <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %}active{% endif %} fade in" id="{{tab.id}}">
-                  <div class="row">
-                  <div class="input-group">
-                    <div class="input-group-addon"><span>Search </span></div>
-                    <input type="text" placeholder="keyword" class="form-control search"/>
-                  </div>
-                    {% for section in tab.sections %}
-                      <table class="table">
-                        <thead>
+                {% endfor %}
+            </ul>
+
+        </div> <!-- .col-md-12 -->
+
+        <div class="col-md-12">
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                {% for tab in tabs %}
+                <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %}active{% endif %} fade in" id="{{tab.id}}">
+                    <div class="row">
+                        <div class="input-group">
+                            <div class="input-group-addon"><span>Search </span>
+                            </div>
+                            <input type="text" placeholder="keyword" class="form-control search"/>
+                        </div>
+                        {% for section in tab.sections %}
+                        <table class="table">
+                            <thead>
                             <tr>
                                 <td></td>
-                                <th><a href="{{section.link}}">{{section.header}}</a></th>
+                                <th>
+                                    <a href="{{section.link}}">{{section.header}}</a>
+                                </th>
                                 <td></td>
                             </tr>
-                        </thead>
-                        <tbody>
+                            </thead>
+                            <tbody>
                             {% for point in section.points %}
                             <tr class="{% if point.status == 'broken' %}danger{% endif %} {% if point.status == 'achieved' %}success{% endif %}">
                                 <th>{{forloop.index}}</th>
                                 <td>{{point.text}}</td>
                                 <td>
                                     {% if point.comments %}
-                                        <a href="{{point.comments}}" target="_blank" rel="nofollow">Comment</a>
+                                    <a href="{{point.comments}}" target="_blank" rel="nofollow">Comment</a>
                                     {% endif %}
                                 </td>
                             </tr>
                             {% endfor %}
-                        </tbody>
-                      </table>
-                    {% endfor %}
-                  </div>
-              </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>
+                            </tbody>
+                        </table>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div> <!-- /.tab-content -->
+
+        </div> <!-- /.col-12 -->
+    </div> <!-- /.row -->
+</div> <!-- /.promises -->
