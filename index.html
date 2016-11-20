@@ -4,6 +4,7 @@ comments: false
 ---
 
 {% assign tabs = site.data.data.tabs %}
+{% assign promises = site.data.data.promises %}
 
 <div class="container promises-header">
     <div class="row search-results" style="display:none">
@@ -16,7 +17,33 @@ comments: false
             {% include scoreboard.html %}
         </div>
         <div class="col-md-6">
-            <img src="assets/trump-main.jpg" class="img-responsive center-block" alt="Donald Trump standing on a podium."/>
+            <img src="https://placekitten.com/640/480" class="img-responsive center-block" alt="Donald Trump standing on a podium."/>
+        </div>
+    </div>
+</div>
+
+<div class="container promises">
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Header</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for promise in promises %}
+                        <tr class="promise">
+                            <td>
+                                <div class="promise__title">{{ promise.title }}</div>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div>
