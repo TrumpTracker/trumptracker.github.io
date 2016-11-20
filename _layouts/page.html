@@ -219,7 +219,19 @@
                                         //prevents duplicate heading titles
                                         display_heading = false;
                                     }
-                                    $("#search-results").append('<li class="list-group-item"><span>' + $(this).text() + '</span></li>')
+
+                                    // Default display class for all list items to be added
+                                    var displayClass = "list-group-item";
+
+                                    // Get the class of the table row for this td element
+                                    var rowClass = $(this).parent().prop('className');
+
+                                    // Not empty implies it is either danger (broken policy)
+                                    // or success (achieved policy)
+                                    if (rowClass !== "") {
+                                      displayClass += " list-group-item-" + rowClass;
+                                    }
+                                    $("#search-results").append('<li class="'+ displayClass + '"><span>' + $(this).text() + '</span></li>')
                                 }
                             });
                         });

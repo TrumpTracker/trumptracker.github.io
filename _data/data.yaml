@@ -358,12 +358,12 @@ tabs:
             status: notStarted
             comments: 'https://redd.it/5d7soc'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          - 
+          -
             text: 'Trump supports an audit of the FED'
             status: notStarted
             comments: 'https://redd.it/5dx5qg'
             source: 'http://www.realclearpolitics.com/video/2016/09/07/ron_paul_donald_trump_wants_to_audit_the_federal_reserve.html'
-      - 
+      -
         header: 'Jobs'
         points:
           -
@@ -752,7 +752,7 @@ tabs:
             status: notStarted
             comments: 'https://redd.it/5d7st4'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-      - 
+      -
         header: 'Military'
         points:
           -
