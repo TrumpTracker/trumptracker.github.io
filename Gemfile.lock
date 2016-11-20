@@ -29,18 +29,19 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.8.0)
       jekyll (~> 3.3)
-    jekyll-sass-converter (1.4.0)
+    jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     json (2.0.2)
-    kramdown (1.12.0)
+    kramdown (1.13.0)
     liquid (3.0.6)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    minima (2.0.0)
+    minima (2.1.0)
+      jekyll (~> 3.3)
     multi_css (0.1.0)
       css_press
     multi_js (0.1.0)
@@ -74,7 +75,7 @@ DEPENDENCIES
   octopress-minify-html
 
 RUBY VERSION
-   ruby 2.2.3p173
+   ruby 2.2.1p85
 
 BUNDLED WITH
    1.13.6
