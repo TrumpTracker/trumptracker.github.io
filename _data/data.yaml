@@ -598,7 +598,7 @@ tabs:
             comments: 'https://redd.it/5d7spp'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
           -
-            text: 'Build the wall, deport criminals, triple the number of ICE officers, end birthright citizenship.  Get it done within 18 months. It’s an immensely complex endeavor, far harder than Trump’s simple sell, but now, if he doesn’t get it done, and doesn’t get our southern neighbor to pay for it, he’s failed.'
+            text: 'Build the wall, deport criminals, triple the number of ICE officers, end birthright citizenship.  Get it done within 18 months. It''s an immensely complex endeavor, far harder than Trump''s simple sell, but now, if he doesn''t get it done, and doesn''t get our southern neighbor to pay for it, he''s failed.'
             status: notStarted
             comments: 'https://redd.it/5d81t1'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
@@ -639,11 +639,6 @@ tabs:
             text: 'End birthright citizenship.'
             status: notStarted
             comments: 'https://redd.it/5d7spz'
-            source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            text: 'Build the wall, deport criminals, triple the number of ICE officers, end birthright citizenship.'
-            status: notStarted
-            comments: 'https://redd.it/5d7sq0'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
           -
             text: 'Build a wall, deport all undocumented immigrants. Trump''s campaign began with a promise to build a wall across the United States'' southern border and deport the country''s 11 million undocumented immigrants.'
@@ -825,7 +820,7 @@ tabs:
         header: 'Jail'
         points:
           -
-            text: 'Ensure that “the crime and violence that today afflicts our nation will soon come to an end” - a pledge made in his nomination acceptance speech - by restoring law and order. Revive inner cities that he says have become hell holes.'
+            text: 'Ensure that "the crime and violence that today afflicts our nation will soon come to an end" - a pledge made in his nomination acceptance speech - by restoring law and order. Revive inner cities that he says have become hell holes.'
             status: notStarted
             comments: 'https://redd.it/5d7sss'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
@@ -914,7 +909,7 @@ tabs:
             comments: 'https://redd.it/5d81td'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'The U.S. should cut off funds for the UN Human Rights Council, a body dominated by countries presently run by dictatorships that seems solely devoted to slandering the Jewish State. UNESCO’s attempt to disconnect the State of Israel from Jerusalem is a one-sided attempt to ignore Israel’s 3,000-year bond to its capital city, and is further evidence of the enormous anti-Israel bias of the United Nations.'
+            text: 'The U.S. should cut off funds for the UN Human Rights Council, a body dominated by countries presently run by dictatorships that seems solely devoted to slandering the Jewish State. UNESCO''s attempt to disconnect the State of Israel from Jerusalem is a one-sided attempt to ignore Israel''s 3,000-year bond to its capital city, and is further evidence of the enormous anti-Israel bias of the United Nations.'
             status: notStarted
             comments: 'https://redd.it/5d83b8'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
@@ -929,7 +924,7 @@ tabs:
             comments: 'https://redd.it/5d7sra'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'A two-state solution between Israel and the Palestinians appears impossible as long as the Palestinians are unwilling to renounce violence against Israel or recognize Israel’s right to exist as a Jewish state. Additionally, the Palestinians are divided between PA rule in the West Bank and Hamas rule in Gaza so there is not a united Palestinian people who could control a second state. Hamas is a US-designated terrorist organization that actively seeks Israel’s destruction. We will seek to assist the Israelis and the Palestinians in reaching a comprehensive and lasting peace, to be freely and fairly negotiated between those living in the region.'
+            text: 'A two-state solution between Israel and the Palestinians appears impossible as long as the Palestinians are unwilling to renounce violence against Israel or recognize Israel''s right to exist as a Jewish state. Additionally, the Palestinians are divided between PA rule in the West Bank and Hamas rule in Gaza so there is not a united Palestinian people who could control a second state. Hamas is a US-designated terrorist organization that actively seeks Israel''s destruction. We will seek to assist the Israelis and the Palestinians in reaching a comprehensive and lasting peace, to be freely and fairly negotiated between those living in the region.'
             status: notStarted
             comments: 'https://redd.it/5d81tk'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
@@ -944,22 +939,22 @@ tabs:
             comments: 'https://redd.it/5d81tn'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'The U.S. should support direct negotiations between Israel and the Palestinians without preconditions, and will oppose all Palestinian, European and other efforts to bypass direct negotiations between parties in favor of an imposed settlement. Any solutions imposed on Israel by outside parties including by the United Nations Security Council, should be opposed. We support Israel’s right and obligation to defend itself against terror attacks upon its people and against alternative forms of warfare being waged upon it legally, economically, culturally, and otherwise.'
+            text: 'The U.S. should support direct negotiations between Israel and the Palestinians without preconditions, and will oppose all Palestinian, European and other efforts to bypass direct negotiations between parties in favor of an imposed settlement. Any solutions imposed on Israel by outside parties including by the United Nations Security Council, should be opposed. We support Israel''s right and obligation to defend itself against terror attacks upon its people and against alternative forms of warfare being waged upon it legally, economically, culturally, and otherwise.'
             status: notStarted
             comments: 'https://redd.it/5d81tp'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'Israel’s maintenance of defensible borders that preserve peace and promote stability in the region is a necessity. Pressure should not be put on Israel to withdraw to borders that make attacks and conflict more likely.'
+            text: 'Israel''s maintenance of defensible borders that preserve peace and promote stability in the region is a necessity. Pressure should not be put on Israel to withdraw to borders that make attacks and conflict more likely.'
             status: notStarted
             comments: 'https://redd.it/5d7srh'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'The U.S. will recognize Jerusalem as the eternal and indivisible capital of the Jewish state and Mr. Trump’s Administration will move the U.S. embassy to Jerusalem.'
+            text: 'The U.S. will recognize Jerusalem as the eternal and indivisible capital of the Jewish state and Mr. Trump''s Administration will move the U.S. embassy to Jerusalem.'
             status: notStarted
             comments: 'https://redd.it/5d7srj'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'Despite the Iran Nuclear deal in 2015, the U.S. State Department recently designated Iran, yet again, as the leading state sponsor of terrorism - putting the Middle East particularly, but the whole world at risk by financing, arming, and training terrorist groups operating around the world including Hamas, Hezbollah, and forces loyal to Syrian President Bashar al-Assad. The U.S. must counteract Iran’s ongoing violations of the Joint Comprehensive Plan of Action regarding Iran’s quest for nuclear weapons and their noncompliance with past and present sanctions, as well as the agreements they signed, and implement tough, new sanctions when needed to protect the world and Iran’s neighbors from its continuing nuclear and non-nuclear threats.'
+            text: 'Despite the Iran Nuclear deal in 2015, the U.S. State Department recently designated Iran, yet again, as the leading state sponsor of terrorism - putting the Middle East particularly, but the whole world at risk by financing, arming, and training terrorist groups operating around the world including Hamas, Hezbollah, and forces loyal to Syrian President Bashar al-Assad. The U.S. must counteract Iran''s ongoing violations of the Joint Comprehensive Plan of Action regarding Iran''s quest for nuclear weapons and their noncompliance with past and present sanctions, as well as the agreements they signed, and implement tough, new sanctions when needed to protect the world and Iran''s neighbors from its continuing nuclear and non-nuclear threats.'
             status: notStarted
             comments: 'https://redd.it/5d81tq'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
@@ -1090,7 +1085,7 @@ tabs:
             comments: 'https://redd.it/5d7st3'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
           -
-            text: '"Contact countries and say…''Folks, we love protecting you, we want to continue to protect you but you''re not living up to the bargain''…They''re not paying what they''re supposed to be paying-which is very little, by the way."'
+            text: '"Contact countries and say ''Folks, we love protecting you, we want to continue to protect you but you''re not living up to the bargain'' They''re not paying what they''re supposed to be paying-which is very little, by the way."'
             status: notStarted
             comments: 'https://redd.it/5d7st9'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
