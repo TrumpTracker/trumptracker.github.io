@@ -5,6 +5,7 @@ comments: false
 
 {% assign tabs = site.data.data.tabs %}
 {% assign promises = site.data.data.promises %}
+{% assign icons = site.data.data.icons %}
 
 <div class="container promises-header">
     <div class="row search-results" style="display:none">
@@ -23,50 +24,55 @@ comments: false
                     </b>
                 </li>
                 <li class="list-group-item list-group-item">
-                <i class="fa fa-calendar fa-fw"></i>
-                <b>Days In Office:
-                <span id="days-in-office"></span>
-                </b>
+                    <i class="fa fa-calendar fa-fw"></i>
+                    <b>Days In Office:
+                        <span id="days-in-office"></span>
+                    </b>
                 </li>
                 <li class="list-group-item list-group-item-info">
-                <i class="fa fa-hourglass-start fa-fw"></i>
-                Not Yet Started: <span id="points-not-started"></span> of <span class="total-points"></span>
+                    <i class="fa fa-hourglass-start fa-fw"></i>
+                    Not Yet Started: <span id="points-not-started"></span> of <span class="total-points"></span>
                 </li>
                 <li class="list-group-item list-group-item-warning">
-                <i class="fa fa-cogs fa-fw"></i>
-                In Progress:
-                <span id="points-in-progress"></span>
-                of <span class="total-points"></span>
+                    <i class="fa fa-cogs fa-fw"></i>
+                    In Progress:
+                    <span id="points-in-progress"></span>
+                    of <span class="total-points"></span>
                 </li>
                 <li class="list-group-item list-group-item-success">
-                <i class="fa fa-check-circle-o fa-fw"></i>
-                Achieved: <span id="points-achieved"></span>
-                of  <span class="total-points"> </span></li>
+                    <i class="fa fa-check-circle-o fa-fw"></i>
+                    Achieved: <span id="points-achieved"></span>
+                    of <span class="total-points"> </span></li>
                 <li class="list-group-item list-group-item-danger">
-                <i class="fa fa-ban fa-fw"></i>
-                Broken: <span id="points-broken"></span> of <span class="total-points"></span>
+                    <i class="fa fa-ban fa-fw"></i>
+                    Broken: <span id="points-broken"></span> of <span class="total-points"></span>
                 </li>
             </ul>
             <p>
-                On Tuesday November 8th, 2016, Donald John Trump won the electoral vote and is currently standing to be the President-elect of the United States of America.
-                <br /><br />
-                He made <b>a lot of promises</b>. Trump Tracker will fact-check and see if he adheres to all of his stands on policies regarding culture, immigration, economy, and many more.
+                On Tuesday November 8th, 2016, Donald John Trump won the electoral vote and is currently standing to be
+                the President-elect of the United States of America.
+                <br/><br/>
+                He made <b>a lot of promises</b>. Trump Tracker will fact-check and see if he adheres to all of his
+                stands on policies regarding culture, immigration, economy, and many more.
             </p>
 
             <div id="share-buttons">
                 <ul class="list-inline">
                     <li>
-                        <a href="http://www.facebook.com/sharer.php?u=https://trumptracker.github.io/" target="_blank" style="color:#3b5998;">
+                        <a href="http://www.facebook.com/sharer.php?u=https://trumptracker.github.io/" target="_blank"
+                           style="color:#3b5998;">
                             <i class="fa fa-2x fa-facebook-square"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/share?url=https://trumptracker.github.io/" target="_blank" style="color:#dd4b39;">
+                        <a href="https://plus.google.com/share?url=https://trumptracker.github.io/" target="_blank"
+                           style="color:#dd4b39;">
                             <i class="fa fa-2x fa-google-plus"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/share?url=https://trumptracker.github.io/&amp;text=Track&nbsp;&commat;realDonaldTrump&apos;s&nbsp;Electoral&nbsp;Promises&nbsp;with&nbsp;Trump&nbsp;Tracker.&amp;hashtags=TrumpTracker&amp;via=VirenMohindra" target="_blank" style="color:#1da1f2;">
+                        <a href="https://twitter.com/share?url=https://trumptracker.github.io/&amp;text=Track&nbsp;&commat;realDonaldTrump&apos;s&nbsp;Electoral&nbsp;Promises&nbsp;with&nbsp;Trump&nbsp;Tracker.&amp;hashtags=TrumpTracker&amp;via=VirenMohindra"
+                           target="_blank" style="color:#1da1f2;">
                             <i class="fa fa-2x fa-twitter"></i>
                         </a>
                     </li>
@@ -80,47 +86,77 @@ comments: false
 
         </div>
         <div class="col-md-6">
-            <img src="assets/trump-main.jpg" class="img-responsive center-block" alt="Donald Trump standing on a podium." />
+            <img src="assets/trump-main.jpg" class="img-responsive center-block"
+                 alt="Donald Trump standing on a podium."/>
         </div>
     </div>
 </div>
 
-<div class="container promises-header">
-    <div class="row">
-        <div class="col-md-6">
-            {% include scoreboard.html %}
-        </div>
-        <div class="col-md-6">
-            <img src="https://placekitten.com/640/480" class="img-responsive center-block" alt="Donald Trump standing on a podium."/>
-        </div>
-    </div>
-</div>
+
+
 
 <div class="container promises">
     <div class="row">
         <div class="col-md-12">
 
+            {% assign categories = promises | map: 'category' | uniq %}
+            <ul class="nav nav-pills">
+
+                <li role="presentation" class="active"><a href="#">All</a></li>
+
+                {% for category in categories %}
+                    <li role="presentation"><a href="#">
+                        <i class="fa fa-fw fa-{{ icons[category] }}"></i> {{ category }}</a>
+                    </li>
+                {% endfor %}
+
+                <li role="presentation"><a href="#">Profile</a></li>
+                <li role="presentation"><a href="#">Messages</a></li>
+            </ul>
+
             <div class="table-responsive">
                 <table class="table table-striped">
+
                     <thead>
-                    <tr>
-                        <th>Header</th>
-                    </tr>
+                        <tr>
+                            <th>ID</th>
+                            <th>Status</th>
+                            <th>Category</th>
+                            <th>Promise</th>
+                            <th>Links</th>
+                            <th>Actions</th>
+                        </tr>
                     </thead>
+
                     <tbody>
-                    {% for promise in promises %}
-                    <tr class="promise">
-                        <td>
-                            <div class="promise__title">{{ promise.title }}</div>
-                        </td>
-                    </tr>
-                    {% endfor %}
+                        {% for promise in promises %}
+                            <tr class="promise">
+                                <td class="promise__id">{{ promise.id }}.</td>
+                                <td class="promise__status">
+                                    <i class="fa fa-fw fa-{{ icons[promise.status] }}" title="{{ promise.status }}"></i>
+                                </td>
+                                <td class="promise__category" style="white-space: nowrap;">
+                                    <i class="fa fa-fw fa-{{ icons[promise.category] }}"></i> {{ promise.category }}
+                                </td>
+                                <td class="promise__title">{{ promise.title }}</td>
+                                <td class="promise__sources" style="white-space: nowrap;">
+                                    {% for source in promise.sources %}
+                                        <a href="{{ source.url }}" title="{{ source.source_title }}">Link {{ forloop.index }}</a>
+                                    {% endfor %}
+                                </td>
+                                <td class="promise__comment-link"><a href="{{ promise.comments }}">Comment</a></td>
+                            </tr>
+                        {% endfor %}
                     </tbody>
+
                 </table>
             </div>
         </div>
     </div>
 </div>
+
+
+
 
 <div class="container-fluid promises">
     <div class="row">
@@ -143,7 +179,8 @@ comments: false
             <!-- Tab panes -->
             <div class="tab-content">
                 {% for tab in tabs %}
-                <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %}active{% endif %} fade in" id="{{tab.id}}">
+                <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %}active{% endif %} fade in"
+                     id="{{tab.id}}">
                     <div class="row">
                         <div class="input-group">
                             <div class="input-group-addon"><span>Search </span>
