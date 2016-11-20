@@ -1,5 +1,18 @@
 ---
 ---
+@import 'variables'
+
+body
+  padding-top: 70px
+  font-size: $font-size
+
+#share-buttons img
+  width: 35px
+  padding: 5px
+  border: 0
+  box-shadow: 0
+  display: inline
+
 
 // begin
 .navbar-form
@@ -20,3 +33,7 @@
     padding: 1em
   body
     padding-top: 132px !important
+
+@media screen and (min-width:600px)
+  p a td
+    font-size: $font-size
