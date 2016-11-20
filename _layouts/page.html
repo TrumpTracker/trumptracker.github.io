@@ -71,10 +71,10 @@
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-            
+
             ga('create', 'UA-31897403-13', 'auto');
             ga('send', 'pageview');
-            
+
             (function(h,o,t,j,a,r){
                 h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
                 h._hjSettings={hjid:331626,hjsv:5};
@@ -87,22 +87,40 @@
         <script id="site-data" type="application/json">{{site.data.data | jsonify}}</script>
     </head>
     <body>
+
         <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
+
+            <div class="container">
+
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
+
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="https://trumptracker.github.io/"><b>Trump Tracker</b></a>
-                    <div class="input-group search">
-                        <div class="input-group-addon"><span><i class="glyphicon glyphicon-search"></i> </span></div>
-                        <input type="text" placeholder="keyword" class="form-control" id="search-field">
-                    </div>
+
+                    <a class="navbar-brand" href="https://trumptracker.github.io/">
+                        <b>Trump Tracker</b>
+                    </a>
+
                 </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <form class="navbar-form" role="search">
+                        <div class="input-group">
+                            <input id="search-field" type="text" class="form-control" placeholder="Search" name="q">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <form class="navbar-form navbar-right" action="https://viren8.typeform.com/to/CA1RiV" method="get">
@@ -113,10 +131,14 @@
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
+
             </div>
             <!-- /.container-fluid -->
+
         </nav>
+
         {{content}}
+
         <div class="container-fluid">
             <div class="page-header">
                 <h5 class="text-right">Open Source at <a href="https://github.com/TrumpTracker/trumptracker.github.io"> <i class="fa fa-github fa-fw"></i></a></h5>
@@ -133,7 +155,7 @@
                     </div>
                     <div class="col-md-3">
                         <p class="text-muted"><a href="https://raw.githubusercontent.com/TrumpTracker/trumptracker.github.io/master/_data/data.yaml" target="_blank" rel="nofollow">Open Data</a></p>
-                        
+
                     </div>
                     <div class="col-md-3">
                         <p class="text-muted"><a href="http://nukewebbed.com/#section-termsandconditions" target="_blank">Privacy Policy and T&amp;C</a></p>
