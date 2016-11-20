@@ -244,6 +244,11 @@ tabs:
             status: notStarted
             comments: 'https://redd.it/5d7snr'
             source: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+          -
+            text: '"If I am elected president and Congress passes the First Amendment Defense Act, I will sign it to protect the deeply held religious beliefs of Catholics and the beliefs of Americans of all faiths."'
+            status: notStarted
+            comments: 'https://redd.it/5dx3og'
+            source: 'https://www.donaldjtrump.com/press-releases/issues-of-importance-to-catholics'
   -
     id: economy
     name: Economy
@@ -353,6 +358,11 @@ tabs:
             status: notStarted
             comments: 'https://redd.it/5d7soc'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+          - 
+            text: 'Trump supports an audit of the FED'
+            status: notStarted
+            comments: 'https://redd.it/5dx5qg'
+            source: 'http://www.realclearpolitics.com/video/2016/09/07/ron_paul_donald_trump_wants_to_audit_the_federal_reserve.html'
       - 
         header: 'Jobs'
         points:
@@ -505,6 +515,11 @@ tabs:
             status: notStarted
             comments: 'https://redd.it/5d7st1'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+          -
+            text: 'Trump vowed to end the Clean Power Plan'
+            status: notStarted
+            comments: 'https://redd.it/5dx4e4'
+            source: 'http://www.vox.com/2016/11/9/13571318/donald-trump-disaster-climate'
   -
     id: government
     name: Government
@@ -694,6 +709,11 @@ tabs:
             status: notStarted
             comments: 'https://redd.it/5d7sso'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+          -
+            text: 'Ban Muslim Brotherhood affiliated organizations'
+            status: notStarted
+            comments: 'https://redd.it/5dx57p'
+            source: 'http://www.westernjournalism.com/foreign-policy-adviser-says-trump-will-ban-muslim-brotherhood-u-s-offshoots/'
   -
     id: security
     name: Security
