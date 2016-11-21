@@ -113,21 +113,27 @@ comments: false
                       <table class="table table-striped">
                         <thead>
                             <tr>
+                                <th></th>
                                 <th colspan="3">
-                                    <i class="fa fa-file-o text-muted"></i>
-                                    &nbsp;
                                     <a href="{{section.link}}">
                                         {{section.header}}
                                     </a>
                                 </th>
-                                <th></th>
                             </tr>
                         </thead>
                         <tbody>
                             {% for point in section.points %}
                             <tr class="{% if point.status == 'broken' %}danger{% endif %} {% if point.status == 'achieved' %}success{% endif %}">
-                                <td>{{forloop.index}}</td>
-                                <td>{{point.text}}</td>
+                                <td>
+                                    <strong>{{ forloop.index }}</strong>
+                                </td>
+                                <td>
+                                    <p>
+                                        {{point.text}}
+                                        &nbsp;
+                                        <small style="white-space: nowrap;">( <a href="{{ point.source }}" target="_blank" rel="nofollow">Source</a> )</small>
+                                    </p>
+                                </td>
                                 <td>
                                     {% if point.comments %}
                                         <a href="{{point.comments}}" target="_blank" rel="nofollow" class="btn btn-default btn-sm">
