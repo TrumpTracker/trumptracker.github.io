@@ -118,7 +118,7 @@ comments: false
                             {% for point in section.points %}
                             <tr class="{% if point.status == 'broken' %}danger{% endif %} {% if point.status == 'achieved' %}success{% endif %}">
                                 <th>{{forloop.index}}</th>
-                                <td>{{point.text}}</td>
+                                <td><a href="{{point.source}}">{{point.text}}</a></td>
                                 <td>
                                     {% if point.comments %}
                                         <a href="{{point.comments}}" target="_blank" rel="nofollow">Comment</a>
