@@ -118,7 +118,16 @@ comments: false
                             {% for point in section.points %}
                             <tr class="{% if point.status == 'broken' %}danger{% endif %} {% if point.status == 'achieved' %}success{% endif %}">
                                 <th>{{forloop.index}}</th>
-                                <td><a href="{{point.source}}">{{point.text}}</a></td>
+                                <td>
+                                    <a href="{{point.source}}">{{point.text}}</a>
+                                    {% for citation in point.citations %}
+                                        {% if point.citations[0] != '' %}
+                                                <sup>
+                                                <a href="{{point.citations[0]}}" target="_blank" rel="nofollow">{{forloop.index}}</a>
+                                                </sup>
+                                        {% endif %}
+                                {% endfor %}                                        
+                                </td>
                                 <td>
                                     {% if point.comments %}
                                         <a href="{{point.comments}}" target="_blank" rel="nofollow">Comment</a>
