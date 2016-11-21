@@ -30,6 +30,7 @@ gems:
 
 sass:
   sass_dir: css/partials
+  style: compressed
 
 exclude:
   - Gemfile
