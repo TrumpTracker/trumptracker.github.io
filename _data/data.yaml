@@ -1335,7 +1335,7 @@ tabs:
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
   -
     id: internationalpolicy
-    name: International
+    name: World
     icon: globe
     sections:
       -
