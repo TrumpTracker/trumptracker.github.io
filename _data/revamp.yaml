@@ -5,6 +5,7 @@ icons:
     Broken: ban
     'First 100 Days': clock-o
     Culture: music
+
 status:
     'Not started': info
     'In progress': warning
@@ -440,6 +441,201 @@ promises:
             -
                 title: 'title of source goes here'
                 url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+    -
+        title: '"If I become president, we''re all going to be saying ''Merry Christmas'' again."'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sn2'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Never take a vacation while serving as president.'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sn3'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Start winning again. "We''re going to win so much -- win after win after win -- that you''re going to be begging me: ''Please, Mr. President, let us lose once or twice. We can''t stand it any more.'' And I''m going to say: ''No way. We''re going to keep winning. We''re never going to lose. We''re never, ever going to lose."'
+        status: Not started
+        category: 'Culture'
+        tags:
+            - Winning
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81ss'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Bring back the American Dream.'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sn4'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Be a cheerleader for America and bring the country''s spirit back. "Take the brand of the United States and make it great again."'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sn6'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Make America great again -- and strong again, as it has become too weak.'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sn7'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Say things that are politically incorrect, because the country does not have time to waste with political correctness.'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sn9'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: '"I will take care of women, and I have great respect for women. I do cherish women, and I will take care of women."'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sna'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Frequently use the term "radical Islamic terrorism."'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7snd'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Prosecute Hillary Clinton for her use of a private e-mail server while serving as secretary of state.'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7snf'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Shut down parts of the internet'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7snh'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Be unpredictable. "No one is going to touch us, because I''m so unpredictable."'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7snj'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Students at Wofford College in South Carolina, where Trump attended a town hall, will all have jobs at graduation.'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7snm'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Drop that "dirty, rotten traitor" Bowe Bergdahl out of an airplane into desolate Afghanistan without a parachute.'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7snp'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Ensure that Americans can still afford to golf.'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7snr'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: '"If I am elected president and Congress passes the First Amendment Defense Act, I will sign it to protect the deeply held religious beliefs of Catholics and the beliefs of Americans of all faiths."'
+        status: Not started
+        category: 'Culture'
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5dx3og'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.donaldjtrump.com/press-releases/issues-of-importance-to-catholics'
+
 tabs:
   -
     id: 100days
@@ -467,182 +663,6 @@ tabs:
       -
         header: 'Trump'
         points:
-          -
-            title: '"If I become president, we''re all going to be saying ''Merry Christmas'' again."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sn2'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Never take a vacation while serving as president.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sn3'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Start winning again. "We''re going to win so much -- win after win after win -- that you''re going to be begging me: ''Please, Mr. President, let us lose once or twice. We can''t stand it any more.'' And I''m going to say: ''No way. We''re going to keep winning. We''re never going to lose. We''re never, ever going to lose."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81ss'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Bring back the American Dream.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sn4'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Be a cheerleader for America and bring the country''s spirit back. "Take the brand of the United States and make it great again."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sn6'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Make America great again -- and strong again, as it has become too weak.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sn7'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Say things that are politically incorrect, because the country does not have time to waste with political correctness.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sn9'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: '"I will take care of women, and I have great respect for women. I do cherish women, and I will take care of women."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sna'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Frequently use the term "radical Islamic terrorism."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7snd'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Prosecute Hillary Clinton for her use of a private e-mail server while serving as secretary of state.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7snf'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Shut down parts of the internet'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7snh'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Be unpredictable. "No one is going to touch us, because I''m so unpredictable."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7snj'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Students at Wofford College in South Carolina, where Trump attended a town hall, will all have jobs at graduation.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7snm'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Drop that "dirty, rotten traitor" Bowe Bergdahl out of an airplane into desolate Afghanistan without a parachute.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7snp'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Ensure that Americans can still afford to golf.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7snr'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: '"If I am elected president and Congress passes the First Amendment Defense Act, I will sign it to protect the deeply held religious beliefs of Catholics and the beliefs of Americans of all faiths."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5dx3og'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.donaldjtrump.com/press-releases/issues-of-importance-to-catholics'
   -
     id: economy
     name: Economy
