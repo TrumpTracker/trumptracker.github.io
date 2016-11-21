@@ -27,6 +27,11 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+
+sass:
+  sass_dir: css/partials
+  style: compressed
+
 exclude:
   - Gemfile
   - Gemfile.lock

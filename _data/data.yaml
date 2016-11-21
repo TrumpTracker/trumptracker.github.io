@@ -244,6 +244,11 @@ tabs:
             status: notStarted
             comments: 'https://redd.it/5d7snr'
             source: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+          -
+            text: '"If I am elected president and Congress passes the First Amendment Defense Act, I will sign it to protect the deeply held religious beliefs of Catholics and the beliefs of Americans of all faiths."'
+            status: notStarted
+            comments: 'https://redd.it/5dx3og'
+            source: 'https://www.donaldjtrump.com/press-releases/issues-of-importance-to-catholics'
   -
     id: economy
     name: Economy
@@ -286,7 +291,7 @@ tabs:
             comments: 'https://redd.it/5d7so0'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
           -
-            text: 'Maybe don''t slash taxes by $10 trillion — slash taxes by $3 trillion, instead. Maybe ditch, maybe keep a $1 trillion tax cut for small businesses (depending on who is asking).'
+            text: 'Maybe don''t slash taxes by $10 trillion - slash taxes by $3 trillion, instead. Maybe ditch, maybe keep a $1 trillion tax cut for small businesses (depending on who is asking).'
             status: notStarted
             comments: 'https://redd.it/5d7so4'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
@@ -353,6 +358,11 @@ tabs:
             status: notStarted
             comments: 'https://redd.it/5d7soc'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+          -
+            text: 'Trump supports an audit of the FED'
+            status: notStarted
+            comments: 'https://redd.it/5dx5qg'
+            source: 'http://www.realclearpolitics.com/video/2016/09/07/ron_paul_donald_trump_wants_to_audit_the_federal_reserve.html'
       -
         header: 'Jobs'
         points:
@@ -488,11 +498,6 @@ tabs:
         header: 'Climate Change'
         points:
           -
-            text: 'Global warming is real, but it''s not man-made.'
-            status: notStarted
-            comments: 'https://redd.it/5d7sp7'
-            source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
             text: 'The Environmental Protection Agency might also disappear.'
             status: notStarted
             comments: 'https://redd.it/5d7sp8'
@@ -505,6 +510,11 @@ tabs:
             status: notStarted
             comments: 'https://redd.it/5d7st1'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+          -
+            text: 'Trump vowed to end the Clean Power Plan'
+            status: notStarted
+            comments: 'https://redd.it/5dx4e4'
+            source: 'http://www.vox.com/2016/11/9/13571318/donald-trump-disaster-climate'
   -
     id: government
     name: Government
@@ -588,7 +598,7 @@ tabs:
             comments: 'https://redd.it/5d7spp'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
           -
-            text: 'Build the wall, deport criminals, triple the number of ICE officers, end birthright citizenship.  Get it done within 18 months. It’s an immensely complex endeavor, far harder than Trump’s simple sell, but now, if he doesn’t get it done, and doesn’t get our southern neighbor to pay for it, he’s failed.'
+            text: 'Build the wall, deport criminals, triple the number of ICE officers, end birthright citizenship.  Get it done within 18 months. It''s an immensely complex endeavor, far harder than Trump''s simple sell, but now, if he doesn''t get it done, and doesn''t get our southern neighbor to pay for it, he''s failed.'
             status: notStarted
             comments: 'https://redd.it/5d81t1'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
@@ -629,11 +639,6 @@ tabs:
             text: 'End birthright citizenship.'
             status: notStarted
             comments: 'https://redd.it/5d7spz'
-            source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            text: 'Build the wall, deport criminals, triple the number of ICE officers, end birthright citizenship.'
-            status: notStarted
-            comments: 'https://redd.it/5d7sq0'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
           -
             text: 'Build a wall, deport all undocumented immigrants. Trump''s campaign began with a promise to build a wall across the United States'' southern border and deport the country''s 11 million undocumented immigrants.'
@@ -690,10 +695,15 @@ tabs:
             comments: 'https://redd.it/5d7ssl'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
           -
-            text: 'Deport, deport, deport — if not en masse, through a federal deportation force, at least expulsions in numbers far greater than the records President Obama already set.'
+            text: 'Deport, deport, deport - if not en masse, through a federal deportation force, at least expulsions in numbers far greater than the records President Obama already set.'
             status: notStarted
             comments: 'https://redd.it/5d7sso'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+          -
+            text: 'Ban Muslim Brotherhood affiliated organizations'
+            status: notStarted
+            comments: 'https://redd.it/5dx57p'
+            source: 'http://www.westernjournalism.com/foreign-policy-adviser-says-trump-will-ban-muslim-brotherhood-u-s-offshoots/'
   -
     id: security
     name: Security
@@ -743,14 +753,6 @@ tabs:
             comments: 'https://redd.it/5d7st4'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
       -
-        header: '''First Use'' and Nuclear Arms'
-        points:
-          -
-            text: 'It''s unclear where Trump stands on "first use," or if he''d be willing to strike first.'
-            status: notStarted
-            comments: 'https://redd.it/5d7sql'
-            source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-      -
         header: 'Military'
         points:
           -
@@ -782,7 +784,7 @@ tabs:
             comments: 'https://redd.it/5d7sqr'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
           -
-            text: 'Get rid of gun-free zones [in] schools" and "military bases"—which would require repealing a 25-year-old federal law. ("My first day, it gets signed, okay? My first day. There''s no more gun-free zones.")'
+            text: 'Get rid of gun-free zones [in] schools" and "military bases"-which would require repealing a 25-year-old federal law. ("My first day, it gets signed, okay? My first day. There''s no more gun-free zones.")'
             status: notStarted
             comments: 'https://redd.it/5d7stj'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
@@ -818,12 +820,12 @@ tabs:
         header: 'Jail'
         points:
           -
-            text: 'Ensure that “the crime and violence that today afflicts our nation will soon come to an end” — a pledge made in his nomination acceptance speech — by restoring law and order. Revive inner cities that he says have become hell holes.'
+            text: 'Ensure that "the crime and violence that today afflicts our nation will soon come to an end" - a pledge made in his nomination acceptance speech - by restoring law and order. Revive inner cities that he says have become hell holes.'
             status: notStarted
             comments: 'https://redd.it/5d7sss'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
           -
-            text: '"Ask Congress to pass ''Kate''s Law''—named for Kate Steinle—to ensure that criminal aliens convicted of illegal reentry receive strong mandatory minimum sentences."'
+            text: '"Ask Congress to pass ''Kate''s Law''-named for Kate Steinle-to ensure that criminal aliens convicted of illegal reentry receive strong mandatory minimum sentences."'
             status: notStarted
             comments: 'https://redd.it/5d7stm'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
@@ -887,27 +889,17 @@ tabs:
         header: 'Israel'
         points:
           -
-            text: 'The unbreakable bond between the United States and Israel is based upon shared values of democracy, freedom of speech, respect for minorities, cherishing life, and the opportunity for all citizens to pursue their dreams.'
-            status: notStarted
-            comments: 'https://redd.it/5d7sr3'
-            source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
-            text: 'Israel is the state of the Jewish people, who have lived in that land for 3,500 years. The State of Israel was founded with courage and determination by great men and women against enormous odds and is an inspiration to people everywhere who value freedom and human dignity.'
-            status: notStarted
-            comments: 'https://redd.it/5d7sr5'
-            source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
             text: 'Israel is a staunch ally of the U.S. and a key partner in the global war against Islamic jihadism. Military cooperation and coordination between Israel and the U.S. must continue to grow.'
             status: notStarted
             comments: 'https://redd.it/5d7sr8'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'The American people value our close friendship and alliance with Israel — culturally, religiously, and politically. While other nations have required U.S. troops to defend them, Israelis have always defended their own country by themselves and only ask for military equipment assistance and diplomatic support to do so. The U.S. does not need to nation-build in Israel or send troops to defend Israel.'
+            text: 'The American people value our close friendship and alliance with Israel - culturally, religiously, and politically. While other nations have required U.S. troops to defend them, Israelis have always defended their own country by themselves and only ask for military equipment assistance and diplomatic support to do so. The U.S. does not need to nation-build in Israel or send troops to defend Israel.'
             status: notStarted
             comments: 'https://redd.it/5d81ta'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'The Memorandum of Understanding signed by the American and Israeli Governments is a good first step, but there is much more to be done. A Trump Administration will ensure that Israel receives maximum military, strategic and tactical cooperation from the United States, and the MOU will not limit the support that we give. Further, Congress will not be limited to give support greater than that provided by the MOU if it chooses to do so. Israel and the United States benefit tremendously from what each country brings to the table — the relationship is a two way street.'
+            text: 'The Memorandum of Understanding signed by the American and Israeli Governments is a good first step, but there is much more to be done. A Trump Administration will ensure that Israel receives maximum military, strategic and tactical cooperation from the United States, and the MOU will not limit the support that we give. Further, Congress will not be limited to give support greater than that provided by the MOU if it chooses to do so. Israel and the United States benefit tremendously from what each country brings to the table - the relationship is a two way street.'
             status: notStarted
             comments: 'https://redd.it/5d81tb'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
@@ -917,7 +909,7 @@ tabs:
             comments: 'https://redd.it/5d81td'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'The U.S. should cut off funds for the UN Human Rights Council, a body dominated by countries presently run by dictatorships that seems solely devoted to slandering the Jewish State. UNESCO’s attempt to disconnect the State of Israel from Jerusalem is a one-sided attempt to ignore Israel’s 3,000-year bond to its capital city, and is further evidence of the enormous anti-Israel bias of the United Nations.'
+            text: 'The U.S. should cut off funds for the UN Human Rights Council, a body dominated by countries presently run by dictatorships that seems solely devoted to slandering the Jewish State. UNESCO''s attempt to disconnect the State of Israel from Jerusalem is a one-sided attempt to ignore Israel''s 3,000-year bond to its capital city, and is further evidence of the enormous anti-Israel bias of the United Nations.'
             status: notStarted
             comments: 'https://redd.it/5d83b8'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
@@ -932,12 +924,12 @@ tabs:
             comments: 'https://redd.it/5d7sra'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'A two-state solution between Israel and the Palestinians appears impossible as long as the Palestinians are unwilling to renounce violence against Israel or recognize Israel’s right to exist as a Jewish state. Additionally, the Palestinians are divided between PA rule in the West Bank and Hamas rule in Gaza so there is not a united Palestinian people who could control a second state. Hamas is a US-designated terrorist organization that actively seeks Israel’s destruction. We will seek to assist the Israelis and the Palestinians in reaching a comprehensive and lasting peace, to be freely and fairly negotiated between those living in the region.'
+            text: 'A two-state solution between Israel and the Palestinians appears impossible as long as the Palestinians are unwilling to renounce violence against Israel or recognize Israel''s right to exist as a Jewish state. Additionally, the Palestinians are divided between PA rule in the West Bank and Hamas rule in Gaza so there is not a united Palestinian people who could control a second state. Hamas is a US-designated terrorist organization that actively seeks Israel''s destruction. We will seek to assist the Israelis and the Palestinians in reaching a comprehensive and lasting peace, to be freely and fairly negotiated between those living in the region.'
             status: notStarted
             comments: 'https://redd.it/5d81tk'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'The Palestinian leadership, including the PA, has undermined any chance for peace with Israel by raising generations of Palestinian children on an educational program of hatred of Israel and Jews. The larger Palestinian society is regularly taught such hatred on Palestinian television, in the Palestinian press, in entertainment media, and in political and religious communications. The two major Palestinian political parties — Hamas and Fatah — regularly promote anti-Semitism and jihad.'
+            text: 'The Palestinian leadership, including the PA, has undermined any chance for peace with Israel by raising generations of Palestinian children on an educational program of hatred of Israel and Jews. The larger Palestinian society is regularly taught such hatred on Palestinian television, in the Palestinian press, in entertainment media, and in political and religious communications. The two major Palestinian political parties - Hamas and Fatah - regularly promote anti-Semitism and jihad.'
             status: notStarted
             comments: 'https://redd.it/5d81tm'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
@@ -947,22 +939,22 @@ tabs:
             comments: 'https://redd.it/5d81tn'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'The U.S. should support direct negotiations between Israel and the Palestinians without preconditions, and will oppose all Palestinian, European and other efforts to bypass direct negotiations between parties in favor of an imposed settlement. Any solutions imposed on Israel by outside parties including by the United Nations Security Council, should be opposed. We support Israel’s right and obligation to defend itself against terror attacks upon its people and against alternative forms of warfare being waged upon it legally, economically, culturally, and otherwise.'
+            text: 'The U.S. should support direct negotiations between Israel and the Palestinians without preconditions, and will oppose all Palestinian, European and other efforts to bypass direct negotiations between parties in favor of an imposed settlement. Any solutions imposed on Israel by outside parties including by the United Nations Security Council, should be opposed. We support Israel''s right and obligation to defend itself against terror attacks upon its people and against alternative forms of warfare being waged upon it legally, economically, culturally, and otherwise.'
             status: notStarted
             comments: 'https://redd.it/5d81tp'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'Israel’s maintenance of defensible borders that preserve peace and promote stability in the region is a necessity. Pressure should not be put on Israel to withdraw to borders that make attacks and conflict more likely.'
+            text: 'Israel''s maintenance of defensible borders that preserve peace and promote stability in the region is a necessity. Pressure should not be put on Israel to withdraw to borders that make attacks and conflict more likely.'
             status: notStarted
             comments: 'https://redd.it/5d7srh'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'The U.S. will recognize Jerusalem as the eternal and indivisible capital of the Jewish state and Mr. Trump’s Administration will move the U.S. embassy to Jerusalem.'
+            text: 'The U.S. will recognize Jerusalem as the eternal and indivisible capital of the Jewish state and Mr. Trump''s Administration will move the U.S. embassy to Jerusalem.'
             status: notStarted
             comments: 'https://redd.it/5d7srj'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
-            text: 'Despite the Iran Nuclear deal in 2015, the U.S. State Department recently designated Iran, yet again, as the leading state sponsor of terrorism — putting the Middle East particularly, but the whole world at risk by financing, arming, and training terrorist groups operating around the world including Hamas, Hezbollah, and forces loyal to Syrian President Bashar al-Assad. The U.S. must counteract Iran’s ongoing violations of the Joint Comprehensive Plan of Action regarding Iran’s quest for nuclear weapons and their noncompliance with past and present sanctions, as well as the agreements they signed, and implement tough, new sanctions when needed to protect the world and Iran’s neighbors from its continuing nuclear and non-nuclear threats.'
+            text: 'Despite the Iran Nuclear deal in 2015, the U.S. State Department recently designated Iran, yet again, as the leading state sponsor of terrorism - putting the Middle East particularly, but the whole world at risk by financing, arming, and training terrorist groups operating around the world including Hamas, Hezbollah, and forces loyal to Syrian President Bashar al-Assad. The U.S. must counteract Iran''s ongoing violations of the Joint Comprehensive Plan of Action regarding Iran''s quest for nuclear weapons and their noncompliance with past and present sanctions, as well as the agreements they signed, and implement tough, new sanctions when needed to protect the world and Iran''s neighbors from its continuing nuclear and non-nuclear threats.'
             status: notStarted
             comments: 'https://redd.it/5d81tq'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
@@ -970,7 +962,7 @@ tabs:
         header: 'Proposed Muslim Ban'
         points:
           -
-            text: 'No Muslims should be allowed to enter the United States —as immigrants or visitors. Ban Muslims from entering but make an exception for friends and Muslims serving in the US military. Ban Muslims as a matter of policy, as well as people from countries with a history of terrorism.'
+            text: 'No Muslims should be allowed to enter the United States -as immigrants or visitors. Ban Muslims from entering but make an exception for friends and Muslims serving in the US military. Ban Muslims as a matter of policy, as well as people from countries with a history of terrorism.'
             status: notStarted
             comments: 'https://redd.it/5d7srk'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
@@ -993,19 +985,6 @@ tabs:
             text: 'Heavily surveil mosques in the United States. Trump has said he''s open to the idea of closing some mosques.'
             status: notStarted
             comments: 'https://redd.it/5d7srp'
-            source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-      -
-        header: 'Voting for the Iraq War'
-        points:
-          -
-            text: 'It doesn''t matter, people make mistakes.'
-            status: notStarted
-            comments: 'https://redd.it/5d7srq'
-            source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            text: 'It''s OK that Trump''s running mate voted for the Iraq war, but it''s not OK that Clinton did.'
-            status: notStarted
-            comments: 'https://redd.it/5d7srs'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
       -
         header: '2011 Intervention in Libya'
@@ -1037,16 +1016,6 @@ tabs:
             text: 'Japan should have nuclear weapons.'
             status: notStarted
             comments: 'https://redd.it/5d7ss1'
-            source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            text: '"I never said that!"'
-            status: notStarted
-            comments: 'https://redd.it/5d7ss2'
-            source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            text: 'It''s unclear whether Trump would reverse U.S. policy to allow Japan to have nuclear weapons, but it''s clear Trump doesn''t like being reminded of the previous positions he took.'
-            status: notStarted
-            comments: 'https://redd.it/5d7ss4'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
       -
         header: 'Iran'
@@ -1103,7 +1072,7 @@ tabs:
             comments: 'https://redd.it/5d7ssi'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
           -
-            text: 'Shred or rework trade agreements with Mexico, China and many other countries — and if companies leave for overseas, hit them with huge tariffs.'
+            text: 'Shred or rework trade agreements with Mexico, China and many other countries - and if companies leave for overseas, hit them with huge tariffs.'
             status: notStarted
             comments: 'https://redd.it/5d7ssn'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
@@ -1116,7 +1085,7 @@ tabs:
             comments: 'https://redd.it/5d7st3'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
           -
-            text: '"Contact countries and say…''Folks, we love protecting you, we want to continue to protect you but you''re not living up to the bargain''…They''re not paying what they''re supposed to be paying—which is very little, by the way."'
+            text: '"Contact countries and say ''Folks, we love protecting you, we want to continue to protect you but you''re not living up to the bargain'' They''re not paying what they''re supposed to be paying-which is very little, by the way."'
             status: notStarted
             comments: 'https://redd.it/5d7st9'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'

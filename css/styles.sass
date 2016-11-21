@@ -1,5 +1,14 @@
 ---
 ---
+@import 'variables'
+
+body
+  padding-top: 70px
+  font-size: $font-size
+
+// didn't want blue links everywhere
+a
+  color: inherit
 
 // begin
 .navbar-form
@@ -9,6 +18,10 @@
   width: 250px
   margin-top: 8px
 
+.container-fluid
+  margin-left: 20px
+  margin-right: 20px
+
 @media screen and (max-width: 500px)
   .navbar-header .search
     margin-top: 8px
@@ -17,5 +30,6 @@
   body
     padding-top: 132px !important
 
-.promises-header
-  margin-bottom: 30px
+@media screen and (min-width:600px)
+  p a td
+    font-size: $font-size
