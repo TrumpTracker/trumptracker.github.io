@@ -1,13 +1,12 @@
 ---
-layout: page
-comments: false
+layout: page_revamp
 ---
 
 {% assign tabs = site.data.data.tabs %}
-{% assign promises = site.data.data.promises %}
-{% assign icons = site.data.data.icons %}
 
-<h1>{{ site.data.revamp.testing.thing }}</h1>
+{% assign promises = site.data.revamp.promises %}
+{% assign icons = site.data.revamp.icons %}
+{% assign status = site.data.revamp.status %}
 
 <div class="container promises-header">
     <div class="row search-results" style="display:none">
@@ -50,6 +49,9 @@ comments: false
                     Broken: <span id="points-broken"></span> of <span class="total-points"></span>
                 </li>
             </ul>
+
+        </div>
+        <div class="col-md-6">
             <p>
                 On Tuesday November 8th, 2016, Donald John Trump won the electoral vote and is currently standing to be
                 the President-elect of the United States of America.
@@ -85,70 +87,98 @@ comments: false
                     </li>
                 </ul>
             </div>
-
-        </div>
-        <div class="col-md-6">
-            <img src="assets/trump-main.jpg" class="img-responsive center-block"
-                 alt="Donald Trump standing on a podium."/>
+            <!--<img src="assets/trump-main.jpg" class="img-responsive center-block"-->
+                 <!--alt="Donald Trump standing on a podium."/>-->
         </div>
     </div>
 </div>
 
 
-
-
 <div class="container promises">
-    <div class="row">
+
+    <div class="row promises__search-row">
+        <div class="col-md-3">
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <div class="col-md-9">
+            <div class="pull-right">
+                <ul class="nav nav-pills">
+                    <li><a href="#" class="text-info"><i class="fa fa-hourglass-start fa-fw" aria-hidden="true"></i> Not yet started</a></li>
+                    <li><a href="#" class="text-warning"><i class="fa fa-cogs fa-fw" aria-hidden="true"></i> In progress</a></li>
+                    <li><a href="#" class="text-success"><i class="fa fa-check-circle-o fa-fw" aria-hidden="true"></i> Achieved</a></li>
+                    <li><a href="#" class="text-danger"><i class="fa fa-ban fa-fw" aria-hidden="true"></i> Broken</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row promises__category-row">
         <div class="col-md-12">
 
             {% assign categories = promises | map: 'category' | uniq %}
             <ul class="nav nav-pills">
 
-                <li role="presentation" class="active"><a href="#">All</a></li>
+                <li role="presentation" class="active">
+                    <a href="#"><i class="fa fa-fw fa-refresh"></i> All</a>
+                </li>
 
                 {% for category in categories %}
-                    <li role="presentation"><a href="#">
-                        <i class="fa fa-fw fa-{{ icons[category] }}"></i> {{ category }}</a>
-                    </li>
+                <li role="presentation">
+                    <a href="#"><i class="fa fa-fw fa-{{ icons[category] }}"></i> {{ category }}</a>
+                </li>
                 {% endfor %}
 
                 <li role="presentation"><a href="#">Profile</a></li>
                 <li role="presentation"><a href="#">Messages</a></li>
             </ul>
+        </div>
+    </div> <!-- /.promises__category-row -->
 
+    <div class="row promises__table">
+        <div class="col-md-12">
             <div class="table-responsive">
                 <table class="table table-striped">
 
                     <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Status</th>
-                            <th>Category</th>
-                            <th>Promise</th>
-                            <th>Links</th>
-                            <th>Actions</th>
-                        </tr>
+                    <tr>
+                        <th>ID</th>
+                        <th>Status</th>
+                        <th>Category</th>
+                        <th>Tags</th>
+                        <th>Promise</th>
+                        <th>Sources</th>
+                        <th>Actions</th>
+                    </tr>
                     </thead>
 
                     <tbody>
-                        {% for promise in promises %}
-                            <tr class="promise">
-                                <td class="promise__id">{{ promise.id }}.</td>
-                                <td class="promise__status">
-                                    <i class="fa fa-fw fa-{{ icons[promise.status] }}" title="{{ promise.status }}"></i>
-                                </td>
-                                <td class="promise__category" style="white-space: nowrap;">
-                                    <i class="fa fa-fw fa-{{ icons[promise.category] }}"></i> {{ promise.category }}
-                                </td>
-                                <td class="promise__title">{{ promise.title }}</td>
-                                <td class="promise__sources" style="white-space: nowrap;">
-                                    {% for source in promise.sources %}
-                                        <a href="{{ source.url }}" title="{{ source.source_title }}">Link {{ forloop.index }}</a>
-                                    {% endfor %}
-                                </td>
-                                <td class="promise__comment-link"><a href="{{ promise.comments }}">Comment</a></td>
-                            </tr>
-                        {% endfor %}
+                    {% for promise in promises %}
+                    <tr class="promise">
+                        <td class="promise__id">{{ forloop.index }}.</td>
+                        <td class="promise__status">
+                            <i class="fa fa-fw fa-{{ icons[promise.status] }} text-{{ status[promise.status] }}" title="{{ promise.status }}"></i>
+                        </td>
+                        <td class="promise__category" style="white-space: nowrap;">
+                            <i class="fa fa-fw fa-{{ icons[promise.category] }}"></i> {{ promise.category }}
+                        </td>
+                        <td class="promise__tags">
+                            {% for tag in promise.tags %}
+                            <a class="label label-default">{{ tag }}</a>
+                            {% endfor %}
+                        </td>
+                        <td class="promise__title">{{ promise.title }}</td>
+                        <td class="promise__sources" style="white-space: nowrap;">
+                            {% for source in promise.sources %}
+                            <a href="{{ source.url }}" title="{{ source.source_title }}">Link {{ forloop.index }}</a>
+                            {% endfor %}
+                        </td>
+                        <td class="promise__actions">
+                            {% for action in promise.actions %}
+                            <a href="{{ action.url }}">{{ action.title }}</a>
+                            {% endfor %}
+                        </td>
+                    </tr>
+                    {% endfor %}
                     </tbody>
 
                 </table>
