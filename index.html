@@ -85,7 +85,7 @@ comments: false
 <br />
 <div class="container-fluid">
     <div class="row">
-        <ul class="nav nav-pills pill-padding" id="myTabs" role="tablist">
+        <ul class="nav nav-tabs" id="myTabs" role="tablist">
             {% for tab in site.data.data.tabs %}
                 <li role="presentation" class="{{tab.id}} {% if forloop.index == 1 %}active{% endif %}">
                     <a href="#{{tab.id}}" aria-controls="{{tab.id}}" role="tab" data-toggle="tab">
