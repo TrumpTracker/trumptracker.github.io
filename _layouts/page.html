@@ -37,7 +37,8 @@
         <meta property="article:section" content="Politics" />
         <meta property="article:tag" content="Politics" />
         <meta property="fb:admins" content="785013260" />
-        <link rel="shortcut icon"                       href="favicon.ico" type="image/x-icon" />
+		<link rel="alternate" title="TrumpTracker RSS feed" type="application/rss+xml" href="https://luithollander.nl/trumptracker/rss.php">
+        <link rel="shortcut icon"                       href="/assets/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon"                    href="/assets/apple-touch-icon.png" />
         <link rel="apple-touch-icon" sizes="57x57"      href="/assets/apple-touch-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="72x72"      href="/assets/apple-touch-icon-72x72.png" />
@@ -66,20 +67,20 @@
         <![endif]-->
         <!-- Font Awesome -->
         <!-- <script src="https://use.fontawesome.com/1e8cbd500f.js"></script> -->
-        <style>
+        <!-- <style>
             /* padding for the main-nav bar */
             body{padding-top:70px;}#share-buttons img {width: 35px;padding: 5px;border: 0;box-shadow: 0;display: inline;}
-        </style>
+        </style> -->
         <!-- Analytics JS -->
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-            
+
             ga('create', 'UA-31897403-13', 'auto');
             ga('send', 'pageview');
-            
+
             (function(h,o,t,j,a,r){
                 h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
                 h._hjSettings={hjid:331626,hjsv:5};
@@ -92,22 +93,39 @@
         <script id="site-data" type="application/json">{{site.data.data | jsonify}}</script>
     </head>
     <body>
+
         <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
+
+            <div class="container">
+
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
+
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><b>Trump Tracker</b></a>
-                    <div style="float:inherit;" class="input-group search">
-                        <div class="input-group-addon"><span><i class="glyphicon glyphicon-search"></i> </span></div>
-                        <input type="text" placeholder="keyword" class="form-control" id="search-field">
-                    </div>
+
+                    <a class="navbar-brand" href="https://trumptracker.github.io/">
+                        <b>Trump Tracker</b>
+                    </a>
                 </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <form class="navbar-form" role="search">
+                        <div class="input-group">
+                            <input id="search-field" type="text" class="form-control" placeholder="Search" name="q">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <form class="navbar-form navbar-right" action="https://viren8.typeform.com/to/CA1RiV" method="get">
@@ -118,10 +136,14 @@
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
+
             </div>
             <!-- /.container-fluid -->
+
         </nav>
+
         {{content}}
+
         <div class="container-fluid">
             <div class="page-header">
                 <h5 class="text-right">Open Source at <a href="https://github.com/TrumpTracker/trumptracker.github.io"> <i class="fa fa-github fa-fw"></i></a></h5>
@@ -130,13 +152,17 @@
         <footer class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <p class="text-muted">Maintained by <a href="http://virenmohindra.me/" target="_blank">Viren Mohindra</a></p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <p class="text-muted">Inspired By <a href="https://www.trudeaumetre.ca/" target="_blank" rel="nofollow">TrudeauMetre</a></p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
+                        <p class="text-muted"><a href="https://raw.githubusercontent.com/TrumpTracker/trumptracker.github.io/master/_data/data.yaml" target="_blank" rel="nofollow">Open Data</a></p>
+
+                    </div>
+                    <div class="col-md-3">
                         <p class="text-muted"><a href="http://nukewebbed.com/#section-termsandconditions" target="_blank">Privacy Policy and T&amp;C</a></p>
                     </div>
                 </div>
@@ -149,6 +175,11 @@
         <!-- Main JavaScript -->
         <script>
             $(document).ready(function () {
+
+                // temp fix for table alignment
+                $('html > head').append($('<style>tbody > tr:nth-child(1) > td:nth-child(2) { width:100%; }</style>'));
+
+                // tabs
                 $('#myTabs a').click(function (e) {
                     e.preventDefault()
                     $(this).tab('show')
@@ -156,7 +187,8 @@
                 $(function () {
                     $('[data-toggle="tooltip"]').tooltip()
                 });
-                //search function
+
+                // search function
                 $("div.tab-pane input.search").keyup(function () {
                     var search = $(this).val().toLowerCase();
                     $(this).parent().parent().find("tr").hide();
@@ -195,7 +227,19 @@
                                         //prevents duplicate heading titles
                                         display_heading = false;
                                     }
-                                    $("#search-results").append('<li class="list-group-item"><span>' + $(this).text() + '</span></li>')
+
+                                    // Default display class for all list items to be added
+                                    var displayClass = "list-group-item";
+
+                                    // Get the class of the table row for this td element
+                                    var rowClass = $(this).parent().prop('className');
+
+                                    // Not empty implies it is either danger (broken policy)
+                                    // or success (achieved policy)
+                                    if (rowClass !== "") {
+                                      displayClass += " list-group-item-" + rowClass;
+                                    }
+                                    $("#search-results").append('<li class="'+ displayClass + '"><span>' + $(this).text() + '</span></li>')
                                 }
                             });
                         });

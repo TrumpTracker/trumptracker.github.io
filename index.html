@@ -1,8 +1,6 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
+comments: false
 ---
 
 <div class="container">
@@ -27,7 +25,7 @@ layout: page
                 <b>Days In Office:
                 <span id="days-in-office"></span>
                 </b>
-                </li>                
+                </li>
                 <li class="list-group-item list-group-item-info">
                 <i class="fa fa-hourglass-start fa-fw"></i>
                 Not Yet Started: <span id="points-not-started"></span> of <span class="total-points"></span>
@@ -52,28 +50,35 @@ layout: page
                 <br /><br />
                 He made <b>a lot of promises</b>. Trump Tracker will fact-check and see if he adheres to all of his stands on policies regarding culture, immigration, economy, and many more.
             </p>
-            <div class="">
-            <!-- I got these buttons from simplesharebuttons.com -->
-            <div id="share-buttons">
-            <!-- Facebook -->
-            <a href="http://www.facebook.com/sharer.php?u=https://trumptracker.github.io/" target="_blank">
-            <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
-            </a>
-            <!-- Google+ -->
-            <a href="https://plus.google.com/share?url=https://trumptracker.github.io/" target="_blank">
-            <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
-            </a>
-            <!-- Twitter -->
-            <a href="https://twitter.com/share?url=https://trumptracker.github.io/&amp;text=Track&nbsp;&commat;realDonaldTrump&apos;s&nbsp;Electoral&nbsp;Promises&nbsp;with&nbsp;Trump&nbsp;Tracker.&amp;hashtags=TrumpTracker&amp;via=VirenMohindra" target="_blank">
-            <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
-            </a>
+
+            <div>
+                <ul class="list-inline">
+                    <li>
+                        <a href="http://www.facebook.com/sharer.php?u=https://trumptracker.github.io/" target="_blank" style="color:#3b5998;">
+                            <i class="fa fa-2x fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/share?url=https://trumptracker.github.io/" target="_blank" style="color:#dd4b39;">
+                            <i class="fa fa-2x fa-google-plus"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/share?url=https://trumptracker.github.io/&amp;text=Track&nbsp;&commat;realDonaldTrump&apos;s&nbsp;Electoral&nbsp;Promises&nbsp;with&nbsp;Trump&nbsp;Tracker.&amp;hashtags=TrumpTracker&amp;via=VirenMohindra" target="_blank" style="color:#1da1f2;">
+                            <i class="fa fa-2x fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://luithollander.nl/trumptracker/rss.php" target="_blank">
+                            <i class="fa fa-2x fa-rss"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>                    
+
         </div>
         <div class="col-md-6">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7eruPYTOZb0"></iframe>
-            </div>
+            <img src="assets/trump-main.jpg" class="img-responsive center-block" alt="Donald Trump standing on a podium." />
         </div>
     </div>
 </div>
@@ -84,7 +89,7 @@ layout: page
             {% for tab in site.data.data.tabs %}
                 <li role="presentation" class="{{tab.id}} {% if forloop.index == 1 %}active{% endif %}">
                     <a href="#{{tab.id}}" aria-controls="{{tab.id}}" role="tab" data-toggle="tab">
-                        <i class="fa fa-{{tab.icon}}"></i> {{tab.name}}
+                        <i class="fa fa-{{tab.icon}}"></i>&nbsp;{{tab.name}}
                     </a>
                 </li>
             {% endfor %}
@@ -101,11 +106,11 @@ layout: page
                     <input type="text" placeholder="keyword" class="form-control search"/>
                   </div>
                     {% for section in tab.sections %}
-                      <table class="table">
+                      <table class="table table-striped">
                         <thead>
                             <tr>
                                 <td></td>
-                                <th><a href="{{section.link}}">{{section.header}}</a></th>
+                                <th>{{section.header}}</th>
                                 <td></td>
                             </tr>
                         </thead>
@@ -113,10 +118,19 @@ layout: page
                             {% for point in section.points %}
                             <tr class="{% if point.status == 'broken' %}danger{% endif %} {% if point.status == 'achieved' %}success{% endif %}">
                                 <th>{{forloop.index}}</th>
-                                <td>{{point.text}}</td>
+                                <td>
+                                    <a href="{{point.source}}">{{point.text}}</a>
+                                    {% for citation in point.citations %}
+                                        {% if point.citations[0] != '' %}
+                                                <sup>
+                                                <a href="{{point.citations[0]}}" target="_blank" rel="nofollow">{{forloop.index}}</a>
+                                                </sup>
+                                        {% endif %}
+                                {% endfor %}                                        
+                                </td>
                                 <td>
                                     {% if point.comments %}
-                                        <a href="{{point.comments}}" target="_blank" rel="nofollow">Comment</a>
+                                        <a href="{{point.comments}}" target="_blank" rel="nofollow" class="btn btn-default btn-sm"><i class="fa fa-comments text-muted"></i>&nbsp;Comment</a>
                                     {% endif %}
                                 </td>
                             </tr>
