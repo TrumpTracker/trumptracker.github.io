@@ -129,7 +129,7 @@ comments: false
                                         {% endif %}
                                 {% endfor %}                                        
                                 </td>
-                                <td>
+                                <td class="tweet">
                                     {% capture status %}{% if point.status == "notStarted" %} hasn't started {%elsif point.status == "broken" %} broke {% elsif point.status == "achieved" %} achieved {% else %}{% endif %}{% endcapture %}
 
                                     {% capture message %}&commat;realDonaldTrump{{ status }}promise no. {% increment issue_number %}: {{ point.text | truncate: 52 }} on{% endcapture %}{% capture tweettext%}{{ message }}&amp;hashtags=TrumpTracker&amp;{% endcapture %}
@@ -139,12 +139,12 @@ comments: false
                                 <i class="fa fa fa-twitter"></i>
                                 </a>
                                 </div>
-								</td>
-								<td>
+                                <div class="tweet">
                                 {% endif %}
                                     {% if point.comments %}
                                         <a href="{{point.comments}}" target="_blank" rel="nofollow" class="btn btn-default btn-sm"><i class="fa fa-comments text-muted"></i>&nbsp;Comment</a>
                                     {% endif %}
+								</div>
                                 </td>
                             </tr>
                             {% endfor %}
