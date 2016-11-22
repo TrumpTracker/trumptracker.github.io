@@ -28,7 +28,7 @@ Custom Stylesheet" \
 
 # make custom stylesheet
 ## random id
-rid=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
+rid=$(python2 -c "import random,string;print((lambda length:''.join(random.choice(string.lowercase) for i in range(length)))(10))")
 # echo "rid $rid" | indent | indent
 ## unique location
 uloc="/tmp/${rid}styles.css"
@@ -83,6 +83,6 @@ echo "Done Assembling Assets"
 
 echo "Moving fonts"
 echo "cp ./bower_components/bootstrap/dist/fonts ./fonts -r" | indent
-cp ./bower_components/bootstrap/dist/fonts ./fonts -r || echo "moving fonts failed"
+cp ./bower_components/bootstrap/dist/fonts ./fonts -R || echo "moving fonts failed"
 echo "done"
 echo
