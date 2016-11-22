@@ -30,12 +30,17 @@ Custom Stylesheet" \
 ## random id
 rid=$(python2 -c "import random,string;print((lambda length:''.join(random.choice(string.lowercase) for i in range(length)))(10))")
 # echo "rid $rid" | indent | indent
-## unique location
-uloc="/tmp/${rid}styles.css"
-echo "Making $uloc" \
-  | indent | indent
+sasslocation="./css/styles${rid}.sass" ## sass  location
+finlocation="/tmp/${rid}styles.css"   ## final location
+
+# jekyll is gonna be yuge
+echo "Making $sasslocation" | indent | indent
+tail -n +3 ./css/styles.sass > $sasslocation
+
 # sass compilation step
-tail -n +3 ./css/styles.sass | sass > "$uloc"
+echo "Making $finlocation"  | indent | indent
+sass $sasslocation -I ./css/partials > "$finlocation"
+rm $sasslocation
 
 # actually concatenating things
 csspackage="./assets/css.css"
@@ -44,7 +49,7 @@ cat /dev/null                > $csspackage
 printf "/* Bootstrap */\n"  >> $csspackage
 cat ./bower_components/bootstrap/dist/css/bootstrap.min.css >> $csspackage
 printf "/* Custom    */\n"  >> $csspackage
-cat $uloc                   >> $csspackage
+cat $finlocation            >> $csspackage
 
 echo
 echo "Successfully made $csspackage." \
