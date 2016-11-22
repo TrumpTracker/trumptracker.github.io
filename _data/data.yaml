@@ -329,10 +329,10 @@ tabs:
               - ''
             comments: 'https://redd.it/5d7snd'
             source: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-		  -
-		    text: 'Assign a special prosecutor to start a criminal investigation into Hillary Clinton.'
-			status: notStarted
-			citations:
+          -
+            text: 'Assign a special prosecutor to start a criminal investigation into Hillary Clinton.'
+            status: notStarted
+            citations:
               - ''
               - ''
             comments: 'https://redd.it/5e9qzy'
