@@ -117,8 +117,7 @@ promises:
         status: Not started
         category: 'First 100 Days'
         tags:
-            -
-                - '7 for workers'
+            - '7 for workers'
         actions:
             -
                 title: Comment
@@ -132,8 +131,7 @@ promises:
         status: Not started
         category: 'First 100 Days'
         tags:
-            -
-                - '7 for workers'
+            - '7 for workers'
         actions:
             -
                 title: Comment
@@ -147,8 +145,8 @@ promises:
         status: Not started
         category: 'First 100 Days'
         tags:
-            -
-                - '7 for workers'
+            - '7 for workers'
+            - China
         actions:
             -
                 title: Comment
@@ -162,8 +160,7 @@ promises:
         status: Not started
         category: 'First 100 Days'
         tags:
-            -
-                - '7 for workers'
+            - '7 for workers'
         actions:
             -
                 title: Comment
@@ -177,8 +174,7 @@ promises:
         status: Not started
         category: 'First 100 Days'
         tags:
-            -
-                - '7 for workers'
+            - '7 for workers'
         actions:
             -
                 title: Comment
@@ -192,8 +188,7 @@ promises:
         status: Not started
         category: 'First 100 Days'
         tags:
-            -
-                - '7 for workers'
+            - '7 for workers'
         actions:
             -
                 title: Comment
@@ -207,8 +202,7 @@ promises:
         status: Not started
         category: 'First 100 Days'
         tags:
-            -
-                - '7 for workers'
+            - '7 for workers'
         actions:
             -
                 title: Comment

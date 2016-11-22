@@ -96,12 +96,20 @@ layout: page_revamp
         </div>
         <div class="col-md-9">
             <div class="pull-right">
-                <ul class="nav nav-pills">
-                    <li><a href="#" class="text-info"><i class="fa fa-hourglass-start fa-fw" aria-hidden="true"></i> Not yet started</a></li>
-                    <li><a href="#" class="text-warning"><i class="fa fa-cogs fa-fw" aria-hidden="true"></i> In progress</a></li>
-                    <li><a href="#" class="text-success"><i class="fa fa-check-circle-o fa-fw" aria-hidden="true"></i> Achieved</a></li>
-                    <li><a href="#" class="text-danger"><i class="fa fa-ban fa-fw" aria-hidden="true"></i> Broken</a></li>
-                </ul>
+                <!--<ul class="nav nav-pills">-->
+                    <!--<li><a href="#" class="text-info"><i class="fa fa-hourglass-start fa-fw" aria-hidden="true"></i> Not yet started</a></li>-->
+                    <!--<li><a href="#" class="text-warning"><i class="fa fa-cogs fa-fw" aria-hidden="true"></i> In progress</a></li>-->
+                    <!--<li><a href="#" class="text-success"><i class="fa fa-check-circle-o fa-fw" aria-hidden="true"></i> Achieved</a></li>-->
+                    <!--<li><a href="#" class="text-danger"><i class="fa fa-ban fa-fw" aria-hidden="true"></i> Broken</a></li>-->
+                <!--</ul>-->
+
+                <div class="promises__statuses">
+                    <button class="btn btn-info"><i class="fa fa-hourglass-start fa-fw" aria-hidden="true"></i> Not yet started</button>
+                    <button class="btn btn-warning"><i class="fa fa-cogs fa-fw" aria-hidden="true"></i> In progress</button>
+                    <button class="btn btn-success"><i class="fa fa-check-circle-o fa-fw" aria-hidden="true"></i> Achieved</button>
+                    <button class="btn btn-danger"><i class="fa fa-ban fa-fw" aria-hidden="true"></i> Broken</button>
+                </div>
+
             </div>
         </div>
     </div>
@@ -110,21 +118,35 @@ layout: page_revamp
         <div class="col-md-12">
 
             {% assign categories = promises | map: 'category' | uniq %}
-            <ul class="nav nav-pills">
+            <!--<ul class="nav nav-pills promises__categories">-->
 
-                <li role="presentation" class="active">
-                    <a href="#"><i class="fa fa-fw fa-refresh"></i> All</a>
-                </li>
+                <!--<li role="presentation" class="promises__category active">-->
+                    <!--<a href="#"><i class="fa fa-fw fa-refresh"></i> None</a>-->
+                <!--</li>-->
+
+                <!--{% for category in categories %}-->
+                <!--<li role="presentation" class="promises__category">-->
+                    <!--<a href="#"><i class="fa fa-fw fa-{{ icons[category] }}"></i> {{ category }}</a>-->
+                <!--</li>-->
+                <!--{% endfor %}-->
+
+                <!--<li role="presentation"><a href="#">Profile</a></li>-->
+                <!--<li role="presentation"><a href="#">Messages</a></li>-->
+            <!--</ul>-->
+
+            <div class="promises__categories">
+
+                <button class="promises__category--reset btn btn-default">
+                    <i class="fa fa-fw fa-refresh"></i> Clear Filters
+                </button>
 
                 {% for category in categories %}
-                <li role="presentation">
-                    <a href="#"><i class="fa fa-fw fa-{{ icons[category] }}"></i> {{ category }}</a>
-                </li>
+                <button class="promises__category btn btn-default">
+                    <i class="fa fa-fw fa-{{ icons[category] }}"></i> {{ category }}
+                </button>
                 {% endfor %}
+            </div>
 
-                <li role="presentation"><a href="#">Profile</a></li>
-                <li role="presentation"><a href="#">Messages</a></li>
-            </ul>
         </div>
     </div> <!-- /.promises__category-row -->
 
@@ -149,10 +171,11 @@ layout: page_revamp
                     {% for promise in promises %}
                     <tr class="promise">
                         <td class="promise__id">{{ forloop.index }}.</td>
-                        <td class="promise__status">
+                        <td class="promise__status js-promise-status" title="{{ promise.status }}">
                             <i class="fa fa-fw fa-{{ icons[promise.status] }} text-{{ status[promise.status] }}" title="{{ promise.status }}"></i>
+                            <span class="promise__status-text sr-only">{{ promise.status }}</span>
                         </td>
-                        <td class="promise__category" style="white-space: nowrap;">
+                        <td class="promise__category js-promise-category" style="white-space: nowrap;">
                             <i class="fa fa-fw fa-{{ icons[promise.category] }}"></i> {{ promise.category }}
                         </td>
                         <td class="promise__tags" style="text-align: center;">
@@ -160,7 +183,7 @@ layout: page_revamp
                             <a class="label label-default">{{ tag }}</a>
                             {% endfor %}
                         </td>
-                        <td class="promise__title promise-text">{{ promise.title }}</td>
+                        <td class="promise__title js-promise-text">{{ promise.title }}</td>
                         <td class="promise__sources" style="white-space: nowrap;">
                             {% for source in promise.sources %}
                             <a href="{{ source.url }}" title="{{ source.source_title }}">Link {{ forloop.index }}</a>
