@@ -75,6 +75,7 @@ promises:
         category: 'First 100 Days'
         tags:
             - '100 Day Plan'
+            - Lobbying
         actions:
             -
                 title: Comment

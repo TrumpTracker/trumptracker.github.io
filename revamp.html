@@ -7,14 +7,11 @@ layout: page_revamp
 {% assign promises = site.data.revamp.promises %}
 {% assign icons = site.data.revamp.icons %}
 {% assign status = site.data.revamp.status %}
+{% assign total = promises | size %}
 
-<div class="container promises-header">
-    <div class="row search-results" style="display:none">
-        <div class="col-md-12">
-            <ul class="list-group" id="search-results"></ul>
-        </div>
-    </div>
+<div class="container promises-header page-header" id="promises-header">
     <div class="row">
+
         <div class="col-md-6">
             <ul class="list-group">
                 <li class="list-group-item list-group-item inauguration-time-container">
@@ -32,33 +29,30 @@ layout: page_revamp
                 </li>
                 <li class="list-group-item list-group-item-info">
                     <i class="fa fa-hourglass-start fa-fw"></i>
-                    Not Yet Started: <span id="points-not-started"></span> of <span class="total-points"></span>
+                    Not Yet Started: <span id="points-not-started">{{ promises | where: "status","Not started" | size }}</span> of <span class="total-points">{{ total }}</span>
                 </li>
                 <li class="list-group-item list-group-item-warning">
                     <i class="fa fa-cogs fa-fw"></i>
-                    In Progress:
-                    <span id="points-in-progress"></span>
-                    of <span class="total-points"></span>
+                    In Progress: <span id="points-in-progress">{{ promises | where: "status","In progress" | size }}</span> of <span class="total-points">{{ total }}</span>
                 </li>
                 <li class="list-group-item list-group-item-success">
                     <i class="fa fa-check-circle-o fa-fw"></i>
-                    Achieved: <span id="points-achieved"></span>
-                    of <span class="total-points"> </span></li>
+                    Achieved: <span id="points-achieved">{{ promises | where: "status","Achieved" | size }}</span> of <span class="total-points">{{ total }}</span></li>
+
                 <li class="list-group-item list-group-item-danger">
                     <i class="fa fa-ban fa-fw"></i>
-                    Broken: <span id="points-broken"></span> of <span class="total-points"></span>
+                    Broken: <span id="points-broken">{{ promises | where: "status","Broken" | size }}</span> of <span class="total-points">{{ total }}</span>
                 </li>
             </ul>
 
         </div>
         <div class="col-md-6">
-            <p>
-                On Tuesday November 8th, 2016, Donald John Trump won the electoral vote and is currently standing to be
-                the President-elect of the United States of America.
-                <br/><br/>
-                He made <b>a lot of promises</b>. Trump Tracker will fact-check and see if he adheres to all of his
-                stands on policies regarding culture, immigration, economy, and many more.
-            </p>
+            <button type="button" class="close promises-header__close" data-target="#promises-header" data-dismiss="alert">
+                <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+            </button>
+
+            <p>On Tuesday November 8th, 2016, Donald John Trump won the electoral vote and is currently standing to bethe President-elect of the United States of America.</p>
+            <p>He made <b>a lot of promises</b>. Trump Tracker will fact-check and see if he adheres to all of his stands on policies regarding culture, immigration, economy, and many more.</p>
 
             <div id="share-buttons">
                 <ul class="list-inline">
@@ -94,11 +88,11 @@ layout: page_revamp
 </div>
 
 
-<div class="container promises">
+<div class="container promises" id="promises">
 
     <div class="row promises__search-row">
         <div class="col-md-3">
-            <input type="text" class="form-control" placeholder="Search">
+            <input id="search" type="text" class="form-control search" placeholder="Search">
         </div>
         <div class="col-md-9">
             <div class="pull-right">
@@ -151,7 +145,7 @@ layout: page_revamp
                     </tr>
                     </thead>
 
-                    <tbody>
+                    <tbody class="list">
                     {% for promise in promises %}
                     <tr class="promise">
                         <td class="promise__id">{{ forloop.index }}.</td>
@@ -166,7 +160,7 @@ layout: page_revamp
                             <a class="label label-default">{{ tag }}</a>
                             {% endfor %}
                         </td>
-                        <td class="promise__title">{{ promise.title }}</td>
+                        <td class="promise__title promise-text">{{ promise.title }}</td>
                         <td class="promise__sources" style="white-space: nowrap;">
                             {% for source in promise.sources %}
                             <a href="{{ source.url }}" title="{{ source.source_title }}">Link {{ forloop.index }}</a>
@@ -185,7 +179,7 @@ layout: page_revamp
             </div>
         </div>
     </div>
-</div>
+</div> <!-- /#promises -->
 
 
 
