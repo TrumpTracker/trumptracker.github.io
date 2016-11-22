@@ -23,7 +23,7 @@ Site is now running at [localhost:4000](http://localhost:4000)
 8. ~~Clean up duplicates, if any.~~
 9. Implement functionality to let me click on the "broken", "in progress", "achieved" categories so I can see which things fall into those categories.
 10. Rich data so Google can parse it. Maybe something on http://schema.org/?
-11. Add tweet button #47
+11. ~~Add tweet button #47~~
 
 # Report Issues
 1. Pull Request would be the best option.

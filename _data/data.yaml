@@ -1,3 +1,4 @@
+#status has three options: notStarted, broken, and achieved 
 tabs:
   -
     id: 100days
