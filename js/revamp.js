@@ -12,13 +12,40 @@
 
     // List.js object that we can filter upon
     var promiseList = new List('promises', listOptions);
+    // console.log(promiseList);
 
+    var $search = $('#search');
+    var $facets = $('[data-list-facet]');
+
+    // Clear all
     $('.promises__category--reset').on('click', function(e) {
-      $('.promises__category', '.promises__categories').removeClass('active');
+      // Visually reset buttons
+      $facets.removeClass('active');
+      // Clear out text field
+      $search.val('').change();
+      // Wipe all filters
+      promiseList.filter();
     });
 
-    $('.promises__categories').on('click', '.promises__category', function(e) {
+    // Any facet filter button
+    $facets.on('click', function(e) {
+
+      var facet = $(this).data('list-facet');
+      var value = $(this).data('facet-value');
+
+      // Visually
       $(this).toggleClass('active');
+
+      // Array of active
+      var actives = $('[data-list-facet="' + facet + '"].active').map(function() {
+        return $(this).data('facet-value');
+      }).get();
+      console.log(actives);
+
+      promiseList.filter(function(item) {
+        return (actives.indexOf(item.values()[facet]) !== -1);
+      });
+
     });
 
   });
