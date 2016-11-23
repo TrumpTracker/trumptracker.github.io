@@ -40,11 +40,15 @@
       var actives = $('[data-list-facet="' + facet + '"].active').map(function() {
         return $(this).data('facet-value');
       }).get();
-      console.log(actives);
 
-      promiseList.filter(function(item) {
-        return (actives.indexOf(item.values()[facet]) !== -1);
-      });
+      if (actives.length === 0) {
+        promiseList.filter();
+      }
+      else {
+        promiseList.filter(function(item) {
+          return (actives.indexOf(item.values()[facet]) !== -1);
+        });
+      }
 
     });
 
