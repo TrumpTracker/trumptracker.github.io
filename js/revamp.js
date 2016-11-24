@@ -21,7 +21,7 @@
       // Visually reset buttons
       $facets.removeClass('active');
       // Clear out text field
-      $search.val('').change();
+      // $search.val('').change();
       // Wipe all filters
       promiseList.filter();
     }
@@ -43,10 +43,14 @@
         };
       }).get();
 
+      console.log(actives);
+
       // When deselecting last, clear all filters
       if (actives.length === 0) {
-        resetFilter();
+        // resetFilter();
+        promiseList.filter();
       }
+
       // Otherwise, filter on the array
       else {
         promiseList.filter(function(item) {
@@ -54,7 +58,7 @@
           // For all active filters, just one needs to flag as true to for entire reduce here to be true
           return actives.reduce(function(found, current) {
 
-            // final === true, then skip
+            // found === true, then skip
             if (found) {
               return found;
             }
