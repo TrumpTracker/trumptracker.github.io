@@ -12,42 +12,59 @@
 
     // List.js object that we can filter upon
     var promiseList = new List('promises', listOptions);
-    // console.log(promiseList);
 
     var $search = $('#search');
     var $facets = $('[data-list-facet]');
 
     // Clear all
-    $('.promises__category--reset').on('click', function(e) {
+    function resetFilter(e) {
       // Visually reset buttons
       $facets.removeClass('active');
       // Clear out text field
       $search.val('').change();
       // Wipe all filters
       promiseList.filter();
-    });
+    }
+
+    $('.promises__category--reset').on('click', resetFilter);
 
     // Any facet filter button
     $facets.on('click', function(e) {
 
-      var facet = $(this).data('list-facet');
-      var value = $(this).data('facet-value');
-
-      // Visually
+      // Flag as active
       $(this).toggleClass('active');
 
       // Array of active
-      var actives = $('[data-list-facet="' + facet + '"].active').map(function() {
-        return $(this).data('facet-value');
+      var actives = $('[data-list-facet].active').map(function() {
+        // return object instead with facet/value
+        return {
+          facet: $(this).data('list-facet'),
+          value: $(this).data('facet-value')
+        };
       }).get();
 
+      // When deselecting last, clear all filters
       if (actives.length === 0) {
-        promiseList.filter();
+        resetFilter();
       }
+      // Otherwise, filter on the array
       else {
         promiseList.filter(function(item) {
-          return (actives.indexOf(item.values()[facet]) !== -1);
-        });
+
+          // For all active filters, just one needs to flag as true to for entire reduce here to be true
+          return actives.reduce(function(found, current) {
+
+            // final === true, then skip
+            if (found) {
+              return found;
+            }
+
+            return item.values()[current.facet] === current.value;
+
+          }, false); // Start reduce at false
+
+        //   return (actives.indexOf(item.values()[facet]) !== -1);
+        }); // promiseList.filter()
       }
 
     });
