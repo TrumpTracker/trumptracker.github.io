@@ -1,5 +1,6 @@
-(function($) {
+(function($, List, _) {
 
+  // List.js classes to use for search elements
   var listOptions = {
     valueNames: [
       'js-promise-text',
@@ -8,21 +9,40 @@
     ]
   };
 
+  // Find any within a facet
+  function foundAny(facets, compareItem) {
+    // No facets selected, show all for this facet
+    if (_.isEmpty(facets)) {
+      return true;
+    }
+    // Otherwise, show this item if it contains any of the selected facets
+    return facets.reduce(function(found, facet) {
+      if (found) {
+        return found;
+      }
+      return compareItem[facet['facet']] === facet['value'];
+    }, false);
+  }
+
   $(function() {
 
     // List.js object that we can filter upon
-    var promiseList = new List('promises', listOptions);
+    var promiseList = new List('promises', listOptions).on('updated', function(list) {
+      $('#count').html(list.visibleItems.length);
+    });
 
-    var $search = $('#search'); // The form
+    var $search = $('#search');
     var $facets = $('[data-list-facet]'); // All buttons that can filter
 
     // Clear all
     function resetFilter(e) {
+      e.preventDefault();
       // Visually reset buttons
       $facets.removeClass('active');
       // Clear out text field
-      // $search.val('').change();
+      $search.val('');
       // Wipe all filters
+      promiseList.search();
       promiseList.filter();
     }
 
@@ -31,6 +51,7 @@
 
     // Any facet filter button
     $facets.on('click', function(e) {
+
       var facet = $(this).data('list-facet'); // ie 'js-promise-category'
       var value = $(this).data('facet-value'); // ie 'Culture'
       var isSingle = !!$(this).data('select-single'); // ie true/false for if there can only be one of this filter
@@ -55,8 +76,6 @@
         };
       }).get();
 
-      console.log(facets);
-
       // When deselecting last, clear all filters
       if (facets.length === 0) {
         promiseList.filter();
@@ -66,55 +85,23 @@
       // Otherwise, filter on the array
       promiseList.filter(function(item) {
 
-        var vals = item.values();
+        var itemValues = item.values();
 
-        // For all active filters, just one needs to flag as true to for entire reduce here to be true
-        var singles = facets.reduce(function(found, facet) {
-
-          return facet.isSingle && vals[facet.facet] === facet.value;
-        }, false);
-
-        var multis = facets.reduce(function(found, facet) {
-          if (found) {
-            return found;
-          }
-          return !facet.isSingle && vals[facet.facet] == facet.value;
-        }, false);
-
-        if (singles) {
-          return singles;
+        // Single selects, eg "Not started"
+        var single = _.filter(facets, ['isSingle', true]);
+        var foundSingle = foundAny(single, itemValues);
+        // Single-selection items hide if false no matter what, so eject if not found here
+        if (!foundSingle) {
+          return false;
         }
 
-        if (multis) {
-          return multis;
-        }
-
-        // console.log(singles);
-        // console.log(multis);
-
-        // return facets.reduce(function(found, facet) {
-        //
-        //   // console.log(vals[facet.facet]);
-        //   // console.log(facet.value);
-        //
-        //   if (facet.isSingle && vals[facet.facet] !== facet.value) {
-        //     return false;
-        //   }
-        //
-        //   // found === true, then skip
-        //   // if (found) {
-        //   //   return found;
-        //   // }
-        //   if (!facet.isSingle && vals[facet.facet] === facet.value) {
-        //     return true;
-        //   }
-        //   // return vals[facet.facet] === facet.value;
-        //
-        // }, true); // Start reduce at false
+        // Full categories can have multiples show, list out here
+        var multis = _.filter(facets, ['isSingle', false]);
+        return foundAny(multis, itemValues);
 
       }); // promiseList.filter()
 
     });
   });
 
-})(jQuery);
+})(jQuery, List, _);
