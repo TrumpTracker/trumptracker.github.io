@@ -5,6 +5,15 @@ icons:
     Broken: ban
     'First 100 Days': clock-o
     Culture: music
+    Economy: dollar
+    Environment: leaf
+    Government: university
+    Immigration: suitcase
+    Indigenous: users
+    Security: fighter-jet
+    Health: heart
+    World: globe
+    Education: graduation-cap
 
 status:
     'Not started': info
@@ -630,8 +639,624 @@ promises:
             -
                 title: 'title of source goes here'
                 url: 'https://www.donaldjtrump.com/press-releases/issues-of-importance-to-catholics'
+    -
+        title: '"Against raising the minimum wage. Jobs would move to China." Wages should be raised through economic growth. Raise the minimum wage. Let''s make it $10 dollars an hour. It should go up, but states should call the shots here.'
+        status: Not started
+        category: Economy
+        tags:
+            - Minimum wage
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7snt'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Get rid of the federal minimum wage, leave it to the states.'
+        status: Not started
+        category: Economy
+        tags:
+            - Minimum wage
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7snv'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Raise it to $10 an hour, ignore what I said before.'
+        status: Not started
+        category: Economy
+        tags:
+            - Minimum wage
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7snx'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Leave Social Security as is'
+        status: Not started
+        category: Economy
+        tags:
+            - Minimum wage
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ssz'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'The wealthy should pay more.'
+        status: Not started
+        category: Economy
+        tags:
+            - Taxes
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7snz'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Cut taxes for the wealthy big time.'
+        status: Not started
+        category: Economy
+        tags:
+            - Taxes
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7so0'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Maybe don''t slash taxes by $10 trillion - slash taxes by $3 trillion, instead. Maybe ditch, maybe keep a $1 trillion tax cut for small businesses (depending on who is asking).'
+        status: Not started
+        category: Economy
+        tags:
+            - Taxes
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7so4'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Scrap the earlier plan entirely. Here are new tax brackets: Trump took his earlier tax plan offline before a major economic policy address in early August, where he hiked his initially proposed tax brackets from 10 percent, 20 percent and 25 percent to 12 percent, 25 percent and 33 percent. These brackets more closely mimic his party''s past views on taxes.'
+        status: Not started
+        category: Economy
+        tags:
+            - Taxes
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81su'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Despite Trump''s frequent talk about helping working people, his tax plan so far seems to mostly benefit the wealthy. It''s unclear whether or not his plan will include that small business tax cut.'
+        status: Not started
+        category: Economy
+        tags:
+            - Taxes
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7so5'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Pass a huge tax cut, roughly double the one George W. Bush sponsored, that delivers a windfall to the wealthiest Americans and a relative paltry sum to the middle class, never mind the debt-inflating impact.'
+        status: Not started
+        category: Economy
+        tags:
+            - Taxes
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ssq'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Impose tariffs on goods made in China and Mexico'
+        status: Not started
+        category: Economy
+        tags:
+            - Taxes
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ssw'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Cut taxes'
+        status: Not started
+        category: Economy
+        tags:
+            - Taxes
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7st0'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Call the heads of major companies who are moving operations oversea to inform them that they''ll face 35 percent tariffs.'
+        status: Not started
+        category: Economy
+        tags:
+            - Taxes
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7st5'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Get rid of most corporate tax loopholes'
+        status: Not started
+        category: Economy
+        tags:
+            - Taxes
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7stx'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Get rid of income tax for some earners'
+        status: Not started
+        category: Economy
+        tags:
+            - Taxes
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sty'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Get rid of the national debt in 8 years.'
+        status: Not started
+        category: Economy
+        tags:
+            - National debt
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7so7'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Only pay down a little. Invest in infrastructure first.'
+        status: Not started
+        category: Economy
+        tags:
+            - National debt
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7so9'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Pay off the debt by getting America''s creditors to accept less.'
+        status: Not started
+        category: Economy
+        tags:
+            - National debt
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sob'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Either "chop" the national debt using an approach that is still unclear, or add $10 trillion to the debt to accomplish plans.'
+        status: Not started
+        category: Economy
+        tags:
+            - National debt
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7soc'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Trump supports an audit of the FED'
+        status: Not started
+        category: Economy
+        tags:
+            - National debt
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5dx5qg'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.realclearpolitics.com/video/2016/09/07/ron_paul_donald_trump_wants_to_audit_the_federal_reserve.html'
+    -
+        title: 'Bring back jobs, especially manufacturing jobs, that have fled the country over the past few decades.'
+        status: Not started
+        category: Economy
+        tags:
+            - Jobs
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ssu'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Direct every agency in government to begin identifying all wasteful job-killing regulations, and they are going to be removed.'
+        status: Not started
+        category: Economy
+        tags:
+            - Jobs
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sti'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: '"Work with both parties to pass the biggest investment in new, good-paying jobs since World War II."'
+        status: Not started
+        category: Economy
+        tags:
+            - Jobs
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7stu'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Grow the nation''s economy by at least 6 percent.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sof'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Reduce the $18 trillion national debt by "vigorously eliminating waste, fraud and abuse in the federal government, ending redundant government programs and growing the economy to increase tax revenues."'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sog'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Cut the budget by 20 percent by simply renegotiating.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7soh'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Get rid of the Dodd-Frank Wall Street Reform and Consumer Protection Act.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7soi'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Simplify the U.S. tax code and reduce the number of tax brackets from seven to four. The highest earners would pay a 25-percent tax. The corporate tax rate would fall to 15 percent. Eliminate the "marriage penalty" for taxpayers and get rid of the alternate minimum tax.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7soj'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'No longer charge income tax to single individuals earning less than $25,000 per year or couples earning less than $50,000. These people will, however, be required to file a one-page form with the Internal Revenue Service that states: "I win."'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sol'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Allow corporations a one-time window to transfer money being held overseas, charging a much-reduced 10 percent tax.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7som'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Get rid of most corporate tax loopholes or incentives, but continue to allow taxpayers to deduct mortgage interest and charitable donations from their taxes.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7soq'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'On his first day in office, Trump would get rid of gun-free zones at military bases and in schools.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sor'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Use "common sense" to fix the mental health system and prevent mass shootings. Find ways to arm more of the "good guys" like him who can take out the "sickos." Get rid of bans on certain types of guns and magazines so that "good, honest people" can own the guns of their choice.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sos'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Impose a minimum sentence of five years in federal prison for any violent felon who commits a crime using a gun, with no chance for parole or early release.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sot'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Fix the background check system used when purchasing guns to ensure states are properly uploading criminal and health records.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sou'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Allow concealed-carry permits to be recognized in all 50 states.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sov'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Sign an executive order calling for the death penalty for anyone found guilty of killing a police officer.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sow'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Provide more funding for police training.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sox'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Provide more funding for drug treatment, especially for heroin addicts.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7soz'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'On the first day in office, terminate President Obama''s executive orders related to immigration. This includes getting rid of "sanctuary cities" that Trump says have become refuges for criminals.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sp1'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Deport the almost 11 million immigrants illegally living in the United States.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sp3'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Triple the number of U.S. Immigration and Customs Enforcement officers.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sp4'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Continue to allow lowly paid foreign workers to come to the United States on temporary works visas because Trump says they are the only ones who want to pick grapes.'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sp5'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Grow the DFP by at least 6%'
+        status: Not started
+        category: Economy
+        tags:
+            - Assorted numbers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7stw'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
 
-tabs:
+original_tabs:
   -
     id: 100days
     name: 'First 100 Days'
@@ -666,502 +1291,18 @@ tabs:
       -
         header: 'Minimum Wage'
         points:
-          -
-            title: '"Against raising the minimum wage. Jobs would move to China." Wages should be raised through economic growth. Raise the minimum wage. Let''s make it $10 dollars an hour. It should go up, but states should call the shots here.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7snt'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Get rid of the federal minimum wage, leave it to the states.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7snv'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Raise it to $10 an hour, ignore what I said before.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7snx'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Leave Social Security as is'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ssz'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
       -
         header: 'Taxes'
         points:
-          -
-            title: 'The wealthy should pay more.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7snz'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Cut taxes for the wealthy big time.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7so0'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Maybe don''t slash taxes by $10 trillion - slash taxes by $3 trillion, instead. Maybe ditch, maybe keep a $1 trillion tax cut for small businesses (depending on who is asking).'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7so4'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Scrap the earlier plan entirely. Here are new tax brackets: Trump took his earlier tax plan offline before a major economic policy address in early August, where he hiked his initially proposed tax brackets from 10 percent, 20 percent and 25 percent to 12 percent, 25 percent and 33 percent. These brackets more closely mimic his party''s past views on taxes.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81su'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Despite Trump''s frequent talk about helping working people, his tax plan so far seems to mostly benefit the wealthy. It''s unclear whether or not his plan will include that small business tax cut.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7so5'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Pass a huge tax cut, roughly double the one George W. Bush sponsored, that delivers a windfall to the wealthiest Americans and a relative paltry sum to the middle class, never mind the debt-inflating impact.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ssq'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: 'Impose tariffs on goods made in China and Mexico'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ssw'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: 'Cut taxes'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7st0'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: 'Call the heads of major companies who are moving operations oversea to inform them that they''ll face 35 percent tariffs.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7st5'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: 'Get rid of most corporate tax loopholes'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7stx'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: 'Get rid of income tax for some earners'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sty'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
       -
         header: 'National Debt'
         points:
-          -
-            title: 'Get rid of the national debt in 8 years.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7so7'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Only pay down a little. Invest in infrastructure first.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7so9'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Pay off the debt by getting America''s creditors to accept less.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sob'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Either "chop" the national debt using an approach that is still unclear, or add $10 trillion to the debt to accomplish plans.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7soc'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Trump supports an audit of the FED'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5dx5qg'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.realclearpolitics.com/video/2016/09/07/ron_paul_donald_trump_wants_to_audit_the_federal_reserve.html'
       -
         header: 'Jobs'
         points:
-          -
-            title: 'Bring back jobs, especially manufacturing jobs, that have fled the country over the past few decades.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ssu'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: 'Direct every agency in government to begin identifying all wasteful job-killing regulations, and they are going to be removed.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sti'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: '"Work with both parties to pass the biggest investment in new, good-paying jobs since World War II."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7stu'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
       -
         header: 'Assorted Numbers'
         points:
-          -
-            title: 'Grow the nation''s economy by at least 6 percent.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sof'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Reduce the $18 trillion national debt by "vigorously eliminating waste, fraud and abuse in the federal government, ending redundant government programs and growing the economy to increase tax revenues."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sog'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Cut the budget by 20 percent by simply renegotiating.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7soh'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Get rid of the Dodd-Frank Wall Street Reform and Consumer Protection Act.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7soi'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Simplify the U.S. tax code and reduce the number of tax brackets from seven to four. The highest earners would pay a 25-percent tax. The corporate tax rate would fall to 15 percent. Eliminate the "marriage penalty" for taxpayers and get rid of the alternate minimum tax.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7soj'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'No longer charge income tax to single individuals earning less than $25,000 per year or couples earning less than $50,000. These people will, however, be required to file a one-page form with the Internal Revenue Service that states: "I win."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sol'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Allow corporations a one-time window to transfer money being held overseas, charging a much-reduced 10 percent tax.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7som'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Get rid of most corporate tax loopholes or incentives, but continue to allow taxpayers to deduct mortgage interest and charitable donations from their taxes.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7soq'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'On his first day in office, Trump would get rid of gun-free zones at military bases and in schools.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sor'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Use "common sense" to fix the mental health system and prevent mass shootings. Find ways to arm more of the "good guys" like him who can take out the "sickos." Get rid of bans on certain types of guns and magazines so that "good, honest people" can own the guns of their choice.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sos'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Impose a minimum sentence of five years in federal prison for any violent felon who commits a crime using a gun, with no chance for parole or early release.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sot'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Fix the background check system used when purchasing guns to ensure states are properly uploading criminal and health records.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sou'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Allow concealed-carry permits to be recognized in all 50 states.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sov'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: 'Sign an executive order calling for the death penalty for anyone found guilty of killing a police officer.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sow'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Provide more funding for police training.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sox'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Provide more funding for drug treatment, especially for heroin addicts.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7soz'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'On the first day in office, terminate President Obama''s executive orders related to immigration. This includes getting rid of "sanctuary cities" that Trump says have become refuges for criminals.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sp1'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Deport the almost 11 million immigrants illegally living in the United States.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sp3'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Triple the number of U.S. Immigration and Customs Enforcement officers.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sp4'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Continue to allow lowly paid foreign workers to come to the United States on temporary works visas because Trump says they are the only ones who want to pick grapes.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sp5'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Grow the DFP by at least 6%'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7stw'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
   -
     id: environment
     name: Environment
