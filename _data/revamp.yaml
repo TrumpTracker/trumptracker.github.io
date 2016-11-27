@@ -1255,6 +1255,1407 @@ promises:
             -
                 title: 'title of source goes here'
                 url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'The Environmental Protection Agency might also disappear.'
+        status: Not started
+        category: Environment
+        tags:
+            - Climate change
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sp8'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: '"End the war on coal."'
+        status: Not started
+        category: Environment
+        tags:
+            - Natural Resources
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7st1'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Trump vowed to end the Clean Power Plan'
+        status: Not started
+        category: Environment
+        tags:
+            - Natural Resources
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5dx4e4'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.vox.com/2016/11/9/13571318/donald-trump-disaster-climate'
+    -
+        title: 'Stop spending money on space exploration until the United States can fix its potholes. Encourage private space-exploration companies to expand.'
+        status: Not started
+        category: Government
+        tags:
+            - Space exploration
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sp9'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Pick Supreme Court justices who are "really great legal scholars."'
+        status: Not started
+        category: Government
+        tags:
+            - Legal
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7spc'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Ensure that Iowa continues to host the nation''s first presidential nominating contest.'
+        status: Not started
+        category: Government
+        tags:
+            - Assorted
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7spe'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Fire "the corrupt and incompetent" leaders of the U.S. Department of Veterans Affairs and dramatically reform the agency. Allow veterans to take their military identification card to any medical facility that accepts Medicaid patients to receive care. Embed satellite VA clinics in rural hospitals and underserved areas, and ensure than every VA hospital is permanently staffed with OBGYN doctors.'
+        status: Not started
+        category: Government
+        tags:
+            - Assorted
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81sx'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Invest more heavily in programs that help military veterans transition back to civilian life, including job training and placement services. Also increase funding for the treatment of post-traumatic stress disorder, traumatic brain injuries and mental health issues. Veterans who apply for a job at a VA facility will have five points added to their qualifying scores.'
+        status: Not started
+        category: Government
+        tags:
+            - Assorted
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81sy'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Replace "free trade" with "fair trade." Gather together the "smartest negotiators in the world," assign them each a country and renegotiate all foreign trade deals.'
+        status: Not started
+        category: Government
+        tags:
+            - Assorted
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7spi'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Tell Ford Motor Co.''s president that unless he cancels plans to build a massive plant in Mexico, the company will face a 35 percent tax on cars imported back into the United States. Trump is confident he can get this done before taking office. (Last year he incorrectly said this had already happened.)'
+        status: Not started
+        category: Government
+        tags:
+            - Assorted
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81sz'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Force Nabisco to once again make Oreos in the United States. And bully Apple into making its "damn computers" and other products here.'
+        status: Not started
+        category: Government
+        tags:
+            - Assorted
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7spk'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Impose new taxes on many imports into the country. Numbers thrown around have included 32 percent, 34 percent and 35 percent.'
+        status: Not started
+        category: Government
+        tags:
+            - Assorted
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7spm'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: '"Reach out to Republicans and say, ''This is your chance to help millions of families and show that your party, the party of Lincoln, is better than Donald Trump.''"'
+        status: Not started
+        category: Government
+        tags:
+            - Assorted
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sts'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Deport "criminal illegal immigrants" within one hour of being sworn in.'
+        status: Not started
+        category: Immigration
+        tags:
+            - Deportation
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7spn'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Deport all undocumented immigrants but bring the "good" ones back legally. In a CNN interview in July 2015, Trump said, "I want to move them out, and we''re going to move them back in and let them be legal, but they have to be in here legally."'
+        status: Not started
+        category: Immigration
+        tags:
+            - Deportation
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7spp'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Build the wall, deport criminals, triple the number of ICE officers, end birthright citizenship.  Get it done within 18 months. It''s an immensely complex endeavor, far harder than Trump''s simple sell, but now, if he doesn''t get it done, and doesn''t get our southern neighbor to pay for it, he''s failed.'
+        status: Not started
+        category: Immigration
+        tags:
+            - Deportation
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81t1'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Use a deportation force to implement policy.'
+        status: Not started
+        category: Immigration
+        tags:
+            - Deportation
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7spr'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Trump might be flexible on actually deporting 11 million undocumented immigrants. "There''s no amnesty" but "we work with them." "I won''t rule out a path to citizenship."'
+        status: Not started
+        category: Immigration
+        tags:
+            - Deportation
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sps'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Deport all undocumented immigrants. Trump''s campaign began with a promise to build a wall across the United States'' southern border and deport the country''s 11 million undocumented immigrants.'
+        status: Not started
+        category: Immigration
+        tags:
+            - Deportation
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7spt'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: '"The End Illegal Immigration act fully funds the construction of a wall on our southern border," Trump said on October 22nd, outlining the plans for his first 100 days in office. "With the full understanding that the country of Mexico will be reimbursing the United States for the full cost of such a wall, OK?"'
+        status: Not started
+        category: Immigration
+        tags:
+            - Deportation
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81t2'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Trump says he will deport millions, but he has not ruled out creating a pathway to citizenship. He''ll build a wall, pay for said wall, but later he''ll get reimbursed by Mexico.'
+        status: Not started
+        category: Immigration
+        tags:
+            - Deportation
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7spw'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: '"Dreamers can maybe stay."'
+        status: Not started
+        category: Immigration
+        tags:
+            - Children
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7spy'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'End birthright citizenship.'
+        status: Not started
+        category: Immigration
+        tags:
+            - Children
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7spz'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Build a wall, deport all undocumented immigrants. Trump''s campaign began with a promise to build a wall across the United States'' southern border and deport the country''s 11 million undocumented immigrants.'
+        status: Not started
+        category: Immigration
+        tags:
+            - Children
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sq1'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Deport children benefiting for the DREAM Act and repeal the 14th Amendment to end birthright citizenship.'
+        status: Not started
+        category: Immigration
+        tags:
+            - Children
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sq2'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Against the H-1B visa program.'
+        status: Not started
+        category: Immigration
+        tags:
+            - Skilled workers
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sq4'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Against closing the borders entirely. Against accepting Syrian refugees in the United States. Bar Syrian refugees from entering the country and kick out any who are already living here. Trump says wealthy Persian Gulf nations like Saudi Arabia should pay to set up a heavily guarded "safe zone" in Syria.'
+        status: Not started
+        category: Immigration
+        tags:
+            - Refugee crisis
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81t3'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Create a database of Syrian refugees. Trump hasn''t ruled out creating a database of Muslims in the country.'
+        status: Not started
+        category: Immigration
+        tags:
+            - Refugee crisis
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sq6'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Meet with Homeland Security officials and generals to begin securing the southern border.'
+        status: Not started
+        category: Immigration
+        tags:
+            - Refugee crisis
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7st2'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Suspend Syrian refugee resettlement.'
+        status: Not started
+        category: Immigration
+        tags:
+            - Refugee crisis
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7stg'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Donald Trump: It''s time to heal this divided nation'
+        status: Not started
+        category: Indigenous
+        tags:
+            -
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ssl'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Deport, deport, deport - if not en masse, through a federal deportation force, at least expulsions in numbers far greater than the records President Obama already set.'
+        status: Not started
+        category: Indigenous
+        tags:
+            -
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sso'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Ban Muslim Brotherhood affiliated organizations'
+        status: Not started
+        category: Indigenous
+        tags:
+            -
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5dx57p'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.westernjournalism.com/foreign-policy-adviser-says-trump-will-ban-muslim-brotherhood-u-s-offshoots/'
+    -
+        title: 'Declare war -- Send troops in. Definitely go after the oil fields. Destroy the oil. Let our regional allies send ground troops. If they don''t, stop buying their oil. "Do more with computers."'
+        status: Not started
+        category: Security
+        tags:
+            - ISIS
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sq9'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'It''s still unclear what Trump''s plan to defeat ISIS is, but it will involve computers and it will be tough. "Bomb the s--- out of ISIS." Also bomb oil fields controlled by the Islamic State, then seize the oil and give the profits to military veterans who were wounded while fighting.'
+        status: Not started
+        category: Security
+        tags:
+            - ISIS
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sqa'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Allow Russia to deal with the Islamic State in Syria and/or work with Russian President Vladimir Putin to wipe out shared enemies.'
+        status: Not started
+        category: Security
+        tags:
+            - ISIS
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sqc'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Strengthen the military so that it''s "so big and so strong and so great" that "nobody''s going to mess with us."'
+        status: Not started
+        category: Security
+        tags:
+            - ISIS
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sqg'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Target and kill the relatives of terrorists.'
+        status: Not started
+        category: Security
+        tags:
+            - ISIS
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sqh'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Shut down parts of the Internet so that Islamic State terrorists cannot use it to recruit American children.Find great generals -- like the next Gen. Patton or Gen. MacArthur -- and do not allow them to go onto television news shows to explain their military strategy: "I don''t want my generals being interviewed, I want my generals kicking a--." Trump likes generals who are rough, foul-mouthed and beloved by their troops.'
+        status: Not started
+        category: Security
+        tags:
+            - ISIS
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81t4'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Find great generals -- like the next Gen. Patton or Gen. MacArthur -- and do not allow them to go onto television news shows to explain their military strategy: "I don''t want my generals being interviewed, I want my generals kicking a--." Trump likes generals who are rough, foul-mouthed and beloved by their troops.'
+        status: Not started
+        category: Security
+        tags:
+            - ISIS
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81t5'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Convene his top generals and inform them they have 30 days to come up with a plan to stop ISIS.'
+        status: Not started
+        category: Security
+        tags:
+            - ISIS
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7st4'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: '"Start taking care of our military."'
+        status: Not started
+        category: Security
+        tags:
+            - Military
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ste'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Get rid of gun-free zones.'
+        status: Not started
+        category: Security
+        tags:
+            - Guns
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sqm'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: '"No guns in classrooms, except maybe some guns in classrooms. Let''s put trained gunmen in schools.'
+        status: Not started
+        category: Security
+        tags:
+            - Guns
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sqn'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'More guns would save lives.'
+        status: Not started
+        category: Security
+        tags:
+            - Guns
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sqp'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'More guns are better, though the details are murky and evolving on how many gun-free zones would be abolished.'
+        status: Not started
+        category: Security
+        tags:
+            - Guns
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sqr'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Get rid of gun-free zones [in] schools" and "military bases"-which would require repealing a 25-year-old federal law. ("My first day, it gets signed, okay? My first day. There''s no more gun-free zones.")'
+        status: Not started
+        category: Security
+        tags:
+            - Guns
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7stj'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: '"Tackle the gun lobby to try to reduce the outrageous number of people who are dying from gun violence in our country."'
+        status: Not started
+        category: Security
+        tags:
+            - Guns
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7stq'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Allow concealed carry permits to be recognized in all 50 states'
+        status: Not started
+        category: Security
+        tags:
+            - Guns
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7su0'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'The military will obey potentially illegal orders.'
+        status: Not started
+        category: Security
+        tags:
+            - Torture
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sqt'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'The laws forbidding torture should be changed so no one has to break them.'
+        status: Not started
+        category: Security
+        tags:
+            - Torture
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7squ'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Trump says he''s against violating international laws or ordering others to do so, but wants to change the laws to legalize, at minimum, waterboarding. Trump has said he''s willing to use interrogation techniques that go even further than waterboarding. Even if such tactics don''t work, "they deserve it anyway, for what they''re doing."'
+        status: Not started
+        category: Security
+        tags:
+            - Torture
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81t9'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Ensure that "the crime and violence that today afflicts our nation will soon come to an end" - a pledge made in his nomination acceptance speech - by restoring law and order. Revive inner cities that he says have become hell holes.'
+        status: Not started
+        category: Security
+        tags:
+            - Prison
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sss'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: '"Ask Congress to pass ''Kate''s Law''-named for Kate Steinle-to ensure that criminal aliens convicted of illegal reentry receive strong mandatory minimum sentences."'
+        status: Not started
+        category: Security
+        tags:
+            - Prison
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7stm'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Overturn Roe v. Wade, then let states decide it.'
+        status: Not started
+        category: Health
+        tags:
+            - Abortion
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sqw'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Defund Planned Parenthood.'
+        status: Not started
+        category: Health
+        tags:
+            - Abortion
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sqx'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: '"Defend the unborn."'
+        status: Not started
+        category: Health
+        tags:
+            - Abortion
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7stb'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Repeal Obamacare. Replace it with something.'
+        status: Not started
+        category: Health
+        tags:
+            - Health care
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sqz'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Knock down the regulatory walls between states for health insurance, making plans available nationally instead of regionally.'
+        status: Not started
+        category: Health
+        tags:
+            - Health care
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sr0'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Save Medicare, Medicaid and Social Security without cutting benefits.'
+        status: Not started
+        category: Health
+        tags:
+            - Health care
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sr1'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Make medical marijuana widely available to patients, and allow states to decide if they want to fully legalize pot or not.'
+        status: Not started
+        category: Health
+        tags:
+            - Health care
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sr2'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'He has pledged to repeal the Affordable Care Act.'
+        status: Not started
+        category: Health
+        tags:
+            - Health care
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7stv'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Israel is a staunch ally of the U.S. and a key partner in the global war against Islamic jihadism. Military cooperation and coordination between Israel and the U.S. must continue to grow.'
+        status: Not started
+        category: World
+        tags:
+            - Israel
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sr8'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+    -
+        title: 'The American people value our close friendship and alliance with Israel - culturally, religiously, and politically. While other nations have required U.S. troops to defend them, Israelis have always defended their own country by themselves and only ask for military equipment assistance and diplomatic support to do so. The U.S. does not need to nation-build in Israel or send troops to defend Israel.'
+        status: Not started
+        category: World
+        tags:
+            - Israel
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81ta'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+    -
+        title: 'The Memorandum of Understanding signed by the American and Israeli Governments is a good first step, but there is much more to be done. A Trump Administration will ensure that Israel receives maximum military, strategic and tactical cooperation from the United States, and the MOU will not limit the support that we give. Further, Congress will not be limited to give support greater than that provided by the MOU if it chooses to do so. Israel and the United States benefit tremendously from what each country brings to the table - the relationship is a two way street.'
+        status: Not started
+        category: World
+        tags:
+            - Israel
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81tb'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+    -
+        title: 'The U.S. should veto any United Nations votes that unfairly single out Israel and will work in international institutions and forums, including in our relations with the European Union, to oppose efforts to delegitimize Israel, impose discriminatory double standards against Israel, or to impose special labeling requirements on Israeli products or boycotts on Israeli goods.'
+        status: Not started
+        category: World
+        tags:
+            - Israel
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81td'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+    -
+        title: 'The U.S. should cut off funds for the UN Human Rights Council, a body dominated by countries presently run by dictatorships that seems solely devoted to slandering the Jewish State. UNESCO''s attempt to disconnect the State of Israel from Jerusalem is a one-sided attempt to ignore Israel''s 3,000-year bond to its capital city, and is further evidence of the enormous anti-Israel bias of the United Nations.'
+        status: Not started
+        category: World
+        tags:
+            - Israel
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d83b8'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+    -
+        title: 'The U.S. should view the effort to boycott, divest from, and sanction (BDS) Israel as inherently anti-Semitic and take strong measures, both diplomatic and legislative, to thwart actions that are intended to limit commercial relations with Israel, or persons or entities doing business in Israeli areas, in a discriminatory manner. The BDS movement is just another attempt by the Palestinians to avoid having to commit to a peaceful co-existence with Israel. The false notion that Israel is an occupier should be rejected.'
+        status: Not started
+        category: World
+        tags:
+            - Israel
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81tj'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+    -
+        title: 'The Trump administration will ask the Justice Department to investigate coordinated attempts on college campuses to intimidate students who support Israel.'
+        status: Not started
+        category: World
+        tags:
+            - Israel
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sra'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+    -
+        title: 'A two-state solution between Israel and the Palestinians appears impossible as long as the Palestinians are unwilling to renounce violence against Israel or recognize Israel''s right to exist as a Jewish state. Additionally, the Palestinians are divided between PA rule in the West Bank and Hamas rule in Gaza so there is not a united Palestinian people who could control a second state. Hamas is a US-designated terrorist organization that actively seeks Israel''s destruction. We will seek to assist the Israelis and the Palestinians in reaching a comprehensive and lasting peace, to be freely and fairly negotiated between those living in the region.'
+        status: Not started
+        category: World
+        tags:
+            - Israel
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81tk'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+    -
+        title: 'The Palestinian leadership, including the PA, has undermined any chance for peace with Israel by raising generations of Palestinian children on an educational program of hatred of Israel and Jews. The larger Palestinian society is regularly taught such hatred on Palestinian television, in the Palestinian press, in entertainment media, and in political and religious communications. The two major Palestinian political parties - Hamas and Fatah - regularly promote anti-Semitism and jihad.'
+        status: Not started
+        category: World
+        tags:
+            - Israel
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81tm'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+    -
+        title: 'The U.S. cannot support the creation of a new state where terrorism is financially incentivized, terrorists are celebrated by political parties and government institutions, and the corrupt diversion of foreign aid is rampant. The U.S. should not support the creation of a state that forbids the presence of Christian or Jewish citizens, or that discriminates against people on the basis of religion.'
+        status: Not started
+        category: World
+        tags:
+            - Israel
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81tn'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+    -
+        title: 'The U.S. should support direct negotiations between Israel and the Palestinians without preconditions, and will oppose all Palestinian, European and other efforts to bypass direct negotiations between parties in favor of an imposed settlement. Any solutions imposed on Israel by outside parties including by the United Nations Security Council, should be opposed. We support Israel''s right and obligation to defend itself against terror attacks upon its people and against alternative forms of warfare being waged upon it legally, economically, culturally, and otherwise.'
+        status: Not started
+        category: World
+        tags:
+            - Israel
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81tp'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+    -
+        title: 'Israel''s maintenance of defensible borders that preserve peace and promote stability in the region is a necessity. Pressure should not be put on Israel to withdraw to borders that make attacks and conflict more likely.'
+        status: Not started
+        category: World
+        tags:
+            - Israel
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7srh'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+    -
+        title: 'The U.S. will recognize Jerusalem as the eternal and indivisible capital of the Jewish state and Mr. Trump''s Administration will move the U.S. embassy to Jerusalem.'
+        status: Not started
+        category: World
+        tags:
+            - Israel
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7srj'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+    -
+        title: 'Despite the Iran Nuclear deal in 2015, the U.S. State Department recently designated Iran, yet again, as the leading state sponsor of terrorism - putting the Middle East particularly, but the whole world at risk by financing, arming, and training terrorist groups operating around the world including Hamas, Hezbollah, and forces loyal to Syrian President Bashar al-Assad. The U.S. must counteract Iran''s ongoing violations of the Joint Comprehensive Plan of Action regarding Iran''s quest for nuclear weapons and their noncompliance with past and present sanctions, as well as the agreements they signed, and implement tough, new sanctions when needed to protect the world and Iran''s neighbors from its continuing nuclear and non-nuclear threats.'
+        status: Not started
+        category: World
+        tags:
+            - Israel
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81tq'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+    -
+        title: 'No Muslims should be allowed to enter the United States -as immigrants or visitors. Ban Muslims from entering but make an exception for friends and Muslims serving in the US military. Ban Muslims as a matter of policy, as well as people from countries with a history of terrorism.'
+        status: Not started
+        category: World
+        tags:
+            - Muslim ban
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7srk'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'The ban would call for "extreme vetting." There''s a ban, plus "extreme vetting" that includes an ideological test.'
+        status: Not started
+        category: World
+        tags:
+            - Muslim ban
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7srm'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Only people who love America are allowed. Temporarily ban most foreign Muslims from entering the United States "until our country''s representatives can figure out what is going on." Trump would allow exceptions for dignitaries, business people, athletes and others who have "proven" themselves.'
+        status: Not started
+        category: World
+        tags:
+            - Muslim ban
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81tr'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Trump will not say whether or not he intends to ban people of Muslim faith from the U.S., but he will say that "extreme vetting" will apply to people from certain countries. It''s unclear where those countries are, what "extreme vetting" entails or how he intends to institute an ideological test for entry.'
+        status: Not started
+        category: World
+        tags:
+            - Muslim ban
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d81ts'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Heavily surveil mosques in the United States. Trump has said he''s open to the idea of closing some mosques.'
+        status: Not started
+        category: World
+        tags:
+            - Muslim ban
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7srp'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'The intervention in Libya by the U.S.-led coalition was a terrible idea.'
+        status: Not started
+        category: World
+        tags:
+            - Libya
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sru'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'I wanted a surgical intervention, not a "strong" intervention.'
+        status: Not started
+        category: World
+        tags:
+            - Libya
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7srw'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'We really should have taken the oil in Libya, too, since we were there.'
+        status: Not started
+        category: World
+        tags:
+            - Libya
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7srz'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'As Trump put it, "I was for something, but I wasn''t for what we have right now." That "something" seems to include violating the Geneva Conventions to seize Libyan oil.'
+        status: Not started
+        category: World
+        tags:
+            - Libya
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ss0'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Japan should have nuclear weapons.'
+        status: Not started
+        category: World
+        tags:
+            - Japan
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ss1'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Renegotiate the Iran Nuclear Deal.'
+        status: Not started
+        category: World
+        tags:
+            - Iran
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ss7'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: '"I promise I will never be in a bicycle race. That I can tell you." (This promise is connected to criticism of Secretary of State John F. Kerry, who was injured while riding a bicycle amid the Iran negotiations.)'
+        status: Not started
+        category: World
+        tags:
+            - Iran
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ss8'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Refuse to call Iran''s leader by his preferred title. "I guarantee you I will be never calling him the Supreme Leader... I''ll say, ''Hey baby, how ya doing?'' I will never call him the Supreme Leader."'
+        status: Not started
+        category: World
+        tags:
+            - Iran
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ssa'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Negotiate the release of all U.S. prisoners held in Iran before taking office. (Five hostages were recently released, including Washington Post reporter Jason Rezaian; Trump has taken some credit for this.)'
+        status: Not started
+        category: World
+        tags:
+            - Iran
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ssb'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Leave troops in Afghanistan because it''s such "a mess." Protect Israel. And increase U.S. military presence in the East and South China Seas.'
+        status: Not started
+        category: World
+        tags:
+            - Afghanistan
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ssd'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Find an "out" clause in the Iran deal and then "totally" renegotiate the whole thing.'
+        status: Not started
+        category: World
+        tags:
+            - Afghanistan
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sse'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Aggressively challenge China''s power in the world by declaring the country a currency manipulator, adopting a "zero tolerance policy on intellectual property theft and forced technology transfer" and cracking down on China''s "lax labor and environmental standards."'
+        status: Not started
+        category: World
+        tags:
+            - China
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ssf'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Rather than throw the Chinese president a state dinner, buy him "a McDonald''s hamburger and say we''ve got to get down to work."'
+        status: Not started
+        category: World
+        tags:
+            - China
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ssh'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Put billionaire hedge fund manager Carl Icahn in charge of trade negotiations with China and Japan, and pick an ambassador to Japan who is "a killer," unlike the current ambassador, Caroline Kennedy.'
+        status: Not started
+        category: World
+        tags:
+            - China
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ssi'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+    -
+        title: 'Shred or rework trade agreements with Mexico, China and many other countries - and if companies leave for overseas, hit them with huge tariffs.'
+        status: Not started
+        category: World
+        tags:
+            - China
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ssn'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: '"Notify all countries that refuse to take back dangerous illegal immigrants who have committed crimes in this country that they will lose access to our visa programs if they continue to do so."'
+        status: Not started
+        category: World
+        tags:
+            - Global
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7st3'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: '"Contact countries and say ''Folks, we love protecting you, we want to continue to protect you but you''re not living up to the bargain'' They''re not paying what they''re supposed to be paying-which is very little, by the way."'
+        status: Not started
+        category: World
+        tags:
+            - Global
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7st9'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Get rid of Common Core because it''s "a disaster" and a "very bad thing." Trump says he wants to give local school districts more control and might even eliminate the Department of Education.'
+        status: Not started
+        category: Education
+        tags:
+            - Common core
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7ssk'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Learn the difference between Hezbollah and Hamas.'
+        status: Not started
+        category: Education
+        tags:
+            - Trump
+        actions:
+            -
+                title: Comment
+                url: 'https://redd.it/5d7sto'
+        sources:
+            -
+                title: 'title of source goes here'
+                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+
 
 original_tabs:
   -
@@ -1311,42 +2712,10 @@ original_tabs:
       -
         header: 'Climate Change'
         points:
-          -
-            title: 'The Environmental Protection Agency might also disappear.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sp8'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
       -
         header: 'Natural resources'
         points:
-          -
-            title: '"End the war on coal."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7st1'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: 'Trump vowed to end the Clean Power Plan'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5dx4e4'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.vox.com/2016/11/9/13571318/donald-trump-disaster-climate'
+
   -
     id: government
     name: Government
@@ -1355,122 +2724,15 @@ original_tabs:
       -
         header: 'Space Exploration'
         points:
-          -
-            title: 'Stop spending money on space exploration until the United States can fix its potholes. Encourage private space-exploration companies to expand.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sp9'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+
       -
         header: 'Legal'
         points:
-          -
-            title: 'Pick Supreme Court justices who are "really great legal scholars."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7spc'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+
       -
         header: 'Assorted'
         points:
-          -
-            title: 'Ensure that Iowa continues to host the nation''s first presidential nominating contest.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7spe'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Fire "the corrupt and incompetent" leaders of the U.S. Department of Veterans Affairs and dramatically reform the agency. Allow veterans to take their military identification card to any medical facility that accepts Medicaid patients to receive care. Embed satellite VA clinics in rural hospitals and underserved areas, and ensure than every VA hospital is permanently staffed with OBGYN doctors.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81sx'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Invest more heavily in programs that help military veterans transition back to civilian life, including job training and placement services. Also increase funding for the treatment of post-traumatic stress disorder, traumatic brain injuries and mental health issues. Veterans who apply for a job at a VA facility will have five points added to their qualifying scores.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81sy'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Replace "free trade" with "fair trade." Gather together the "smartest negotiators in the world," assign them each a country and renegotiate all foreign trade deals.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7spi'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Tell Ford Motor Co.''s president that unless he cancels plans to build a massive plant in Mexico, the company will face a 35 percent tax on cars imported back into the United States. Trump is confident he can get this done before taking office. (Last year he incorrectly said this had already happened.)'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81sz'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Force Nabisco to once again make Oreos in the United States. And bully Apple into making its "damn computers" and other products here.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7spk'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Impose new taxes on many imports into the country. Numbers thrown around have included 32 percent, 34 percent and 35 percent.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7spm'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: '"Reach out to Republicans and say, ''This is your chance to help millions of families and show that your party, the party of Lincoln, is better than Donald Trump.''"'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sts'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+
   -
     id: immigration
     name: Immigration
@@ -1479,202 +2741,16 @@ original_tabs:
       -
         header: 'Deportation'
         points:
-          -
-            title: 'Deport "criminal illegal immigrants" within one hour of being sworn in.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7spn'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Deport all undocumented immigrants but bring the "good" ones back legally. In a CNN interview in July 2015, Trump said, "I want to move them out, and we''re going to move them back in and let them be legal, but they have to be in here legally."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7spp'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Build the wall, deport criminals, triple the number of ICE officers, end birthright citizenship.  Get it done within 18 months. It''s an immensely complex endeavor, far harder than Trump''s simple sell, but now, if he doesn''t get it done, and doesn''t get our southern neighbor to pay for it, he''s failed.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81t1'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Use a deportation force to implement policy.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7spr'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Trump might be flexible on actually deporting 11 million undocumented immigrants. "There''s no amnesty" but "we work with them." "I won''t rule out a path to citizenship."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sps'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Deport all undocumented immigrants. Trump''s campaign began with a promise to build a wall across the United States'' southern border and deport the country''s 11 million undocumented immigrants.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7spt'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: '"The End Illegal Immigration act fully funds the construction of a wall on our southern border," Trump said on October 22nd, outlining the plans for his first 100 days in office. "With the full understanding that the country of Mexico will be reimbursing the United States for the full cost of such a wall, OK?"'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81t2'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Trump says he will deport millions, but he has not ruled out creating a pathway to citizenship. He''ll build a wall, pay for said wall, but later he''ll get reimbursed by Mexico.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7spw'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
       -
         header: 'Young Undocumented Immigrants and Children of Illegal Immigrants'
         points:
-          -
-            title: '"Dreamers can maybe stay."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7spy'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'End birthright citizenship.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7spz'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Build a wall, deport all undocumented immigrants. Trump''s campaign began with a promise to build a wall across the United States'' southern border and deport the country''s 11 million undocumented immigrants.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sq1'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Deport children benefiting for the DREAM Act and repeal the 14th Amendment to end birthright citizenship.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sq2'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
       -
         header: 'Visa''s for High-Skilled Workers'
         points:
-          -
-            title: 'Against the H-1B visa program.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sq4'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+
       -
         header: 'Border Control and the Refugee Crisis'
         points:
-          -
-            title: 'Against closing the borders entirely. Against accepting Syrian refugees in the United States. Bar Syrian refugees from entering the country and kick out any who are already living here. Trump says wealthy Persian Gulf nations like Saudi Arabia should pay to set up a heavily guarded "safe zone" in Syria.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81t3'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Create a database of Syrian refugees. Trump hasn''t ruled out creating a database of Muslims in the country.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sq6'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Meet with Homeland Security officials and generals to begin securing the southern border.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7st2'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: 'Suspend Syrian refugee resettlement.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7stg'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
   -
     id: indigenouspeoples
     name: Indigenous
@@ -1683,39 +2759,6 @@ original_tabs:
      -
         header: 'Indigenous'
         points:
-          -
-            title: 'Donald Trump: It''s time to heal this divided nation'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ssl'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: 'Deport, deport, deport - if not en masse, through a federal deportation force, at least expulsions in numbers far greater than the records President Obama already set.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sso'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: 'Ban Muslim Brotherhood affiliated organizations'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5dx57p'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.westernjournalism.com/foreign-policy-adviser-says-trump-will-ban-muslim-brotherhood-u-s-offshoots/'
   -
     id: security
     name: Security
@@ -1724,249 +2767,19 @@ original_tabs:
       -
         header: 'Defeating ISIS'
         points:
-          -
-            title: 'Declare war -- Send troops in. Definitely go after the oil fields. Destroy the oil. Let our regional allies send ground troops. If they don''t, stop buying their oil. "Do more with computers."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sq9'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'It''s still unclear what Trump''s plan to defeat ISIS is, but it will involve computers and it will be tough. "Bomb the s--- out of ISIS." Also bomb oil fields controlled by the Islamic State, then seize the oil and give the profits to military veterans who were wounded while fighting.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sqa'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Allow Russia to deal with the Islamic State in Syria and/or work with Russian President Vladimir Putin to wipe out shared enemies.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sqc'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Strengthen the military so that it''s "so big and so strong and so great" that "nobody''s going to mess with us."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sqg'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Target and kill the relatives of terrorists.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sqh'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Shut down parts of the Internet so that Islamic State terrorists cannot use it to recruit American children.Find great generals -- like the next Gen. Patton or Gen. MacArthur -- and do not allow them to go onto television news shows to explain their military strategy: "I don''t want my generals being interviewed, I want my generals kicking a--." Trump likes generals who are rough, foul-mouthed and beloved by their troops.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81t4'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Find great generals -- like the next Gen. Patton or Gen. MacArthur -- and do not allow them to go onto television news shows to explain their military strategy: "I don''t want my generals being interviewed, I want my generals kicking a--." Trump likes generals who are rough, foul-mouthed and beloved by their troops.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81t5'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Convene his top generals and inform them they have 30 days to come up with a plan to stop ISIS.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7st4'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
       -
         header: 'Military'
         points:
-          -
-            title: '"Start taking care of our military."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ste'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+
       -
         header: 'Guns'
         points:
-          -
-            title: 'Get rid of gun-free zones.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sqm'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: '"No guns in classrooms, except maybe some guns in classrooms. Let''s put trained gunmen in schools.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sqn'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'More guns would save lives.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sqp'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'More guns are better, though the details are murky and evolving on how many gun-free zones would be abolished.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sqr'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Get rid of gun-free zones [in] schools" and "military bases"-which would require repealing a 25-year-old federal law. ("My first day, it gets signed, okay? My first day. There''s no more gun-free zones.")'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7stj'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: '"Tackle the gun lobby to try to reduce the outrageous number of people who are dying from gun violence in our country."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7stq'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: 'Allow concealed carry permits to be recognized in all 50 states'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7su0'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
       -
         header: 'Torture'
         points:
-          -
-            title: 'The military will obey potentially illegal orders.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sqt'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'The laws forbidding torture should be changed so no one has to break them.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7squ'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Trump says he''s against violating international laws or ordering others to do so, but wants to change the laws to legalize, at minimum, waterboarding. Trump has said he''s willing to use interrogation techniques that go even further than waterboarding. Even if such tactics don''t work, "they deserve it anyway, for what they''re doing."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81t9'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
       -
         header: 'Jail'
         points:
-          -
-            title: 'Ensure that "the crime and violence that today afflicts our nation will soon come to an end" - a pledge made in his nomination acceptance speech - by restoring law and order. Revive inner cities that he says have become hell holes.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sss'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: '"Ask Congress to pass ''Kate''s Law''-named for Kate Steinle-to ensure that criminal aliens convicted of illegal reentry receive strong mandatory minimum sentences."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7stm'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
   -
     id: health
     name: Health
@@ -1975,97 +2788,9 @@ original_tabs:
       -
         header: 'Abortion'
         points:
-          -
-            title: 'Overturn Roe v. Wade, then let states decide it.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sqw'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Defund Planned Parenthood.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sqx'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: '"Defend the unborn."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7stb'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
       -
         header: 'Health Care'
         points:
-          -
-            title: 'Repeal Obamacare. Replace it with something.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sqz'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Knock down the regulatory walls between states for health insurance, making plans available nationally instead of regionally.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sr0'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Save Medicare, Medicaid and Social Security without cutting benefits.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sr1'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'Make medical marijuana widely available to patients, and allow states to decide if they want to fully legalize pot or not.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sr2'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-          -
-            title: 'He has pledged to repeal the Affordable Care Act.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7stv'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
   -
     id: internationalpolicy
     name: International
@@ -2074,423 +2799,27 @@ original_tabs:
       -
         header: 'Israel'
         points:
-          -
-            title: 'Israel is a staunch ally of the U.S. and a key partner in the global war against Islamic jihadism. Military cooperation and coordination between Israel and the U.S. must continue to grow.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sr8'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
-            title: 'The American people value our close friendship and alliance with Israel - culturally, religiously, and politically. While other nations have required U.S. troops to defend them, Israelis have always defended their own country by themselves and only ask for military equipment assistance and diplomatic support to do so. The U.S. does not need to nation-build in Israel or send troops to defend Israel.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81ta'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
-            title: 'The Memorandum of Understanding signed by the American and Israeli Governments is a good first step, but there is much more to be done. A Trump Administration will ensure that Israel receives maximum military, strategic and tactical cooperation from the United States, and the MOU will not limit the support that we give. Further, Congress will not be limited to give support greater than that provided by the MOU if it chooses to do so. Israel and the United States benefit tremendously from what each country brings to the table - the relationship is a two way street.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81tb'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
-            title: 'The U.S. should veto any United Nations votes that unfairly single out Israel and will work in international institutions and forums, including in our relations with the European Union, to oppose efforts to delegitimize Israel, impose discriminatory double standards against Israel, or to impose special labeling requirements on Israeli products or boycotts on Israeli goods.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81td'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
-            title: 'The U.S. should cut off funds for the UN Human Rights Council, a body dominated by countries presently run by dictatorships that seems solely devoted to slandering the Jewish State. UNESCO''s attempt to disconnect the State of Israel from Jerusalem is a one-sided attempt to ignore Israel''s 3,000-year bond to its capital city, and is further evidence of the enormous anti-Israel bias of the United Nations.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d83b8'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
-            title: 'The U.S. should view the effort to boycott, divest from, and sanction (BDS) Israel as inherently anti-Semitic and take strong measures, both diplomatic and legislative, to thwart actions that are intended to limit commercial relations with Israel, or persons or entities doing business in Israeli areas, in a discriminatory manner. The BDS movement is just another attempt by the Palestinians to avoid having to commit to a peaceful co-existence with Israel. The false notion that Israel is an occupier should be rejected.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81tj'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
-            title: 'The Trump administration will ask the Justice Department to investigate coordinated attempts on college campuses to intimidate students who support Israel.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sra'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
-            title: 'A two-state solution between Israel and the Palestinians appears impossible as long as the Palestinians are unwilling to renounce violence against Israel or recognize Israel''s right to exist as a Jewish state. Additionally, the Palestinians are divided between PA rule in the West Bank and Hamas rule in Gaza so there is not a united Palestinian people who could control a second state. Hamas is a US-designated terrorist organization that actively seeks Israel''s destruction. We will seek to assist the Israelis and the Palestinians in reaching a comprehensive and lasting peace, to be freely and fairly negotiated between those living in the region.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81tk'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
-            title: 'The Palestinian leadership, including the PA, has undermined any chance for peace with Israel by raising generations of Palestinian children on an educational program of hatred of Israel and Jews. The larger Palestinian society is regularly taught such hatred on Palestinian television, in the Palestinian press, in entertainment media, and in political and religious communications. The two major Palestinian political parties - Hamas and Fatah - regularly promote anti-Semitism and jihad.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81tm'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
-            title: 'The U.S. cannot support the creation of a new state where terrorism is financially incentivized, terrorists are celebrated by political parties and government institutions, and the corrupt diversion of foreign aid is rampant. The U.S. should not support the creation of a state that forbids the presence of Christian or Jewish citizens, or that discriminates against people on the basis of religion.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81tn'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
-            title: 'The U.S. should support direct negotiations between Israel and the Palestinians without preconditions, and will oppose all Palestinian, European and other efforts to bypass direct negotiations between parties in favor of an imposed settlement. Any solutions imposed on Israel by outside parties including by the United Nations Security Council, should be opposed. We support Israel''s right and obligation to defend itself against terror attacks upon its people and against alternative forms of warfare being waged upon it legally, economically, culturally, and otherwise.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81tp'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
-            title: 'Israel''s maintenance of defensible borders that preserve peace and promote stability in the region is a necessity. Pressure should not be put on Israel to withdraw to borders that make attacks and conflict more likely.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7srh'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
-            title: 'The U.S. will recognize Jerusalem as the eternal and indivisible capital of the Jewish state and Mr. Trump''s Administration will move the U.S. embassy to Jerusalem.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7srj'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-          -
-            title: 'Despite the Iran Nuclear deal in 2015, the U.S. State Department recently designated Iran, yet again, as the leading state sponsor of terrorism - putting the Middle East particularly, but the whole world at risk by financing, arming, and training terrorist groups operating around the world including Hamas, Hezbollah, and forces loyal to Syrian President Bashar al-Assad. The U.S. must counteract Iran''s ongoing violations of the Joint Comprehensive Plan of Action regarding Iran''s quest for nuclear weapons and their noncompliance with past and present sanctions, as well as the agreements they signed, and implement tough, new sanctions when needed to protect the world and Iran''s neighbors from its continuing nuclear and non-nuclear threats.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81tq'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
       -
         header: 'Proposed Muslim Ban'
         points:
-          -
-            title: 'No Muslims should be allowed to enter the United States -as immigrants or visitors. Ban Muslims from entering but make an exception for friends and Muslims serving in the US military. Ban Muslims as a matter of policy, as well as people from countries with a history of terrorism.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7srk'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'The ban would call for "extreme vetting." There''s a ban, plus "extreme vetting" that includes an ideological test.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7srm'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Only people who love America are allowed. Temporarily ban most foreign Muslims from entering the United States "until our country''s representatives can figure out what is going on." Trump would allow exceptions for dignitaries, business people, athletes and others who have "proven" themselves.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81tr'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Trump will not say whether or not he intends to ban people of Muslim faith from the U.S., but he will say that "extreme vetting" will apply to people from certain countries. It''s unclear where those countries are, what "extreme vetting" entails or how he intends to institute an ideological test for entry.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d81ts'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Heavily surveil mosques in the United States. Trump has said he''s open to the idea of closing some mosques.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7srp'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
       -
         header: '2011 Intervention in Libya'
         points:
-          -
-            title: 'The intervention in Libya by the U.S.-led coalition was a terrible idea.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sru'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'I wanted a surgical intervention, not a "strong" intervention.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7srw'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'We really should have taken the oil in Libya, too, since we were there.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7srz'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'As Trump put it, "I was for something, but I wasn''t for what we have right now." That "something" seems to include violating the Geneva Conventions to seize Libyan oil.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ss0'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
       -
         header: 'Japan'
         points:
-          -
-            title: 'Japan should have nuclear weapons.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ss1'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
       -
         header: 'Iran'
         points:
-          -
-            title: 'Renegotiate the Iran Nuclear Deal.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ss7'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: '"I promise I will never be in a bicycle race. That I can tell you." (This promise is connected to criticism of Secretary of State John F. Kerry, who was injured while riding a bicycle amid the Iran negotiations.)'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ss8'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Refuse to call Iran''s leader by his preferred title. "I guarantee you I will be never calling him the Supreme Leader... I''ll say, ''Hey baby, how ya doing?'' I will never call him the Supreme Leader."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ssa'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Negotiate the release of all U.S. prisoners held in Iran before taking office. (Five hostages were recently released, including Washington Post reporter Jason Rezaian; Trump has taken some credit for this.)'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ssb'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
       -
         header: 'Afghanistan'
         points:
-          -
-            title: 'Leave troops in Afghanistan because it''s such "a mess." Protect Israel. And increase U.S. military presence in the East and South China Seas.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ssd'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Find an "out" clause in the Iran deal and then "totally" renegotiate the whole thing.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sse'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
       -
         header: 'China'
         points:
-          -
-            title: 'Aggressively challenge China''s power in the world by declaring the country a currency manipulator, adopting a "zero tolerance policy on intellectual property theft and forced technology transfer" and cracking down on China''s "lax labor and environmental standards."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ssf'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Rather than throw the Chinese president a state dinner, buy him "a McDonald''s hamburger and say we''ve got to get down to work."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ssh'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Put billionaire hedge fund manager Carl Icahn in charge of trade negotiations with China and Japan, and pick an ambassador to Japan who is "a killer," unlike the current ambassador, Caroline Kennedy.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ssi'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            title: 'Shred or rework trade agreements with Mexico, China and many other countries - and if companies leave for overseas, hit them with huge tariffs.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ssn'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
       -
         header: 'Global'
         points:
-          -
-            title: '"Notify all countries that refuse to take back dangerous illegal immigrants who have committed crimes in this country that they will lose access to our visa programs if they continue to do so."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7st3'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-          -
-            title: '"Contact countries and say ''Folks, we love protecting you, we want to continue to protect you but you''re not living up to the bargain'' They''re not paying what they''re supposed to be paying-which is very little, by the way."'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7st9'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
   -
     id: education
     name: Education
@@ -2499,28 +2828,6 @@ original_tabs:
       -
         header: 'Common Core'
         points:
-          -
-            title: 'Get rid of Common Core because it''s "a disaster" and a "very bad thing." Trump says he wants to give local school districts more control and might even eliminate the Department of Education.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7ssk'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
       -
         header: 'Trump''s education'
         points:
-          -
-            title: 'Learn the difference between Hezbollah and Hamas.'
-            status: Not started
-            actions:
-                -
-                    title: Comment
-                    url: 'https://redd.it/5d7sto'
-            sources:
-                -
-                    title: 'title of source goes here'
-                    url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
