@@ -291,7 +291,7 @@ tabs:
             status: notStarted
             update: "%Y-%m-%d"
             citations:
-              - ''
+              - 'https://youtu.be/YZEZIS4WPSw?t=43s'
               - ''
             comments: 'https://redd.it/5d7sn2'
             source: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
@@ -1454,10 +1454,10 @@ tabs:
             status: notStarted
             update: "%Y-%m-%d"
             citations:
-              - ''
+              - 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
               - ''
             comments: 'https://redd.it/5d7sqz'
-            source: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            source: 'https://youtu.be/qizUBPc47qY'
           -
             text: 'Knock down the regulatory walls between states for health insurance, making plans available nationally instead of regionally.'
             status: notStarted
