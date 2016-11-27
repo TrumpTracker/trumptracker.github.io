@@ -26,6 +26,12 @@
 
   $(function() {
 
+    // Dates
+    var today = moment();
+    var inauguration = moment('2017-01-20');
+    $('#inauguration-days').html(inauguration.diff(today, 'days') > 0 ? inauguration.diff(today, 'days') : 'NA');
+    $('#days-in-office').html(today.diff(inauguration, 'days') > -1 ? today.diff(inauguration, 'days') : 0);
+
     // List.js object that we can filter upon
     var promiseList = new List('promises', listOptions).on('updated', function(list) {
       $('#count').html(list.visibleItems.length);

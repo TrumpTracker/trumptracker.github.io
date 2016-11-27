@@ -1,8 +1,4 @@
 icons:
-    'Not started': hourglass-start
-    'In progress': cogs
-    Achieved: circle-o
-    Broken: ban
     'First 100 Days': clock-o
     Culture: music
     Economy: dollar
@@ -15,11 +11,19 @@ icons:
     World: globe
     Education: graduation-cap
 
-status:
-    'Not started': info
-    'In progress': warning
-    Achieved: success
-    Broken: danger
+statuses:
+    Not started:
+        color: info
+        icon: hourglass-start
+    In progress:
+        color: warning
+        icon: cogs
+    Achieved:
+        color: success
+        icon: check-circle-o
+    Broken:
+        color: danger
+        icon: ban
 
 promises:
     -

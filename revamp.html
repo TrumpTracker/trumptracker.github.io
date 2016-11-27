@@ -2,12 +2,11 @@
 layout: page_revamp
 ---
 
-{% assign tabs = site.data.data.tabs %}
-
 {% assign promises = site.data.revamp.promises %}
 {% assign icons = site.data.revamp.icons %}
-{% assign status = site.data.revamp.status %}
+{% assign statuses = site.data.revamp.statuses %}
 {% assign total = promises | size %}
+
 {% assign categories = promises | map: 'category' | uniq %}
 
 <div class="container promises-header page-header" id="promises-header">
@@ -17,33 +16,22 @@ layout: page_revamp
             <ul class="list-group">
                 <li class="list-group-item list-group-item inauguration-time-container">
                     <i class="fa fa-home fa-fw"></i>
-                    <b id="inauguration-time">
-                        Days Till Inauguration:
-                        <span id="inauguration-days"></span>
-                    </b>
+                    <b id="inauguration-time">Days Till Inauguration: <span id="inauguration-days"></span></b>
                 </li>
                 <li class="list-group-item list-group-item">
                     <i class="fa fa-calendar fa-fw"></i>
-                    <b>Days In Office:
-                        <span id="days-in-office"></span>
-                    </b>
+                    <b>Days In Office: <span id="days-in-office"></span></b>
                 </li>
-                <li class="list-group-item list-group-item-info">
-                    <i class="fa fa-hourglass-start fa-fw"></i>
-                    Not Started: <span id="points-not-started">{{ promises | where: "status","Not started" | size }}</span> of <span class="total-points">{{ total }}</span>
-                </li>
-                <li class="list-group-item list-group-item-warning">
-                    <i class="fa fa-cogs fa-fw"></i>
-                    In Progress: <span id="points-in-progress">{{ promises | where: "status","In progress" | size }}</span> of <span class="total-points">{{ total }}</span>
-                </li>
-                <li class="list-group-item list-group-item-success">
-                    <i class="fa fa-check-circle-o fa-fw"></i>
-                    Achieved: <span id="points-achieved">{{ promises | where: "status","Achieved" | size }}</span> of <span class="total-points">{{ total }}</span></li>
 
-                <li class="list-group-item list-group-item-danger">
-                    <i class="fa fa-ban fa-fw"></i>
-                    Broken: <span id="points-broken">{{ promises | where: "status","Broken" | size }}</span> of <span class="total-points">{{ total }}</span>
-                </li>
+                {% for status in statuses %}
+                    {% assign status_name = status[0] %}
+                    {% assign status_data = status[1] %}
+                    <li class="list-group-item list-group-item-{{ status_data['color'] }}">
+                        <i class="fa fa-fw fa-{{ status_data['icon'] }} "></i>
+                        {{ status_name }}: <span class="active-points">{{ promises | where: "status",status_name | size }}</span> of <span class="total-points">{{ total }}</span>
+                    </li>
+                {% endfor %}
+
             </ul>
 
         </div>
@@ -105,10 +93,15 @@ layout: page_revamp
             <div class="pull-right">
 
                 <div class="promises__statuses">
-                    <button class="btn btn-info" data-list-facet="js-promise-status" data-facet-value="Not started" data-select-single="true"><i class="fa fa-hourglass-start fa-fw" aria-hidden="true"></i> Not started</button>
-                    <button class="btn btn-warning" data-list-facet="js-promise-status" data-facet-value="In progress" data-select-single="true"><i class="fa fa-cogs fa-fw" aria-hidden="true"></i> In progress</button>
-                    <button class="btn btn-success" data-list-facet="js-promise-status" data-facet-value="Achieved" data-select-single="true"><i class="fa fa-check-circle-o fa-fw" aria-hidden="true"></i> Achieved</button>
-                    <button class="btn btn-danger" data-list-facet="js-promise-status" data-facet-value="Broken" data-select-single="true"><i class="fa fa-ban fa-fw" aria-hidden="true"></i> Broken</button>
+                    {% for status in statuses %}
+                        {% assign status_name = status[0] %}
+                        {% assign status_data = status[1] %}
+
+                        <button class="btn btn-{{ status_data['color'] }}" data-list-facet="js-promise-status" data-facet-value="{{ status_name }}" data-select-single="true">
+                            <i class="fa fa-{{ status_data['icon'] }} fa-fw" aria-hidden="true"></i>
+                            {{ status_name }}
+                        </button>
+                    {% endfor %}
                 </div>
 
             </div>
@@ -153,7 +146,7 @@ layout: page_revamp
                     <tr class="promise">
                         <td class="promise__id">{{ forloop.index }}.</td>
                         <td class="promise__status" title="{{ promise.status }}">
-                            <i class="fa fa-fw fa-{{ icons[promise.status] }} text-{{ status[promise.status] }}" title="{{ promise.status }}"></i>
+                            <i class="fa fa-fw fa-{{ icons[promise.status] }} text-{{ statuses[promise.status]['color'] }}" title="{{ promise.status }}"></i>
                             <span class="promise__status-text js-promise-status sr-only">{{ promise.status }}</span>
                         </td>
                         <td class="promise__category" style="white-space: nowrap;">
