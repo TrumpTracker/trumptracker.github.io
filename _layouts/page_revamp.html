@@ -98,19 +98,6 @@
 
                 </div>
 
-                <!--<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">-->
-                    <!--<form class="navbar-form" role="search">-->
-                        <!--<div class="input-group">-->
-                            <!--<input id="search-field" type="text" class="form-control" placeholder="Search" name="q">-->
-                            <!--<div class="input-group-btn">-->
-                                <!--<button class="btn btn-default" type="submit">-->
-                                    <!--<i class="glyphicon glyphicon-search"></i>-->
-                                <!--</button>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</form>-->
-                <!--</div>-->
-
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <form class="navbar-form navbar-right" action="https://viren8.typeform.com/to/CA1RiV" method="get">
@@ -153,150 +140,14 @@
                 </div>
             </div>
         </footer>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+        <!-- Libraries -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.3.0/list.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.min.js"></script>
 
         <!-- Custom js -->
         <script src={{ "/js/revamp.js" | relative_url }}></script>
-
-        <!-- Main JavaScript -->
-        <script>
-//            $(document).ready(function () {
-//
-//                // temp fix for table alignment
-////                $('html > head').append($('<style>tbody > tr:nth-child(1) > td:nth-child(2) { width:100%; }</style>'));
-//
-//                // tabs
-//                $('#myTabs a').click(function (e) {
-//                    e.preventDefault()
-//                    $(this).tab('show')
-//                });
-//                $(function () {
-//                    $('[data-toggle="tooltip"]').tooltip()
-//                });
-//
-//                // search function
-//                $("div.tab-pane input.search").keyup(function () {
-//                    var search = $(this).val().toLowerCase();
-//                    $(this).parent().parent().find("tr").hide();
-//                    $(this).parent().parent().find("tbody tr").each(function () {
-//                        if ($(this).text().toLowerCase().indexOf(search) != -1) {
-//                            $(this).show();
-//                            //show the heading for the section
-//                            $(this).parent().prev("thead").find("tr").show();
-//                        }
-//                    }, search);
-//                });
-//                $("#search-field").keyup(function () {
-//                    $("#search-results").html("");
-//                    if($("#search-field").val()!="") {
-//                        var search = $("#search-field").val().toLowerCase();
-//                        //show the results div
-//                        $("div.row.search-results").show();
-//                        //loop through each tab panel (easier to grab heading info)
-//                        $("div[role='tabpanel']").each(function () {
-//                            var panel_id = $(this).attr("id");
-//                            var display_section = true;
-//                            var display_heading = true
-//                            $(this).find("tbody td").each(function () {
-//                                if ($(this).text().toLowerCase().indexOf(search) != -1) {
-//                                    if(display_section) {
-//                                        //appends section to search results
-//                                        $("#search-results").append('<li class="list-group-item active"><span>' +
-//                                                $("ul.nav-tabs a[href='#" + panel_id + "']").html() + '</span></li>');
-//                                        //prevents duplicate section titles
-//                                        display_section = false;
-//                                    }
-//                                    if(display_heading) {
-//                                        //appends heading to search results
-//                                        $("#search-results").append('<li class="list-group-item list-group-item-info"><span>' +
-//                                                $(this).parent().parent().prev("thead").find("tr th").html() + '</span></li>');
-//                                        //prevents duplicate heading titles
-//                                        display_heading = false;
-//                                    }
-//
-//                                    // Default display class for all list items to be added
-//                                    var displayClass = "list-group-item";
-//
-//                                    // Get the class of the table row for this td element
-//                                    var rowClass = $(this).parent().prop('className');
-//
-//                                    // Not empty implies it is either danger (broken policy)
-//                                    // or success (achieved policy)
-//                                    if (rowClass !== "") {
-//                                      displayClass += " list-group-item-" + rowClass;
-//                                    }
-//                                    $("#search-results").append('<li class="'+ displayClass + '"><span>' + $(this).text() + '</span></li>')
-//                                }
-//                            });
-//                        });
-//                    } else {
-//                        //fixes spacing caused by empty elements
-//                        $("div.row.search-results").hide();
-//                    }
-//                });
-//                $("form.search").submit(function(e){
-//                    e.preventDefault();
-//                });
-//
-//                var oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
-//                var todayDate = Date.now();
-//                // Inaguration date
-//                var inagurationDate = new Date(2017,00,20);
-//
-//                var daysUntilInaguration = Math.floor((inagurationDate.getTime() - todayDate)/(oneDay));
-//
-//                if (daysUntilInaguration === 0) {
-//                    $('#inauguration-time').text('Inauguration day is today.');
-//                } else if (daysUntilInaguration > 0) {
-//                    $('#inauguration-days').text(daysUntilInaguration);
-//                } else {
-//                    $('.inauguration-time-container').hide();
-//                }
-//
-//                var daysInOffice = Math.floor((todayDate - inagurationDate)/(oneDay));
-//                if (daysInOffice < 0) {
-//                    daysInOffice = 0;
-//                }
-//                $('#days-in-office').text(daysInOffice);
-//
-//                // Parse site data.json
-//                var siteData = JSON.parse($('#site-data').html());
-//                var totalPoints = 0;
-//                var pointsNotStarted = 0;
-//                var pointsInProgress = 0;
-//                var pointsAchieved = 0;
-//                var pointsBroken = 0;
-//
-//                for(var i = 0; i < siteData.tabs.length; i++) {
-//                    for(var j = 0; j < siteData.tabs[i].sections.length; j++) {
-//                        for(var k = 0; k < siteData.tabs[i].sections[j].points.length; k++) {
-//                            var point = siteData.tabs[i].sections[j].points[k];
-//                            totalPoints++;
-//                            if (point.status === 'notStarted') {
-//                                pointsNotStarted++;
-//                            } else if (point.status === 'inProgress') {
-//                                pointsInProgress++;
-//                            } else if (point.status === 'achieved') {
-//                                pointsAchieved++;
-//                            } else if (point.status === 'broken') {
-//                                pointsBroken++;
-//                            }
-//                        }
-//                    }
-//                }
-//
-//                $('.total-points').text(totalPoints || '0');
-//                $('#points-achieved').text(pointsAchieved || '0');
-//                $('#points-broken').text(pointsBroken || '0');
-//                $('#points-not-started').text(pointsNotStarted || '0');
-//                $('#points-in-progress').text(pointsInProgress || '0');
-//
-//            });
-        <!--</script>-->
     </body>
 </html>
