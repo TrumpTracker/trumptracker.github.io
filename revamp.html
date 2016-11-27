@@ -146,7 +146,7 @@ layout: page_revamp
                     <tr class="promise">
                         <td class="promise__id">{{ forloop.index }}.</td>
                         <td class="promise__status" title="{{ promise.status }}">
-                            <i class="fa fa-fw fa-{{ icons[promise.status] }} text-{{ statuses[promise.status]['color'] }}" title="{{ promise.status }}"></i>
+                            <i class="fa fa-fw fa-{{ statuses[promise.status]['icon'] }} text-{{ statuses[promise.status]['color'] }}" title="{{ promise.status }}"></i>
                             <span class="promise__status-text js-promise-status sr-only">{{ promise.status }}</span>
                         </td>
                         <td class="promise__category" style="white-space: nowrap;">
