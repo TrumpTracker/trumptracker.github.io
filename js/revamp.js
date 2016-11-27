@@ -1,4 +1,4 @@
-(function($, List, _) {
+(function($, List, _, moment) {
 
   // List.js classes to use for search elements
   var listOptions = {
@@ -110,4 +110,4 @@
     });
   });
 
-})(jQuery, List, _);
+})(jQuery, List, _, moment);
