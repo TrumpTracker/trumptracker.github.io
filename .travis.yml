@@ -12,3 +12,11 @@ script: bundle exec jekyll build
 # http://stackoverflow.com/questions/28611513/travis-build-failing-on-jekyll-project-cannot-find-jekyll
 # for html5proof ./script/cibuild && jekyll build && htmlproofer ./_site
 sudo: required
+
+notifications:
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/9a2f29b3e24ed162f8d7
+    on_success: always  # options: [always|never|change] default: always
+    on_failure: always  # options: [always|never|change] default: always
+    on_start: false     # default: false
