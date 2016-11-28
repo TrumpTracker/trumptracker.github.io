@@ -68,7 +68,8 @@ tabs:
             update: "%Y-%m-%d"
             citations:
               - 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
-              - 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+              - 'http://www.cbsnews.com/news/did-donald-trump-say-hed-refuse-to-take-a-salary-as-president/'
+              - 'https://www.washingtonpost.com/politics/i-will-give-you-everything-here-are-282-of-donald-trumps-campaign-promises/2016/11/24/01160678-b0f9-11e6-8616-52b15787add0_story.html'
             comments: 'https://redd.it/5dny96'
             source: 'https://youtu.be/56SxICbH1i8?t=3s'
       -
@@ -439,6 +440,15 @@ tabs:
               - ''
             comments: 'https://redd.it/5dx3og'
             source: 'https://www.donaldjtrump.com/press-releases/issues-of-importance-to-catholics'
+          -
+            text: '"We won''t tweet anymore after I''m president. It''s not presidential."'
+            status: notStarted
+            update: "%Y-%m-%d"
+            citations:
+              - 'https://www.washingtonpost.com/politics/i-will-give-you-everything-here-are-282-of-donald-trumps-campaign-promises/2016/11/24/01160678-b0f9-11e6-8616-52b15787add0_story.html'
+              - ''
+            comments: 'https://redd.it/5fdn5q'
+            source: 'https://youtu.be/ycOcAsBuVKU'
   -
     id: economy
     name: Economy
@@ -971,7 +981,7 @@ tabs:
             comments: 'https://redd.it/5d81sz'
             source: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
           -
-            text: 'Force Nabisco to once again make Oreos in the United States. And bully Apple into making its "damn computers" and other products here.'
+            text: 'Force Nabisco to once again make Oreos in the United States, and never eat another Oreo until that happens. And bully Apple into making its "damn computers" and other products here.'
             status: notStarted
             update: "%Y-%m-%d"
             citations:
@@ -1278,10 +1288,10 @@ tabs:
             status: notStarted
             update: "%Y-%m-%d"
             citations:
-              - ''
+              - 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
               - ''
             comments: 'https://redd.it/5d7st4'
-            source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            source: 'https://www.donaldjtrump.com/press-releases/fact-sheet-key-policies-proposed-in-mr.-trumps-military-preparedness-speech'
       -
         header: 'Military'
         points:
@@ -1411,6 +1421,15 @@ tabs:
               - ''
             comments: 'https://redd.it/5d7stm'
             source: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+          -
+            text: 'Keep the military prison at Guantanamo Bay open'
+            status: notStarted
+            update: "%Y-%m-%d"
+            citations:
+              - 'https://www.washingtonpost.com/politics/i-will-give-you-everything-here-are-282-of-donald-trumps-campaign-promises/2016/11/24/01160678-b0f9-11e6-8616-52b15787add0_story.html'
+              - ''
+            comments: 'https://redd.it/5fdqz6'
+            source: 'http://www.miamiherald.com/news/nation-world/world/americas/guantanamo/article114185018.html'
   -
     id: health
     name: Health
@@ -1481,10 +1500,10 @@ tabs:
             status: notStarted
             update: "%Y-%m-%d"
             citations:
-              - ''
+              - 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
               - ''
             comments: 'https://redd.it/5d7sr2'
-            source: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            source: 'https://www.washingtonpost.com/news/post-politics/wp/2015/10/29/trump-wants-marijuana-legalization-decided-at-the-state-level/'
           -
             text: 'He has pledged to repeal the Affordable Care Act.'
             status: notStarted
@@ -1744,7 +1763,7 @@ tabs:
             status: notStarted
             update: "%Y-%m-%d"
             citations:
-              - ''
+              - 'http://www.businessinsider.com/donald-trump-criticizes-john-kerry-for-cycling-2015-6'
               - ''
             comments: 'https://redd.it/5d7ss8'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
