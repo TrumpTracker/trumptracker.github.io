@@ -1212,6 +1212,15 @@ tabs:
               - ''
             comments: 'https://redd.it/5dx57p'
             source: 'http://www.westernjournalism.com/foreign-policy-adviser-says-trump-will-ban-muslim-brotherhood-u-s-offshoots/'
+          -
+            text: 'There must be consequences for burning the American flag, like loss of citizenship or a year in jail'
+            status: notStarted
+            update: "%Y-%m-%d"
+            citations:
+              - 'http://archive.is/MLfxY'
+              - ''
+            comments: 'https://redd.it/5fky4g'
+            source: 'https://twitter.com/realDonaldTrump/status/803567993036754944'
   -
     id: security
     name: Security
