@@ -1275,7 +1275,7 @@ tabs:
             comments: 'https://redd.it/5d7sqh'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
           -
-            text: 'Shut down parts of the Internet so that Islamic State terrorists cannot use it to recruit American children.Find great generals -- like the next Gen. Patton or Gen. MacArthur -- and do not allow them to go onto television news shows to explain their military strategy: "I don''t want my generals being interviewed, I want my generals kicking a--." Trump likes generals who are rough, foul-mouthed and beloved by their troops.'
+            text: 'Shut down parts of the Internet so that Islamic State terrorists cannot use it to recruit American children.'
             status: notStarted
             update: "%Y-%m-%d"
             citations:
