@@ -235,7 +235,7 @@ tabs:
             comments: 'https://redd.it/5d81sl'
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
-            text: 'Affordable Childcare and Eldercare Act. Allows Americans to deduct childcare and elder care from their taxes, incentivizes employers to provide on-side childcare services, and creates tax-free Dependent Care Savings Accounts for both young and elderly dependents, with matching contributions for low-income families.'
+            text: 'Affordable Childcare and Eldercare Act. Allows Americans to deduct childcare and elder care from their taxes, incentivizes employers to provide on-site childcare services, and creates tax-free Dependent Care Savings Accounts for both young and elderly dependents, with matching contributions for low-income families.'
             status: notStarted
             update: "%Y-%m-%d"
             citations:
