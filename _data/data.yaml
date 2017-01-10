@@ -1705,45 +1705,6 @@ tabs:
             comments: 'https://redd.it/5d7srp'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
       -
-        header: '2011 Intervention in Libya'
-        points:
-          -
-            text: 'The intervention in Libya by the U.S.-led coalition was a terrible idea.'
-            status: notStarted
-            update: "%Y-%m-%d"
-            citations:
-              - ''
-              - ''
-            comments: 'https://redd.it/5d7sru'
-            source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            text: 'I wanted a surgical intervention, not a "strong" intervention.'
-            status: notStarted
-            update: "%Y-%m-%d"
-            citations:
-              - ''
-              - ''
-            comments: 'https://redd.it/5d7srw'
-            source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            text: 'We really should have taken the oil in Libya, too, since we were there.'
-            status: notStarted
-            update: "%Y-%m-%d"
-            citations:
-              - ''
-              - ''
-            comments: 'https://redd.it/5d7srz'
-            source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            text: 'As Trump put it, "I was for something, but I wasn''t for what we have right now." That "something" seems to include violating the Geneva Conventions to seize Libyan oil.'
-            status: notStarted
-            update: "%Y-%m-%d"
-            citations:
-              - ''
-              - ''
-            comments: 'https://redd.it/5d7ss0'
-            source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-      -
         header: 'Japan'
         points:
           -
