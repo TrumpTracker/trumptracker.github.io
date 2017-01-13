@@ -9,6 +9,11 @@
     ]
   };
 
+  // tooltip
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  });
+
   // Find any within a facet
   function foundAny(facets, compareItem) {
     // No facets selected, show all for this facet

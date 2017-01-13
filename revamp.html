@@ -35,11 +35,6 @@ layout: page_revamp
             </ul>
 
         </div>
-        <div class="col-md-6">
-            <button type="button" class="close promises-header__close" data-target="#promises-header" data-dismiss="alert">
-                <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-            </button>
-
             <p>On Tuesday November 8th, 2016, Donald John Trump won the electoral vote and is currently standing to be the President-elect of the United States of America.</p>
             <p>He made <b>a lot of promises</b>. Trump Tracker will fact-check and see if he adheres to all of his stands on policies regarding culture, immigration, economy, and many more.</p>
 
@@ -132,9 +127,9 @@ layout: page_revamp
                     <thead>
                     <tr>
                         <th>ID</th>
-                        <th>Status</th>
+                        <!--<th>Status</th>-->
                         <th>Category</th>
-                        <th>Tags</th>
+                        <!--<th>Tags</th>-->
                         <th>Promise</th>
                         <th>Sources</th>
                         <th>Actions</th>
@@ -143,20 +138,30 @@ layout: page_revamp
 
                     <tbody class="list">
                     {% for promise in promises %}
-                    <tr class="promise">
+                    <!-- add color to each policy -->
+                    <tr class="promise
+                    {% if promise.status == 'In progress' %}warning{% endif %}
+                    {% if promise.status == 'Achieved' %}success{% endif %}
+                    {% if promise.status == 'Broken' %}danger{% endif %}
+                    ">
                         <td class="promise__id">{{ forloop.index }}.</td>
+                        <!--
                         <td class="promise__status" title="{{ promise.status }}">
                             <i class="fa fa-fw fa-{{ statuses[promise.status]['icon'] }} text-{{ statuses[promise.status]['color'] }}" title="{{ promise.status }}"></i>
                             <span class="promise__status-text js-promise-status sr-only">{{ promise.status }}</span>
                         </td>
+                        -->
+                        
                         <td class="promise__category" style="white-space: nowrap;">
                             <i class="fa fa-fw fa-{{ icons[promise.category] }}"></i> <span class="js-promise-category">{{ promise.category }}</span>
                         </td>
+                        <!--
                         <td class="promise__tags" style="text-align: center;">
                             {% for tag in promise.tags %}
                             <a class="label label-default">{{ tag }}</a>
                             {% endfor %}
                         </td>
+                        -->
                         <td class="promise__title js-promise-text">{{ promise.title }}</td>
                         <td class="promise__sources" style="white-space: nowrap;">
                             {% for source in promise.sources %}
