@@ -64,7 +64,7 @@ tabs:
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
             text: 'Donald Trump will refuse the $400,000 annual president''s salary or only take $1'
-            status: notStarted
+            status: Complete
             update: "%Y-%m-%d"
             citations:
               - 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
