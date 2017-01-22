@@ -442,7 +442,7 @@ tabs:
             source: 'https://www.donaldjtrump.com/press-releases/issues-of-importance-to-catholics'
           -
             text: '"We won''t tweet anymore after I''m president. It''s not presidential."'
-            status: notStarted
+            status: broken
             update: "%Y-%m-%d"
             citations:
               - 'https://www.washingtonpost.com/politics/i-will-give-you-everything-here-are-282-of-donald-trumps-campaign-promises/2016/11/24/01160678-b0f9-11e6-8616-52b15787add0_story.html'
