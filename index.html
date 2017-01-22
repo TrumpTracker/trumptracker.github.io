@@ -136,7 +136,7 @@ comments: false
                                 <td class="tweet">
                                     {% capture status %}{% if point.status == "notStarted" %} hasn't started {%elsif point.status == "broken" %} broke {% elsif point.status == "achieved" %} achieved {% else %}{% endif %}{% endcapture %}
 
-                                    {% capture message %}@realDonaldTrump{{ status }}promise no. {% increment issue_number %}: {{ point.text }} on{% endcapture %}{% capture tweettext%}{{ message }}{% endcapture %}
+                                    {% capture message %}@realDonaldTrump{{ status }} promise no. {% increment issue_number %}: {{ point.text }} on{% endcapture %}{% capture tweettext%}{{ message }}{% endcapture %}
                                 {% if point.status %}
                                 <div class="text-center">
                                 <a href="https://twitter.com/share?url=https://trumptracker.github.io/&text={{ tweettext | truncate: 102 | url_encode }}&hashtags=TrumpTracker" target="_blank">
