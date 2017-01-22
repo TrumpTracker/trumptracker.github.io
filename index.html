@@ -117,7 +117,11 @@ comments: false
                         </thead>
                         <tbody>
                             {% for point in section.points %}
-                            <tr class="{% if point.status == 'broken' %}danger{% endif %} {% if point.status == 'achieved' %}success{% endif %}">
+                            <tr class="
+                            {% if point.status == 'broken' %}danger{% endif %}
+                            {% if point.status == 'achieved' %}success{% endif %}
+                            {% if point.status == 'inProgress' %}warning{% endif %}
+                            ">
                                 <th>{{forloop.index}}</th>
                                 <td>
                                     <a href="{{point.source}}">{{point.text}}</a>
