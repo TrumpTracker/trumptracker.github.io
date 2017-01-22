@@ -36,7 +36,7 @@
     var inauguration = moment('2017-01-20');
     $('#inauguration-days').html(inauguration.diff(today, 'days') > 0 ? inauguration.diff(today, 'days') : 'NA');
     
-    $('#inauguration-days').hide(); //TEMP FIX 
+    $('#inauguration-time-container').hide(); //TEMP FIX 
     
     $('#days-in-office').html(today.diff(inauguration, 'days') > 0 ? today.diff(inauguration, 'days') : 0);
 
