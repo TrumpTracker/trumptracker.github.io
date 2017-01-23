@@ -34,21 +34,20 @@ promises:
             - '100 Day Plan'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d4r8m'
+
         sources:
             -
                 title: 'title of source goes here'
                 url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: 'Institute a hiring freeze on all federal employees to reduce federal workforce through attrition (exempting military, public safety, and public health);'
+        title: 'Institute a hiring freeze on all federal employees to reduce federal workforce through attrition (exempting military, public safety, and public health)'
         status: Not started
         category: 'First 100 Days'
         tags:
             - '100 Day Plan'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sm2'
         sources:
             -
@@ -62,7 +61,6 @@ promises:
             - '100 Day Plan'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sm4'
         sources:
             -
@@ -76,7 +74,6 @@ promises:
             - '100 Day Plan'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sm7'
         sources:
             -
@@ -91,7 +88,6 @@ promises:
             - Lobbying
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sm9'
         sources:
             -
@@ -105,7 +101,6 @@ promises:
             - '100 Day Plan'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7smb'
         sources:
             -
@@ -119,7 +114,6 @@ promises:
             - '100 Day Plan'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5dny96'
         sources:
             -
@@ -133,7 +127,6 @@ promises:
             - '7 for workers'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sme'
         sources:
             -
@@ -147,7 +140,6 @@ promises:
             - '7 for workers'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7smf'
         sources:
             -
@@ -162,7 +154,6 @@ promises:
             - China
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7smh'
         sources:
             -
@@ -176,7 +167,6 @@ promises:
             - '7 for workers'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7smj'
         sources:
             -
@@ -190,7 +180,6 @@ promises:
             - '7 for workers'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sml'
         sources:
             -
@@ -204,7 +193,6 @@ promises:
             - '7 for workers'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7smm'
         sources:
             -
@@ -218,7 +206,6 @@ promises:
             - '7 for workers'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7smn'
         sources:
             -
@@ -233,7 +220,6 @@ promises:
                 'Law & Order'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7smp'
         sources:
             -
@@ -248,7 +234,6 @@ promises:
                 'Law & Order'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7smq'
         sources:
             -
@@ -263,7 +248,6 @@ promises:
                 'Law & Order'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sms'
         sources:
             -
@@ -278,7 +262,6 @@ promises:
                 'Law & Order'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7smu'
         sources:
             -
@@ -293,7 +276,6 @@ promises:
                 'Law & Order'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7smw'
         sources:
             -
@@ -308,7 +290,6 @@ promises:
                 'Broader Legislative'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81si'
         sources:
             -
@@ -323,7 +304,6 @@ promises:
                 'Broader Legislative'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7smy'
         sources:
             -
@@ -338,7 +318,6 @@ promises:
                 'Broader Legislative'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7smz'
         sources:
             -
@@ -353,7 +332,6 @@ promises:
                 'Broader Legislative'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81sj'
         sources:
             -
@@ -368,7 +346,6 @@ promises:
                 'Broader Legislative'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81sl'
         sources:
             -
@@ -383,7 +360,6 @@ promises:
                 'Broader Legislative'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81sm'
         sources:
             -
@@ -398,7 +374,6 @@ promises:
                 'Broader Legislative'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81sn'
         sources:
             -
@@ -413,7 +388,6 @@ promises:
                 'Broader Legislative'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81so'
         sources:
             -
@@ -428,7 +402,6 @@ promises:
                 'Broader Legislative'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81sr'
         sources:
             -
@@ -443,7 +416,6 @@ promises:
                 'Broader Legislative'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sn1'
         sources:
             -
@@ -455,7 +427,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sn2'
         sources:
             -
@@ -467,7 +438,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sn3'
         sources:
             -
@@ -481,7 +451,6 @@ promises:
             - Winning
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81ss'
         sources:
             -
@@ -493,7 +462,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sn4'
         sources:
             -
@@ -505,7 +473,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sn6'
         sources:
             -
@@ -517,7 +484,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sn7'
         sources:
             -
@@ -529,7 +495,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sn9'
         sources:
             -
@@ -541,7 +506,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sna'
         sources:
             -
@@ -553,7 +517,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7snd'
         sources:
             -
@@ -565,7 +528,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7snf'
         sources:
             -
@@ -577,7 +539,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7snh'
         sources:
             -
@@ -589,7 +550,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7snj'
         sources:
             -
@@ -601,7 +561,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7snm'
         sources:
             -
@@ -613,7 +572,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7snp'
         sources:
             -
@@ -625,7 +583,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7snr'
         sources:
             -
@@ -637,7 +594,6 @@ promises:
         category: 'Culture'
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5dx3og'
         sources:
             -
@@ -651,7 +607,6 @@ promises:
             - Minimum wage
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7snt'
         sources:
             -
@@ -665,7 +620,6 @@ promises:
             - Minimum wage
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7snv'
         sources:
             -
@@ -679,7 +633,6 @@ promises:
             - Minimum wage
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7snx'
         sources:
             -
@@ -693,7 +646,6 @@ promises:
             - Minimum wage
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ssz'
         sources:
             -
@@ -707,7 +659,6 @@ promises:
             - Taxes
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7snz'
         sources:
             -
@@ -721,7 +672,6 @@ promises:
             - Taxes
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7so0'
         sources:
             -
@@ -735,7 +685,6 @@ promises:
             - Taxes
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7so4'
         sources:
             -
@@ -749,7 +698,6 @@ promises:
             - Taxes
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81su'
         sources:
             -
@@ -763,7 +711,6 @@ promises:
             - Taxes
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7so5'
         sources:
             -
@@ -777,7 +724,6 @@ promises:
             - Taxes
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ssq'
         sources:
             -
@@ -791,7 +737,6 @@ promises:
             - Taxes
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ssw'
         sources:
             -
@@ -805,7 +750,6 @@ promises:
             - Taxes
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7st0'
         sources:
             -
@@ -819,7 +763,6 @@ promises:
             - Taxes
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7st5'
         sources:
             -
@@ -833,7 +776,6 @@ promises:
             - Taxes
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7stx'
         sources:
             -
@@ -847,7 +789,6 @@ promises:
             - Taxes
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sty'
         sources:
             -
@@ -861,7 +802,6 @@ promises:
             - National debt
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7so7'
         sources:
             -
@@ -875,7 +815,6 @@ promises:
             - National debt
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7so9'
         sources:
             -
@@ -889,7 +828,6 @@ promises:
             - National debt
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sob'
         sources:
             -
@@ -903,7 +841,6 @@ promises:
             - National debt
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7soc'
         sources:
             -
@@ -917,7 +854,6 @@ promises:
             - National debt
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5dx5qg'
         sources:
             -
@@ -931,7 +867,6 @@ promises:
             - Jobs
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ssu'
         sources:
             -
@@ -945,7 +880,6 @@ promises:
             - Jobs
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sti'
         sources:
             -
@@ -959,7 +893,6 @@ promises:
             - Jobs
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7stu'
         sources:
             -
@@ -973,7 +906,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sof'
         sources:
             -
@@ -987,7 +919,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sog'
         sources:
             -
@@ -1001,7 +932,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7soh'
         sources:
             -
@@ -1015,7 +945,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7soi'
         sources:
             -
@@ -1029,7 +958,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7soj'
         sources:
             -
@@ -1043,7 +971,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sol'
         sources:
             -
@@ -1057,7 +984,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7som'
         sources:
             -
@@ -1071,7 +997,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7soq'
         sources:
             -
@@ -1085,7 +1010,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sor'
         sources:
             -
@@ -1099,7 +1023,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sos'
         sources:
             -
@@ -1113,7 +1036,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sot'
         sources:
             -
@@ -1127,7 +1049,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sou'
         sources:
             -
@@ -1141,7 +1062,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sov'
         sources:
             -
@@ -1155,7 +1075,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sow'
         sources:
             -
@@ -1169,7 +1088,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sox'
         sources:
             -
@@ -1183,7 +1101,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7soz'
         sources:
             -
@@ -1197,7 +1114,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sp1'
         sources:
             -
@@ -1211,7 +1127,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sp3'
         sources:
             -
@@ -1225,7 +1140,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sp4'
         sources:
             -
@@ -1239,7 +1153,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sp5'
         sources:
             -
@@ -1253,7 +1166,6 @@ promises:
             - Assorted numbers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7stw'
         sources:
             -
@@ -1267,7 +1179,6 @@ promises:
             - Climate change
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sp8'
         sources:
             -
@@ -1281,7 +1192,6 @@ promises:
             - Natural Resources
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7st1'
         sources:
             -
@@ -1295,7 +1205,6 @@ promises:
             - Natural Resources
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5dx4e4'
         sources:
             -
@@ -1309,7 +1218,6 @@ promises:
             - Space exploration
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sp9'
         sources:
             -
@@ -1323,7 +1231,6 @@ promises:
             - Legal
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7spc'
         sources:
             -
@@ -1337,7 +1244,6 @@ promises:
             - Assorted
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7spe'
         sources:
             -
@@ -1351,7 +1257,6 @@ promises:
             - Assorted
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81sx'
         sources:
             -
@@ -1365,7 +1270,6 @@ promises:
             - Assorted
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81sy'
         sources:
             -
@@ -1379,7 +1283,6 @@ promises:
             - Assorted
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7spi'
         sources:
             -
@@ -1393,7 +1296,6 @@ promises:
             - Assorted
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81sz'
         sources:
             -
@@ -1407,7 +1309,6 @@ promises:
             - Assorted
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7spk'
         sources:
             -
@@ -1421,7 +1322,6 @@ promises:
             - Assorted
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7spm'
         sources:
             -
@@ -1435,7 +1335,6 @@ promises:
             - Assorted
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sts'
         sources:
             -
@@ -1449,7 +1348,6 @@ promises:
             - Deportation
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7spn'
         sources:
             -
@@ -1463,7 +1361,6 @@ promises:
             - Deportation
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7spp'
         sources:
             -
@@ -1477,7 +1374,6 @@ promises:
             - Deportation
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81t1'
         sources:
             -
@@ -1491,7 +1387,6 @@ promises:
             - Deportation
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7spr'
         sources:
             -
@@ -1505,7 +1400,6 @@ promises:
             - Deportation
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sps'
         sources:
             -
@@ -1519,7 +1413,6 @@ promises:
             - Deportation
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7spt'
         sources:
             -
@@ -1533,7 +1426,6 @@ promises:
             - Deportation
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81t2'
         sources:
             -
@@ -1547,7 +1439,6 @@ promises:
             - Deportation
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7spw'
         sources:
             -
@@ -1561,7 +1452,6 @@ promises:
             - Children
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7spy'
         sources:
             -
@@ -1575,7 +1465,6 @@ promises:
             - Children
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7spz'
         sources:
             -
@@ -1589,7 +1478,6 @@ promises:
             - Children
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sq1'
         sources:
             -
@@ -1603,7 +1491,6 @@ promises:
             - Children
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sq2'
         sources:
             -
@@ -1617,7 +1504,6 @@ promises:
             - Skilled workers
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sq4'
         sources:
             -
@@ -1631,7 +1517,6 @@ promises:
             - Refugee crisis
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81t3'
         sources:
             -
@@ -1645,7 +1530,6 @@ promises:
             - Refugee crisis
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sq6'
         sources:
             -
@@ -1659,7 +1543,6 @@ promises:
             - Refugee crisis
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7st2'
         sources:
             -
@@ -1673,7 +1556,6 @@ promises:
             - Refugee crisis
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7stg'
         sources:
             -
@@ -1687,7 +1569,6 @@ promises:
             -
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ssl'
         sources:
             -
@@ -1701,7 +1582,6 @@ promises:
             -
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sso'
         sources:
             -
@@ -1715,7 +1595,6 @@ promises:
             -
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5dx57p'
         sources:
             -
@@ -1729,7 +1608,6 @@ promises:
             - ISIS
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sq9'
         sources:
             -
@@ -1743,7 +1621,6 @@ promises:
             - ISIS
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sqa'
         sources:
             -
@@ -1757,7 +1634,6 @@ promises:
             - ISIS
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sqc'
         sources:
             -
@@ -1771,7 +1647,6 @@ promises:
             - ISIS
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sqg'
         sources:
             -
@@ -1785,7 +1660,6 @@ promises:
             - ISIS
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sqh'
         sources:
             -
@@ -1799,7 +1673,6 @@ promises:
             - ISIS
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81t4'
         sources:
             -
@@ -1813,7 +1686,6 @@ promises:
             - ISIS
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81t5'
         sources:
             -
@@ -1827,7 +1699,6 @@ promises:
             - ISIS
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7st4'
         sources:
             -
@@ -1841,7 +1712,6 @@ promises:
             - Military
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ste'
         sources:
             -
@@ -1855,7 +1725,6 @@ promises:
             - Guns
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sqm'
         sources:
             -
@@ -1869,7 +1738,6 @@ promises:
             - Guns
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sqn'
         sources:
             -
@@ -1883,7 +1751,6 @@ promises:
             - Guns
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sqp'
         sources:
             -
@@ -1897,7 +1764,6 @@ promises:
             - Guns
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sqr'
         sources:
             -
@@ -1911,7 +1777,6 @@ promises:
             - Guns
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7stj'
         sources:
             -
@@ -1925,7 +1790,6 @@ promises:
             - Guns
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7stq'
         sources:
             -
@@ -1939,7 +1803,6 @@ promises:
             - Guns
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7su0'
         sources:
             -
@@ -1953,7 +1816,6 @@ promises:
             - Torture
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sqt'
         sources:
             -
@@ -1967,7 +1829,6 @@ promises:
             - Torture
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7squ'
         sources:
             -
@@ -1981,7 +1842,6 @@ promises:
             - Torture
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81t9'
         sources:
             -
@@ -1995,7 +1855,6 @@ promises:
             - Prison
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sss'
         sources:
             -
@@ -2009,7 +1868,6 @@ promises:
             - Prison
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7stm'
         sources:
             -
@@ -2023,7 +1881,6 @@ promises:
             - Abortion
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sqw'
         sources:
             -
@@ -2037,7 +1894,6 @@ promises:
             - Abortion
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sqx'
         sources:
             -
@@ -2051,7 +1907,6 @@ promises:
             - Abortion
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7stb'
         sources:
             -
@@ -2065,7 +1920,6 @@ promises:
             - Health care
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sqz'
         sources:
             -
@@ -2079,7 +1933,6 @@ promises:
             - Health care
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sr0'
         sources:
             -
@@ -2093,7 +1946,6 @@ promises:
             - Health care
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sr1'
         sources:
             -
@@ -2107,7 +1959,6 @@ promises:
             - Health care
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sr2'
         sources:
             -
@@ -2121,7 +1972,6 @@ promises:
             - Health care
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7stv'
         sources:
             -
@@ -2135,7 +1985,6 @@ promises:
             - Israel
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sr8'
         sources:
             -
@@ -2149,7 +1998,6 @@ promises:
             - Israel
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81ta'
         sources:
             -
@@ -2163,7 +2011,6 @@ promises:
             - Israel
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81tb'
         sources:
             -
@@ -2177,7 +2024,6 @@ promises:
             - Israel
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81td'
         sources:
             -
@@ -2191,7 +2037,6 @@ promises:
             - Israel
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d83b8'
         sources:
             -
@@ -2205,7 +2050,6 @@ promises:
             - Israel
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81tj'
         sources:
             -
@@ -2219,7 +2063,6 @@ promises:
             - Israel
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sra'
         sources:
             -
@@ -2233,7 +2076,6 @@ promises:
             - Israel
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81tk'
         sources:
             -
@@ -2247,7 +2089,6 @@ promises:
             - Israel
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81tm'
         sources:
             -
@@ -2261,7 +2102,6 @@ promises:
             - Israel
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81tn'
         sources:
             -
@@ -2275,7 +2115,6 @@ promises:
             - Israel
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81tp'
         sources:
             -
@@ -2289,7 +2128,6 @@ promises:
             - Israel
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7srh'
         sources:
             -
@@ -2303,7 +2141,6 @@ promises:
             - Israel
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7srj'
         sources:
             -
@@ -2317,7 +2154,6 @@ promises:
             - Israel
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81tq'
         sources:
             -
@@ -2331,7 +2167,6 @@ promises:
             - Muslim ban
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7srk'
         sources:
             -
@@ -2345,7 +2180,6 @@ promises:
             - Muslim ban
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7srm'
         sources:
             -
@@ -2359,7 +2193,6 @@ promises:
             - Muslim ban
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81tr'
         sources:
             -
@@ -2373,7 +2206,6 @@ promises:
             - Muslim ban
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d81ts'
         sources:
             -
@@ -2387,7 +2219,6 @@ promises:
             - Muslim ban
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7srp'
         sources:
             -
@@ -2401,7 +2232,6 @@ promises:
             - Libya
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sru'
         sources:
             -
@@ -2415,7 +2245,6 @@ promises:
             - Libya
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7srw'
         sources:
             -
@@ -2429,7 +2258,6 @@ promises:
             - Libya
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7srz'
         sources:
             -
@@ -2443,7 +2271,6 @@ promises:
             - Libya
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ss0'
         sources:
             -
@@ -2457,7 +2284,6 @@ promises:
             - Japan
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ss1'
         sources:
             -
@@ -2471,7 +2297,6 @@ promises:
             - Iran
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ss7'
         sources:
             -
@@ -2485,7 +2310,6 @@ promises:
             - Iran
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ss8'
         sources:
             -
@@ -2499,7 +2323,6 @@ promises:
             - Iran
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ssa'
         sources:
             -
@@ -2513,7 +2336,6 @@ promises:
             - Iran
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ssb'
         sources:
             -
@@ -2527,7 +2349,6 @@ promises:
             - Afghanistan
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ssd'
         sources:
             -
@@ -2541,7 +2362,6 @@ promises:
             - Afghanistan
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sse'
         sources:
             -
@@ -2555,7 +2375,6 @@ promises:
             - China
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ssf'
         sources:
             -
@@ -2569,7 +2388,6 @@ promises:
             - China
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ssh'
         sources:
             -
@@ -2583,7 +2401,6 @@ promises:
             - China
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ssi'
         sources:
             -
@@ -2597,7 +2414,6 @@ promises:
             - China
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ssn'
         sources:
             -
@@ -2611,7 +2427,6 @@ promises:
             - Global
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7st3'
         sources:
             -
@@ -2625,7 +2440,6 @@ promises:
             - Global
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7st9'
         sources:
             -
@@ -2639,7 +2453,6 @@ promises:
             - Common core
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7ssk'
         sources:
             -
@@ -2653,7 +2466,6 @@ promises:
             - Trump
         actions:
             -
-                title: Comment
                 url: 'https://redd.it/5d7sto'
         sources:
             -
