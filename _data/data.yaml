@@ -1,4 +1,4 @@
-#status has four options: notStarted, inProgress, broken, and achieved 
+#status has four options: notStarted, inProgress, broken, and achieved
 tabs:
   -
     id: 100days
@@ -751,7 +751,7 @@ tabs:
             source: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
           -
             text: 'On his first day in office, Trump would get rid of gun-free zones at military bases and in schools.'
-            status: notStarted
+            status: broken
             update: "%Y-%m-%d"
             citations:
               - ''
