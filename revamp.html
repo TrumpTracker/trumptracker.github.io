@@ -143,7 +143,7 @@ layout: page_revamp
                     <thead>
                     <tr>
                         <th><!-- ID --></th>
-                        <!--<th>Status</th>-->
+                        <th>Status</th>
                         <th>Category</th>
                         <!--<th>Tags</th>-->
                         <th>Promise</th>
@@ -161,12 +161,12 @@ layout: page_revamp
                     {% if promise.status == 'Broken' %}danger{% endif %}
                     ">
                         <td class="promise__id">{{ forloop.index }}.</td>
-                        <!--
+                        
                         <td class="promise__status" title="{{ promise.status }}">
                             <i class="fa fa-fw fa-{{ statuses[promise.status]['icon'] }} text-{{ statuses[promise.status]['color'] }}" title="{{ promise.status }}"></i>
                             <span class="promise__status-text js-promise-status sr-only">{{ promise.status }}</span>
                         </td>
-                        -->
+                        
                         
                         <td class="promise__category" style="white-space: nowrap;">
                             <i class="fa fa-fw fa-{{ icons[promise.category] }}"></i> <span class="js-promise-category">{{ promise.category }}</span>
