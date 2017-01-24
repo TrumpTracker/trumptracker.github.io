@@ -14,10 +14,10 @@ layout: page_revamp
 
         <div class="col-md-6">
             <ul class="list-group">
-                <li class="list-group-item list-group-item inauguration-time-container">
+                <!-- <li class="list-group-item list-group-item inauguration-time-container">
                     <i class="fa fa-home fa-fw"></i>
                     <b id="inauguration-time">Days Till Inauguration: <span id="inauguration-days"><i class='loading'>Loading...</i></span></b>
-                </li>
+                </li> -->
                 <li class="list-group-item list-group-item">
                     <i class="fa fa-calendar fa-fw"></i>
                     <b>Days In Office: <span id="days-in-office"><i class='loading'>Loading...</i></span></b>
@@ -165,13 +165,24 @@ layout: page_revamp
                         <td class="promise__title js-promise-text">{{ promise.title }}</td>
                         <td class="promise__sources" style="white-space: nowrap;">
                             {% for source in promise.sources %}
-                            <a href="{{ source.url }}" title="{{ source.source_title }}">Link {{ forloop.index }}</a>
+                            <sup><a href="{{ source.url }}" title="{{ source.source_title }}">{{ forloop.index }}</a></sup>
                             {% endfor %}
                         </td>
                         <td class="promise__actions">
+                            <!-- comment and twitter integration -->
                             {% for action in promise.actions %}
-                            <a href="{{ action.url }}">{{ action.title }}</a>
+                            <a href="{{ action.url }}" target="_blank" rel="nofollow">
+                            <i class="fa fa-fw fa-comments text-muted" aria-hidden="true"></i></a>
                             {% endfor %}
+
+                            {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Achieved" %} achieved{% elsif promise.status == "Broken" %} broke{% else %}{% endif %}{% endcapture %}
+
+                            {% capture message %}@realDonaldTrump{{ status }} promise no. {{ forloop.index}}: {{ promise.title }} on{% endcapture %}
+
+                            {% capture tweettext %}{{ message }}{% endcapture %}
+
+                            <a href="https://twitter.com/share?url=https://trumptracker.github.io/&text={{ tweettext | truncate: 102 | url_encode }}&hashtags=TrumpTracker" target="_blank"><i class="fa fa-fw fa-twitter text-muted" aria-hidden="true"></i></a>
+                            
                         </td>
                     </tr>
                     {% endfor %}

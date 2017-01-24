@@ -1,4 +1,4 @@
-#status has four options: notStarted, inProgress, broken, and achieved 
+#status has four options: notStarted, inProgress, broken, and achieved
 tabs:
   -
     id: 100days
@@ -86,11 +86,12 @@ tabs:
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
             text: 'I will announce our withdrawal from the Trans-Pacific Partnership'
-            status: notStarted
-            update: "%Y-%m-%d"
+            status: inProgress
+            update: '2017-01-21'
             citations:
               - 'https://youtu.be/4t1xR9U6IAU?t=2m41s'
               - 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+              - 'http://asia.nikkei.com/Spotlight/Trump-era-begins/US-announces-withdrawal-from-TPP'
             comments: 'https://redd.it/5d7smf'
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
@@ -750,7 +751,7 @@ tabs:
             source: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
           -
             text: 'On his first day in office, Trump would get rid of gun-free zones at military bases and in schools.'
-            status: notStarted
+            status: broken
             update: "%Y-%m-%d"
             citations:
               - ''
