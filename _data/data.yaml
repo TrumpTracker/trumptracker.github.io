@@ -86,7 +86,7 @@ tabs:
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
             text: 'I will announce our withdrawal from the Trans-Pacific Partnership'
-            status: Achieved
+            status: achieved
             update: '2017-01-23'
             citations:
               - 'https://youtu.be/4t1xR9U6IAU?t=2m41s'
