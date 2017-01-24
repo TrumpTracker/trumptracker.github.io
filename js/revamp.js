@@ -14,6 +14,12 @@
     $('[data-toggle="tooltip"]').tooltip()
   });
 
+  // tabs
+  $('#myTabs a').click(function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+  });
+
   // Find any within a facet
   function foundAny(facets, compareItem) {
     // No facets selected, show all for this facet

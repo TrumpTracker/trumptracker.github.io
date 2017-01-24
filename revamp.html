@@ -103,6 +103,21 @@ layout: page_revamp
         </div>
     </div>
 
+
+<div class="container-fluid">
+    <div class="row">
+        <ul class="nav nav-tabs" id="myTabs" role="tablist" >
+            {% for category in categories %}
+                <li role="presentation" data-list-facet="js-promise-category" data-facet-value="{{ category }}" class="{{ category }}">
+                    <a href="#" aria-controls="{{ category }}" role="tab" data-toggle="tab" class="text-muted">
+                        <i class="fa fa-fw fa-{{ icons[category] }}"></i>&nbsp;{{ category }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!--
     <div class="row promises__category-row">
         <div class="col-md-12">
 
@@ -117,7 +132,8 @@ layout: page_revamp
             </div>
 
         </div>
-    </div> <!-- /.promises__category-row -->
+    </div>-->
+    <!-- /.promises__category-row --> 
 
     <div class="row promises__table">
         <div class="col-md-12">
@@ -126,12 +142,12 @@ layout: page_revamp
 
                     <thead>
                     <tr>
-                        <th>ID</th>
+                        <th><!-- ID --></th>
                         <!--<th>Status</th>-->
                         <th>Category</th>
                         <!--<th>Tags</th>-->
                         <th>Promise</th>
-                        <th>Sources</th>
+                        <!-- <th>Sources</th> -->
                         <th>Actions</th>
                     </tr>
                     </thead>
@@ -162,11 +178,13 @@ layout: page_revamp
                             {% endfor %}
                         </td>
                         -->
-                        <td class="promise__title js-promise-text">{{ promise.title }}</td>
-                        <td class="promise__sources" style="white-space: nowrap;">
-                            {% for source in promise.sources %}
+                        <td class="promise__title js-promise-text">{{ promise.title }}
+                        <!-- add superscript citations and sources -->
+                        {% for source in promise.sources %}
                             <sup><a href="{{ source.url }}" title="{{ source.source_title }}">{{ forloop.index }}</a></sup>
-                            {% endfor %}
+                        {% endfor %}
+                        </td>
+                        <!-- <td class="promise__sources" style="white-space: nowrap;"> -->
                         </td>
                         <td class="promise__actions">
                             <!-- comment and twitter integration -->
