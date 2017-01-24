@@ -26,7 +26,7 @@ layout: page_revamp
                 {% for status in statuses %}
                     {% assign status_name = status[0] %}
                     {% assign status_data = status[1] %}
-                    <li class="list-group-item list-group-item-{{ status_data['color'] }}">
+                    <li class="list-group-item list-group-item-{{ status_data['color'] }}" data-list-facet="js-promise-status" data-facet-value="{{ status_name }}" data-select-single="true">
                         <i class="fa fa-fw fa-{{ status_data['icon'] }} "></i>
                         {{ status_name }}: <span class="active-points">{{ promises | where: "status",status_name | size }}</span> of <span class="total-points">{{ total }}</span>
                     </li>
