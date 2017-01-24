@@ -1642,10 +1642,10 @@ tabs:
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
           -
             text: 'The U.S. will recognize Jerusalem as the eternal and indivisible capital of the Jewish state and Mr. Trump''s Administration will move the U.S. embassy to Jerusalem.'
-            status: notStarted
-            update: "%Y-%m-%d"
+            status: inProgress
+            update: "%2017-%01-%24"
             citations:
-              - ''
+              - 'http://www.independent.co.uk/news/world/middle-east/donald-trump-israel-embassy-jerusalem-tel-aviv-white-house-relocate-a7540661.html'
               - ''
             comments: 'https://redd.it/5d7srj'
             source: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
