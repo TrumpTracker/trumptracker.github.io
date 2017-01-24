@@ -86,8 +86,8 @@ tabs:
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
             text: 'I will announce our withdrawal from the Trans-Pacific Partnership'
-            status: inProgress
-            update: '2017-01-21'
+            status: achieved
+            update: '2017-01-23'
             citations:
               - 'https://youtu.be/4t1xR9U6IAU?t=2m41s'
               - 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
