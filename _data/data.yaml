@@ -19,11 +19,15 @@ tabs:
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
             text: 'Institute a hiring freeze on all federal employees to reduce federal workforce through attrition (exempting military, public safety, and public health);'
-            status: notStarted
-            update: "%Y-%m-%d"
+            status: achieved
+            update: "%2017-%01-%23"
             citations:
               - 'https://youtu.be/4t1xR9U6IAU?t=56s'
               - 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+              - 'https://www.whitehouse.gov/the-press-office/2017/01/23/presidential-memorandum-regarding-hiring-freeze'
+              - 'https://www.washingtonpost.com/news/powerpost/wp/2017/01/23/trump-freezes-federal-hiring/'
+              - 'http://thehill.com/homenews/administration/315661-trump-imposes-freeze-on-federal-hiring'
+              - 'http://www.attn.com/stories/14456/truth-about-trumps-hiring-freeze'
             comments: 'https://redd.it/5d7sm2'
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
