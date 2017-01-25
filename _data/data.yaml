@@ -123,7 +123,7 @@ tabs:
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
             text: 'Lift the Obama-Clinton roadblocks and allow vital energy infrastructure projects, like the Keystone Pipeline, to move forward'
-            status: notStarted
+            status: achieved
             update: "%Y-%m-%d"
             citations:
               - 'https://youtu.be/4t1xR9U6IAU?t=4m12s'
