@@ -1041,11 +1041,11 @@ tabs:
             comments: 'https://redd.it/5d7spp'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
           -
-            text: 'Build the wall, deport criminals, triple the number of ICE officers, end birthright citizenship.  Get it done within 18 months. It''s an immensely complex endeavor, far harder than Trump''s simple sell, but now, if he doesn''t get it done, and doesn''t get our southern neighbor to pay for it, he''s failed.'
-            status: inProgress
-            update: "2017-01-25"
+            text: 'Deport all undocumented immigrants and criminals, triple the number of ICE officers, end birthright citizenship.'
+            status: notStarted
+            update: "%Y-%m-%d"
             citations:
-              - 'http://www.reuters.com/article/us-usa-trump-immigration-idUSKBN1591HP'
+              - ''
               - ''
             comments: 'https://redd.it/5d81t1'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
@@ -1066,24 +1066,6 @@ tabs:
               - ''
               - ''
             comments: 'https://redd.it/5d7sps'
-            source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            text: 'Deport all undocumented immigrants. Trump''s campaign began with a promise to build a wall across the United States'' southern border and deport the country''s 11 million undocumented immigrants.'
-            status: inProgress
-            update: "2017-01-25"
-            citations:
-              - 'http://www.reuters.com/article/us-usa-trump-immigration-idUSKBN1591HP'
-              - 'http://www.wsj.com/articles/white-house-president-trump-will-sign-two-executive-orders-on-immigration-1485368122'
-            comments: 'https://redd.it/5d7spt'
-            source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-          -
-            text: '"The End Illegal Immigration act fully funds the construction of a wall on our southern border," Trump said on October 22nd, outlining the plans for his first 100 days in office. "With the full understanding that the country of Mexico will be reimbursing the United States for the full cost of such a wall, OK?"'
-            status: inProgress
-            update: "2017-01-25"
-            citations:
-              - 'http://www.reuters.com/article/us-usa-trump-immigration-idUSKBN1591HP'
-              - ''
-            comments: 'https://redd.it/5d81t2'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
           -
             text: 'Trump says he will deport millions, but he has not ruled out creating a pathway to citizenship.'
