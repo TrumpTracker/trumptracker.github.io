@@ -1149,10 +1149,10 @@ tabs:
         points:
           -
             text: 'Against closing the borders entirely. Against accepting Syrian refugees in the United States. Bar Syrian refugees from entering the country and kick out any who are already living here. Trump says wealthy Persian Gulf nations like Saudi Arabia should pay to set up a heavily guarded "safe zone" in Syria.'
-            status: notStarted
-            update: "%Y-%m-%d"
+            status: inProgress
+            update: "2017-01-25"
             citations:
-              - ''
+              - 'http://thehill.com/homenews/administration/315974-trump-expected-to-take-executive-action-on-immigration-in-the-coming'
               - ''
             comments: 'https://redd.it/5d81t3'
             source: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
