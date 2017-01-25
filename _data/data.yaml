@@ -129,10 +129,13 @@ tabs:
           -
             text: 'Lift the Obama-Clinton roadblocks and allow vital energy infrastructure projects, like the Keystone Pipeline, to move forward'
             status: achieved
-            update: "%Y-%m-%d"
+            update: "2017-01-24"
             citations:
               - 'https://youtu.be/4t1xR9U6IAU?t=4m12s'
               - 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+              - 'https://www.washingtonpost.com/news/energy-environment/wp/2017/01/24/trump-gives-green-light-to-dakota-access-keystone-xl-oil-pipelines/'
+              - 'http://mobile.reuters.com/article/newsOne/idUSKBN15820N'
+              - 'http://www.dailyworld.com/story/news/2017/01/24/trump-acts-advance-keystone-dakota-pipelines/96989374/'
             comments: 'https://redd.it/5d7smm'
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
