@@ -69,14 +69,11 @@ layout: page_revamp
                  <!--alt="Donald Trump standing on a podium."/>-->
         </div>
     </div>
-</div>
-
 
 <div class="container-fluid promises" id="promises">
-
     <div class="row promises__search-row">
         <div class="col-md-5">
-            <form action="" class="form-inline">
+            <form action="#" class="form-inline">
                 <input id="search" type="text" class="form-control search" placeholder="Search">
                 <button class="promises__category--reset btn btn-default">
                     <i class="fa fa-fw fa-refresh"></i> Clear
@@ -135,9 +132,7 @@ layout: page_revamp
     </div>-->
     <!-- /.promises__category-row --> 
 
-    <div class="row promises__table">
-        <div class="col-md-12">
-            <div class="table-responsive">
+    <div class="row promises__table container-fluid">
                 <table class="table table-striped">
 
                     <thead>
@@ -162,7 +157,7 @@ layout: page_revamp
                     ">
                         <td class="promise__id">{{ forloop.index }}.</td>
                         
-                        <td class="promise__status" title="{{ promise.status }}">
+                         <td class="promise__status" title="{{ promise.status }}">
                             <i class="fa fa-fw fa-{{ statuses[promise.status]['icon'] }} text-{{ statuses[promise.status]['color'] }}" title="{{ promise.status }}"></i>
                             <span class="promise__status-text js-promise-status sr-only">{{ promise.status }}</span>
                         </td>
@@ -184,8 +179,9 @@ layout: page_revamp
                             <sup><a href="{{ source.url }}" title="{{ source.source_title }}">{{ forloop.index }}</a></sup>
                         {% endfor %}
                         </td>
-                        <!-- <td class="promise__sources" style="white-space: nowrap;"> -->
+                        <!-- <td class="promise__sources" style="white-space: nowrap;">
                         </td>
+                        -->
                         <td class="promise__actions">
                             <!-- comment and twitter integration -->
                             {% for action in promise.actions %}
@@ -209,5 +205,5 @@ layout: page_revamp
                 </table>
             </div>
         </div>
-    </div>
-</div> <!-- /#promises -->
+</div>
+<!-- /#promises -->
