@@ -170,11 +170,13 @@ tabs:
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
             text: 'Cancel all federal funding to Sanctuary Cities'
-            status: notStarted
-            update: "%Y-%m-%d"
+            status: inProgress
+            update: "2015-01-27"
             citations:
               - 'https://youtu.be/4t1xR9U6IAU?t=6m19s'
               - 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+              - 'http://www.foxnews.com/politics/2017/01/25/text-trump-executive-order-on-enhancing-public-safety-in-interior-united-states.html'
+              - 'http://abcnews.go.com/Politics/trump-signs-executive-orders-border-wall-immigration/story?id=45045056'
             comments: 'https://redd.it/5d7sms'
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
