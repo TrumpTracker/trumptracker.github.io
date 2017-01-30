@@ -14,7 +14,7 @@ Site is now running at [localhost:4000](http://localhost:4000)
 
 # Contributing
 
-We'd love to get contributions from you! For a quick guide to getting your system setup for developing TrumpTracker take a look at the setup above. Once you are up and running, check out the [contributing guide](CONTRIBUTING.md) to see how to get your changes and pull requests merged in.
+We'd love to get contributions from you! For a quick guide to getting your system setup for developing TrumpTracker take a look at the setup above. Once you are up and running, check out the [contributing guide](.github/PULL_REQUEST_TEMPLATE.md) to see how to get your changes and pull requests merged in.
 
 # To Do List
 1. Add Spanish Version
