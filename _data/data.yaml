@@ -162,7 +162,7 @@ tabs:
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
             text: 'Begin the process of selecting a replacement for Justice Scalia from one of the 20 judges on my list, who will uphold and defend the Constitution of the United States'
-            status: notStarted
+            status: achieved
             update: "%Y-%m-%d"
             citations:
               - 'https://youtu.be/4t1xR9U6IAU?t=5m38s'
