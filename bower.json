@@ -1,0 +1,22 @@
+{
+  "name": "trumptracker.github.io",
+  "homepage": "trumptracker.github.io/",
+  "authors": [
+    "Trump Tracker"
+  ],
+  "description": "Open source for http://trumptracker.github.io/",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  }
+}
