@@ -41,21 +41,23 @@ tabs:
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
             text: 'A 5-year ban on White House and Congressional officials becoming lobbyists after they leave government service'
-            status: inProgress
-            update: "2017-01-29"
+            status: achieved
+            update: "2017-01-28"
             citations:
               - 'https://youtu.be/4t1xR9U6IAU?t=1m27s'
               - 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
               - 'https://www.youtube.com/watch?v=csZNKadILk0'
+              - 'https://www.whitehouse.gov/the-press-office/2017/01/28/executive-order-ethics-commitments-executive-branch-appointees'
             comments: 'https://redd.it/5d7sm7'
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
             text: 'A lifetime ban on White House officials lobbying on behalf of a foreign government'
-            status: notStarted
-            update: "%Y-%m-%d"
+            status: achieved
+            update: "2017-01-28"
             citations:
               - 'https://youtu.be/4t1xR9U6IAU?t=1m40s'
               - 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+              - 'https://www.whitehouse.gov/the-press-office/2017/01/28/executive-order-ethics-commitments-executive-branch-appointees'
             comments: 'https://redd.it/5d7sm9'
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
