@@ -176,7 +176,7 @@ layout: page_revamp
                         <td class="promise__title js-promise-text">{{ promise.title }}
                         <!-- add superscript citations and sources -->
                         {% for source in promise.sources %}
-                            <sup><a href="{{ source.url }}" title="{{ source.source_title }}">{{ forloop.index }}</a></sup>
+                            <sup><a href="{{ source }}">{{ forloop.index }}</a></sup>
                         {% endfor %}
                         </td>
                         <!-- <td class="promise__sources" style="white-space: nowrap;">
