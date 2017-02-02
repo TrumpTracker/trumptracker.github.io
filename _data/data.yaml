@@ -163,10 +163,11 @@ tabs:
           -
             text: 'Begin the process of selecting a replacement for Justice Scalia from one of the 20 judges on my list, who will uphold and defend the Constitution of the United States'
             status: achieved
-            update: "%Y-%m-%d"
+            update: "2017-02-01"
             citations:
               - 'https://youtu.be/4t1xR9U6IAU?t=5m38s'
               - 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+              - 'http://www.reuters.com/article/us-usa-court-trump-gorsuch-newsmaker-idUSKBN15G381'
             comments: 'https://redd.it/5d7smq'
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
