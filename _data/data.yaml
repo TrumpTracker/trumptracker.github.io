@@ -1216,7 +1216,7 @@ tabs:
             status: notStarted
             update: "%Y-%m-%d"
             citations:
-              - 'http://archive.is/MLfxY'
+              - ''
               - ''
             comments: 'https://redd.it/5fky4g'
             source: 'https://twitter.com/realDonaldTrump/status/803567993036754944'
