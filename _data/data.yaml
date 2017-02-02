@@ -194,11 +194,12 @@ tabs:
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
           -
             text: 'Suspend immigration from terror-prone regions where vetting cannot safely occur. All vetting of people coming into our country will be considered extreme vetting.'
-            status: notStarted
-            update: "%Y-%m-%d"
+            status: achieved
+            update: "2017-01-27"
             citations:
               - 'https://youtu.be/4t1xR9U6IAU?t=7m20s'
               - 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+              - 'https://www.whitehouse.gov/the-press-office/2017/01/27/executive-order-protecting-nation-foreign-terrorist-entry-united-states'
             comments: 'https://redd.it/5d7smw'
             source: 'https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
       -
