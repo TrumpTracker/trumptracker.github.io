@@ -1,5 +1,5 @@
 icons:
-    'First 100 Days': clock-o
+    First 100 days: clock-o
     Culture: music
     Economy: dollar
     Environment: leaf
@@ -24,2626 +24,1777 @@ statuses:
     Broken:
         color: danger
         icon: ban
+    Compromised:
+        color: success
+        icon: handshake-o
 
 promises:
     -
         title: 'Propose a Constitutional Amendment to impose term limits on all members of Congress'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            - '100 Day Plan'
-        actions:
-            -
-                url: 'https://redd.it/5d4r8m'
-
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments: 'https://redd.it/5d4r8m'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=44s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: 'Institute a hiring freeze on all federal employees to reduce federal workforce through attrition (exempting military, public safety, and public health)'
-        status: Not started
-        category: 'First 100 Days'
+        title: 'Institute a hiring freeze on all federal employees to reduce federal workforce through attrition (exempting military, public safety, and public health);'
+        status: Achieved
+        category: First 100 Days
         tags:
-            - '100 Day Plan'
-        actions:
-            -
-                url: 'https://redd.it/5d7sm2'
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments: 'https://redd.it/5d7sm2'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=56s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20170124011115/https://www.whitehouse.gov/the-press-office/2017/01/23/presidential-memorandum-regarding-hiring-freeze'
+            - 'http://web.archive.org/web/20170123175711/https://www.washingtonpost.com/news/powerpost/wp/2017/01/23/trump-freezes-federal-hiring/'
+            - 'http://web.archive.org/web/20170125072120/http://thehill.com/homenews/administration/315661-trump-imposes-freeze-on-federal-hiring'
+            - 'http://web.archive.org/web/20170127042431/http://www.attn.com/stories/14456/truth-about-trumps-hiring-freeze'
     -
         title: 'A requirement that for every new federal regulation, two existing regulations must be eliminated'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            - '100 Day Plan'
-        actions:
-            -
-                url: 'https://redd.it/5d7sm4'
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments: 'https://redd.it/5d7sm4'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=1m14s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: 'A 5 year-ban on White House and Congressional officials becoming lobbyists after they leave government service'
-        status: Not started
-        category: 'First 100 Days'
+        title: 'A 5-year ban on White House and Congressional officials becoming lobbyists after they leave government service'
+        status: Achieved
+        category: First 100 Days
         tags:
-            - '100 Day Plan'
-        actions:
-            -
-                url: 'https://redd.it/5d7sm7'
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments: 'https://redd.it/5d7sm7'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=1m27s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20170129084338/https://www.youtube.com/watch?v=csZNKadILk0'
+            - 'http://web.archive.org/web/20170129021802/https://www.whitehouse.gov/the-press-office/2017/01/28/executive-order-ethics-commitments-executive-branch-appointees'
     -
         title: 'A lifetime ban on White House officials lobbying on behalf of a foreign government'
-        status: Not started
-        category: 'First 100 Days'
+        status: Achieved
+        category: First 100 Days
         tags:
-            - '100 Day Plan'
-            - Lobbying
-        actions:
-            -
-                url: 'https://redd.it/5d7sm9'
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments: 'https://redd.it/5d7sm9'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=1m40s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20170129021802/https://www.whitehouse.gov/the-press-office/2017/01/28/executive-order-ethics-commitments-executive-branch-appointees'
     -
         title: 'A complete ban on foreign lobbyists raising money for American elections.'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            - '100 Day Plan'
-        actions:
-            -
-                url: 'https://redd.it/5d7smb'
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments: 'https://redd.it/5d7smb'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=1m51s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'Donald Trump will refuse the $400,000 annual president''s salary or only take $1'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            - '100 Day Plan'
-        actions:
-            -
-                url: 'https://redd.it/5dny96'
+            - 'Contract with the American Voter - 100 Day Plan'
+        comments: 'https://redd.it/5dny96'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://youtu.be/56SxICbH1i8?t=3s'
+            - 'https://youtu.be/56SxICbH1i8?t=3s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161111213432/http://www.cbsnews.com/news/did-donald-trump-say-hed-refuse-to-take-a-salary-as-president/'
+            - 'http://web.archive.org/web/20161128235648/https://www.washingtonpost.com/politics/i-will-give-you-everything-here-are-282-of-donald-trumps-campaign-promises/2016/11/24/01160678-b0f9-11e6-8616-52b15787add0_story.html'
     -
         title: 'I will announce my intention to renegotiate NAFTA or withdraw from the deal under Article 2205'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            - '7 for workers'
-        actions:
-            -
-                url: 'https://redd.it/5d7sme'
+            - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
+        comments: 'https://redd.it/5d7sme'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=2m23s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'I will announce our withdrawal from the Trans-Pacific Partnership'
-        status: Not started
-        category: 'First 100 Days'
+        status: Achieved
+        category: First 100 Days
         tags:
-            - '7 for workers'
-        actions:
-            -
-                url: 'https://redd.it/5d7smf'
+            - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
+        comments: 'https://redd.it/5d7smf'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=2m41s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20170120202029/http://asia.nikkei.com/Spotlight/Trump-era-begins/US-announces-withdrawal-from-TPP'
+            - 'http://web.archive.org/web/20170123180650/http://www.bbc.com/news/world-us-canada-38721056'
     -
         title: 'I will direct my Secretary of the Treasury to label China a currency manipulator'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            - '7 for workers'
-            - China
-        actions:
-            -
-                url: 'https://redd.it/5d7smh'
+            - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
+        comments: 'https://redd.it/5d7smh'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=2m53s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'I will direct the Secretary of Commerce and U.S. Trade Representative to identify all foreign trading abuses that unfairly impact American workers and direct them to use every tool under American and international law to end those abuses immediately'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            - '7 for workers'
-        actions:
-            -
-                url: 'https://redd.it/5d7smj'
+            - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
+        comments: 'https://redd.it/5d7smj'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=3m20s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'I will lift the restrictions on the production of $50 trillion dollars'' worth of job-producing American energy reserves, including shale, oil, natural gas and clean coal.'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            - '7 for workers'
-        actions:
-            -
-                url: 'https://redd.it/5d7sml'
+            - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
+        comments: 'https://redd.it/5d7sml'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=3m45s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'Lift the Obama-Clinton roadblocks and allow vital energy infrastructure projects, like the Keystone Pipeline, to move forward'
-        status: Not started
-        category: 'First 100 Days'
+        status: Achieved
+        category: First 100 Days
         tags:
-            - '7 for workers'
-        actions:
-            -
-                url: 'https://redd.it/5d7smm'
+            - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
+        comments: 'https://redd.it/5d7smm'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=4m12s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20170124160109/https://www.washingtonpost.com/news/energy-environment/wp/2017/01/24/trump-gives-green-light-to-dakota-access-keystone-xl-oil-pipelines/'
+            - 'http://web.archive.org/web/20170125024926/http://mobile.reuters.com/article/newsOne/idUSKBN15820N'
+            - 'http://www.dailyworld.com/story/news/2017/01/24/trump-acts-advance-keystone-dakota-pipelines/96989374/'
     -
         title: 'Cancel billions in payments to U.N. climate change programs and use the money to fix America''s water and environmental infrastructure'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            - '7 for workers'
-        actions:
-            -
-                url: 'https://redd.it/5d7smn'
+            - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
+        comments: 'https://redd.it/5d7smn'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=4m42s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'Cancel every unconstitutional executive action, memorandum and order issued by President Obama'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            -
-                'Law & Order'
-        actions:
-            -
-                url: 'https://redd.it/5d7smp'
+            - 'Additionally, on the first day, I will take the following five actions to restore security and the constitutional rule of law:'
+        comments: 'https://redd.it/5d7smp'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=5m19s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'Begin the process of selecting a replacement for Justice Scalia from one of the 20 judges on my list, who will uphold and defend the Constitution of the United States'
-        status: Not started
-        category: 'First 100 Days'
+        status: Achieved
+        category: First 100 Days
         tags:
-            -
-                'Law & Order'
-        actions:
-            -
-                url: 'https://redd.it/5d7smq'
+            - 'Additionally, on the first day, I will take the following five actions to restore security and the constitutional rule of law:'
+        comments: 'https://redd.it/5d7smq'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=5m38s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20170201042320/http://www.reuters.com/article/us-usa-court-trump-gorsuch-newsmaker-idUSKBN15G381'
     -
         title: 'Cancel all federal funding to Sanctuary Cities'
-        status: Not started
-        category: 'First 100 Days'
+        status: In progress
+        category: First 100 Days
         tags:
-            -
-                'Law & Order'
-        actions:
-            -
-                url: 'https://redd.it/5d7sms'
+            - 'Additionally, on the first day, I will take the following five actions to restore security and the constitutional rule of law:'
+        comments: 'https://redd.it/5d7sms'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=6m19s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20170125205431/http://www.foxnews.com/politics/2017/01/25/text-trump-executive-order-on-enhancing-public-safety-in-interior-united-states.html'
+            - 'http://web.archive.org/web/20170125225430/http://abcnews.go.com/Politics/trump-signs-executive-orders-border-wall-immigration/story?id=45045056'
     -
         title: 'Begin removing the more than 2 million criminal illegal immigrants from the country and cancel visas to foreign countries that won''t take them back'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            -
-                'Law & Order'
-        actions:
-            -
-                url: 'https://redd.it/5d7smu'
+            - 'Additionally, on the first day, I will take the following five actions to restore security and the constitutional rule of law:'
+        comments: 'https://redd.it/5d7smu'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=6m33s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'Suspend immigration from terror-prone regions where vetting cannot safely occur. All vetting of people coming into our country will be considered extreme vetting.'
-        status: Not started
-        category: 'First 100 Days'
+        status: Achieved
+        category: First 100 Days
         tags:
-            -
-                'Law & Order'
-        actions:
-            -
-                url: 'https://redd.it/5d7smw'
+            - 'Additionally, on the first day, I will take the following five actions to restore security and the constitutional rule of law:'
+        comments: 'https://redd.it/5d7smw'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=7m20s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20170130180100/https://www.whitehouse.gov/the-press-office/2017/01/27/executive-order-protecting-nation-foreign-terrorist-entry-united-states'
     -
         title: 'Middle Class Tax Relief And Simplification Act. An economic plan designed to grow the economy 4% per year and create at least 25 million new jobs through massive tax reduction and simplification, in combination with trade reform, regulatory relief, and lifting the restrictions on American energy. The largest tax reductions are for the middle class. A middle-class family with 2 children will get a 35% tax cut. The current number of brackets will be reduced from 7 to 3, and tax forms will likewise be greatly simplified. The business rate will be lowered from 35 to 15 percent, and the trillions of dollars of American corporate money overseas can now be brought back at a 10 percent rate.'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            -
-                'Broader Legislative'
-        actions:
-            -
-                url: 'https://redd.it/5d81si'
+            - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
+        comments: 'https://redd.it/5d81si'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=8m36s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'End The Offshoring Act. Establishes tariffs to discourage companies from laying off their workers in order to relocate in other countries and ship their products back to the U.S. tax-free.'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            -
-                'Broader Legislative'
-        actions:
-            -
-                url: 'https://redd.it/5d7smy'
+            - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
+        comments: 'https://redd.it/5d7smy'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=10m39s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'American Energy & Infrastructure Act. Leverages public-private partnerships, and private investments through tax incentives, to spur $1 trillion in infrastructure investment over 10 years. It is revenue neutral.'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            -
-                'Broader Legislative'
-        actions:
-            -
-                url: 'https://redd.it/5d7smz'
+            - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
+        comments: 'https://redd.it/5d7smz'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=11m52s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'School Choice And Education Opportunity Act. Redirects education dollars to give parents the right to send their kid to the public, private, charter, magnet, religious or home school of their choice. Ends common core, brings education supervision to local communities. It expands vocational and technical education, and make 2 and 4-year college more affordable.'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            -
-                'Broader Legislative'
-        actions:
-            -
-                url: 'https://redd.it/5d81sj'
+            - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
+        comments: 'https://redd.it/5d81sj'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=13m1s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'Repeal and Replace Obamacare Act. Fully repeals Obamacare and replaces it with Health Savings Accounts, the ability to purchase health insurance across state lines, and lets states manage Medicaid funds. Reforms will also include cutting the red tape at the FDA: there are over 4,000 drugs awaiting approval, and we especially want to speed the approval of life-saving medications.'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            -
-                'Broader Legislative'
-        actions:
-            -
-                url: 'https://redd.it/5d81sl'
+            - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
+        comments: 'https://redd.it/5d81sl'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=15m1s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: 'Affordable Childcare and Eldercare Act. Allows Americans to deduct childcare and elder care from their taxes, incentivizes employers to provide on-side childcare services, and creates tax-free Dependent Care Savings Accounts for both young and elderly dependents, with matching contributions for low-income families.'
+        title: 'Affordable Childcare and Eldercare Act. Allows Americans to deduct childcare and elder care from their taxes, incentivizes employers to provide on-site childcare services, and creates tax-free Dependent Care Savings Accounts for both young and elderly dependents, with matching contributions for low-income families.'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            -
-                'Broader Legislative'
-        actions:
-            -
-                url: 'https://redd.it/5d81sm'
+            - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
+        comments: 'https://redd.it/5d81sm'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=16m33s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'End Illegal Immigration Act Fully-funds the construction of a wall on our southern border with the full understanding that the country Mexico will be reimbursing the United States for the full cost of such wall; establishes a 2-year mandatory minimum federal prison sentence for illegally re-entering the U.S. after a previous deportation, and a 5-year mandatory minimum for illegally re-entering for those with felony convictions, multiple misdemeanor convictions or two or more prior deportations; also reforms visa rules to enhance penalties for overstaying and to ensure open jobs are offered to American workers first.'
-        status: Not started
-        category: 'First 100 Days'
+        status: In progress
+        category: First 100 Days
         tags:
-            -
-                'Broader Legislative'
-        actions:
-            -
-                url: 'https://redd.it/5d81sn'
+            - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
+        comments: 'https://redd.it/5d81sn'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=17m6s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20170125131827/http://www.reuters.com/article/us-usa-trump-immigration-idUSKBN1591HP'
     -
         title: 'Restoring Community Safety Act. Reduces surging crime, drugs and violence by creating a Task Force On Violent Crime and increasing funding for programs that train and assist local police; increases resources for federal law enforcement agencies and federal prosecutors to dismantle criminal gangs and put violent offenders behind bars.'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            -
-                'Broader Legislative'
-        actions:
-            -
-                url: 'https://redd.it/5d81so'
+            - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
+        comments: 'https://redd.it/5d81so'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=19m27s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'Restoring National Security Act. Rebuilds our military by eliminating the defense sequester and expanding military investment; provides Veterans with the ability to receive public VA treatment or attend the private doctor of their choice; protects our vital infrastructure from cyber-attack; establishes new screening procedures for immigration to ensure those who are admitted to our country support our people and our values'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            -
-                'Broader Legislative'
-        actions:
-            -
-                url: 'https://redd.it/5d81sr'
+            - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
+        comments: 'https://redd.it/5d81sr'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=20m5s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'Clean up Corruption in Washington Act. Enacts new ethics reforms to Drain the Swamp and reduce the corrupting influence of special interests on our politics.'
         status: Not started
-        category: 'First 100 Days'
+        category: First 100 Days
         tags:
-            -
-                'Broader Legislative'
-        actions:
-            -
-                url: 'https://redd.it/5d7sn1'
+            - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
+        comments: 'https://redd.it/5d7sn1'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'http://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
+            - 'https://youtu.be/4t1xR9U6IAU?t=22m29s'
+            - 'http://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: '"If I become president, we''re all going to be saying ''Merry Christmas'' again."'
+        title: 'If I become president, we''re all going to be saying ''Merry Christmas'' again.'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5d7sn2'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5d7sn2'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://youtu.be/YZEZIS4WPSw?t=43s'
     -
         title: 'Never take a vacation while serving as president.'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5d7sn3'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5d7sn3'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Start winning again. "We''re going to win so much -- win after win after win -- that you''re going to be begging me: ''Please, Mr. President, let us lose once or twice. We can''t stand it any more.'' And I''m going to say: ''No way. We''re going to keep winning. We''re never going to lose. We''re never, ever going to lose."'
         status: Not started
-        category: 'Culture'
+        category: Culture
         tags:
-            - Winning
-        actions:
-            -
-                url: 'https://redd.it/5d81ss'
+            - Trump
+        comments: 'https://redd.it/5d81ss'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Bring back the American Dream.'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5d7sn4'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5d7sn4'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Be a cheerleader for America and bring the country''s spirit back. "Take the brand of the United States and make it great again."'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5d7sn6'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5d7sn6'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Make America great again -- and strong again, as it has become too weak.'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5d7sn7'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5d7sn7'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Say things that are politically incorrect, because the country does not have time to waste with political correctness.'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5d7sn9'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5d7sn9'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
-        title: '"I will take care of women, and I have great respect for women. I do cherish women, and I will take care of women."'
+        title: 'I will take care of women, and I have great respect for women. I do cherish women, and I will take care of women.'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5d7sna'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5d7sna'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
-        title: 'Frequently use the term "radical Islamic terrorism."'
+        title: 'Frequently use the term "radical Islamic terrorism".'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5d7snd'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5d7snd'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+    -
+        title: 'Assign a special prosecutor to start a criminal investigation into Hillary Clinton.'
+        status: Not started
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5e9qzy'
+        sources:
+            - 'http://web.archive.org/web/20161109215415/http://time.com/4524459/presidential-debate-donald-trump-special-prosecutor/'
     -
         title: 'Prosecute Hillary Clinton for her use of a private e-mail server while serving as secretary of state.'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5d7snf'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5d7snf'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Shut down parts of the internet'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5d7snh'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5d7snh'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Be unpredictable. "No one is going to touch us, because I''m so unpredictable."'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5d7snj'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5d7snj'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Students at Wofford College in South Carolina, where Trump attended a town hall, will all have jobs at graduation.'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5d7snm'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5d7snm'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Drop that "dirty, rotten traitor" Bowe Bergdahl out of an airplane into desolate Afghanistan without a parachute.'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5d7snp'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5d7snp'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Ensure that Americans can still afford to golf.'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5d7snr'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5d7snr'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
-        title: '"If I am elected president and Congress passes the First Amendment Defense Act, I will sign it to protect the deeply held religious beliefs of Catholics and the beliefs of Americans of all faiths."'
+        title: 'If I am elected president and Congress passes the First Amendment Defense Act, I will sign it to protect the deeply held religious beliefs of Catholics and the beliefs of Americans of all faiths.'
         status: Not started
-        category: 'Culture'
-        actions:
-            -
-                url: 'https://redd.it/5dx3og'
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5dx3og'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.donaldjtrump.com/press-releases/issues-of-importance-to-catholics'
+            - 'http://web.archive.org/web/20161111215433/https://www.donaldjtrump.com/press-releases/issues-of-importance-to-catholics'
     -
-        title: '"Against raising the minimum wage. Jobs would move to China." Wages should be raised through economic growth. Raise the minimum wage. Let''s make it $10 dollars an hour. It should go up, but states should call the shots here.'
+        title: 'We won''t tweet anymore after I''m president. It''s not presidential.'
+        status: Broken
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5fdn5q'
+        sources:
+            - 'https://youtu.be/ycOcAsBuVKU'
+            - 'http://web.archive.org/web/20161128235648/https://www.washingtonpost.com/politics/i-will-give-you-everything-here-are-282-of-donald-trumps-campaign-promises/2016/11/24/01160678-b0f9-11e6-8616-52b15787add0_story.html'
+    -
+        title: 'Against raising the minimum wage. Jobs would move to China. "Wages should be raised through economic growth. Raise the minimum wage. Let''s make it $10 dollars an hour. It should go up, but states should call the shots here."'
         status: Not started
         category: Economy
         tags:
-            - Minimum wage
-        actions:
-            -
-                url: 'https://redd.it/5d7snt'
+            - Minimum Wage
+        comments: 'https://redd.it/5d7snt'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Get rid of the federal minimum wage, leave it to the states.'
         status: Not started
         category: Economy
         tags:
-            - Minimum wage
-        actions:
-            -
-                url: 'https://redd.it/5d7snv'
+            - Minimum Wage
+        comments: 'https://redd.it/5d7snv'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Raise it to $10 an hour, ignore what I said before.'
         status: Not started
         category: Economy
         tags:
-            - Minimum wage
-        actions:
-            -
-                url: 'https://redd.it/5d7snx'
+            - Minimum Wage
+        comments: 'https://redd.it/5d7snx'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Leave Social Security as is'
         status: Not started
         category: Economy
         tags:
-            - Minimum wage
-        actions:
-            -
-                url: 'https://redd.it/5d7ssz'
+            - Minimum Wage
+        comments: 'https://redd.it/5d7ssz'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'The wealthy should pay more.'
         status: Not started
         category: Economy
         tags:
             - Taxes
-        actions:
-            -
-                url: 'https://redd.it/5d7snz'
+        comments: 'https://redd.it/5d7snz'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Cut taxes for the wealthy big time.'
         status: Not started
         category: Economy
         tags:
             - Taxes
-        actions:
-            -
-                url: 'https://redd.it/5d7so0'
+        comments: 'https://redd.it/5d7so0'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Maybe don''t slash taxes by $10 trillion - slash taxes by $3 trillion, instead. Maybe ditch, maybe keep a $1 trillion tax cut for small businesses (depending on who is asking).'
         status: Not started
         category: Economy
         tags:
             - Taxes
-        actions:
-            -
-                url: 'https://redd.it/5d7so4'
+        comments: 'https://redd.it/5d7so4'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Scrap the earlier plan entirely. Here are new tax brackets: Trump took his earlier tax plan offline before a major economic policy address in early August, where he hiked his initially proposed tax brackets from 10 percent, 20 percent and 25 percent to 12 percent, 25 percent and 33 percent. These brackets more closely mimic his party''s past views on taxes.'
         status: Not started
         category: Economy
         tags:
             - Taxes
-        actions:
-            -
-                url: 'https://redd.it/5d81su'
+        comments: 'https://redd.it/5d81su'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Despite Trump''s frequent talk about helping working people, his tax plan so far seems to mostly benefit the wealthy. It''s unclear whether or not his plan will include that small business tax cut.'
         status: Not started
         category: Economy
         tags:
             - Taxes
-        actions:
-            -
-                url: 'https://redd.it/5d7so5'
+        comments: 'https://redd.it/5d7so5'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Pass a huge tax cut, roughly double the one George W. Bush sponsored, that delivers a windfall to the wealthiest Americans and a relative paltry sum to the middle class, never mind the debt-inflating impact.'
         status: Not started
         category: Economy
         tags:
             - Taxes
-        actions:
-            -
-                url: 'https://redd.it/5d7ssq'
+        comments: 'https://redd.it/5d7ssq'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Impose tariffs on goods made in China and Mexico'
         status: Not started
         category: Economy
         tags:
             - Taxes
-        actions:
-            -
-                url: 'https://redd.it/5d7ssw'
+        comments: 'https://redd.it/5d7ssw'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Cut taxes'
         status: Not started
         category: Economy
         tags:
             - Taxes
-        actions:
-            -
-                url: 'https://redd.it/5d7st0'
+        comments: 'https://redd.it/5d7st0'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Call the heads of major companies who are moving operations oversea to inform them that they''ll face 35 percent tariffs.'
         status: Not started
         category: Economy
         tags:
             - Taxes
-        actions:
-            -
-                url: 'https://redd.it/5d7st5'
+        comments: 'https://redd.it/5d7st5'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Get rid of most corporate tax loopholes'
         status: Not started
         category: Economy
         tags:
             - Taxes
-        actions:
-            -
-                url: 'https://redd.it/5d7stx'
+        comments: 'https://redd.it/5d7stx'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Get rid of income tax for some earners'
         status: Not started
         category: Economy
         tags:
             - Taxes
-        actions:
-            -
-                url: 'https://redd.it/5d7sty'
+        comments: 'https://redd.it/5d7sty'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Get rid of the national debt in 8 years.'
         status: Not started
         category: Economy
         tags:
-            - National debt
-        actions:
-            -
-                url: 'https://redd.it/5d7so7'
+            - National Debt
+        comments: 'https://redd.it/5d7so7'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Only pay down a little. Invest in infrastructure first.'
         status: Not started
         category: Economy
         tags:
-            - National debt
-        actions:
-            -
-                url: 'https://redd.it/5d7so9'
+            - National Debt
+        comments: 'https://redd.it/5d7so9'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Pay off the debt by getting America''s creditors to accept less.'
         status: Not started
         category: Economy
         tags:
-            - National debt
-        actions:
-            -
-                url: 'https://redd.it/5d7sob'
+            - National Debt
+        comments: 'https://redd.it/5d7sob'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Either "chop" the national debt using an approach that is still unclear, or add $10 trillion to the debt to accomplish plans.'
         status: Not started
         category: Economy
         tags:
-            - National debt
-        actions:
-            -
-                url: 'https://redd.it/5d7soc'
+            - National Debt
+        comments: 'https://redd.it/5d7soc'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Trump supports an audit of the FED'
         status: Not started
         category: Economy
         tags:
-            - National debt
-        actions:
-            -
-                url: 'https://redd.it/5dx5qg'
+            - National Debt
+        comments: 'https://redd.it/5dx5qg'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.realclearpolitics.com/video/2016/09/07/ron_paul_donald_trump_wants_to_audit_the_federal_reserve.html'
+            - 'http://web.archive.org/web/20161112023119/http://www.realclearpolitics.com/video/2016/09/07/ron_paul_donald_trump_wants_to_audit_the_federal_reserve.html'
     -
         title: 'Bring back jobs, especially manufacturing jobs, that have fled the country over the past few decades.'
         status: Not started
         category: Economy
         tags:
             - Jobs
-        actions:
-            -
-                url: 'https://redd.it/5d7ssu'
+        comments: 'https://redd.it/5d7ssu'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Direct every agency in government to begin identifying all wasteful job-killing regulations, and they are going to be removed.'
         status: Not started
         category: Economy
         tags:
             - Jobs
-        actions:
-            -
-                url: 'https://redd.it/5d7sti'
+        comments: 'https://redd.it/5d7sti'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
-        title: '"Work with both parties to pass the biggest investment in new, good-paying jobs since World War II."'
+        title: 'Work with both parties to pass the biggest investment in new, good-paying jobs since World War II.'
         status: Not started
         category: Economy
         tags:
             - Jobs
-        actions:
-            -
-                url: 'https://redd.it/5d7stu'
+        comments: 'https://redd.it/5d7stu'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Grow the nation''s economy by at least 6 percent.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7sof'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7sof'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Reduce the $18 trillion national debt by "vigorously eliminating waste, fraud and abuse in the federal government, ending redundant government programs and growing the economy to increase tax revenues."'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7sog'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7sog'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Cut the budget by 20 percent by simply renegotiating.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7soh'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7soh'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Get rid of the Dodd-Frank Wall Street Reform and Consumer Protection Act.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7soi'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7soi'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Simplify the U.S. tax code and reduce the number of tax brackets from seven to four. The highest earners would pay a 25-percent tax. The corporate tax rate would fall to 15 percent. Eliminate the "marriage penalty" for taxpayers and get rid of the alternate minimum tax.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7soj'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7soj'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'No longer charge income tax to single individuals earning less than $25,000 per year or couples earning less than $50,000. These people will, however, be required to file a one-page form with the Internal Revenue Service that states: "I win."'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7sol'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7sol'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Allow corporations a one-time window to transfer money being held overseas, charging a much-reduced 10 percent tax.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7som'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7som'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Get rid of most corporate tax loopholes or incentives, but continue to allow taxpayers to deduct mortgage interest and charitable donations from their taxes.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7soq'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7soq'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'On his first day in office, Trump would get rid of gun-free zones at military bases and in schools.'
-        status: Not started
+        status: Broken
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7sor'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7sor'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Use "common sense" to fix the mental health system and prevent mass shootings. Find ways to arm more of the "good guys" like him who can take out the "sickos." Get rid of bans on certain types of guns and magazines so that "good, honest people" can own the guns of their choice.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7sos'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7sos'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Impose a minimum sentence of five years in federal prison for any violent felon who commits a crime using a gun, with no chance for parole or early release.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7sot'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7sot'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Fix the background check system used when purchasing guns to ensure states are properly uploading criminal and health records.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7sou'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7sou'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Allow concealed-carry permits to be recognized in all 50 states.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7sov'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7sov'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Sign an executive order calling for the death penalty for anyone found guilty of killing a police officer.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7sow'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7sow'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Provide more funding for police training.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7sox'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7sox'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Provide more funding for drug treatment, especially for heroin addicts.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7soz'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7soz'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'On the first day in office, terminate President Obama''s executive orders related to immigration. This includes getting rid of "sanctuary cities" that Trump says have become refuges for criminals.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7sp1'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7sp1'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Deport the almost 11 million immigrants illegally living in the United States.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7sp3'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7sp3'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Triple the number of U.S. Immigration and Customs Enforcement officers.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7sp4'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7sp4'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Continue to allow lowly paid foreign workers to come to the United States on temporary works visas because Trump says they are the only ones who want to pick grapes.'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7sp5'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7sp5'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Grow the DFP by at least 6%'
         status: Not started
         category: Economy
         tags:
-            - Assorted numbers
-        actions:
-            -
-                url: 'https://redd.it/5d7stw'
+            - Assorted Numbers
+        comments: 'https://redd.it/5d7stw'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'The Environmental Protection Agency might also disappear.'
         status: Not started
         category: Environment
         tags:
-            - Climate change
-        actions:
-            -
-                url: 'https://redd.it/5d7sp8'
+            - Climate Change
+        comments: 'https://redd.it/5d7sp8'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: '"End the war on coal."'
+        title: 'End the war on coal.'
         status: Not started
         category: Environment
         tags:
-            - Natural Resources
-        actions:
-            -
-                url: 'https://redd.it/5d7st1'
+            - Natural resources
+        comments: 'https://redd.it/5d7st1'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Trump vowed to end the Clean Power Plan'
         status: Not started
         category: Environment
         tags:
-            - Natural Resources
-        actions:
-            -
-                url: 'https://redd.it/5dx4e4'
+            - Natural resources
+        comments: 'https://redd.it/5dx4e4'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.vox.com/2016/11/9/13571318/donald-trump-disaster-climate'
+            - 'http://web.archive.org/web/20161109060339/http://www.vox.com/2016/11/9/13571318/donald-trump-disaster-climate'
     -
         title: 'Stop spending money on space exploration until the United States can fix its potholes. Encourage private space-exploration companies to expand.'
         status: Not started
         category: Government
         tags:
-            - Space exploration
-        actions:
-            -
-                url: 'https://redd.it/5d7sp9'
+            - Space Exploration
+        comments: 'https://redd.it/5d7sp9'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
-        title: 'Pick Supreme Court justices who are "really great legal scholars."'
+        title: 'Pick Supreme Court justices who are "really great legal scholars".'
         status: Not started
         category: Government
         tags:
             - Legal
-        actions:
-            -
-                url: 'https://redd.it/5d7spc'
+        comments: 'https://redd.it/5d7spc'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Ensure that Iowa continues to host the nation''s first presidential nominating contest.'
         status: Not started
         category: Government
         tags:
             - Assorted
-        actions:
-            -
-                url: 'https://redd.it/5d7spe'
+        comments: 'https://redd.it/5d7spe'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Fire "the corrupt and incompetent" leaders of the U.S. Department of Veterans Affairs and dramatically reform the agency. Allow veterans to take their military identification card to any medical facility that accepts Medicaid patients to receive care. Embed satellite VA clinics in rural hospitals and underserved areas, and ensure than every VA hospital is permanently staffed with OBGYN doctors.'
         status: Not started
         category: Government
         tags:
             - Assorted
-        actions:
-            -
-                url: 'https://redd.it/5d81sx'
+        comments: 'https://redd.it/5d81sx'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Invest more heavily in programs that help military veterans transition back to civilian life, including job training and placement services. Also increase funding for the treatment of post-traumatic stress disorder, traumatic brain injuries and mental health issues. Veterans who apply for a job at a VA facility will have five points added to their qualifying scores.'
         status: Not started
         category: Government
         tags:
             - Assorted
-        actions:
-            -
-                url: 'https://redd.it/5d81sy'
+        comments: 'https://redd.it/5d81sy'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Replace "free trade" with "fair trade." Gather together the "smartest negotiators in the world," assign them each a country and renegotiate all foreign trade deals.'
         status: Not started
         category: Government
         tags:
             - Assorted
-        actions:
-            -
-                url: 'https://redd.it/5d7spi'
+        comments: 'https://redd.it/5d7spi'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Tell Ford Motor Co.''s president that unless he cancels plans to build a massive plant in Mexico, the company will face a 35 percent tax on cars imported back into the United States. Trump is confident he can get this done before taking office. (Last year he incorrectly said this had already happened.)'
         status: Not started
         category: Government
         tags:
             - Assorted
-        actions:
-            -
-                url: 'https://redd.it/5d81sz'
+        comments: 'https://redd.it/5d81sz'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
-        title: 'Force Nabisco to once again make Oreos in the United States. And bully Apple into making its "damn computers" and other products here.'
+        title: 'Force Nabisco to once again make Oreos in the United States, and never eat another Oreo until that happens. And bully Apple into making its "damn computers" and other products here.'
         status: Not started
         category: Government
         tags:
             - Assorted
-        actions:
-            -
-                url: 'https://redd.it/5d7spk'
+        comments: 'https://redd.it/5d7spk'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Impose new taxes on many imports into the country. Numbers thrown around have included 32 percent, 34 percent and 35 percent.'
         status: Not started
         category: Government
         tags:
             - Assorted
-        actions:
-            -
-                url: 'https://redd.it/5d7spm'
+        comments: 'https://redd.it/5d7spm'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
-        title: '"Reach out to Republicans and say, ''This is your chance to help millions of families and show that your party, the party of Lincoln, is better than Donald Trump.''"'
+        title: 'Reach out to Republicans and say, ''This is your chance to help millions of families and show that your party, the party of Lincoln, is better than Donald Trump.'''
         status: Not started
         category: Government
         tags:
             - Assorted
-        actions:
-            -
-                url: 'https://redd.it/5d7sts'
+        comments: 'https://redd.it/5d7sts'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Deport "criminal illegal immigrants" within one hour of being sworn in.'
         status: Not started
         category: Immigration
         tags:
             - Deportation
-        actions:
-            -
-                url: 'https://redd.it/5d7spn'
+        comments: 'https://redd.it/5d7spn'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'Deport all undocumented immigrants but bring the "good" ones back legally. In a CNN interview in July 2015, Trump said, "I want to move them out, and we''re going to move them back in and let them be legal, but they have to be in here legally."'
+        title: 'Deport all undocumented immigrants but bring the "good" ones back legally. In a CNN interview in July 2015, Trump said, "I want to move them out, and we''re going to move them back in and let them be legal, but they have to be in here legally".'
         status: Not started
         category: Immigration
         tags:
             - Deportation
-        actions:
-            -
-                url: 'https://redd.it/5d7spp'
+        comments: 'https://redd.it/5d7spp'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'Build the wall, deport criminals, triple the number of ICE officers, end birthright citizenship.  Get it done within 18 months. It''s an immensely complex endeavor, far harder than Trump''s simple sell, but now, if he doesn''t get it done, and doesn''t get our southern neighbor to pay for it, he''s failed.'
+        title: 'Deport all undocumented immigrants and criminals, triple the number of ICE officers, end birthright citizenship.'
         status: Not started
         category: Immigration
         tags:
             - Deportation
-        actions:
-            -
-                url: 'https://redd.it/5d81t1'
+        comments: 'https://redd.it/5d81t1'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Use a deportation force to implement policy.'
         status: Not started
         category: Immigration
         tags:
             - Deportation
-        actions:
-            -
-                url: 'https://redd.it/5d7spr'
+        comments: 'https://redd.it/5d7spr'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'Trump might be flexible on actually deporting 11 million undocumented immigrants. "There''s no amnesty" but "we work with them." "I won''t rule out a path to citizenship."'
+        title: 'Trump might be flexible on actually deporting 11 million undocumented immigrants. "There''s no amnesty" but "we work with them." "I won''t rule out a path to citizenship".'
         status: Not started
         category: Immigration
         tags:
             - Deportation
-        actions:
-            -
-                url: 'https://redd.it/5d7sps'
+        comments: 'https://redd.it/5d7sps'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'Deport all undocumented immigrants. Trump''s campaign began with a promise to build a wall across the United States'' southern border and deport the country''s 11 million undocumented immigrants.'
+        title: 'Trump says he will deport millions, but he has not ruled out creating a pathway to citizenship.'
         status: Not started
         category: Immigration
         tags:
             - Deportation
-        actions:
-            -
-                url: 'https://redd.it/5d7spt'
+        comments: 'https://redd.it/5d7spw'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: '"The End Illegal Immigration act fully funds the construction of a wall on our southern border," Trump said on October 22nd, outlining the plans for his first 100 days in office. "With the full understanding that the country of Mexico will be reimbursing the United States for the full cost of such a wall, OK?"'
+        title: 'Dreamers can maybe stay.'
         status: Not started
         category: Immigration
         tags:
-            - Deportation
-        actions:
-            -
-                url: 'https://redd.it/5d81t2'
+            - Young Undocumented Immigrants and Children of Illegal Immigrants
+        comments: 'https://redd.it/5d7spy'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
-        title: 'Trump says he will deport millions, but he has not ruled out creating a pathway to citizenship. He''ll build a wall, pay for said wall, but later he''ll get reimbursed by Mexico.'
-        status: Not started
-        category: Immigration
-        tags:
-            - Deportation
-        actions:
-            -
-                url: 'https://redd.it/5d7spw'
-        sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
-        title: '"Dreamers can maybe stay."'
-        status: Not started
-        category: Immigration
-        tags:
-            - Children
-        actions:
-            -
-                url: 'https://redd.it/5d7spy'
-        sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'End birthright citizenship.'
         status: Not started
         category: Immigration
         tags:
-            - Children
-        actions:
-            -
-                url: 'https://redd.it/5d7spz'
+            - Young Undocumented Immigrants and Children of Illegal Immigrants
+        comments: 'https://redd.it/5d7spz'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Build a wall, deport all undocumented immigrants. Trump''s campaign began with a promise to build a wall across the United States'' southern border and deport the country''s 11 million undocumented immigrants.'
-        status: Not started
+        status: In progress
         category: Immigration
         tags:
-            - Children
-        actions:
-            -
-                url: 'https://redd.it/5d7sq1'
+            - Young Undocumented Immigrants and Children of Illegal Immigrants
+        comments: 'https://redd.it/5d7sq1'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20170125131827/http://www.reuters.com/article/us-usa-trump-immigration-idUSKBN1591HP'
     -
         title: 'Deport children benefiting for the DREAM Act and repeal the 14th Amendment to end birthright citizenship.'
         status: Not started
         category: Immigration
         tags:
-            - Children
-        actions:
-            -
-                url: 'https://redd.it/5d7sq2'
+            - Young Undocumented Immigrants and Children of Illegal Immigrants
+        comments: 'https://redd.it/5d7sq2'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Against the H-1B visa program.'
         status: Not started
         category: Immigration
         tags:
-            - Skilled workers
-        actions:
-            -
-                url: 'https://redd.it/5d7sq4'
+            - '"Visa''s for High-Skilled Workers"'
+        comments: 'https://redd.it/5d7sq4'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Against closing the borders entirely. Against accepting Syrian refugees in the United States. Bar Syrian refugees from entering the country and kick out any who are already living here. Trump says wealthy Persian Gulf nations like Saudi Arabia should pay to set up a heavily guarded "safe zone" in Syria.'
-        status: Not started
+        status: In progress
         category: Immigration
         tags:
-            - Refugee crisis
-        actions:
-            -
-                url: 'https://redd.it/5d81t3'
+            - Border Control and the Refugee Crisis
+        comments: 'https://redd.it/5d81t3'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20170125004843/http://www.thehill.com/homenews/administration/315974-trump-expected-to-take-executive-action-on-immigration-in-the-coming'
     -
         title: 'Create a database of Syrian refugees. Trump hasn''t ruled out creating a database of Muslims in the country.'
         status: Not started
         category: Immigration
         tags:
-            - Refugee crisis
-        actions:
-            -
-                url: 'https://redd.it/5d7sq6'
+            - Border Control and the Refugee Crisis
+        comments: 'https://redd.it/5d7sq6'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Meet with Homeland Security officials and generals to begin securing the southern border.'
         status: Not started
         category: Immigration
         tags:
-            - Refugee crisis
-        actions:
-            -
-                url: 'https://redd.it/5d7st2'
+            - Border Control and the Refugee Crisis
+        comments: 'https://redd.it/5d7st2'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Suspend Syrian refugee resettlement.'
         status: Not started
         category: Immigration
         tags:
-            - Refugee crisis
-        actions:
-            -
-                url: 'https://redd.it/5d7stg'
+            - Border Control and the Refugee Crisis
+        comments: 'https://redd.it/5d7stg'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Donald Trump: It''s time to heal this divided nation'
         status: Not started
-        category: Culture
+        category: Indigenous
         tags:
-            -
-        actions:
-            -
-                url: 'https://redd.it/5d7ssl'
+            - Indigenous
+        comments: 'https://redd.it/5d7ssl'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Deport, deport, deport - if not en masse, through a federal deportation force, at least expulsions in numbers far greater than the records President Obama already set.'
         status: Not started
-        category: Immigration
+        category: Indigenous
         tags:
-            -
-        actions:
-            -
-                url: 'https://redd.it/5d7sso'
+            - Indigenous
+        comments: 'https://redd.it/5d7sso'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Ban Muslim Brotherhood affiliated organizations'
         status: Not started
-        category: World
+        category: Indigenous
         tags:
-            -
-        actions:
-            -
-                url: 'https://redd.it/5dx57p'
+            - Indigenous
+        comments: 'https://redd.it/5dx57p'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.westernjournalism.com/foreign-policy-adviser-says-trump-will-ban-muslim-brotherhood-u-s-offshoots/'
+            - 'http://web.archive.org/web/20161117154347/http://www.westernjournalism.com/foreign-policy-adviser-says-trump-will-ban-muslim-brotherhood-u-s-offshoots/'
     -
-        title: 'Declare war -- Send troops in. Definitely go after the oil fields. Destroy the oil. Let our regional allies send ground troops. If they don''t, stop buying their oil. "Do more with computers."'
+        title: 'There must be consequences for burning the American flag, like loss of citizenship or a year in jail'
+        status: Not started
+        category: Indigenous
+        tags:
+            - Indigenous
+        comments: 'https://redd.it/5fky4g'
+        sources:
+            - 'http://web.archive.org/web/20161129115814/https://twitter.com/realDonaldTrump/status/803567993036754944'
+    -
+        title: 'Declare war -- Send troops in. Definitely go after the oil fields. Destroy the oil. Let our regional allies send ground troops. If they don''t, stop buying their oil. "Do more with computers".'
         status: Not started
         category: Security
         tags:
-            - ISIS
-        actions:
-            -
-                url: 'https://redd.it/5d7sq9'
+            - Defeating ISIS
+        comments: 'https://redd.it/5d7sq9'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'It''s still unclear what Trump''s plan to defeat ISIS is, but it will involve computers and it will be tough. "Bomb the s--- out of ISIS." Also bomb oil fields controlled by the Islamic State, then seize the oil and give the profits to military veterans who were wounded while fighting.'
+        title: 'It''s still unclear what Trump''s plan to defeat ISIS is, but it will involve computers and it will be tough. "Bomb the s out of ISIS." Also bomb oil fields controlled by the Islamic State, then seize the oil and give the profits to military veterans who were wounded while fighting.'
         status: Not started
         category: Security
         tags:
-            - ISIS
-        actions:
-            -
-                url: 'https://redd.it/5d7sqa'
+            - Defeating ISIS
+        comments: 'https://redd.it/5d7sqa'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Allow Russia to deal with the Islamic State in Syria and/or work with Russian President Vladimir Putin to wipe out shared enemies.'
         status: Not started
         category: Security
         tags:
-            - ISIS
-        actions:
-            -
-                url: 'https://redd.it/5d7sqc'
+            - Defeating ISIS
+        comments: 'https://redd.it/5d7sqc'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'Strengthen the military so that it''s "so big and so strong and so great" that "nobody''s going to mess with us."'
+        title: 'Strengthen the military so that it''s "so big and so strong and so great" that "nobody''s going to mess with us".'
         status: Not started
         category: Security
         tags:
-            - ISIS
-        actions:
-            -
-                url: 'https://redd.it/5d7sqg'
+            - Defeating ISIS
+        comments: 'https://redd.it/5d7sqg'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Target and kill the relatives of terrorists.'
         status: Not started
         category: Security
         tags:
-            - ISIS
-        actions:
-            -
-                url: 'https://redd.it/5d7sqh'
+            - Defeating ISIS
+        comments: 'https://redd.it/5d7sqh'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'Shut down parts of the Internet so that Islamic State terrorists cannot use it to recruit American children.Find great generals -- like the next Gen. Patton or Gen. MacArthur -- and do not allow them to go onto television news shows to explain their military strategy: "I don''t want my generals being interviewed, I want my generals kicking a--." Trump likes generals who are rough, foul-mouthed and beloved by their troops.'
+        title: 'Shut down parts of the Internet so that Islamic State terrorists cannot use it to recruit American children.'
         status: Not started
         category: Security
         tags:
-            - ISIS
-        actions:
-            -
-                url: 'https://redd.it/5d81t4'
+            - Defeating ISIS
+        comments: 'https://redd.it/5d81t4'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Find great generals -- like the next Gen. Patton or Gen. MacArthur -- and do not allow them to go onto television news shows to explain their military strategy: "I don''t want my generals being interviewed, I want my generals kicking a--." Trump likes generals who are rough, foul-mouthed and beloved by their troops.'
         status: Not started
         category: Security
         tags:
-            - ISIS
-        actions:
-            -
-                url: 'https://redd.it/5d81t5'
+            - Defeating ISIS
+        comments: 'https://redd.it/5d81t5'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Convene his top generals and inform them they have 30 days to come up with a plan to stop ISIS.'
         status: Not started
         category: Security
         tags:
-            - ISIS
-        actions:
-            -
-                url: 'https://redd.it/5d7st4'
+            - Defeating ISIS
+        comments: 'https://redd.it/5d7st4'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161105192936/https://www.donaldjtrump.com/press-releases/fact-sheet-key-policies-proposed-in-mr.-trumps-military-preparedness-speech'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
-        title: '"Start taking care of our military."'
+        title: 'Start taking care of our military.'
         status: Not started
         category: Security
         tags:
             - Military
-        actions:
-            -
-                url: 'https://redd.it/5d7ste'
+        comments: 'https://redd.it/5d7ste'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Get rid of gun-free zones.'
         status: Not started
         category: Security
         tags:
             - Guns
-        actions:
-            -
-                url: 'https://redd.it/5d7sqm'
+        comments: 'https://redd.it/5d7sqm'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: '"No guns in classrooms, except maybe some guns in classrooms. Let''s put trained gunmen in schools.'
+        title: 'No guns in classrooms, except maybe some guns in classrooms. Let''s put trained gunmen in schools.'
         status: Not started
         category: Security
         tags:
             - Guns
-        actions:
-            -
-                url: 'https://redd.it/5d7sqn'
+        comments: 'https://redd.it/5d7sqn'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'More guns would save lives.'
         status: Not started
         category: Security
         tags:
             - Guns
-        actions:
-            -
-                url: 'https://redd.it/5d7sqp'
+        comments: 'https://redd.it/5d7sqp'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'More guns are better, though the details are murky and evolving on how many gun-free zones would be abolished.'
         status: Not started
         category: Security
         tags:
             - Guns
-        actions:
-            -
-                url: 'https://redd.it/5d7sqr'
+        comments: 'https://redd.it/5d7sqr'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Get rid of gun-free zones [in] schools" and "military bases"-which would require repealing a 25-year-old federal law. ("My first day, it gets signed, okay? My first day. There''s no more gun-free zones.")'
         status: Not started
         category: Security
         tags:
             - Guns
-        actions:
-            -
-                url: 'https://redd.it/5d7stj'
+        comments: 'https://redd.it/5d7stj'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
-        title: '"Tackle the gun lobby to try to reduce the outrageous number of people who are dying from gun violence in our country."'
+        title: 'Tackle the gun lobby to try to reduce the outrageous number of people who are dying from gun violence in our country.'
         status: Not started
         category: Security
         tags:
             - Guns
-        actions:
-            -
-                url: 'https://redd.it/5d7stq'
+        comments: 'https://redd.it/5d7stq'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Allow concealed carry permits to be recognized in all 50 states'
         status: Not started
         category: Security
         tags:
             - Guns
-        actions:
-            -
-                url: 'https://redd.it/5d7su0'
+        comments: 'https://redd.it/5d7su0'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'The military will obey potentially illegal orders.'
         status: Not started
         category: Security
         tags:
             - Torture
-        actions:
-            -
-                url: 'https://redd.it/5d7sqt'
+        comments: 'https://redd.it/5d7sqt'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'The laws forbidding torture should be changed so no one has to break them.'
         status: Not started
         category: Security
         tags:
             - Torture
-        actions:
-            -
-                url: 'https://redd.it/5d7squ'
+        comments: 'https://redd.it/5d7squ'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'Trump says he''s against violating international laws or ordering others to do so, but wants to change the laws to legalize, at minimum, waterboarding. Trump has said he''s willing to use interrogation techniques that go even further than waterboarding. Even if such tactics don''t work, "they deserve it anyway, for what they''re doing."'
+        title: 'Trump says he''s against violating international laws or ordering others to do so, but wants to change the laws to legalize, at minimum, waterboarding. Trump has said he''s willing to use interrogation techniques that go even further than waterboarding. Even if such tactics don''t work, "they deserve it anyway, for what they''re doing".'
         status: Not started
         category: Security
         tags:
             - Torture
-        actions:
-            -
-                url: 'https://redd.it/5d81t9'
+        comments: 'https://redd.it/5d81t9'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Ensure that "the crime and violence that today afflicts our nation will soon come to an end" - a pledge made in his nomination acceptance speech - by restoring law and order. Revive inner cities that he says have become hell holes.'
         status: Not started
         category: Security
         tags:
-            - Prison
-        actions:
-            -
-                url: 'https://redd.it/5d7sss'
+            - Jail
+        comments: 'https://redd.it/5d7sss'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
-        title: '"Ask Congress to pass ''Kate''s Law''-named for Kate Steinle-to ensure that criminal aliens convicted of illegal reentry receive strong mandatory minimum sentences."'
+        title: 'Ask Congress to pass ''Kate''s Law''-named for Kate Steinle-to ensure that criminal aliens convicted of illegal reentry receive strong mandatory minimum sentences.'
         status: Not started
         category: Security
         tags:
-            - Prison
-        actions:
-            -
-                url: 'https://redd.it/5d7stm'
+            - Jail
+        comments: 'https://redd.it/5d7stm'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+    -
+        title: 'Keep the military prison at Guantanamo Bay open'
+        status: Not started
+        category: Security
+        tags:
+            - Jail
+        comments: 'https://redd.it/5fdqz6'
+        sources:
+            - 'http://web.archive.org/web/20161112190547/http://www.miamiherald.com/news/nation-world/world/americas/guantanamo/article114185018.html'
+            - 'http://web.archive.org/web/20161128235648/https://www.washingtonpost.com/politics/i-will-give-you-everything-here-are-282-of-donald-trumps-campaign-promises/2016/11/24/01160678-b0f9-11e6-8616-52b15787add0_story.html'
     -
         title: 'Overturn Roe v. Wade, then let states decide it.'
         status: Not started
         category: Health
         tags:
             - Abortion
-        actions:
-            -
-                url: 'https://redd.it/5d7sqw'
+        comments: 'https://redd.it/5d7sqw'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Defund Planned Parenthood.'
         status: Not started
         category: Health
         tags:
             - Abortion
-        actions:
-            -
-                url: 'https://redd.it/5d7sqx'
+        comments: 'https://redd.it/5d7sqx'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: '"Defend the unborn."'
+        title: 'Defend the unborn.'
         status: Not started
         category: Health
         tags:
             - Abortion
-        actions:
-            -
-                url: 'https://redd.it/5d7stb'
+        comments: 'https://redd.it/5d7stb'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Repeal Obamacare. Replace it with something.'
         status: Not started
         category: Health
         tags:
-            - Health care
-        actions:
-            -
-                url: 'https://redd.it/5d7sqz'
+            - Health Care
+        comments: 'https://redd.it/5d7sqz'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://youtu.be/qizUBPc47qY'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Knock down the regulatory walls between states for health insurance, making plans available nationally instead of regionally.'
         status: Not started
         category: Health
         tags:
-            - Health care
-        actions:
-            -
-                url: 'https://redd.it/5d7sr0'
+            - Health Care
+        comments: 'https://redd.it/5d7sr0'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Save Medicare, Medicaid and Social Security without cutting benefits.'
         status: Not started
         category: Health
         tags:
-            - Health care
-        actions:
-            -
-                url: 'https://redd.it/5d7sr1'
+            - Health Care
+        comments: 'https://redd.it/5d7sr1'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Make medical marijuana widely available to patients, and allow states to decide if they want to fully legalize pot or not.'
         status: Not started
         category: Health
         tags:
-            - Health care
-        actions:
-            -
-                url: 'https://redd.it/5d7sr2'
+            - Health Care
+        comments: 'https://redd.it/5d7sr2'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161107050749/https://www.washingtonpost.com/news/post-politics/wp/2015/10/29/trump-wants-marijuana-legalization-decided-at-the-state-level/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'He has pledged to repeal the Affordable Care Act.'
         status: Not started
         category: Health
         tags:
-            - Health care
-        actions:
-            -
-                url: 'https://redd.it/5d7stv'
+            - Health Care
+        comments: 'https://redd.it/5d7stv'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Israel is a staunch ally of the U.S. and a key partner in the global war against Islamic jihadism. Military cooperation and coordination between Israel and the U.S. must continue to grow.'
         status: Not started
         category: World
         tags:
             - Israel
-        actions:
-            -
-                url: 'https://redd.it/5d7sr8'
+        comments: 'https://redd.it/5d7sr8'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'The American people value our close friendship and alliance with Israel - culturally, religiously, and politically. While other nations have required U.S. troops to defend them, Israelis have always defended their own country by themselves and only ask for military equipment assistance and diplomatic support to do so. The U.S. does not need to nation-build in Israel or send troops to defend Israel.'
         status: Not started
         category: World
         tags:
             - Israel
-        actions:
-            -
-                url: 'https://redd.it/5d81ta'
+        comments: 'https://redd.it/5d81ta'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'The Memorandum of Understanding signed by the American and Israeli Governments is a good first step, but there is much more to be done. A Trump Administration will ensure that Israel receives maximum military, strategic and tactical cooperation from the United States, and the MOU will not limit the support that we give. Further, Congress will not be limited to give support greater than that provided by the MOU if it chooses to do so. Israel and the United States benefit tremendously from what each country brings to the table - the relationship is a two way street.'
         status: Not started
         category: World
         tags:
             - Israel
-        actions:
-            -
-                url: 'https://redd.it/5d81tb'
+        comments: 'https://redd.it/5d81tb'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'The U.S. should veto any United Nations votes that unfairly single out Israel and will work in international institutions and forums, including in our relations with the European Union, to oppose efforts to delegitimize Israel, impose discriminatory double standards against Israel, or to impose special labeling requirements on Israeli products or boycotts on Israeli goods.'
         status: Not started
         category: World
         tags:
             - Israel
-        actions:
-            -
-                url: 'https://redd.it/5d81td'
+        comments: 'https://redd.it/5d81td'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'The U.S. should cut off funds for the UN Human Rights Council, a body dominated by countries presently run by dictatorships that seems solely devoted to slandering the Jewish State. UNESCO''s attempt to disconnect the State of Israel from Jerusalem is a one-sided attempt to ignore Israel''s 3,000-year bond to its capital city, and is further evidence of the enormous anti-Israel bias of the United Nations.'
         status: Not started
         category: World
         tags:
             - Israel
-        actions:
-            -
-                url: 'https://redd.it/5d83b8'
+        comments: 'https://redd.it/5d83b8'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'The U.S. should view the effort to boycott, divest from, and sanction (BDS) Israel as inherently anti-Semitic and take strong measures, both diplomatic and legislative, to thwart actions that are intended to limit commercial relations with Israel, or persons or entities doing business in Israeli areas, in a discriminatory manner. The BDS movement is just another attempt by the Palestinians to avoid having to commit to a peaceful co-existence with Israel. The false notion that Israel is an occupier should be rejected.'
         status: Not started
         category: World
         tags:
             - Israel
-        actions:
-            -
-                url: 'https://redd.it/5d81tj'
+        comments: 'https://redd.it/5d81tj'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'The Trump administration will ask the Justice Department to investigate coordinated attempts on college campuses to intimidate students who support Israel.'
         status: Not started
         category: World
         tags:
             - Israel
-        actions:
-            -
-                url: 'https://redd.it/5d7sra'
+        comments: 'https://redd.it/5d7sra'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'A two-state solution between Israel and the Palestinians appears impossible as long as the Palestinians are unwilling to renounce violence against Israel or recognize Israel''s right to exist as a Jewish state. Additionally, the Palestinians are divided between PA rule in the West Bank and Hamas rule in Gaza so there is not a united Palestinian people who could control a second state. Hamas is a US-designated terrorist organization that actively seeks Israel''s destruction. We will seek to assist the Israelis and the Palestinians in reaching a comprehensive and lasting peace, to be freely and fairly negotiated between those living in the region.'
         status: Not started
         category: World
         tags:
             - Israel
-        actions:
-            -
-                url: 'https://redd.it/5d81tk'
+        comments: 'https://redd.it/5d81tk'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'The Palestinian leadership, including the PA, has undermined any chance for peace with Israel by raising generations of Palestinian children on an educational program of hatred of Israel and Jews. The larger Palestinian society is regularly taught such hatred on Palestinian television, in the Palestinian press, in entertainment media, and in political and religious communications. The two major Palestinian political parties - Hamas and Fatah - regularly promote anti-Semitism and jihad.'
         status: Not started
         category: World
         tags:
             - Israel
-        actions:
-            -
-                url: 'https://redd.it/5d81tm'
+        comments: 'https://redd.it/5d81tm'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'The U.S. cannot support the creation of a new state where terrorism is financially incentivized, terrorists are celebrated by political parties and government institutions, and the corrupt diversion of foreign aid is rampant. The U.S. should not support the creation of a state that forbids the presence of Christian or Jewish citizens, or that discriminates against people on the basis of religion.'
         status: Not started
         category: World
         tags:
             - Israel
-        actions:
-            -
-                url: 'https://redd.it/5d81tn'
+        comments: 'https://redd.it/5d81tn'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'The U.S. should support direct negotiations between Israel and the Palestinians without preconditions, and will oppose all Palestinian, European and other efforts to bypass direct negotiations between parties in favor of an imposed settlement. Any solutions imposed on Israel by outside parties including by the United Nations Security Council, should be opposed. We support Israel''s right and obligation to defend itself against terror attacks upon its people and against alternative forms of warfare being waged upon it legally, economically, culturally, and otherwise.'
         status: Not started
         category: World
         tags:
             - Israel
-        actions:
-            -
-                url: 'https://redd.it/5d81tp'
+        comments: 'https://redd.it/5d81tp'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'Israel''s maintenance of defensible borders that preserve peace and promote stability in the region is a necessity. Pressure should not be put on Israel to withdraw to borders that make attacks and conflict more likely.'
         status: Not started
         category: World
         tags:
             - Israel
-        actions:
-            -
-                url: 'https://redd.it/5d7srh'
+        comments: 'https://redd.it/5d7srh'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'The U.S. will recognize Jerusalem as the eternal and indivisible capital of the Jewish state and Mr. Trump''s Administration will move the U.S. embassy to Jerusalem.'
-        status: Not started
+        status: In progress
         category: World
         tags:
             - Israel
-        actions:
-            -
-                url: 'https://redd.it/5d7srj'
+        comments: 'https://redd.it/5d7srj'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20170126193255/http://www.independent.co.uk/news/world/middle-east/donald-trump-israel-embassy-jerusalem-tel-aviv-white-house-relocate-a7540661.html'
     -
         title: 'Despite the Iran Nuclear deal in 2015, the U.S. State Department recently designated Iran, yet again, as the leading state sponsor of terrorism - putting the Middle East particularly, but the whole world at risk by financing, arming, and training terrorist groups operating around the world including Hamas, Hezbollah, and forces loyal to Syrian President Bashar al-Assad. The U.S. must counteract Iran''s ongoing violations of the Joint Comprehensive Plan of Action regarding Iran''s quest for nuclear weapons and their noncompliance with past and present sanctions, as well as the agreements they signed, and implement tough, new sanctions when needed to protect the world and Iran''s neighbors from its continuing nuclear and non-nuclear threats.'
         status: Not started
         category: World
         tags:
             - Israel
-        actions:
-            -
-                url: 'https://redd.it/5d81tq'
+        comments: 'https://redd.it/5d81tq'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
+            - 'http://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'No Muslims should be allowed to enter the United States -as immigrants or visitors. Ban Muslims from entering but make an exception for friends and Muslims serving in the US military. Ban Muslims as a matter of policy, as well as people from countries with a history of terrorism.'
         status: Not started
         category: World
         tags:
-            - Muslim ban
-        actions:
-            -
-                url: 'https://redd.it/5d7srk'
+            - Proposed Muslim Ban
+        comments: 'https://redd.it/5d7srk'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'The ban would call for "extreme vetting." There''s a ban, plus "extreme vetting" that includes an ideological test.'
         status: Not started
         category: World
         tags:
-            - Muslim ban
-        actions:
-            -
-                url: 'https://redd.it/5d7srm'
+            - Proposed Muslim Ban
+        comments: 'https://redd.it/5d7srm'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Only people who love America are allowed. Temporarily ban most foreign Muslims from entering the United States "until our country''s representatives can figure out what is going on." Trump would allow exceptions for dignitaries, business people, athletes and others who have "proven" themselves.'
         status: Not started
         category: World
         tags:
-            - Muslim ban
-        actions:
-            -
-                url: 'https://redd.it/5d81tr'
+            - Proposed Muslim Ban
+        comments: 'https://redd.it/5d81tr'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Trump will not say whether or not he intends to ban people of Muslim faith from the U.S., but he will say that "extreme vetting" will apply to people from certain countries. It''s unclear where those countries are, what "extreme vetting" entails or how he intends to institute an ideological test for entry.'
         status: Not started
         category: World
         tags:
-            - Muslim ban
-        actions:
-            -
-                url: 'https://redd.it/5d81ts'
+            - Proposed Muslim Ban
+        comments: 'https://redd.it/5d81ts'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Heavily surveil mosques in the United States. Trump has said he''s open to the idea of closing some mosques.'
         status: Not started
         category: World
         tags:
-            - Muslim ban
-        actions:
-            -
-                url: 'https://redd.it/5d7srp'
+            - Proposed Muslim Ban
+        comments: 'https://redd.it/5d7srp'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
-        title: 'The intervention in Libya by the U.S.-led coalition was a terrible idea.'
-        status: Not started
-        category: World
-        tags:
-            - Libya
-        actions:
-            -
-                url: 'https://redd.it/5d7sru'
-        sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
-        title: 'I wanted a surgical intervention, not a "strong" intervention.'
-        status: Not started
-        category: World
-        tags:
-            - Libya
-        actions:
-            -
-                url: 'https://redd.it/5d7srw'
-        sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
-        title: 'We really should have taken the oil in Libya, too, since we were there.'
-        status: Not started
-        category: World
-        tags:
-            - Libya
-        actions:
-            -
-                url: 'https://redd.it/5d7srz'
-        sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
-        title: 'As Trump put it, "I was for something, but I wasn''t for what we have right now." That "something" seems to include violating the Geneva Conventions to seize Libyan oil.'
-        status: Not started
-        category: World
-        tags:
-            - Libya
-        actions:
-            -
-                url: 'https://redd.it/5d7ss0'
-        sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Japan should have nuclear weapons.'
         status: Not started
         category: World
         tags:
             - Japan
-        actions:
-            -
-                url: 'https://redd.it/5d7ss1'
+        comments: 'https://redd.it/5d7ss1'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Renegotiate the Iran Nuclear Deal.'
         status: Not started
         category: World
         tags:
             - Iran
-        actions:
-            -
-                url: 'https://redd.it/5d7ss7'
+        comments: 'https://redd.it/5d7ss7'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: '"I promise I will never be in a bicycle race. That I can tell you." (This promise is connected to criticism of Secretary of State John F. Kerry, who was injured while riding a bicycle amid the Iran negotiations.)'
         status: Not started
         category: World
         tags:
             - Iran
-        actions:
-            -
-                url: 'https://redd.it/5d7ss8'
+        comments: 'https://redd.it/5d7ss8'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161007122027/http://www.businessinsider.com/donald-trump-criticizes-john-kerry-for-cycling-2015-6'
     -
-        title: 'Refuse to call Iran''s leader by his preferred title. "I guarantee you I will be never calling him the Supreme Leader... I''ll say, ''Hey baby, how ya doing?'' I will never call him the Supreme Leader."'
+        title: 'Refuse to call Iran''s leader by his preferred title. "I guarantee you I will be never calling him the Supreme Leader... I''ll say, ''Hey baby, how ya doing?'' I will never call him the Supreme Leader".'
         status: Not started
         category: World
         tags:
             - Iran
-        actions:
-            -
-                url: 'https://redd.it/5d7ssa'
+        comments: 'https://redd.it/5d7ssa'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Negotiate the release of all U.S. prisoners held in Iran before taking office. (Five hostages were recently released, including Washington Post reporter Jason Rezaian; Trump has taken some credit for this.)'
         status: Not started
         category: World
         tags:
             - Iran
-        actions:
-            -
-                url: 'https://redd.it/5d7ssb'
+        comments: 'https://redd.it/5d7ssb'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Leave troops in Afghanistan because it''s such "a mess." Protect Israel. And increase U.S. military presence in the East and South China Seas.'
         status: Not started
         category: World
         tags:
             - Afghanistan
-        actions:
-            -
-                url: 'https://redd.it/5d7ssd'
+        comments: 'https://redd.it/5d7ssd'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Find an "out" clause in the Iran deal and then "totally" renegotiate the whole thing.'
         status: Not started
         category: World
         tags:
             - Afghanistan
-        actions:
-            -
-                url: 'https://redd.it/5d7sse'
+        comments: 'https://redd.it/5d7sse'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'Aggressively challenge China''s power in the world by declaring the country a currency manipulator, adopting a "zero tolerance policy on intellectual property theft and forced technology transfer" and cracking down on China''s "lax labor and environmental standards."'
+        title: 'Aggressively challenge China''s power in the world by declaring the country a currency manipulator, adopting a "zero tolerance policy on intellectual property theft and forced technology transfer" and cracking down on China''s "lax labor and environmental standards".'
         status: Not started
         category: World
         tags:
             - China
-        actions:
-            -
-                url: 'https://redd.it/5d7ssf'
+        comments: 'https://redd.it/5d7ssf'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'Rather than throw the Chinese president a state dinner, buy him "a McDonald''s hamburger and say we''ve got to get down to work."'
+        title: 'Rather than throw the Chinese president a state dinner, buy him "a McDonald''s hamburger and say we''ve got to get down to work".'
         status: Not started
         category: World
         tags:
             - China
-        actions:
-            -
-                url: 'https://redd.it/5d7ssh'
+        comments: 'https://redd.it/5d7ssh'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Put billionaire hedge fund manager Carl Icahn in charge of trade negotiations with China and Japan, and pick an ambassador to Japan who is "a killer," unlike the current ambassador, Caroline Kennedy.'
         status: Not started
         category: World
         tags:
             - China
-        actions:
-            -
-                url: 'https://redd.it/5d7ssi'
+        comments: 'https://redd.it/5d7ssi'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'http://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Shred or rework trade agreements with Mexico, China and many other countries - and if companies leave for overseas, hit them with huge tariffs.'
         status: Not started
         category: World
         tags:
             - China
-        actions:
-            -
-                url: 'https://redd.it/5d7ssn'
+        comments: 'https://redd.it/5d7ssn'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
-        title: '"Notify all countries that refuse to take back dangerous illegal immigrants who have committed crimes in this country that they will lose access to our visa programs if they continue to do so."'
+        title: 'Notify all countries that refuse to take back dangerous illegal immigrants who have committed crimes in this country that they will lose access to our visa programs if they continue to do so.'
         status: Not started
         category: World
         tags:
             - Global
-        actions:
-            -
-                url: 'https://redd.it/5d7st3'
+        comments: 'https://redd.it/5d7st3'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
-        title: '"Contact countries and say ''Folks, we love protecting you, we want to continue to protect you but you''re not living up to the bargain'' They''re not paying what they''re supposed to be paying-which is very little, by the way."'
+        title: 'Contact countries and say ''Folks, we love protecting you, we want to continue to protect you but you''re not living up to the bargain'' They''re not paying what they''re supposed to be paying-which is very little, by the way.'
         status: Not started
         category: World
         tags:
             - Global
-        actions:
-            -
-                url: 'https://redd.it/5d7st9'
+        comments: 'https://redd.it/5d7st9'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Get rid of Common Core because it''s "a disaster" and a "very bad thing." Trump says he wants to give local school districts more control and might even eliminate the Department of Education.'
         status: Not started
         category: Education
         tags:
-            - Common core
-        actions:
-            -
-                url: 'https://redd.it/5d7ssk'
+            - Common Core
+        comments: 'https://redd.it/5d7ssk'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Learn the difference between Hezbollah and Hamas.'
         status: Not started
         category: Education
         tags:
-            - Trump
-        actions:
-            -
-                url: 'https://redd.it/5d7sto'
+            - 'Trump''s education'
+        comments: 'https://redd.it/5d7sto'
         sources:
-            -
-                title: 'title of source goes here'
-                url: 'http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-
-
-original_tabs:
-  -
-    id: 100days
-    name: 'First 100 Days'
-    icon: clock-o
-    sections:
-      -
-        header: 'Contract with the American Voter - 100 Day Plan'
-        points:
-      -
-        header: 'On the same day, I will begin taking the following 7 actions to protect American workers:'
-        points:
-      -
-        header: 'Additionally, on the first day, I will take the following five actions to restore security and the constitutional rule of law:'
-        points:
-      -
-        header: 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
-        points:
-
-  -
-    id: culture
-    name: Culture
-    icon: music
-    sections:
-      -
-        header: 'Trump'
-        points:
-  -
-    id: economy
-    name: Economy
-    icon: dollar
-    sections:
-      -
-        header: 'Minimum Wage'
-        points:
-      -
-        header: 'Taxes'
-        points:
-      -
-        header: 'National Debt'
-        points:
-      -
-        header: 'Jobs'
-        points:
-      -
-        header: 'Assorted Numbers'
-        points:
-  -
-    id: environment
-    name: Environment
-    icon: leaf
-    sections:
-      -
-        header: 'Climate Change'
-        points:
-      -
-        header: 'Natural resources'
-        points:
-
-  -
-    id: government
-    name: Government
-    icon: university
-    sections:
-      -
-        header: 'Space Exploration'
-        points:
-
-      -
-        header: 'Legal'
-        points:
-
-      -
-        header: 'Assorted'
-        points:
-
-  -
-    id: immigration
-    name: Immigration
-    icon: suitcase
-    sections:
-      -
-        header: 'Deportation'
-        points:
-      -
-        header: 'Young Undocumented Immigrants and Children of Illegal Immigrants'
-        points:
-      -
-        header: 'Visa''s for High-Skilled Workers'
-        points:
-
-      -
-        header: 'Border Control and the Refugee Crisis'
-        points:
-  -
-    id: indigenouspeoples
-    name: Indigenous
-    icon: users
-    sections:
-     -
-        header: 'Indigenous'
-        points:
-  -
-    id: security
-    name: Security
-    icon: fighter-jet
-    sections:
-      -
-        header: 'Defeating ISIS'
-        points:
-      -
-        header: 'Military'
-        points:
-
-      -
-        header: 'Guns'
-        points:
-      -
-        header: 'Torture'
-        points:
-      -
-        header: 'Jail'
-        points:
-  -
-    id: health
-    name: Health
-    icon: heart
-    sections:
-      -
-        header: 'Abortion'
-        points:
-      -
-        header: 'Health Care'
-        points:
-  -
-    id: internationalpolicy
-    name: International
-    icon: globe
-    sections:
-      -
-        header: 'Israel'
-        points:
-      -
-        header: 'Proposed Muslim Ban'
-        points:
-      -
-        header: '2011 Intervention in Libya'
-        points:
-      -
-        header: 'Japan'
-        points:
-      -
-        header: 'Iran'
-        points:
-      -
-        header: 'Afghanistan'
-        points:
-      -
-        header: 'China'
-        points:
-      -
-        header: 'Global'
-        points:
-  -
-    id: education
-    name: Education
-    icon: graduation-cap
-    sections:
-      -
-        header: 'Common Core'
-        points:
-      -
-        header: 'Trump''s education'
-        points:
+            - 'http://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'

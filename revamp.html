@@ -184,10 +184,8 @@ layout: page_revamp
                         -->
                         <td class="promise__actions">
                             <!-- comment and twitter integration -->
-                            {% for action in promise.actions %}
-                            <a href="{{ action.url }}" target="_blank" rel="nofollow">
+                            <a href="{{ promise.comments }}" target="_blank" rel="nofollow">
                             <i class="fa fa-fw fa-comments text-muted" aria-hidden="true"></i></a>
-                            {% endfor %}
 
                             {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Achieved" %} achieved{% elsif promise.status == "Broken" %} broke{% else %}{% endif %}{% endcapture %}
 
