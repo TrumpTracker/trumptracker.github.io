@@ -25,7 +25,7 @@ We'd love to get contributions from you! For a quick guide to getting your syste
 6. ~~Database for Policies -- top of the agenda~~
 7. ~~Add Open Source Links and Credits on Footer~~
 8. ~~Clean up duplicates, if any.~~
-9. Implement functionality to let me click on the "broken", "in progress", "achieved" categories so I can see which things fall into those categories.
+9. ~~Implement functionality to let me click on the "broken", "in progress", "achieved" categories so I can see which things fall into those categories.~~
 10. Rich data so Google can parse it. Maybe something on http://schema.org/?
 11. ~~Add tweet button #47~~
 
