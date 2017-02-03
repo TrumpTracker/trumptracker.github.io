@@ -3,46 +3,73 @@
 @import 'variables'
 
 body
-  padding-top: 70px
+  padding-top: 50px
   font-size: $font-size
 
-// didn't want blue links everywhere
-a
-  color: inherit
+.promises-header__close
+  margin-top: -30px
 
-td.tweet
-  display: flex
+.promises__search-row
+  margin-top: 15px
+  margin-bottom: 15px
 
-div.tweet
-  margin-left: 10px
+.promises__category-row
+  margin-bottom: 15px
 
-// begin
-.navbar-form
-  border: none
-
-.text-center
-  vertical-align: middle
-
-.navbar-header .search
-  width: 250px
-  margin-top: 8px
-
-.container-fluid
-  margin-left: 20px
-  margin-right: 20px
-
-@media screen and (max-width: 500px)
-  .navbar-header .search
-    margin-top: 8px
-    width: 100%
-    padding: 1em
-  body
-    padding-top: 132px !important
-
-@media screen and (min-width:600px)
-  p a td
-    font-size: $font-size
+.promise__status
+  text-align: center
 
 .loading
   color: rgba(0, 0, 0, 0.5)
   font-style: normal
+
+// bootstrap v4-alpha colors for `compromised` - chosen from muted
+
+.btn-compromised
+  color: #fff
+  background-color: #636c72
+  border-color: #636c72
+
+.list-group-item-compromised
+  background-color: #636c72
+  color: #e8e8e8
+
+
+// -----------------------------------------------------------------
+
+// all other css selectors which require color 
+
+// .compromised
+//   color: #636c72!important
+
+// .btn-compromised
+//   background-color: #636c72
+//   border-color: #636c72
+
+// .badge
+//   color: #636c72
+//   background-color: #fff
+
+// .label-compromised
+//   background-color: #636c72
+
+// .label-compromised
+//   background-color: #636c72
+
+// .progress-bar-compromised
+//   background-color: #636c72
+
+
+// new colors from bootstrap v4 alpha
+
+// .warning
+//   color: #d9534f!important
+
+// .danger
+//   color: #f0ad4e!important
+
+// .info
+//   color: #5bc0de!important
+
+// .success
+//   color: #5cb85c!important

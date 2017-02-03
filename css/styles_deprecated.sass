@@ -1,0 +1,48 @@
+---
+---
+@import 'variables'
+
+body
+  padding-top: 70px
+  font-size: $font-size
+
+// didn't want blue links everywhere
+a
+  color: inherit
+
+td.tweet
+  display: flex
+
+div.tweet
+  margin-left: 10px
+
+// begin
+.navbar-form
+  border: none
+
+.text-center
+  vertical-align: middle
+
+.navbar-header .search
+  width: 250px
+  margin-top: 8px
+
+.container-fluid
+  margin-left: 20px
+  margin-right: 20px
+
+@media screen and (max-width: 500px)
+  .navbar-header .search
+    margin-top: 8px
+    width: 100%
+    padding: 1em
+  body
+    padding-top: 132px !important
+
+@media screen and (min-width:600px)
+  p a td
+    font-size: $font-size
+
+.loading
+  color: rgba(0, 0, 0, 0.5)
+  font-style: normal

@@ -1,0 +1,163 @@
+---
+layout: page
+comments: false
+---
+
+<div class="container">
+    <div class="row search-results" style="display:none">
+        <div class="col-md-12">
+            <ul class="list-group" id="search-results">
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item inauguration-time-container">
+                    <i class="fa fa-home fa-fw"></i>
+                    <b id="inauguration-time">
+                        Days Till Inauguration:
+                        <span id="inauguration-days"><i class='loading'>Loading...</i></span>
+                    </b>
+                </li>
+                <li class="list-group-item list-group-item">
+                <i class="fa fa-calendar fa-fw"></i>
+                <b>Days In Office:
+                <span id="days-in-office"><i class='loading'>Loading...</i></span>
+                </b>
+                </li>
+                <li class="list-group-item list-group-item-info">
+                <i class="fa fa-hourglass-start fa-fw"></i>
+                Not Yet Started: <span id="points-not-started"></span> of <span class="total-points"></span>
+                </li>
+                <li class="list-group-item list-group-item-warning">
+                <i class="fa fa-cogs fa-fw"></i>
+                In Progress:
+                <span id="points-in-progress"></span>
+                of <span class="total-points"></span>
+                </li>
+                <li class="list-group-item list-group-item-success">
+                <i class="fa fa-check-circle-o fa-fw"></i>
+                Achieved: <span id="points-achieved"></span>
+                of  <span class="total-points"> </span></li>
+                <li class="list-group-item list-group-item-danger">
+                <i class="fa fa-ban fa-fw"></i>
+                Broken: <span id="points-broken"></span> of <span class="total-points"></span>
+                </li>
+            </ul>
+            <p>
+                On Tuesday November 8th, 2016, Donald John Trump won the electoral vote and is currently the 45th President of the United States of America.
+                <br /><br />
+                He made <b>a lot of promises</b>. Trump Tracker will fact-check and see if he adheres to all of his stands on policies regarding culture, immigration, economy, and many more.
+            </p>
+
+            <div>
+                <ul class="list-inline">
+                    <li>
+                        <a href="http://www.facebook.com/sharer.php?u=https://trumptracker.github.io/" target="_blank" style="color:#3b5998;">
+                            <i class="fa fa-2x fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/share?url=https://trumptracker.github.io/" target="_blank" style="color:#dd4b39;">
+                            <i class="fa fa-2x fa-google-plus"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/share?url=https://trumptracker.github.io/&amp;text=Track&nbsp;&commat;realDonaldTrump&apos;s&nbsp;Electoral&nbsp;Promises&nbsp;with&nbsp;Trump&nbsp;Tracker.&amp;hashtags=TrumpTracker&amp;via=VirenMohindra" target="_blank" style="color:#1da1f2;">
+                            <i class="fa fa-2x fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://luithollander.nl/trumptracker/rss.php" target="_blank">
+                            <i class="fa fa-2x fa-rss"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <img src="assets/trump-main.jpg" class="img-responsive center-block" alt="Donald Trump standing on a podium." />
+        </div>
+    </div>
+</div>
+<br />
+<div class="container-fluid">
+    <div class="row">
+        <ul class="nav nav-tabs" id="myTabs" role="tablist">
+            {% for tab in site.data.data.tabs %}
+                <li role="presentation" class="{{tab.id}} {% if forloop.index == 1 %}active{% endif %}">
+                    <a href="#{{tab.id}}" aria-controls="{{tab.id}}" role="tab" data-toggle="tab">
+                        <i class="fa fa-{{tab.icon}}"></i>&nbsp;{{tab.name}}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            {% for tab in site.data.data.tabs %}
+             <!-- {% increment issue_number %} -->
+              <div role="tabpanel" class="tab-pane {% if forloop.index == 1 %}active{% endif %} fade in" id="{{tab.id}}">
+                  <div class="row">
+                  <div class="input-group">
+                    <div class="input-group-addon"><span>Search </span></div>
+                    <input type="search" placeholder="keyword" class="form-control search"/>
+                  </div>
+                    {% for section in tab.sections %}
+                      <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <th>{{section.header}}</th>
+                                <td></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for point in section.points %}
+                            <tr class="
+                            {% if point.status == 'broken' %}danger{% endif %}
+                            {% if point.status == 'achieved' %}success{% endif %}
+                            {% if point.status == 'inProgress' %}warning{% endif %}
+                            ">
+                                <th>{{forloop.index}}</th>
+                                <td>
+                                    <a href="{{point.source}}">{{point.text}}</a>
+                                    {% for citation in point.citations %}
+                                        {% if point.citations[0] != '' %}
+                                                <sup>
+                                                <a href="{{point.citations[0]}}" target="_blank" rel="nofollow">{{forloop.index}}</a>
+                                                </sup>
+                                        {% endif %}
+                                {% endfor %}                                        
+                                </td>
+                                <td class="tweet">
+                                    {% capture status %}{% if point.status == "notStarted" %} hasn't started {%elsif point.status == "broken" %} broke {% elsif point.status == "achieved" %} achieved {% else %}{% endif %}{% endcapture %}
+
+                                    {% capture message %}@realDonaldTrump{{ status }} promise no. {% increment issue_number %}: {{ point.text }} on{% endcapture %}{% capture tweettext%}{{ message }}{% endcapture %}
+                                {% if point.status %}
+                                <div class="text-center">
+                                <a href="https://twitter.com/share?url=https://trumptracker.github.io/&text={{ tweettext | truncate: 102 | url_encode }}&hashtags=TrumpTracker" target="_blank">
+                                <i class="fa fa fa-twitter"></i>
+                                </a>
+                                </div>
+                                <div class="tweet">
+                                {% endif %}
+                                    {% if point.comments %}
+                                        <a href="{{point.comments}}" target="_blank" rel="nofollow" class="btn btn-default btn-sm"><i class="fa fa-comments text-muted"></i>&nbsp;Comment</a>
+                                    {% endif %}
+								</div>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                      </table>
+                    {% endfor %}
+                  </div>
+              </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
