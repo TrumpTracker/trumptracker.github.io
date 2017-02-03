@@ -28,6 +28,7 @@ theme: minima
 gems:
   - jekyll-feed
   - jekyll-sitemap
+  - html-proofer
 
 sass:
   sass_dir: css/partials
@@ -37,6 +38,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - misc
+  - script
 
 # Be sure to exclude vendor from your  _config.yml
 # Travis bundles all gems in the vendor directory on its build servers, which Jekyll will mistakenly read and explode on.
