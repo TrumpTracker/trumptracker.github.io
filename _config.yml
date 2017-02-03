@@ -27,6 +27,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-sitemap
 
 sass:
   sass_dir: css/partials
