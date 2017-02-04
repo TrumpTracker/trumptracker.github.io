@@ -957,7 +957,7 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161109060339/http://www.vox.com/2016/11/9/13571318/donald-trump-disaster-climate'
     -
-        title: '"If I''m president, Carrier won't move to Mexico"'
+        title: '"If I''m president, Carrier won''t move to Mexico"'
         status: Compromised
         category: Environment
         tags:
