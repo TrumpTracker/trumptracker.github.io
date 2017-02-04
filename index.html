@@ -41,7 +41,7 @@ layout: page
             <div id="share-buttons">
                 <ul class="list-inline">
                     <li>
-                        <a href="http://www.facebook.com/sharer.php?u=https://trumptracker.github.io/" target="_blank"
+                        <a href="https://www.facebook.com/sharer.php?u=https://trumptracker.github.io/" target="_blank"
                            style="color:#3b5998;">
                             <i class="fa fa-2x fa-facebook-square"></i>
                         </a>
@@ -134,7 +134,7 @@ layout: page
 
         </div>
     </div> -->
-    <!-- /.promises__category-row --> 
+    <!-- /.promises__category-row -->
 
     <div class="row promises__table container-fluid">
                 <table class="table table-striped">
@@ -156,13 +156,13 @@ layout: page
                     {% for promise in promises %}
                     <tr class="promise {% if promise.status == 'In progress' %}warning{% endif %}{% if promise.status == 'Achieved' %}success{% endif %}{% if promise.status == 'Broken' %}danger{% endif %}">
                         <td class="promise__id">{{ forloop.index }}.</td>
-                        
+
                          <td class="promise__status" title="{{ promise.status }}">
                             <i class="fa fa-fw fa-{{ statuses[promise.status]['icon'] }} text-{{ statuses[promise.status]['color'] }}" title="{{ promise.status }}"></i>
                             <span class="promise__status-text js-promise-status sr-only">{{ promise.status }}</span>
                         </td>
-                        
-                        
+
+
                         <td class="promise__category" style="white-space: nowrap;">
                             <i class="fa fa-fw fa-{{ icons[promise.category] }}"></i> <span class="js-promise-category">{{ promise.category }}</span>
                         </td>
@@ -191,7 +191,7 @@ layout: page
                             {% capture tweettext %}{{ message }}{% endcapture %}
 
                             <a href="https://twitter.com/share?url=https://trumptracker.github.io/&text={{ tweettext | truncate: 102 | url_encode }}&hashtags=TrumpTracker" target="_blank"><i class="fa fa-fw fa-twitter text-muted" aria-hidden="true"></i></a>
-                            
+
                         </td>
                     </tr>
                     {% endfor %}
