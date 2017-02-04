@@ -70,8 +70,8 @@ layout: page
                     </li>
                 </ul>
             </div>
-            <!--<img src="assets/trump-main.jpg" class="img-responsive center-block"-->
-                 <!--alt="Donald Trump standing on a podium."/>-->
+            <!-- <img src="assets/trump-main.jpg" class="img-responsive center-block"-->
+                 <!--alt="Donald Trump standing on a podium."/> -->
         </div>
     </div>
 
@@ -119,8 +119,7 @@ layout: page
         </ul>
     </div>
 
-    <!--
-    <div class="row promises__category-row">
+    <!-- <div class="row promises__category-row">
         <div class="col-md-12">
 
             <div class="promises__categories">
@@ -134,7 +133,7 @@ layout: page
             </div>
 
         </div>
-    </div>-->
+    </div> -->
     <!-- /.promises__category-row --> 
 
     <div class="row promises__table container-fluid">
@@ -145,7 +144,7 @@ layout: page
                         <th><!-- ID --></th>
                         <th>Status</th>
                         <th>Category</th>
-                        <!--<th>Tags</th>-->
+                        <!-- <th>Tags</th> -->
                         <th>Promise</th>
                         <!-- <th>Sources</th> -->
                         <th>Actions</th>
@@ -167,13 +166,11 @@ layout: page
                         <td class="promise__category" style="white-space: nowrap;">
                             <i class="fa fa-fw fa-{{ icons[promise.category] }}"></i> <span class="js-promise-category">{{ promise.category }}</span>
                         </td>
-                        <!--
-                        <td class="promise__tags" style="text-align: center;">
+                        <!-- <td class="promise__tags" style="text-align: center;">
                             {% for tag in promise.tags %}
                             <a class="label label-default">{{ tag }}</a>
                             {% endfor %}
-                        </td>
-                        -->
+                        </td> -->
                         <td class="promise__title js-promise-text">{{ promise.title }}
                         <!-- add superscript citations and sources -->
                         {% for source in promise.sources %}
@@ -181,8 +178,7 @@ layout: page
                         {% endfor %}
                         </td>
                         <!-- <td class="promise__sources" style="white-space: nowrap;">
-                        </td>
-                        -->
+                        </td> -->
                         <td class="promise__actions">
                             <!-- comment and twitter integration -->
                             <a href="{{ promise.comments }}" target="_blank" rel="nofollow">
