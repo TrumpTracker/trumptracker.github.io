@@ -768,13 +768,14 @@ promises:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Get rid of the Dodd-Frank Wall Street Reform and Consumer Protection Act.'
-        status: Not started
+        status: In progress
         category: Economy
         tags:
             - Assorted Numbers
         comments: 'https://redd.it/5d7soi'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'http://web.archive.org/web/20170203135142/http://www.cnbc.com/2017/02/03/us-senate-kills-sec-resource-extraction-rule.html'
     -
         title: 'Simplify the U.S. tax code and reduce the number of tax brackets from seven to four. The highest earners would pay a 25-percent tax. The corporate tax rate would fall to 15 percent. Eliminate the "marriage penalty" for taxpayers and get rid of the alternate minimum tax.'
         status: Not started
