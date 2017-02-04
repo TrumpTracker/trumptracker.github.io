@@ -153,13 +153,9 @@ layout: page
                     </thead>
 
                     <tbody class="list">
-                    {% for promise in promises %}
                     <!-- add color to each policy -->
-                    <tr class="promise
-                    {% if promise.status == 'In progress' %}warning{% endif %}
-                    {% if promise.status == 'Achieved' %}success{% endif %}
-                    {% if promise.status == 'Broken' %}danger{% endif %}
-                    ">
+                    {% for promise in promises %}
+                    <tr class="promise {% if promise.status == 'In progress' %}warning{% endif %}{% if promise.status == 'Achieved' %}success{% endif %}{% if promise.status == 'Broken' %}danger{% endif %}">
                         <td class="promise__id">{{ forloop.index }}.</td>
                         
                          <td class="promise__status" title="{{ promise.status }}">
