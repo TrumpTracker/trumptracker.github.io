@@ -31,7 +31,7 @@ There are three variables that need to be modified when a promise gets updated, 
 - `Achieved` = Promise has been __fully__ completed, backed up with news articles and/ or government documents.
 - `Compromised` = Promise has been __partially__ completed, backed up with news articles and/ or government documents.
 
-Where did you find out about the promise getting updated? These news articles should be added into the `citations` section. All you need to do is plug the news source into one of the provided spaces between the single quotes. The more the better, so please keep on adding news sources. We use this as a Wikipedia-style and [In-Text Citations](http://guides.lib.uw.edu/c.php?g=99161&p=642357).
+Where did you find out about the promise getting updated? These news articles should be added into the `citations` section. All you need to do is plug the news source into one of the provided spaces between the single quotes. The more the better, so please keep on adding news sources. We use this as a Wikipedia-style and [In-Text Citations](http://guides.lib.uw.edu/c.php?g=99161&p=642357). Please note that [archive.org](https://archive.org/) urls are preferred as these cannot be changed once captured. 
 
 Note: Please try to keep the articles bias free, since we aren't trying to lean any way. Exective Orders are the best option.
 
