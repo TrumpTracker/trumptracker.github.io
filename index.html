@@ -154,7 +154,7 @@ layout: page
                     <tbody class="list">
                     <!-- add color to each policy -->
                     {% for promise in promises %}
-                    <tr class="promise {% if promise.status == 'In progress' %}warning{% endif %}{% if promise.status == 'Achieved' %}success{% endif %}{% if promise.status == 'Broken' %}danger{% endif %}">
+                    <tr class="promise {% if promise.status == 'In progress' %}warning{% endif %}{% if promise.status == 'Achieved' %}success{% endif %}{% if promise.status == 'Broken' %}danger{% endif %}{% if promise.status == 'Compromised' %}compromised{% endif %}">
                         <td class="promise__id">{{ forloop.index }}.</td>
 
                          <td class="promise__status" title="{{ promise.status }}">
@@ -184,9 +184,7 @@ layout: page
                             <a href="{{ promise.comments }}" target="_blank" rel="nofollow">
                             <i class="fa fa-fw fa-comments text-muted" aria-hidden="true"></i></a>
 
-                            {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Achieved" %} achieved{% elsif promise.status == "Broken" %} broke{% else %}{% endif %}{% endcapture %}
-
-                            {% capture message %}@realDonaldTrump{{ status }} promise no. {{ forloop.index}}: {{ promise.title }} on{% endcapture %}
+                            {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Achieved" %} achieved{% elsif promise.status == "Broken" %} broke{% elsif promise.status == "Compromised" %} compromised on{% else %}{% endif %}{% endcapture %}{% capture message %}@realDonaldTrump{{ status }} promise no. {{ forloop.index}}: {{ promise.title }} on{% endcapture %}
 
                             {% capture tweettext %}{{ message }}{% endcapture %}
 
