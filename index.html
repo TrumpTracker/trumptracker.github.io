@@ -111,7 +111,7 @@ layout: page
         <ul class="nav nav-tabs" id="myTabs" role="tablist" >
             {% for category in categories %}
                 <li role="presentation" data-list-facet="js-promise-category" data-facet-value="{{ category }}" class="{{ category }}">
-                    <a href="#" aria-controls="{{ category }}" role="tab" data-toggle="tab" class="text-muted">
+                    <a href="#" role="tab" data-toggle="tab" class="text-muted">
                         <i class="fa fa-fw fa-{{ icons[category] }}"></i>&nbsp;{{ category }}
                     </a>
                 </li>
