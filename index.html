@@ -85,6 +85,7 @@ layout: page
                     <i class="fa fa-fw fa-filter"></i><span id="count">{{ total }}</span>/{{ total }}
                 </button>
             </form>
+            <br>
         </div>
         <div class="col-md-7">
             <div class="pull-right">
@@ -142,8 +143,8 @@ layout: page
                     <thead>
                     <tr>
                         <th><!-- ID --></th>
-                        <th>Status</th>
-                        <th>Category</th>
+                        <!--<th>Status</th>-->
+                        <!--<th>Category</th>-->
                         <!-- <th>Tags</th> -->
                         <th>Promise</th>
                         <!-- <th>Sources</th> -->
@@ -157,21 +158,26 @@ layout: page
                     <tr class="promise {% if promise.status == 'In progress' %}warning{% endif %}{% if promise.status == 'Achieved' %}success{% endif %}{% if promise.status == 'Broken' %}danger{% endif %}{% if promise.status == 'Compromised' %}compromised{% endif %}">
                         <td class="promise__id">{{ forloop.index }}.</td>
 
+                        <!--
                          <td class="promise__status" title="{{ promise.status }}">
                             <i class="fa fa-fw fa-{{ statuses[promise.status]['icon'] }} text-{{ statuses[promise.status]['color'] }}" title="{{ promise.status }}"></i>
                             <span class="promise__status-text js-promise-status sr-only">{{ promise.status }}</span>
                         </td>
-
-
+                        -->
+                        <!--
                         <td class="promise__category" style="white-space: nowrap;">
                             <i class="fa fa-fw fa-{{ icons[promise.category] }}"></i> <span class="js-promise-category">{{ promise.category }}</span>
                         </td>
+                        -->
                         <!-- <td class="promise__tags" style="text-align: center;">
                             {% for tag in promise.tags %}
                             <a class="label label-default">{{ tag }}</a>
                             {% endfor %}
                         </td> -->
-                        <td class="promise__title js-promise-text">{{ promise.title }}
+                        <td class="promise__title js-promise-text">
+                        <b><span class="js-promise-category">{{ promise.category }}</span>:</b>
+                        <span class="promise__status-text js-promise-status sr-only">{{ promise.status }}</span>
+                        {{ promise.title }}
                         <!-- add superscript citations and sources -->
                         {% for source in promise.sources %}
                             <sup><a href="{{ source }}">{{ forloop.index }}</a></sup>
