@@ -113,7 +113,8 @@ layout: page
             {% for category in categories %}
                 <li role="presentation" data-list-facet="js-promise-category" data-facet-value="{{ category }}" class="{{ category }}">
                     <a href="#" role="tab" data-toggle="tab" class="text-muted">
-                        <i class="fa fa-fw fa-{{ icons[category] }}"></i>&nbsp;{{ category }}
+                        <i class="fa fa-fw fa-{{ icons[category] }}"></i>&nbsp;
+                        <span id="remove-on-mobile">{{ category }}</span>
                     </a>
                 </li>
             {% endfor %}
