@@ -1499,13 +1499,14 @@ promises:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'He has pledged to repeal the Affordable Care Act.'
-        status: Not started
+        status: In progress
         category: Health
         tags:
             - Health Care
         comments: 'https://redd.it/5d7stv'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20170210164934/https://www.whitehouse.gov/the-press-office/2017/01/2/executive-order-minimizing-economic-burden-patient-protection-and'
     -
         title: 'Israel is a staunch ally of the U.S. and a key partner in the global war against Islamic jihadism. Military cooperation and coordination between Israel and the U.S. must continue to grow.'
         status: Not started
