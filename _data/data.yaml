@@ -452,7 +452,7 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
-        title: 'Assign a special prosecutor to start a criminal investigation into Hillary Clinton.'
+        title: 'Assign a special prosecutor to start a criminal investigation into Hillary Clinton for her use of a private e-mail server while serving as secretary of state.'
         status: Broken
         category: Culture
         tags:
@@ -460,17 +460,8 @@ promises:
         comments: 'https://redd.it/5e9qzy'
         sources:
             - 'https://web.archive.org/web/20161109215415/http://time.com/4524459/presidential-debate-donald-trump-special-prosecutor/'
-            - 'https://web.archive.org/web/20161223130532/http://www.nytimes.com/2016/11/22/us/politics/donald-trump-hillary-clinton-investigation.html'
-            - 'https://web.archive.org/web/20170106233037/http://www.cnn.com/2016/11/22/politics/conway-no-clinton-charges-donald-trump/'
-    -
-        title: 'Prosecute Hillary Clinton for her use of a private e-mail server while serving as secretary of state.'
-        status: Broken
-        category: Culture
-        tags:
-            - Trump
-        comments: 'https://redd.it/5d7snf'
-        sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20161213174411/http://www.bbc.co.uk/news/world-us-canada-38072846'
             - 'https://web.archive.org/web/20161223130532/http://www.nytimes.com/2016/11/22/us/politics/donald-trump-hillary-clinton-investigation.html'
             - 'https://web.archive.org/web/20170106233037/http://www.cnn.com/2016/11/22/politics/conway-no-clinton-charges-donald-trump/'
     -
