@@ -452,23 +452,18 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
-        title: 'Assign a special prosecutor to start a criminal investigation into Hillary Clinton.'
-        status: Not started
+        title: 'Assign a special prosecutor to start a criminal investigation into Hillary Clinton for her use of a private e-mail server while serving as secretary of state.'
+        status: Broken
         category: Culture
         tags:
             - Trump
         comments: 'https://redd.it/5e9qzy'
         sources:
             - 'https://web.archive.org/web/20161109215415/http://time.com/4524459/presidential-debate-donald-trump-special-prosecutor/'
-    -
-        title: 'Prosecute Hillary Clinton for her use of a private e-mail server while serving as secretary of state.'
-        status: Not started
-        category: Culture
-        tags:
-            - Trump
-        comments: 'https://redd.it/5d7snf'
-        sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20161213174411/http://www.bbc.co.uk/news/world-us-canada-38072846'
+            - 'https://web.archive.org/web/20161223130532/http://www.nytimes.com/2016/11/22/us/politics/donald-trump-hillary-clinton-investigation.html'
+            - 'https://web.archive.org/web/20170106233037/http://www.cnn.com/2016/11/22/politics/conway-no-clinton-charges-donald-trump/'
     -
         title: 'Shut down parts of the internet'
         status: Not started
@@ -887,22 +882,25 @@ promises:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'On the first day in office, terminate President Obama''s executive orders related to immigration. This includes getting rid of "sanctuary cities" that Trump says have become refuges for criminals.'
-        status: Not started
+        status: Broken
         category: Economy
         tags:
             - Assorted Numbers
         comments: 'https://redd.it/5d7sp1'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170211002808/https://www.whitehouse.gov/briefing-room/presidential-actions/executive-orders?term_node_tid_depth=51&page=1'
     -
         title: 'Deport the almost 11 million immigrants illegally living in the United States.'
-        status: Not started
+        status: In progress
         category: Economy
         tags:
             - Assorted Numbers
         comments: 'https://redd.it/5d7sp3'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170211001440/https://www.whitehouse.gov/the-press-office/2017/01/25/presidential-executive-order-enhancing-public-safety-interior-united'
+            - 'https://web.archive.org/web/20170211004524/https://www.washingtonpost.com/news/morning-mix/wp/2017/02/09/for-decades-immigration-authorities-gave-this-mother-a-pass-wednesday-when-she-checked-in-with-them-they-seized-her/'
     -
         title: 'Triple the number of U.S. Immigration and Customs Enforcement officers.'
         status: Not started
@@ -967,7 +965,7 @@ promises:
         sources:
             - 'https://web.archive.org/web/20160402083427/http://www.theindychannel.com/news/call-6-investigators/trump-if-im-president-carrier-wont-move-to-mexico'
             - 'https://web.archive.org/web/20170210171151/http://www.politifact.com/truth-o-meter/promises/trumpometer/promise/1415/save-carrier-plant-indiana/'
-            - 'https://web.archive.org/web/20170204031953/http://www.politifact.com/punditfact/statements/2016/dec/04/heather-mcghee/did-donald-trumps-carrier-deal-actually-save-less-/'
+            - 'https://web.archive.org/web/20161229051929/http://www.politifact.com/punditfact/statements/2016/dec/04/heather-mcghee/did-donald-trumps-carrier-deal-actually-save-less-/'
             - 'https://web.archive.org/web/20170105062303/http://money.cnn.com/2016/12/02/news/companies/trump-carrier-plant-mexico/'
     -
         title: 'Stop spending money on space exploration until the United States can fix its potholes. Encourage private space-exploration companies to expand.'
@@ -1061,13 +1059,14 @@ promises:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Deport "criminal illegal immigrants" within one hour of being sworn in.'
-        status: Not started
+        status: Broken
         category: Immigration
         tags:
             - Deportation
         comments: 'https://redd.it/5d7spn'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170211002808/https://www.whitehouse.gov/briefing-room/presidential-actions/executive-orders?term_node_tid_depth=51&page=1'
     -
         title: 'Deport all undocumented immigrants but bring the "good" ones back legally. In a CNN interview in July 2015, Trump said, "I want to move them out, and we''re going to move them back in and let them be legal, but they have to be in here legally".'
         status: Not started
