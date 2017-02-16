@@ -382,13 +382,14 @@ promises:
             - 'https://youtu.be/YZEZIS4WPSw?t=43s'
     -
         title: 'Never take a vacation while serving as president.'
-        status: Not started
+        status: Broken
         category: Culture
         tags:
             - Trump
         comments: 'https://redd.it/5d7sn3'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170214120734/http://postonpolitics.blog.palmbeachpost.com/2017/02/13/trump-might-return-to-palm-beach-for-third-straight-weekend/'
     -
         title: 'Start winning again. "We''re going to win so much -- win after win after win -- that you''re going to be begging me: ''Please, Mr. President, let us lose once or twice. We can''t stand it any more.'' And I''m going to say: ''No way. We''re going to keep winning. We''re never going to lose. We''re never, ever going to lose."'
         status: Not started
