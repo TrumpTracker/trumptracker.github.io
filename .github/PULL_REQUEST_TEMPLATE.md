@@ -33,11 +33,11 @@ There are three variables that need to be modified when a promise gets updated, 
 
 Where did you find out about the promise getting updated? These news articles should be added into the `citations` section. All you need to do is plug the news source into one of the provided spaces between the single quotes. The more the better, so please keep on adding news sources. We use this as a Wikipedia-style and [In-Text Citations](http://guides.lib.uw.edu/c.php?g=99161&p=642357). Please note that [archive.org](https://archive.org/) urls are preferred as these cannot be changed once captured. 
 
-Note: Please try to keep the articles bias free, since we aren't trying to lean any way. Exective Orders are the best option.
+Note: Please try to keep the articles bias free, since we are not trying to lean any way. Executive Orders are the best option.
 
 Please test after setting up to see if the promise got updated. Use the search function to check if the color got applied.
 Setup instructions in [Read Me](https://github.com/TrumpTracker/trumptracker.github.io/blob/master/README.md).
 
 After you're done with all of this you're ready to go! Send over the Pull Request and we will get back to you in one business day, if not sooner.
 
-Thank you for your immense contribution, you're helping improve TrumpTracker everday.
+Thank you for your immense contribution, you're helping improve TrumpTracker everyday.
