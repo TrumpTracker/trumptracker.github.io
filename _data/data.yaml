@@ -117,6 +117,7 @@ promises:
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
             - 'https://web.archive.org/web/20161111213432/http://www.cbsnews.com/news/did-donald-trump-say-hed-refuse-to-take-a-salary-as-president/'
             - 'https://web.archive.org/web/20161128235648/https://www.washingtonpost.com/politics/i-will-give-you-everything-here-are-282-of-donald-trumps-campaign-promises/2016/11/24/01160678-b0f9-11e6-8616-52b15787add0_story.html'
+            - 'https://mic.com/articles/167904/does-trump-take-a-salary-heres-where-trumps-campaign-promise-stands#.ZUANlVcGh'
     -
         title: 'I will announce my intention to renegotiate NAFTA or withdraw from the deal under Article 2205'
         status: Not started
@@ -1406,13 +1407,14 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Ensure that "the crime and violence that today afflicts our nation will soon come to an end" - a pledge made in his nomination acceptance speech - by restoring law and order. Revive inner cities that he says have become hell holes.'
-        status: Not started
+        status: In progress
         category: Security
         tags:
             - Jail
         comments: 'https://redd.it/5d7sss'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20170216162300/https://www.whitehouse.gov/the-press-office/2017/02/09/presidential-executive-order-enforcing-federal-law-respect-transnational?mid=83229&rid=30384269'
     -
         title: 'Ask Congress to pass ''Kate''s Law''-named for Kate Steinle-to ensure that criminal aliens convicted of illegal reentry receive strong mandatory minimum sentences.'
         status: Not started
