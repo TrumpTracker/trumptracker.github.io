@@ -166,7 +166,7 @@ promises:
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'I will lift the restrictions on the production of $50 trillion dollars'' worth of job-producing American energy reserves, including shale, oil, natural gas and clean coal.'
-        status: Not started
+        status: In progress
         category: First 100 Days
         tags:
             - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
@@ -175,6 +175,9 @@ promises:
             - 'https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
             - 'https://youtu.be/4t1xR9U6IAU?t=3m45s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'https://web.archive.org/web/20170217003151/http://www.cnn.com/2017/02/16/politics/scott-pruitt-donald-trump-white-house-regulations/'
+            - 'https://web.archive.org/web/20170216231621/https://www.rt.com/usa/377639-trump-repeal-obama-coal-mining-rule/'
+            - ''
     -
         title: 'Lift the Obama-Clinton roadblocks and allow vital energy infrastructure projects, like the Keystone Pipeline, to move forward'
         status: Achieved
@@ -941,13 +944,17 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'End the war on coal.'
-        status: Not started
+        status: In progress
         category: Environment
         tags:
             - Natural resources
         comments: 'https://redd.it/5d7st1'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20170217002812/http://thehill.com/policy/energy-environment/319938-trump-signs-bill-undoing-obama-coal-mining-rule'
+            - 'https://web.archive.org/web/20170217003001/http://dailycaller.com/2017/02/16/trump-signs-repeal-of-obama-coal-mining-regulations/'
+            - 'https://web.archive.org/web/20170217003320/http://www.foxnews.com/politics/2017/02/16/trump-overturns-bill-on-coal-mining-debris.html'
+            - 'https://web.archive.org/web/20170217003322/http://www.washingtontimes.com/news/2017/feb/16/donald-trump-nixes-obama-regulations-coal-industry/?utm_source=RSS_Feedutm_medium=RSS'
     -
         title: 'Trump vowed to end the Clean Power Plan'
         status: Not started
