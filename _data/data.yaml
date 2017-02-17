@@ -191,7 +191,6 @@ promises:
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
             - 'https://web.archive.org/web/20170210171820/https://www.washingtonpost.com/news/energy-environment/wp/2017/01/24/trump-gives-green-light-to-dakota-access-keystone-xl-oil-pipelines/'
             - 'https://web.archive.org/web/20170210172056/http://mobile.reuters.com/article/newsOne/idUSKBN15820N'
-            - 'http://www.dailyworld.com/story/news/2017/01/24/trump-acts-advance-keystone-dakota-pipelines/96989374/'
     -
         title: 'Cancel billions in payments to U.N. climate change programs and use the money to fix America''s water and environmental infrastructure'
         status: Not started
@@ -776,7 +775,7 @@ promises:
         comments: 'https://redd.it/5d7soi'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-            - 'http://web.archive.org/web/20170203135142/http://www.cnbc.com/2017/02/03/us-senate-kills-sec-resource-extraction-rule.html'
+            - 'https://web.archive.org/web/20170203135142/http://www.cnbc.com/2017/02/03/us-senate-kills-sec-resource-extraction-rule.html'
     -
         title: 'Simplify the U.S. tax code and reduce the number of tax brackets from seven to four. The highest earners would pay a 25-percent tax. The corporate tax rate would fall to 15 percent. Eliminate the "marriage penalty" for taxpayers and get rid of the alternate minimum tax.'
         status: Not started

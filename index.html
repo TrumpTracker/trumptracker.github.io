@@ -97,7 +97,7 @@ layout: page
 
                         <button class="btn btn-{{ status_data['color'] }}" data-list-facet="js-promise-status" data-facet-value="{{ status_name }}" data-select-single="true">
                             <i class="fa fa-{{ status_data['icon'] }} fa-fw" aria-hidden="true"></i>
-                            <span id="remove-on-mobile">{{ status_name }}</span>
+                            <span class="remove-on-mobile">{{ status_name }}</span>
                         </button>
                     {% endfor %}
                 </div>
@@ -114,7 +114,7 @@ layout: page
                 <li role="presentation" data-list-facet="js-promise-category" data-facet-value="{{ category }}" class="{{ category }}">
                     <a href="#" role="tab" data-toggle="tab" class="text-muted">
                         <i class="fa fa-fw fa-{{ icons[category] }}"></i>&nbsp;
-                        <span id="remove-on-mobile">{{ category }}</span>
+                        <span class="remove-on-mobile">{{ category }}</span>
                     </a>
                 </li>
             {% endfor %}
