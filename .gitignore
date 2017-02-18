@@ -141,6 +141,3 @@ _site/
 .jekyll-metadata
 
 /.idea
-
-# Html-Proofer builds a tmp directory
-tmp/
