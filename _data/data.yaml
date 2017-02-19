@@ -1467,7 +1467,7 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
-        title: 'Repeal Obamacare. Replace it with something.'
+        title: 'Replace Obamacare upon repeal.'
         status: Not started
         category: Health
         tags:
@@ -1505,7 +1505,7 @@ promises:
             - 'https://web.archive.org/web/20161107050749/https://www.washingtonpost.com/news/post-politics/wp/2015/10/29/trump-wants-marijuana-legalization-decided-at-the-state-level/'
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
-        title: 'He has pledged to repeal the Affordable Care Act.'
+        title: 'Repeal the Affordable Care Act.'
         status: In progress
         category: Health
         tags:
