@@ -909,13 +909,14 @@ promises:
             - 'https://web.archive.org/web/20170211004524/https://www.washingtonpost.com/news/morning-mix/wp/2017/02/09/for-decades-immigration-authorities-gave-this-mother-a-pass-wednesday-when-she-checked-in-with-them-they-seized-her/'
     -
         title: 'Triple the number of U.S. Immigration and Customs Enforcement officers.'
-        status: Not started
+        status: In progress
         category: Economy
         tags:
             - Assorted Numbers
         comments: 'https://redd.it/5d7sp4'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170218053156/https://www.whitehouse.gov/the-press-office/2017/01/25/presidential-executive-order-enhancing-public-safety-interior-united'
     -
         title: 'Continue to allow lowly paid foreign workers to come to the United States on temporary works visas because Trump says they are the only ones who want to pick grapes.'
         status: Not started
@@ -1078,7 +1079,7 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
             - 'https://web.archive.org/web/20170211002808/https://www.whitehouse.gov/briefing-room/presidential-actions/executive-orders?term_node_tid_depth=51&page=1'
     -
-        title: 'Deport all undocumented immigrants but bring the "good" ones back legally. In a CNN interview in July 2015, Trump said, "I want to move them out, and we''re going to move them back in and let them be legal, but they have to be in here legally".'
+        title: 'Bring the "good" undocumented immigrants back legally after deportation. In a CNN interview in July 2015, Trump said, "I want to move them out, and we''re going to move them back in and let them be legal, but they have to be in here legally".'
         status: Not started
         category: Immigration
         tags:
@@ -1087,7 +1088,7 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'Deport all undocumented immigrants and criminals, triple the number of ICE officers, end birthright citizenship.'
+        title: 'End birthright citizenship.'
         status: Not started
         category: Immigration
         tags:
@@ -1141,7 +1142,7 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'Build a wall, deport all undocumented immigrants. Trump''s campaign began with a promise to build a wall across the United States'' southern border and deport the country''s 11 million undocumented immigrants.'
+        title: 'Build a wall. Trump''s campaign began with a promise to build a wall across the United States'' southern border and deport the country''s 11 million undocumented immigrants.'
         status: In progress
         category: Immigration
         tags:
@@ -1151,7 +1152,7 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
             - 'https://web.archive.org/web/20170210172237/http://www.reuters.com/article/us-usa-trump-immigration-idUSKBN1591HP'
     -
-        title: 'Deport children benefiting for the DREAM Act and repeal the 14th Amendment to end birthright citizenship.'
+        title: 'Deport children benefiting from the DREAM Act and repeal the 14th Amendment to end birthright citizenship.'
         status: Not started
         category: Immigration
         tags:
