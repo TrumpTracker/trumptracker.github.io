@@ -1226,13 +1226,14 @@ promises:
             - 'https://web.archive.org/web/20161117154347/http://www.westernjournalism.com/foreign-policy-adviser-says-trump-will-ban-muslim-brotherhood-u-s-offshoots/'
     -
         title: 'There must be consequences for burning the American flag, like loss of citizenship or a year in jail'
-        status: Not started
+        status: Broken
         category: Indigenous
         tags:
             - Indigenous
         comments: 'https://redd.it/5fky4g'
         sources:
             - 'https://web.archive.org/web/20161129115814/https://twitter.com/realDonaldTrump/status/803567993036754944'
+            - 'https://web.archive.org/web/20170206223002/http://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-texas-v-johnson'
     -
         title: 'Declare war -- Send troops in. Definitely go after the oil fields. Destroy the oil. Let our regional allies send ground troops. If they don''t, stop buying their oil. "Do more with computers".'
         status: Not started
