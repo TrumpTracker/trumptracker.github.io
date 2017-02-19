@@ -815,15 +815,6 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
-        title: 'On his first day in office, Trump would get rid of gun-free zones at military bases and in schools.'
-        status: Broken
-        category: Economy
-        tags:
-            - Assorted Numbers
-        comments: 'https://redd.it/5d7sor'
-        sources:
-            - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-    -
         title: 'Use "common sense" to fix the mental health system and prevent mass shootings. Find ways to arm more of the "good guys" like him who can take out the "sickos." Get rid of bans on certain types of guns and magazines so that "good, honest people" can own the guns of their choice.'
         status: Not started
         category: Economy
@@ -1363,12 +1354,13 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Get rid of gun-free zones [in] schools" and "military bases"-which would require repealing a 25-year-old federal law. ("My first day, it gets signed, okay? My first day. There''s no more gun-free zones.")'
-        status: Not started
+        status: Broken
         category: Security
         tags:
             - Guns
         comments: 'https://redd.it/5d7stj'
         sources:
+            - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises'
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Tackle the gun lobby to try to reduce the outrageous number of people who are dying from gun violence in our country.'
