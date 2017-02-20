@@ -59,7 +59,7 @@ promises:
             - 'https://web.archive.org/web/20170210173704/http://www.attn.com/stories/14456/truth-about-trumps-hiring-freeze'
     -
         title: 'A requirement that for every new federal regulation, two existing regulations must be eliminated'
-        status: Not started
+        status: Achieved
         category: First 100 Days
         tags:
             - 'Contract with the American Voter - 100 Day Plan'
@@ -68,9 +68,10 @@ promises:
             - 'https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
             - 'https://youtu.be/4t1xR9U6IAU?t=1m14s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'https://web.archive.org/web/20170216225714/https://www.whitehouse.gov/the-press-office/2017/01/30/presidential-executive-order-reducing-regulation-and-controlling'
     -
         title: 'A 5-year ban on White House and Congressional officials becoming lobbyists after they leave government service'
-        status: Achieved
+        status: Compromised
         category: First 100 Days
         tags:
             - 'Contract with the American Voter - 100 Day Plan'
@@ -82,6 +83,7 @@ promises:
             - 'https://web.archive.org/web/20170210173923/https://www.youtube.com/watch?v=csZNKadILk0'
             - 'https://www.youtube.com/watch?v=csZNKadILk0'
             - 'https://web.archive.org/web/20170210173822/https://www.whitehouse.gov/the-press-office/2017/01/28/executive-order-ethics-commitments-executive-branch-appointees'
+            - 'https://web.archive.org/web/20170215210736/http://www.politifact.com/truth-o-meter/promises/trumpometer/promise/1442/enact-5-year-ban-white-house-and-congressional-off/'
     -
         title: 'A lifetime ban on White House officials lobbying on behalf of a foreign government'
         status: Achieved
@@ -392,15 +394,6 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
             - 'https://web.archive.org/web/20170214120734/http://postonpolitics.blog.palmbeachpost.com/2017/02/13/trump-might-return-to-palm-beach-for-third-straight-weekend/'
-    -
-        title: 'Start winning again. "We''re going to win so much -- win after win after win -- that you''re going to be begging me: ''Please, Mr. President, let us lose once or twice. We can''t stand it any more.'' And I''m going to say: ''No way. We''re going to keep winning. We''re never going to lose. We''re never, ever going to lose."'
-        status: Not started
-        category: Culture
-        tags:
-            - Trump
-        comments: 'https://redd.it/5d81ss'
-        sources:
-            - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Bring back the American Dream.'
         status: Not started
@@ -813,15 +806,6 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
-        title: 'On his first day in office, Trump would get rid of gun-free zones at military bases and in schools.'
-        status: Broken
-        category: Economy
-        tags:
-            - Assorted Numbers
-        comments: 'https://redd.it/5d7sor'
-        sources:
-            - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-    -
         title: 'Use "common sense" to fix the mental health system and prevent mass shootings. Find ways to arm more of the "good guys" like him who can take out the "sickos." Get rid of bans on certain types of guns and magazines so that "good, honest people" can own the guns of their choice.'
         status: Not started
         category: Economy
@@ -907,13 +891,14 @@ promises:
             - 'https://web.archive.org/web/20170211004524/https://www.washingtonpost.com/news/morning-mix/wp/2017/02/09/for-decades-immigration-authorities-gave-this-mother-a-pass-wednesday-when-she-checked-in-with-them-they-seized-her/'
     -
         title: 'Triple the number of U.S. Immigration and Customs Enforcement officers.'
-        status: Not started
+        status: In progress
         category: Economy
         tags:
             - Assorted Numbers
         comments: 'https://redd.it/5d7sp4'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170218053156/https://www.whitehouse.gov/the-press-office/2017/01/25/presidential-executive-order-enhancing-public-safety-interior-united'
     -
         title: 'Continue to allow lowly paid foreign workers to come to the United States on temporary works visas because Trump says they are the only ones who want to pick grapes.'
         status: Not started
@@ -1076,7 +1061,7 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
             - 'https://web.archive.org/web/20170211002808/https://www.whitehouse.gov/briefing-room/presidential-actions/executive-orders?term_node_tid_depth=51&page=1'
     -
-        title: 'Deport all undocumented immigrants but bring the "good" ones back legally. In a CNN interview in July 2015, Trump said, "I want to move them out, and we''re going to move them back in and let them be legal, but they have to be in here legally".'
+        title: 'Bring the "good" undocumented immigrants back legally after deportation. In a CNN interview in July 2015, Trump said, "I want to move them out, and we''re going to move them back in and let them be legal, but they have to be in here legally".'
         status: Not started
         category: Immigration
         tags:
@@ -1085,7 +1070,7 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'Deport all undocumented immigrants and criminals, triple the number of ICE officers, end birthright citizenship.'
+        title: 'End birthright citizenship.'
         status: Not started
         category: Immigration
         tags:
@@ -1139,7 +1124,7 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'Build a wall, deport all undocumented immigrants. Trump''s campaign began with a promise to build a wall across the United States'' southern border and deport the country''s 11 million undocumented immigrants.'
+        title: 'Build a wall. Trump''s campaign began with a promise to build a wall across the United States'' southern border and deport the country''s 11 million undocumented immigrants.'
         status: In progress
         category: Immigration
         tags:
@@ -1149,7 +1134,7 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
             - 'https://web.archive.org/web/20170210172237/http://www.reuters.com/article/us-usa-trump-immigration-idUSKBN1591HP'
     -
-        title: 'Deport children benefiting for the DREAM Act and repeal the 14th Amendment to end birthright citizenship.'
+        title: 'Deport children benefiting from the DREAM Act and repeal the 14th Amendment to end birthright citizenship.'
         status: Not started
         category: Immigration
         tags:
@@ -1232,13 +1217,15 @@ promises:
             - 'https://web.archive.org/web/20161117154347/http://www.westernjournalism.com/foreign-policy-adviser-says-trump-will-ban-muslim-brotherhood-u-s-offshoots/'
     -
         title: 'There must be consequences for burning the American flag, like loss of citizenship or a year in jail'
-        status: Not started
+        status: Broken
         category: Indigenous
         tags:
             - Indigenous
         comments: 'https://redd.it/5fky4g'
         sources:
             - 'https://web.archive.org/web/20161129115814/https://twitter.com/realDonaldTrump/status/803567993036754944'
+            - 'https://web.archive.org/web/20170206223002/http://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-texas-v-johnson'
+            - 'https://web.archive.org/web/20161213035755/https://www.law.cornell.edu/supremecourt/text/496/310'
     -
         title: 'Declare war -- Send troops in. Definitely go after the oil fields. Destroy the oil. Let our regional allies send ground troops. If they don''t, stop buying their oil. "Do more with computers".'
         status: Not started
@@ -1295,13 +1282,14 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Find great generals -- like the next Gen. Patton or Gen. MacArthur -- and do not allow them to go onto television news shows to explain their military strategy: "I don''t want my generals being interviewed, I want my generals kicking a--." Trump likes generals who are rough, foul-mouthed and beloved by their troops.'
-        status: Not started
+        status: In progress
         category: Security
         tags:
             - Defeating ISIS
         comments: 'https://redd.it/5d81t5'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170217043423/https://www.washingtonpost.com/world/national-security/trump-has-chosen-retired-marine-gen-james-mattis-for-secretary-of-defense/2016/12/01/6c6b3b74-aff9-11e6-be1c-8cec35b1ad25_story.html'
     -
         title: 'Convene his top generals and inform them they have 30 days to come up with a plan to stop ISIS.'
         status: Not started
@@ -1360,12 +1348,13 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Get rid of gun-free zones [in] schools" and "military bases"-which would require repealing a 25-year-old federal law. ("My first day, it gets signed, okay? My first day. There''s no more gun-free zones.")'
-        status: Not started
+        status: Broken
         category: Security
         tags:
             - Guns
         comments: 'https://redd.it/5d7stj'
         sources:
+            - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises'
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Tackle the gun lobby to try to reduce the outrageous number of people who are dying from gun violence in our country.'
@@ -1469,7 +1458,7 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
-        title: 'Repeal Obamacare. Replace it with something.'
+        title: 'Replace Obamacare upon repeal.'
         status: Not started
         category: Health
         tags:
@@ -1507,7 +1496,7 @@ promises:
             - 'https://web.archive.org/web/20161107050749/https://www.washingtonpost.com/news/post-politics/wp/2015/10/29/trump-wants-marijuana-legalization-decided-at-the-state-level/'
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
-        title: 'He has pledged to repeal the Affordable Care Act.'
+        title: 'Repeal the Affordable Care Act.'
         status: In progress
         category: Health
         tags:
