@@ -4,3 +4,4 @@ set -e # halt script on error
 bundle exec jekyll build
 bundle exec htmlproofer --allow-hash-href --check-favicon --check-opengraph --check-html --check-img-http --timeframe 15d --enforce-https --url-ignore http://virenmohindra.me/ ./_site
 
+
