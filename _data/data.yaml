@@ -526,6 +526,18 @@ promises:
             - 'https://youtu.be/ycOcAsBuVKU'
             - 'https://web.archive.org/web/20161128235648/https://www.washingtonpost.com/politics/i-will-give-you-everything-here-are-282-of-donald-trumps-campaign-promises/2016/11/24/01160678-b0f9-11e6-8616-52b15787add0_story.html'
     -
+        title: 'I will fight for the LGBT community.'
+        status: Broken
+        category: Culture
+        tags:
+            - Trump
+        comments: 'https://redd.it/5w92kk'
+        sources:
+            - 'https://web.archive.org/web/20170225094822/https://twitter.com/realDonaldTrump/status/742771576039460864'
+            - 'https://web.archive.org/web/20170222220427/http://www.bbc.com/news/world-us-canada-39047883'
+            - 'https://web.archive.org/web/20170222222718/http://www.reuters.com/article/us-usa-trump-lgbt-idUSKBN161243'
+            - 'https://web.archive.org/web/20170223000753/http://www.foxnews.com/opinion/2017/02/22/bathroom-humor-for-mainstream-media-transcending-issue-is-transgender-people.html'
+    -
         title: 'Against raising the minimum wage. Jobs would move to China. "Wages should be raised through economic growth. Raise the minimum wage. Let''s make it $10 dollars an hour. It should go up, but states should call the shots here."'
         status: Not started
         category: Economy
