@@ -4,10 +4,6 @@ sudo: false
 rvm:
   - 2.2.5
 
-
-before_script:
-  - bundle update
-
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 script: "bundle exec rake test"
