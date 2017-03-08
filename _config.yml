@@ -40,6 +40,7 @@ exclude:
   - vendor
   - misc
   - script
+  - Rakefile
 
 compress_html:
   clippings: all
