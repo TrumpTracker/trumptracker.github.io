@@ -241,7 +241,7 @@ promises:
             - 'https://web.archive.org/web/20170210172341/http://www.foxnews.com/politics/2017/01/25/text-trump-executive-order-on-enhancing-public-safety-in-interior-united-states.html'
             - 'https://web.archive.org/web/20170210173350/https://www.whitehouse.gov/the-press-office/2017/01/25/executive-order-border-security-and-immigration-enforcement-improvements'
     -
-        title: 'Begin removing the more than 2 million criminal illegal immigrants from the country and cancel visas to foreign countries that won''t take them back'
+        title: 'Cancel visas to foreign countries that won''t take [criminal illegal immigrants] back'
         status: Not started
         category: First 100 Days
         tags:
@@ -376,7 +376,7 @@ promises:
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'If I become president, we''re all going to be saying ''Merry Christmas'' again.'
-        status: Not started
+        status: Broken
         category: Culture
         tags:
             - Trump
@@ -384,6 +384,8 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
             - 'https://youtu.be/YZEZIS4WPSw?t=43s'
+            - 'https://web.archive.org/web/20170210203530/http://www.foxnews.com/politics/2015/11/10/trump-if-become-president-were-all-going-to-be-saying-merry-christmas-again.html'
+            - 'https://web.archive.org/web/20170302015000/https://www.law.cornell.edu/constitution/first_amendment'
     -
         title: 'Never take a vacation while serving as president.'
         status: Broken
@@ -432,22 +434,24 @@ promises:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'I will take care of women, and I have great respect for women. I do cherish women, and I will take care of women.'
-        status: Not started
+        status: In progress
         category: Culture
         tags:
             - Trump
         comments: 'https://redd.it/5d7sna'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170302025957/https://www.whitehouse.gov/the-press-office/2017/02/28/remarks-president-trump-signing-hr-321-and-hr-255'
     -
         title: 'Frequently use the term "radical Islamic terrorism".'
-        status: Not started
+        status: In progress
         category: Culture
         tags:
             - Trump
         comments: 'https://redd.it/5d7snd'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170301023554/https://www.washingtonpost.com/news/the-fix/wp/2017/02/28/radical-islamic-terrorism-three-words-that-separate-trump-from-most-of-washington/'
     -
         title: 'Assign a special prosecutor to start a criminal investigation into Hillary Clinton for her use of a private e-mail server while serving as secretary of state.'
         status: Broken
@@ -566,31 +570,36 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Leave Social Security as is'
-        status: Not started
+        status: In progress
         category: Economy
         tags:
             - Minimum Wage
         comments: 'https://redd.it/5d7ssz'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20170302080748/http://www.reuters.com/article/us-usa-trump-economy-idUSKBN1650LL'
     -
         title: 'The wealthy should pay more.'
-        status: Not started
+        status: Broken
         category: Economy
         tags:
             - Taxes
         comments: 'https://redd.it/5d7snz'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170302053119/http://www.npr.org/2017/02/28/517523714/what-we-know-about-the-trump-house-gop-tax-plans-so-far'
+            - 'https://web.archive.org/web/20170203215354/http://www.taxpolicycenter.org/sites/default/files/alfresco/publication-pdfs/2000924-an-analysis-of-donald-trumps-revised-tax-plan.pdf'
     -
         title: 'Cut taxes for the wealthy big time.'
-        status: Not started
+        status: In progress
         category: Economy
         tags:
             - Taxes
         comments: 'https://redd.it/5d7so0'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170302053119/http://www.npr.org/2017/02/28/517523714/what-we-know-about-the-trump-house-gop-tax-plans-so-far'
+            - 'https://web.archive.org/web/20170203215354/http://www.taxpolicycenter.org/sites/default/files/alfresco/publication-pdfs/2000924-an-analysis-of-donald-trumps-revised-tax-plan.pdf'
     -
         title: 'Maybe don''t slash taxes by $10 trillion - slash taxes by $3 trillion, instead. Maybe ditch, maybe keep a $1 trillion tax cut for small businesses (depending on who is asking).'
         status: Not started
