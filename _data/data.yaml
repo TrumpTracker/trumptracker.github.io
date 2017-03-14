@@ -1603,40 +1603,34 @@ promises:
             - 'https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'No Muslims should be allowed to enter the United States -as immigrants or visitors. Ban Muslims from entering but make an exception for friends and Muslims serving in the US military. Ban Muslims as a matter of policy, as well as people from countries with a history of terrorism.'
-        status: Not started
+        status: Broken
         category: World
         tags:
             - Proposed Muslim Ban
         comments: 'https://redd.it/5d7srk'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170309162322/https://www.law.cornell.edu/wex/establishment_clause'
     -
-        title: 'The ban would call for "extreme vetting." There''s a ban, plus "extreme vetting" that includes an ideological test.'
-        status: Not started
+        title: 'The ban would call for "extreme vetting" that includes an ideological test.'
+        status: Achieved
         category: World
         tags:
             - Proposed Muslim Ban
         comments: 'https://redd.it/5d7srm'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170313203758/https://www.whitehouse.gov/the-press-office/2017/03/06/executive-order-protecting-nation-foreign-terrorist-entry-united-states'
     -
-        title: 'Only people who love America are allowed. Temporarily ban most foreign Muslims from entering the United States "until our country''s representatives can figure out what is going on." Trump would allow exceptions for dignitaries, business people, athletes and others who have "proven" themselves.'
-        status: Not started
+        title: 'Trump would allow exceptions to his Muslim ban for dignitaries, business people, athletes and others who have "proven" themselves.'
+        status: Achieved
         category: World
         tags:
             - Proposed Muslim Ban
         comments: 'https://redd.it/5d81tr'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
-        title: 'Trump will not say whether or not he intends to ban people of Muslim faith from the U.S., but he will say that "extreme vetting" will apply to people from certain countries. It''s unclear where those countries are, what "extreme vetting" entails or how he intends to institute an ideological test for entry.'
-        status: Not started
-        category: World
-        tags:
-            - Proposed Muslim Ban
-        comments: 'https://redd.it/5d81ts'
-        sources:
-            - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170313203758/https://www.whitehouse.gov/the-press-office/2017/03/06/executive-order-protecting-nation-foreign-terrorist-entry-united-states'
     -
         title: 'Heavily surveil mosques in the United States. Trump has said he''s open to the idea of closing some mosques.'
         status: Not started
