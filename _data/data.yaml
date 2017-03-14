@@ -109,7 +109,7 @@ promises:
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'Donald Trump will refuse the $400,000 annual president''s salary or only take $1'
-        status: Not started
+        status: Broken
         category: First 100 Days
         tags:
             - 'Contract with the American Voter - 100 Day Plan'
@@ -120,6 +120,7 @@ promises:
             - 'https://web.archive.org/web/20161111213432/http://www.cbsnews.com/news/did-donald-trump-say-hed-refuse-to-take-a-salary-as-president/'
             - 'https://web.archive.org/web/20161128235648/https://www.washingtonpost.com/politics/i-will-give-you-everything-here-are-282-of-donald-trumps-campaign-promises/2016/11/24/01160678-b0f9-11e6-8616-52b15787add0_story.html'
             - 'https://web.archive.org/web/20170126065832/http://www.politico.com/magazine/story/2016/11/donald-trump-salary-george-washington-214458'
+            - 'https://web.archive.org/web/20170314045248/https://thinkprogress.org/trump-salary-donation-promise-cdb0b78a7aab?gi=b3eb4ed916f7'
     -
         title: 'I will announce my intention to renegotiate NAFTA or withdraw from the deal under Article 2205'
         status: Not started
@@ -241,7 +242,7 @@ promises:
             - 'https://web.archive.org/web/20170210172341/http://www.foxnews.com/politics/2017/01/25/text-trump-executive-order-on-enhancing-public-safety-in-interior-united-states.html'
             - 'https://web.archive.org/web/20170210173350/https://www.whitehouse.gov/the-press-office/2017/01/25/executive-order-border-security-and-immigration-enforcement-improvements'
     -
-        title: 'Begin removing the more than 2 million criminal illegal immigrants from the country and cancel visas to foreign countries that won''t take them back'
+        title: 'Cancel visas to foreign countries that won''t take [criminal illegal immigrants] back'
         status: Not started
         category: First 100 Days
         tags:
@@ -376,7 +377,7 @@ promises:
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'If I become president, we''re all going to be saying ''Merry Christmas'' again.'
-        status: Not started
+        status: Broken
         category: Culture
         tags:
             - Trump
@@ -384,6 +385,8 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
             - 'https://youtu.be/YZEZIS4WPSw?t=43s'
+            - 'https://web.archive.org/web/20170210203530/http://www.foxnews.com/politics/2015/11/10/trump-if-become-president-were-all-going-to-be-saying-merry-christmas-again.html'
+            - 'https://web.archive.org/web/20170302015000/https://www.law.cornell.edu/constitution/first_amendment'
     -
         title: 'Never take a vacation while serving as president.'
         status: Broken
@@ -432,22 +435,24 @@ promises:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'I will take care of women, and I have great respect for women. I do cherish women, and I will take care of women.'
-        status: Not started
+        status: In progress
         category: Culture
         tags:
             - Trump
         comments: 'https://redd.it/5d7sna'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170302025957/https://www.whitehouse.gov/the-press-office/2017/02/28/remarks-president-trump-signing-hr-321-and-hr-255'
     -
         title: 'Frequently use the term "radical Islamic terrorism".'
-        status: Not started
+        status: In progress
         category: Culture
         tags:
             - Trump
         comments: 'https://redd.it/5d7snd'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170301023554/https://www.washingtonpost.com/news/the-fix/wp/2017/02/28/radical-islamic-terrorism-three-words-that-separate-trump-from-most-of-washington/'
     -
         title: 'Assign a special prosecutor to start a criminal investigation into Hillary Clinton for her use of a private e-mail server while serving as secretary of state.'
         status: Broken
@@ -461,15 +466,6 @@ promises:
             - 'https://web.archive.org/web/20161213174411/http://www.bbc.co.uk/news/world-us-canada-38072846'
             - 'https://web.archive.org/web/20161223130532/http://www.nytimes.com/2016/11/22/us/politics/donald-trump-hillary-clinton-investigation.html'
             - 'https://web.archive.org/web/20170106233037/http://www.cnn.com/2016/11/22/politics/conway-no-clinton-charges-donald-trump/'
-    -
-        title: 'Shut down parts of the internet'
-        status: Not started
-        category: Culture
-        tags:
-            - Trump
-        comments: 'https://redd.it/5d7snh'
-        sources:
-            - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Be unpredictable. "No one is going to touch us, because I''m so unpredictable."'
         status: Not started
@@ -538,24 +534,6 @@ promises:
             - 'https://web.archive.org/web/20170222222718/http://www.reuters.com/article/us-usa-trump-lgbt-idUSKBN161243'
             - 'https://web.archive.org/web/20170223000753/http://www.foxnews.com/opinion/2017/02/22/bathroom-humor-for-mainstream-media-transcending-issue-is-transgender-people.html'
     -
-        title: 'Against raising the minimum wage. Jobs would move to China. "Wages should be raised through economic growth. Raise the minimum wage. Let''s make it $10 dollars an hour. It should go up, but states should call the shots here."'
-        status: Not started
-        category: Economy
-        tags:
-            - Minimum Wage
-        comments: 'https://redd.it/5d7snt'
-        sources:
-            - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
-        title: 'Get rid of the federal minimum wage, leave it to the states.'
-        status: Not started
-        category: Economy
-        tags:
-            - Minimum Wage
-        comments: 'https://redd.it/5d7snv'
-        sources:
-            - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
         title: 'Raise it (the federal minimum wage) to $10 an hour, ignore what I said before (get rid of it).'
         status: Not started
         category: Economy
@@ -566,31 +544,36 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Leave Social Security as is'
-        status: Not started
+        status: In progress
         category: Economy
         tags:
             - Minimum Wage
         comments: 'https://redd.it/5d7ssz'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20170302080748/http://www.reuters.com/article/us-usa-trump-economy-idUSKBN1650LL'
     -
         title: 'The wealthy should pay more.'
-        status: Not started
+        status: Broken
         category: Economy
         tags:
             - Taxes
         comments: 'https://redd.it/5d7snz'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170302053119/http://www.npr.org/2017/02/28/517523714/what-we-know-about-the-trump-house-gop-tax-plans-so-far'
+            - 'https://web.archive.org/web/20170203215354/http://www.taxpolicycenter.org/sites/default/files/alfresco/publication-pdfs/2000924-an-analysis-of-donald-trumps-revised-tax-plan.pdf'
     -
         title: 'Cut taxes for the wealthy big time.'
-        status: Not started
+        status: In progress
         category: Economy
         tags:
             - Taxes
         comments: 'https://redd.it/5d7so0'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170302053119/http://www.npr.org/2017/02/28/517523714/what-we-know-about-the-trump-house-gop-tax-plans-so-far'
+            - 'https://web.archive.org/web/20170203215354/http://www.taxpolicycenter.org/sites/default/files/alfresco/publication-pdfs/2000924-an-analysis-of-donald-trumps-revised-tax-plan.pdf'
     -
         title: 'Maybe don''t slash taxes by $10 trillion - slash taxes by $3 trillion, instead. Maybe ditch, maybe keep a $1 trillion tax cut for small businesses (depending on who is asking).'
         status: Not started
@@ -607,15 +590,6 @@ promises:
         tags:
             - Taxes
         comments: 'https://redd.it/5d81su'
-        sources:
-            - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
-        title: 'Despite Trump''s frequent talk about helping working people, his tax plan so far seems to mostly benefit the wealthy. It''s unclear whether or not his plan will include that small business tax cut.'
-        status: Not started
-        category: Economy
-        tags:
-            - Taxes
-        comments: 'https://redd.it/5d7so5'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
@@ -845,15 +819,6 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
-        title: 'Allow concealed-carry permits to be recognized in all 50 states.'
-        status: Not started
-        category: Economy
-        tags:
-            - Assorted Numbers
-        comments: 'https://redd.it/5d7sov'
-        sources:
-            - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
-    -
         title: 'Sign an executive order calling for the death penalty for anyone found guilty of killing a police officer.'
         status: Not started
         category: Economy
@@ -920,15 +885,6 @@ promises:
         comments: 'https://redd.it/5d7sp5'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
-    -
-        title: 'Grow the DFP by at least 6%'
-        status: Not started
-        category: Economy
-        tags:
-            - Assorted Numbers
-        comments: 'https://redd.it/5d7stw'
-        sources:
-            - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'The Environmental Protection Agency might also disappear.'
         status: Not started
@@ -1490,13 +1446,14 @@ promises:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Save Medicare, Medicaid and Social Security without cutting benefits.'
-        status: Not started
+        status: Broken
         category: Health
         tags:
             - Health Care
         comments: 'https://redd.it/5d7sr1'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170314000749/http://www.vox.com/2017/3/13/14914812/trump-ahca-medicaid-cuts'
     -
         title: 'Make medical marijuana widely available to patients, and allow states to decide if they want to fully legalize pot or not.'
         status: Not started
@@ -1646,40 +1603,34 @@ promises:
             - 'https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
         title: 'No Muslims should be allowed to enter the United States -as immigrants or visitors. Ban Muslims from entering but make an exception for friends and Muslims serving in the US military. Ban Muslims as a matter of policy, as well as people from countries with a history of terrorism.'
-        status: Not started
+        status: Broken
         category: World
         tags:
             - Proposed Muslim Ban
         comments: 'https://redd.it/5d7srk'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170309162322/https://www.law.cornell.edu/wex/establishment_clause'
     -
-        title: 'The ban would call for "extreme vetting." There''s a ban, plus "extreme vetting" that includes an ideological test.'
-        status: Not started
+        title: 'The ban would call for "extreme vetting" that includes an ideological test.'
+        status: Achieved
         category: World
         tags:
             - Proposed Muslim Ban
         comments: 'https://redd.it/5d7srm'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170313203758/https://www.whitehouse.gov/the-press-office/2017/03/06/executive-order-protecting-nation-foreign-terrorist-entry-united-states'
     -
-        title: 'Only people who love America are allowed. Temporarily ban most foreign Muslims from entering the United States "until our country''s representatives can figure out what is going on." Trump would allow exceptions for dignitaries, business people, athletes and others who have "proven" themselves.'
-        status: Not started
+        title: 'Trump would allow exceptions to his Muslim ban for dignitaries, business people, athletes and others who have "proven" themselves.'
+        status: Achieved
         category: World
         tags:
             - Proposed Muslim Ban
         comments: 'https://redd.it/5d81tr'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
-        title: 'Trump will not say whether or not he intends to ban people of Muslim faith from the U.S., but he will say that "extreme vetting" will apply to people from certain countries. It''s unclear where those countries are, what "extreme vetting" entails or how he intends to institute an ideological test for entry.'
-        status: Not started
-        category: World
-        tags:
-            - Proposed Muslim Ban
-        comments: 'https://redd.it/5d81ts'
-        sources:
-            - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170313203758/https://www.whitehouse.gov/the-press-office/2017/03/06/executive-order-protecting-nation-foreign-terrorist-entry-united-states'
     -
         title: 'Heavily surveil mosques in the United States. Trump has said he''s open to the idea of closing some mosques.'
         status: Not started
