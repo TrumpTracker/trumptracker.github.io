@@ -12,7 +12,7 @@ while true
         rClient = Twitter::REST::Client.new config
         sClient = Twitter::Streaming::Client.new(config)
 
-        topics = ['#TrumpTracker', 'trumptracker.github.io']
+        topics = %w(#TrumpTracker trumptracker.github.io)
         sClient.filter(:track => topics.join(',')) do |tweet|
             if tweet.is_a?(Twitter::Tweet)
               puts tweet.text 
