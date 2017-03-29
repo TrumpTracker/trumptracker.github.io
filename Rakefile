@@ -50,5 +50,5 @@ task :test do
   sh "rm -rf ./_site"
   sh "bundle exec jekyll build"
   Rake::Task["json2yaml"].invoke  
-  sh "bundle exec htmlproofer --allow-hash-href --check-favicon --check-opengraph --check-html --check-img-http --timeframe 15d --enforce-https --check-external-hash --check-img-http --url-ignore http://virenmohindra.me/ ./_site"
+  sh "bundle exec htmlproofer --allow-hash-href --check-favicon --check-opengraph --check-html --check-img-http --timeframe 15d --enforce-https --check-external-hash --check-img-http --url-ignore http://virenmohindra.me/,https://web.archive.org/web/* ./_site"
 end
