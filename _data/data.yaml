@@ -109,7 +109,7 @@ promises:
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'Donald Trump will refuse the $400,000 annual president''s salary or only take $1'
-        status: Broken
+        status: In progress
         category: First 100 Days
         tags:
             - 'Contract with the American Voter - 100 Day Plan'
@@ -121,6 +121,7 @@ promises:
             - 'https://web.archive.org/web/20161128235648/https://www.washingtonpost.com/politics/i-will-give-you-everything-here-are-282-of-donald-trumps-campaign-promises/2016/11/24/01160678-b0f9-11e6-8616-52b15787add0_story.html'
             - 'https://web.archive.org/web/20170126065832/http://www.politico.com/magazine/story/2016/11/donald-trump-salary-george-washington-214458'
             - 'https://web.archive.org/web/20170314045248/https://thinkprogress.org/trump-salary-donation-promise-cdb0b78a7aab?gi=b3eb4ed916f7'
+            - 'https://web.archive.org/web/20170404190756/http://money.cnn.com/2017/04/03/news/trump-salary-national-parks/'
     -
         title: 'I will announce my intention to renegotiate NAFTA or withdraw from the deal under Article 2205'
         status: Not started
