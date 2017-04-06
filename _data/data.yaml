@@ -202,8 +202,8 @@ promises:
             - 'https://web.archive.org/web/20170324112040/http://www.reuters.com/article/us-usa-pipeline-keystone-idUSKBN16U25E'
             - 'https://web.archive.org/web/20170324152805/https://www.washingtonpost.com/news/energy-environment/wp/2017/03/24/trump-administration-grants-approval-for-keystone-xl-pipeline/'
     -
-        title: 'Cancel billions in payments to U.N. climate change programs and use the money to fix America''s water and environmental infrastructure'
-        status: Not started
+        title: 'Cancel billions in payments to U.N. climate change programs (achieved) and use the money to fix America''s water and environmental infrastructure (broken: cut funding)'
+        status: Broken
         category: First 100 Days
         tags:
             - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
@@ -212,6 +212,7 @@ promises:
             - 'https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
             - 'https://youtu.be/4t1xR9U6IAU?t=4m42s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'https://web.archive.org/web/20170326024440/https://www.nytimes.com/interactive/2017/03/15/us/politics/trump-budget-proposal.html?_r=0'
     -
         title: 'Cancel every unconstitutional executive action, memorandum and order issued by President Obama'
         status: Not started
@@ -840,22 +841,24 @@ promises:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Provide more funding for police training.'
-        status: Not started
+        status: Broken
         category: Economy
         tags:
             - Assorted Numbers
         comments: 'https://redd.it/5d7sox'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170406082941/https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/budget/fy2018/2018_blueprint.pdf'
     -
         title: 'Provide more funding for drug treatment, especially for heroin addicts.'
-        status: Not started
+        status: Achieved
         category: Economy
         tags:
             - Assorted Numbers
         comments: 'https://redd.it/5d7soz'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170406082941/https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/budget/fy2018/2018_blueprint.pdf'
     -
         title: 'On the first day in office, terminate President Obama''s executive orders related to immigration. This includes getting rid of "sanctuary cities" that Trump says have become refuges for criminals.'
         status: Broken
@@ -978,13 +981,14 @@ promises:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Invest more heavily in programs that help military veterans transition back to civilian life, including job training and placement services. Also increase funding for the treatment of post-traumatic stress disorder, traumatic brain injuries and mental health issues. Veterans who apply for a job at a VA facility will have five points added to their qualifying scores.'
-        status: Not started
+        status: In progress
         category: Government
         tags:
             - Assorted
         comments: 'https://redd.it/5d81sy'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170326024440/https://www.nytimes.com/interactive/2017/03/15/us/politics/trump-budget-proposal.html?_r=0'
     -
         title: 'Replace "free trade" with "fair trade." Gather together the "smartest negotiators in the world," assign them each a country and renegotiate all foreign trade deals.'
         status: Not started
