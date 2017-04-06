@@ -1054,15 +1054,6 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'End birthright citizenship.'
-        status: Not started
-        category: Immigration
-        tags:
-            - Deportation
-        comments: 'https://redd.it/5d81t1'
-        sources:
-            - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
         title: 'Use a deportation force to implement policy.'
         status: Not started
         category: Immigration
@@ -1117,15 +1108,6 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
             - 'https://web.archive.org/web/20170210172237/http://www.reuters.com/article/us-usa-trump-immigration-idUSKBN1591HP'
-    -
-        title: 'Deport children benefiting from the DREAM Act and repeal the 14th Amendment to end birthright citizenship.'
-        status: Not started
-        category: Immigration
-        tags:
-            - Young Undocumented Immigrants and Children of Illegal Immigrants
-        comments: 'https://redd.it/5d7sq2'
-        sources:
-            - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Against the H-1B visa program.'
         status: Not started
@@ -1239,13 +1221,14 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Strengthen the military so that it''s "so big and so strong and so great" that "nobody''s going to mess with us".'
-        status: Not started
+        status: In progress
         category: Security
         tags:
             - Defeating ISIS
         comments: 'https://redd.it/5d7sqg'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170406082941/https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/budget/fy2018/2018_blueprint.pdf'
     -
         title: 'Target and kill the relatives of terrorists.'
         status: Not started
