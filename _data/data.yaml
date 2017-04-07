@@ -1391,7 +1391,7 @@ promises:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Keep the military prison at Guantanamo Bay open'
-        status: Not started
+        status: In progress
         category: Security
         tags:
             - Jail
@@ -1661,7 +1661,7 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: '"I promise I will never be in a bicycle race. That I can tell you." (This promise is connected to criticism of Secretary of State John F. Kerry, who was injured while riding a bicycle amid the Iran negotiations.)'
-        status: Not started
+        status: In progress
         category: World
         tags:
             - Iran
@@ -1716,13 +1716,14 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Rather than throw the Chinese president a state dinner, buy him "a McDonald''s hamburger and say we''ve got to get down to work".'
-        status: Not started
+        status: Broken
         category: World
         tags:
             - China
         comments: 'https://redd.it/5d7ssh'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170407154112/http://www.cnn.com/2017/04/06/politics/dinner-menu-donald-trump-chinese-president-xi-jinping/'
     -
         title: 'Put billionaire hedge fund manager Carl Icahn in charge of trade negotiations with China and Japan, and pick an ambassador to Japan who is "a killer," unlike the current ambassador, Caroline Kennedy.'
         status: Not started
@@ -1761,13 +1762,15 @@ promises:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Get rid of Common Core because it''s "a disaster" and a "very bad thing." Trump says he wants to give local school districts more control and might even eliminate the Department of Education.'
-        status: Not started
+        status: Broken
         category: Education
         tags:
             - Common Core
         comments: 'https://redd.it/5d7ssk'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170406114932/http://www.npr.org/sections/ed/2016/11/10/501426803/can-president-trump-get-rid-of-common-core'
+            - 'https://web.archive.org/web/20170406102516/http://www.latimes.com/local/education/la-essential-education-updates-southern-trump-reiterates-a-common-core-promise-1491330603-htmlstory.html'
     -
         title: 'Learn the difference between Hezbollah and Hamas.'
         status: Not started
