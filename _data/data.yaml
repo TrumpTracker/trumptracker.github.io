@@ -1212,13 +1212,15 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Allow Russia to deal with the Islamic State in Syria and/or work with Russian President Vladimir Putin to wipe out shared enemies.'
-        status: Not started
+        status: Broken
         category: Security
         tags:
             - Defeating ISIS
         comments: 'https://redd.it/5d7sqc'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170407013405/http://www.nbcnews.com/news/us-news/u-s-launches-missiles-syrian-base-after-chemical-weapons-attack-n743636?cid=eml_nbn_20170406'
+            - 'https://web.archive.org/web/20170407151942/http://thehill.com/policy/defense/327751-russia-suspends-communication-line-with-us-meant-to-avoid-collisions-in-syria'
     -
         title: 'Strengthen the military so that it''s "so big and so strong and so great" that "nobody''s going to mess with us".'
         status: In progress
