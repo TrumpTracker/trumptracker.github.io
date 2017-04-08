@@ -202,8 +202,8 @@ promises:
             - 'https://web.archive.org/web/20170324112040/http://www.reuters.com/article/us-usa-pipeline-keystone-idUSKBN16U25E'
             - 'https://web.archive.org/web/20170324152805/https://www.washingtonpost.com/news/energy-environment/wp/2017/03/24/trump-administration-grants-approval-for-keystone-xl-pipeline/'
     -
-        title: 'Cancel billions in payments to U.N. climate change programs and use the money to fix America''s water and environmental infrastructure'
-        status: Not started
+        title: 'Cancel billions in payments to U.N. climate change programs (achieved) and use the money to fix America''s water and environmental infrastructure (broken: cut funding)'
+        status: Compromised
         category: First 100 Days
         tags:
             - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
@@ -212,6 +212,7 @@ promises:
             - 'https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
             - 'https://youtu.be/4t1xR9U6IAU?t=4m42s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'https://web.archive.org/web/20170326024440/https://www.nytimes.com/interactive/2017/03/15/us/politics/trump-budget-proposal.html?_r=0'
     -
         title: 'Cancel every unconstitutional executive action, memorandum and order issued by President Obama'
         status: Not started
@@ -840,22 +841,24 @@ promises:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Provide more funding for police training.'
-        status: Not started
+        status: Broken
         category: Economy
         tags:
             - Assorted Numbers
         comments: 'https://redd.it/5d7sox'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170406082941/https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/budget/fy2018/2018_blueprint.pdf'
     -
         title: 'Provide more funding for drug treatment, especially for heroin addicts.'
-        status: Not started
+        status: Achieved
         category: Economy
         tags:
             - Assorted Numbers
         comments: 'https://redd.it/5d7soz'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170406082941/https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/budget/fy2018/2018_blueprint.pdf'
     -
         title: 'On the first day in office, terminate President Obama''s executive orders related to immigration. This includes getting rid of "sanctuary cities" that Trump says have become refuges for criminals.'
         status: Broken
@@ -897,15 +900,6 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
-        title: 'The Environmental Protection Agency might also disappear.'
-        status: Not started
-        category: Environment
-        tags:
-            - Climate Change
-        comments: 'https://redd.it/5d7sp8'
-        sources:
-            - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
         title: 'End the war on coal.'
         status: In progress
         category: Environment
@@ -919,8 +913,8 @@ promises:
             - 'https://web.archive.org/web/20170217003320/http://www.foxnews.com/politics/2017/02/16/trump-overturns-bill-on-coal-mining-debris.html'
             - 'https://web.archive.org/web/20170217003322/http://www.washingtontimes.com/news/2017/feb/16/donald-trump-nixes-obama-regulations-coal-industry/?utm_source=RSS_Feedutm_medium=RSS'
     -
-        title: 'Trump vowed to end the Clean Power Plan'
-        status: In progress
+        title: 'End the Clean Power Plan'
+        status: Achieved
         category: Environment
         tags:
             - Natural resources
@@ -928,6 +922,7 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161109060339/http://www.vox.com/2016/11/9/13571318/donald-trump-disaster-climate'
             - 'https://web.archive.org/web/20170328220143/https://www.whitehouse.gov/the-press-office/2017/03/28/presidential-executive-order-promoting-energy-independence-and-economi-1'
+            - 'https://web.archive.org/web/20170407083219/https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/budget/fy2018/2018_blueprint.pdf'
     -
         title: '"If I''m president, Carrier won''t move to Mexico"'
         status: Compromised
@@ -942,13 +937,14 @@ promises:
             - 'https://web.archive.org/web/20170105062303/http://money.cnn.com/2016/12/02/news/companies/trump-carrier-plant-mexico/'
     -
         title: 'Stop spending money on space exploration until the United States can fix its potholes. Encourage private space-exploration companies to expand.'
-        status: Not started
+        status: Broken
         category: Government
         tags:
             - Space Exploration
         comments: 'https://redd.it/5d7sp9'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170407083219/https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/budget/fy2018/2018_blueprint.pdf'
     -
         title: 'Pick Supreme Court justices who are "really great legal scholars".'
         status: Not started
@@ -978,13 +974,14 @@ promises:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Invest more heavily in programs that help military veterans transition back to civilian life, including job training and placement services. Also increase funding for the treatment of post-traumatic stress disorder, traumatic brain injuries and mental health issues. Veterans who apply for a job at a VA facility will have five points added to their qualifying scores.'
-        status: Not started
+        status: In progress
         category: Government
         tags:
             - Assorted
         comments: 'https://redd.it/5d81sy'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170326024440/https://www.nytimes.com/interactive/2017/03/15/us/politics/trump-budget-proposal.html?_r=0'
     -
         title: 'Replace "free trade" with "fair trade." Gather together the "smartest negotiators in the world," assign them each a country and renegotiate all foreign trade deals.'
         status: Not started
@@ -996,13 +993,14 @@ promises:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
     -
         title: 'Tell Ford Motor Co.''s president that unless he cancels plans to build a massive plant in Mexico, the company will face a 35 percent tax on cars imported back into the United States. Trump is confident he can get this done before taking office. (Last year he incorrectly said this had already happened.)'
-        status: Not started
+        status: Achieved
         category: Government
         tags:
             - Assorted
         comments: 'https://redd.it/5d81sz'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170331050405/https://www.nytimes.com/2017/01/03/business/ford-general-motors-trump.html'
     -
         title: 'Force Nabisco to once again make Oreos in the United States, and never eat another Oreo until that happens. And bully Apple into making its "damn computers" and other products here.'
         status: Not started
@@ -1047,15 +1045,6 @@ promises:
         tags:
             - Deportation
         comments: 'https://redd.it/5d7spp'
-        sources:
-            - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
-        title: 'End birthright citizenship.'
-        status: Not started
-        category: Immigration
-        tags:
-            - Deportation
-        comments: 'https://redd.it/5d81t1'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
@@ -1113,15 +1102,6 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
             - 'https://web.archive.org/web/20170210172237/http://www.reuters.com/article/us-usa-trump-immigration-idUSKBN1591HP'
-    -
-        title: 'Deport children benefiting from the DREAM Act and repeal the 14th Amendment to end birthright citizenship.'
-        status: Not started
-        category: Immigration
-        tags:
-            - Young Undocumented Immigrants and Children of Illegal Immigrants
-        comments: 'https://redd.it/5d7sq2'
-        sources:
-            - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Against the H-1B visa program.'
         status: Not started
@@ -1226,22 +1206,25 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Allow Russia to deal with the Islamic State in Syria and/or work with Russian President Vladimir Putin to wipe out shared enemies.'
-        status: Not started
+        status: Broken
         category: Security
         tags:
             - Defeating ISIS
         comments: 'https://redd.it/5d7sqc'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170407013405/http://www.nbcnews.com/news/us-news/u-s-launches-missiles-syrian-base-after-chemical-weapons-attack-n743636?cid=eml_nbn_20170406'
+            - 'https://web.archive.org/web/20170407151942/http://thehill.com/policy/defense/327751-russia-suspends-communication-line-with-us-meant-to-avoid-collisions-in-syria'
     -
         title: 'Strengthen the military so that it''s "so big and so strong and so great" that "nobody''s going to mess with us".'
-        status: Not started
+        status: In progress
         category: Security
         tags:
             - Defeating ISIS
         comments: 'https://redd.it/5d7sqg'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170406082941/https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/budget/fy2018/2018_blueprint.pdf'
     -
         title: 'Target and kill the relatives of terrorists.'
         status: Not started
@@ -1402,7 +1385,7 @@ promises:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Keep the military prison at Guantanamo Bay open'
-        status: Not started
+        status: In progress
         category: Security
         tags:
             - Jail
@@ -1672,7 +1655,7 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: '"I promise I will never be in a bicycle race. That I can tell you." (This promise is connected to criticism of Secretary of State John F. Kerry, who was injured while riding a bicycle amid the Iran negotiations.)'
-        status: Not started
+        status: In progress
         category: World
         tags:
             - Iran
@@ -1727,13 +1710,14 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
         title: 'Rather than throw the Chinese president a state dinner, buy him "a McDonald''s hamburger and say we''ve got to get down to work".'
-        status: Not started
+        status: Broken
         category: World
         tags:
             - China
         comments: 'https://redd.it/5d7ssh'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20170407154112/http://www.cnn.com/2017/04/06/politics/dinner-menu-donald-trump-chinese-president-xi-jinping/'
     -
         title: 'Put billionaire hedge fund manager Carl Icahn in charge of trade negotiations with China and Japan, and pick an ambassador to Japan who is "a killer," unlike the current ambassador, Caroline Kennedy.'
         status: Not started
@@ -1772,13 +1756,15 @@ promises:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
         title: 'Get rid of Common Core because it''s "a disaster" and a "very bad thing." Trump says he wants to give local school districts more control and might even eliminate the Department of Education.'
-        status: Not started
+        status: Broken
         category: Education
         tags:
             - Common Core
         comments: 'https://redd.it/5d7ssk'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20170406114932/http://www.npr.org/sections/ed/2016/11/10/501426803/can-president-trump-get-rid-of-common-core'
+            - 'https://web.archive.org/web/20170406102516/http://www.latimes.com/local/education/la-essential-education-updates-southern-trump-reiterates-a-common-core-promise-1491330603-htmlstory.html'
     -
         title: 'Learn the difference between Hezbollah and Hamas.'
         status: Not started
