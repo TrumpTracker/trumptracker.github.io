@@ -147,8 +147,8 @@ promises:
             - 'https://web.archive.org/web/20170210171048/http://asia.nikkei.com/Spotlight/Trump-era-begins/US-announces-withdrawal-from-TPP'
             - 'https://web.archive.org/web/20170210171349/http://www.bbc.com/news/world-us-canada-38721056'
     -
-        title: 'I will direct my Secretary of the Treasury to label China a currency manipulator'
-        status: Not started
+        title: 'I will direct my Secretary of the Treasury to label China a currency manipulator. Also adopting a "zero tolerance policy on intellectual property theft and forced technology transfer" and cracking down on China''s "lax labor and environmental standards".'
+        status: Broken
         category: First 100 Days
         tags:
             - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
@@ -157,6 +157,10 @@ promises:
             - 'https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
             - 'https://youtu.be/4t1xR9U6IAU?t=2m53s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'https://web.archive.org/web/20170412214830/https://qz.com/957327/backtracking-on-one-of-his-biggest-campaign-pledges-trump-says-china-is-not-a-currency-manipulator/'
+            - 'https://web.archive.org/web/20170412214911/http://www.foxnews.com/politics/2017/04/12/trump-says-wont-label-china-currency-manipulator.html'
+            - 'https://web.archive.org/web/20170412213557/https://www.washingtonpost.com/news/wonk/wp/2017/04/12/trump-says-he-will-not-label-china-currency-manipulator-reversing-campaign-promise/'
+            - 'https://web.archive.org/web/20170412215002/http://www.cnbc.com/2017/04/12/trump-backtracks-on-china-wont-label-it-a-currency-manipulator.html'
     -
         title: 'I will direct the Secretary of Commerce and U.S. Trade Representative to identify all foreign trading abuses that unfairly impact American workers and direct them to use every tool under American and international law to end those abuses immediately'
         status: Not started
@@ -1697,15 +1701,6 @@ promises:
         tags:
             - Afghanistan
         comments: 'https://redd.it/5d7sse'
-        sources:
-            - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
-    -
-        title: 'Aggressively challenge China''s power in the world by declaring the country a currency manipulator, adopting a "zero tolerance policy on intellectual property theft and forced technology transfer" and cracking down on China''s "lax labor and environmental standards".'
-        status: Not started
-        category: World
-        tags:
-            - China
-        comments: 'https://redd.it/5d7ssf'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
