@@ -44,7 +44,7 @@ promises:
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
         title: 'Institute a hiring freeze on all federal employees to reduce federal workforce through attrition (exempting military, public safety, and public health);'
-        status: Achieved
+        status: In progress
         category: First 100 Days
         tags:
             - 'Contract with the American Voter - 100 Day Plan'
@@ -57,6 +57,8 @@ promises:
             - 'https://web.archive.org/web/20170210171255/https://www.washingtonpost.com/news/powerpost/wp/2017/01/23/trump-freezes-federal-hiring/'
             - 'https://web.archive.org/web/20170210172148/http://thehill.com/homenews/administration/315661-trump-imposes-freeze-on-federal-hiring'
             - 'https://web.archive.org/web/20170210173704/http://www.attn.com/stories/14456/truth-about-trumps-hiring-freeze'
+            - 'https://www.scribd.com/document/344966998/OMB-Memo-on-Reforming-the-Federal-Government-and-Reducing-the-Federal-Civilian-Workforce'
+            - 'https://web.archive.org/web/20170412080116/http://www.npr.org/2017/04/12/523473051/trump-lifting-federal-hiring-freeze'
     -
         title: 'A requirement that for every new federal regulation, two existing regulations must be eliminated'
         status: Achieved
