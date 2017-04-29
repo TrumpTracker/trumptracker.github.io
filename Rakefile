@@ -47,8 +47,21 @@ end
 
 
 task :test do
+  require 'html-proofer'
   sh "rm -rf ./_site"
   sh "bundle exec jekyll build"
-  Rake::Task["json2yaml"].invoke  
-  sh "bundle exec htmlproofer --allow-hash-href --check-favicon --check-opengraph --check-html --check-img-http --timeframe 15d --enforce-https --check-external-hash --url-ignore https://web.archive.org/web/* ./_site"
+  Rake::Task["json2yaml"].invoke
+
+  options = {
+    :allow_hash_href => true,
+    :check_favicon => true,
+    :check_opengraph => true,
+    :check_html => true,
+    :check_img_http => true,
+    :cache => { :timeframe => '15d' },
+    :enforce_https => true,
+    :check_external_hash => true,
+    :url_ignore => [/https:\/\/web.archive.org\/web\//]
+  }
+  HTMLProofer.check_directory("./_site", options).run
 end
