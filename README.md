@@ -33,6 +33,11 @@ We'd love to get contributions from you! For a quick guide to getting your syste
 10. Rich data so Google can parse it. Maybe something on http://schema.org/?
 11. ~~Add tweet button #47~~
 
+# Also check
+
+- [TrumpTrackerRSS](https://github.com/MrLuit/TrumpTrackerRSS) - A RSS feed of all changes in the database file
+- [TrumpTrackerBot](https://github.com/MrLuit/TrumpTrackerBot) - A bot that creates a new Reddit thread for every addition to the database
+
 # Report Issues
 1. Pull Request would be the best option.
 2. Otherwise you can email me @ {firstName}.{lastName}+trump@gmail.com

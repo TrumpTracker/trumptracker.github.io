@@ -1,0 +1,167 @@
+---
+layout: page
+permalink: /:basename/
+---
+<style>
+hr {
+	margin-top: 7px;
+	margin-bottom: 7px;
+	border-top: 1px solid #ddd;
+}
+.author {
+   color: #292f34;
+}
+.score {
+	color: #738491;
+	font-weight: 700;
+}
+.time {
+	color: #98abba;
+}
+.placecomment {
+	float: right;
+}
+.comments {
+	display: inline;
+}
+.status {
+  color: #31708f;
+}
+.facebook {
+	background-color: #3B5998;
+	color: #fff;
+}
+.twitter {
+	background-color: #4099FF;
+	color: #fff;
+}
+.facebook:hover {
+	filter: brightness(70%);
+	color: #fff;
+}
+.twitter:hover {
+	filter: brightness(70%);
+	color: #fff;
+}
+.check {
+	color: #5cb85c;
+	font-weight: bold;
+}
+.gild {
+	color: #FFD700;
+}
+.archive {
+	color: #A8A8A8;
+}
+</style>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Dreamers can maybe stay.</h1>
+	  <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://trumptracker.github.io/dreamers-can-maybe-stay/&title=Dreamers+can+maybe+stay."><button class="btn facebook"> <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> Share</button></a>
+	  
+	  {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Achieved" %} achieved{% elsif promise.status == "Broken" %} broke{% elsif promise.status == "Compromised" %} compromised on{% else %}{% endif %}{% endcapture %}{% capture message %}@realDonaldTrump{{ status }} promise no. {{ forloop.index}}: {{ promise.title }} on{% endcapture %}
+
+                            {% capture tweettext %}{{ message }}{% endcapture %}
+
+                            <a href="https://twitter.com/share?url=https://trumptracker.github.io/&text=%40realDonaldTrump+hasn%27t+started+promise+no.+101%3A+Dreamers+can+maybe+stay.&hashtags=TrumpTracker" target="_blank">
+	  <button class="btn twitter"> <i class="fa fa-fw fa-twitter" aria-hidden="true"></i> Tweet</button></a>
+    </div>
+    <div class="col-md-12">
+	  <h3>Category: Immigration</h3>
+      <h3>Status: <span class='status'>Not started</span></h3>
+    </div>
+    <div class="col-md-12">
+      <h3>Sources:</h3>
+	  <ul class='sources'>
+<li><a id='src' target='_blank' href='https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'>https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801</a></li>
+
+	  </ul>
+    </div>
+  </div><BR>
+   <div id="reddit_comments">
+	  <h3 class='comments'>Comments</h3>
+	  <a target="_blank" class="placecomment" href="https://redd.it/5d7spy"><i class="fa fa-pencil" aria-hidden="true"></i> Place comment</a><BR><BR>
+	  <noscript>Please enable Javascript to view comments</noscript>
+   </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.6.4/showdown.min.js" integrity="sha256-zA+ZIy6Tri6PReZFQ8DksaeqShqWgMi4EU4ZH0hDfys=" crossorigin="anonymous"></script>
+<script src="//cdn.jsdelivr.net/reddit.js/0.1.3/reddit.min.js"></script>
+<script>
+function renderComment(reddit) {
+comment = '';
+if(reddit.data.distinguished != null) {
+comment += "<i class='fa fa-check-square-o check' aria-hidden='true'></i> ";
+}
+if(reddit.data.stickied != false) {
+comment += "<i class='fa fa-thumb-tack check' aria-hidden='true'></i> ";
+}
+if(reddit.data.gilded > 0) {
+comment += "<i class='fa fa-trophy gild' aria-hidden='true'></i> ";
+}
+comment += "<a target='_blank' class='author' href='https://reddit.com/u/" + reddit.data.author + "'>" + reddit.data.author + "</a><span class='score'> &#8226; ";
+if(reddit.data.score == 1) {
+comment += reddit.data.score + " point";
+}
+else {
+comment += reddit.data.score + " points";
+}
+console.log(reddit.data);
+comment += "</span> <span class='time'>" + moment.utc(reddit.data.created_utc*1000).format('LL') + "</span>";
+if(reddit.data.edited != false) {
+comment += "*";
+}
+comment += " <a target='_blank' href='https://reddit.com/r/trumptracker/comments/" + reddit.data.link_id.replace("t3_","") + "/trumptracker/" + reddit.data.id + "/'><i class='fa fa-share-alt' aria-hidden='true'></i></a> <hr>" + converter.makeHtml(reddit.data.body);
+if(reddit.data.archived != false) {
+comment += " <i class='fa fa-archive archive' aria-hidden='true'></i>";
+}
+return comment;
+}
+function loopComments(reddit,tree = true) {
+if(tree) {
+$.each(reddit,function(i, data) {
+		$.each(data,function(i, d) {
+			if(typeof d.children !== 'undefined') {
+			$.each(d.children,function(i, e) {
+				$("#reddit_comments").append("<div class='panel panel-default'><div class='panel-body'>" + renderComment(e) + "</div></div>");
+				if(e.data.replies != '') {
+					loopComments(e.data.replies,false);
+				}
+			});
+			}
+			else {
+				$("#reddit_comments").append("<h4>There are no comments yet</h4>");
+			}
+		});
+	}); 
+}
+else {
+$.each(reddit.data.children,function(i, e) {
+				$("#reddit_comments").append("<div class='panel panel-default' ><div class='panel-body'>" + renderComment(e) + "</div></div>");
+				if(e.data.replies != '') {
+					loopComments(e.data.replies,false);
+				}
+			});
+}
+}
+var converter = new showdown.Converter();
+ reddit.comments("5d7spy", "trumptracker").limit(20).sort("hot").fetch(function(res) {
+    res.shift();
+	loopComments(res);
+  });
+  
+  /*$('a#src').each(function(i, obj) {
+if(obj.href.indexOf('https://web.archive.org/web/') > -1) {
+url = obj.href.replace("https://web.archive.org/web/","");
+url = url.split('/');
+url.shift();
+url = url.join('/');
+}
+else {
+url = obj.href;
+}
+$.get(url,function(data) {
+obj.innerHTML = data.filter('title').text();
+});
+});*/
+</script>
