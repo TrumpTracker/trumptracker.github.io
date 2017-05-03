@@ -51,6 +51,7 @@ task :generatestatic do
 	status = x['status'];
 	comments = x['comments']
 	category = x['category']
+	description = x['description']
 	filename = title.prettyurl
     out_file = File.new("./promises/#{filename}.html", "w+")
 	layout = "---\nlayout: page\npermalink: /:basename/\n---\n"
@@ -91,6 +92,7 @@ task :generatestatic do
 	layout.gsub! "{{ page.url }}", url
 	layout.gsub! "{{ page.statuscolor }}", statuscolor
 	layout.gsub! "{{ page.status }}", status
+	layout.gsub! "{{ page.description }}", description
 	layout.gsub! "{{ tweettext }}", tweettext
 	layout.gsub! "{{ page.comments }}", comments
 	comments.sub! "https://redd.it/", ""
