@@ -51,8 +51,8 @@ function loopComments(reddit, tree = true) {
 window.addEventListener('load', function() {
     $('.src').each(function(i, obj) {
         $.get("https://luithollander.nl/trumptracker/title.php?url=" + encodeURIComponent(obj.href), function(data) {
-            if (data.length < 300) {
-                obj.innerHTML = data;
+            if (data.length < 300 && data.length > 0) {
+                obj.innerHTML = data.replace(/<(?:.|\n)*?>/gm, '');
             }
         });
     });
