@@ -6,7 +6,7 @@ permalink: /:basename/
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h1>"If I'm president, Carrier won't move to Mexico"</h1>
+      <h2>"If I'm president, Carrier won't move to Mexico"</h2>
 	  <a class='btn facebook' target="_blank" href="https://www.facebook.com/sharer.php?u=https://trumptracker.github.io/if-im-president-carrier-wont-move-to-mexico/&title=%22If+I%27m+president%2C+Carrier+won%27t+move+to+Mexico%22"> <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> Share</a>
 	  
 	  {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Achieved" %} achieved{% elsif promise.status == "Broken" %} broke{% elsif promise.status == "Compromised" %} compromised on{% else %}{% endif %}{% endcapture %}{% capture message %}@realDonaldTrump{{ status }} promise no. {{ forloop.index}}: {{ promise.title }} on{% endcapture %}
@@ -17,14 +17,15 @@ permalink: /:basename/
     <div class="col-md-12">
 	  <h3>Category: Environment</h3>
       <h3>Status: <span style='color: #4e5459;'>Compromised</span></h3>
+	  <p>{{ promise.description }}</p>
     </div>
     <div class="col-md-12">
       <h3>Sources:</h3>
 	  <ul class='sources'>
-<li><a target='_blank' href='https://web.archive.org/web/20160402083427/http://www.theindychannel.com/news/call-6-investigators/trump-if-im-president-carrier-wont-move-to-mexico'>https://web.archive.org/web/20160402083427/http://www.theindychannel.com/news/call-6-investigators/trump-if-im-president-carrier-wont-move-to-mexico</a></li>
-<li><a target='_blank' href='https://web.archive.org/web/20170210171151/http://www.politifact.com/truth-o-meter/promises/trumpometer/promise/1415/save-carrier-plant-indiana/'>https://web.archive.org/web/20170210171151/http://www.politifact.com/truth-o-meter/promises/trumpometer/promise/1415/save-carrier-plant-indiana/</a></li>
-<li><a target='_blank' href='https://web.archive.org/web/20161229051929/http://www.politifact.com/punditfact/statements/2016/dec/04/heather-mcghee/did-donald-trumps-carrier-deal-actually-save-less-/'>https://web.archive.org/web/20161229051929/http://www.politifact.com/punditfact/statements/2016/dec/04/heather-mcghee/did-donald-trumps-carrier-deal-actually-save-less-/</a></li>
-<li><a target='_blank' href='https://web.archive.org/web/20170105062303/http://money.cnn.com/2016/12/02/news/companies/trump-carrier-plant-mexico/'>https://web.archive.org/web/20170105062303/http://money.cnn.com/2016/12/02/news/companies/trump-carrier-plant-mexico/</a></li>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20160402083427/http://www.theindychannel.com/news/call-6-investigators/trump-if-im-president-carrier-wont-move-to-mexico'>https://web.archive.org/web/20160402083427/http://www.theindychannel.com/news/call-6-investigators/trump-if-im-president-carrier-wont-move-to-mexico</a></li>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20170210171151/http://www.politifact.com/truth-o-meter/promises/trumpometer/promise/1415/save-carrier-plant-indiana/'>https://web.archive.org/web/20170210171151/http://www.politifact.com/truth-o-meter/promises/trumpometer/promise/1415/save-carrier-plant-indiana/</a></li>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20161229051929/http://www.politifact.com/punditfact/statements/2016/dec/04/heather-mcghee/did-donald-trumps-carrier-deal-actually-save-less-/'>https://web.archive.org/web/20161229051929/http://www.politifact.com/punditfact/statements/2016/dec/04/heather-mcghee/did-donald-trumps-carrier-deal-actually-save-less-/</a></li>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20170105062303/http://money.cnn.com/2016/12/02/news/companies/trump-carrier-plant-mexico/'>https://web.archive.org/web/20170105062303/http://money.cnn.com/2016/12/02/news/companies/trump-carrier-plant-mexico/</a></li>
 
 	  </ul>
     </div>
@@ -38,15 +39,17 @@ permalink: /:basename/
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.6.4/showdown.min.js" integrity="sha256-zA+ZIy6Tri6PReZFQ8DksaeqShqWgMi4EU4ZH0hDfys=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/reddit.js/0.1.3/reddit.min.js" integrity="sha384-BpEUvy3RFpPh44VcLmof+idfnnLl/rBocgC0+LI2Mcx/cvDwM0AAl5tCvzOfaIIC" crossorigin="anonymous"></script>
-<script src="../js/comments.js"></script>
+<script src="../js/promisepage.js"></script>
 <script>
 var converter = new showdown.Converter();
-reddit.comments("5s06wk", "trumptracker").limit(20).sort("hot").fetch(function(res) {
-    res.shift();
-    loopComments(res);
-    if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
-        $(".loader").hide();
-        $("#reddit_comments").append("<h4>There are no comments yet</h4>");
-    }
+window.addEventListener('load', function() {
+    reddit.comments("5s06wk", "trumptracker").limit(20).sort("hot").fetch(function(res) {
+        res.shift();
+        loopComments(res);
+        if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
+            $(".loader").hide();
+            $("#reddit_comments").append("<h4>There are no comments yet</h4>");
+        }
+    });
 });
 </script>

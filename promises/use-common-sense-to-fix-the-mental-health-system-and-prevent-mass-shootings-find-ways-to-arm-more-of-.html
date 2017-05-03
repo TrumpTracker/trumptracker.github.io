@@ -6,7 +6,7 @@ permalink: /:basename/
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h1>Use "common sense" to fix the mental health system and prevent mass shootings. Find ways to arm more of the "good guys" like him who can take out the "sickos." Get rid of bans on certain types of guns and magazines so that "good, honest people" can own the guns of their choice.</h1>
+      <h2>Use "common sense" to fix the mental health system and prevent mass shootings. Find ways to arm more of the "good guys" like him who can take out the "sickos." Get rid of bans on certain types of guns and magazines so that "good, honest people" can own the guns of their choice.</h2>
 	  <a class='btn facebook' target="_blank" href="https://www.facebook.com/sharer.php?u=https://trumptracker.github.io/use-common-sense-to-fix-the-mental-health-system-and-prevent-mass-shootings-find-ways-to-arm-more-of-/&title=Use+%22common+sense%22+to+fix+the+mental+health+system+and+prevent+mass+shootings.+Find+ways+to+arm+more+of+the+%22good+guys%22+like+him+who+can+take+out+the+%22sickos.%22+Get+rid+of+bans+on+certain+types+of+guns+and+magazines+so+that+%22good%2C+honest+people%22+can+own+the+guns+of+their+choice."> <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> Share</a>
 	  
 	  {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Achieved" %} achieved{% elsif promise.status == "Broken" %} broke{% elsif promise.status == "Compromised" %} compromised on{% else %}{% endif %}{% endcapture %}{% capture message %}@realDonaldTrump{{ status }} promise no. {{ forloop.index}}: {{ promise.title }} on{% endcapture %}
@@ -17,11 +17,12 @@ permalink: /:basename/
     <div class="col-md-12">
 	  <h3>Category: Economy</h3>
       <h3>Status: <span style='color: #31708f;'>Not started</span></h3>
+	  <p>{{ promise.description }}</p>
     </div>
     <div class="col-md-12">
       <h3>Sources:</h3>
 	  <ul class='sources'>
-<li><a target='_blank' href='https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'>https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/</a></li>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'>https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/</a></li>
 
 	  </ul>
     </div>
@@ -35,15 +36,17 @@ permalink: /:basename/
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.6.4/showdown.min.js" integrity="sha256-zA+ZIy6Tri6PReZFQ8DksaeqShqWgMi4EU4ZH0hDfys=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/reddit.js/0.1.3/reddit.min.js" integrity="sha384-BpEUvy3RFpPh44VcLmof+idfnnLl/rBocgC0+LI2Mcx/cvDwM0AAl5tCvzOfaIIC" crossorigin="anonymous"></script>
-<script src="../js/comments.js"></script>
+<script src="../js/promisepage.js"></script>
 <script>
 var converter = new showdown.Converter();
-reddit.comments("5d7sos", "trumptracker").limit(20).sort("hot").fetch(function(res) {
-    res.shift();
-    loopComments(res);
-    if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
-        $(".loader").hide();
-        $("#reddit_comments").append("<h4>There are no comments yet</h4>");
-    }
+window.addEventListener('load', function() {
+    reddit.comments("5d7sos", "trumptracker").limit(20).sort("hot").fetch(function(res) {
+        res.shift();
+        loopComments(res);
+        if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
+            $(".loader").hide();
+            $("#reddit_comments").append("<h4>There are no comments yet</h4>");
+        }
+    });
 });
 </script>

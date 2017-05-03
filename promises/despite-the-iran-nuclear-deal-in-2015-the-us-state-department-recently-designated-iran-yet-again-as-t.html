@@ -6,7 +6,7 @@ permalink: /:basename/
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h1>Despite the Iran Nuclear deal in 2015, the U.S. State Department recently designated Iran, yet again, as the leading state sponsor of terrorism - putting the Middle East particularly, but the whole world at risk by financing, arming, and training terrorist groups operating around the world including Hamas, Hezbollah, and forces loyal to Syrian President Bashar al-Assad. The U.S. must counteract Iran's ongoing violations of the Joint Comprehensive Plan of Action regarding Iran's quest for nuclear weapons and their noncompliance with past and present sanctions, as well as the agreements they signed, and implement tough, new sanctions when needed to protect the world and Iran's neighbors from its continuing nuclear and non-nuclear threats.</h1>
+      <h2>Despite the Iran Nuclear deal in 2015, the U.S. State Department recently designated Iran, yet again, as the leading state sponsor of terrorism - putting the Middle East particularly, but the whole world at risk by financing, arming, and training terrorist groups operating around the world including Hamas, Hezbollah, and forces loyal to Syrian President Bashar al-Assad. The U.S. must counteract Iran's ongoing violations of the Joint Comprehensive Plan of Action regarding Iran's quest for nuclear weapons and their noncompliance with past and present sanctions, as well as the agreements they signed, and implement tough, new sanctions when needed to protect the world and Iran's neighbors from its continuing nuclear and non-nuclear threats.</h2>
 	  <a class='btn facebook' target="_blank" href="https://www.facebook.com/sharer.php?u=https://trumptracker.github.io/despite-the-iran-nuclear-deal-in-2015-the-us-state-department-recently-designated-iran-yet-again-as-t/&title=Despite+the+Iran+Nuclear+deal+in+2015%2C+the+U.S.+State+Department+recently+designated+Iran%2C+yet+again%2C+as+the+leading+state+sponsor+of+terrorism+-+putting+the+Middle+East+particularly%2C+but+the+whole+world+at+risk+by+financing%2C+arming%2C+and+training+terrorist+groups+operating+around+the+world+including+Hamas%2C+Hezbollah%2C+and+forces+loyal+to+Syrian+President+Bashar+al-Assad.+The+U.S.+must+counteract+Iran%27s+ongoing+violations+of+the+Joint+Comprehensive+Plan+of+Action+regarding+Iran%27s+quest+for+nuclear+weapons+and+their+noncompliance+with+past+and+present+sanctions%2C+as+well+as+the+agreements+they+signed%2C+and+implement+tough%2C+new+sanctions+when+needed+to+protect+the+world+and+Iran%27s+neighbors+from+its+continuing+nuclear+and+non-nuclear+threats."> <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> Share</a>
 	  
 	  {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Achieved" %} achieved{% elsif promise.status == "Broken" %} broke{% elsif promise.status == "Compromised" %} compromised on{% else %}{% endif %}{% endcapture %}{% capture message %}@realDonaldTrump{{ status }} promise no. {{ forloop.index}}: {{ promise.title }} on{% endcapture %}
@@ -17,11 +17,12 @@ permalink: /:basename/
     <div class="col-md-12">
 	  <h3>Category: World</h3>
       <h3>Status: <span style='color: #31708f;'>Not started</span></h3>
+	  <p>{{ promise.description }}</p>
     </div>
     <div class="col-md-12">
       <h3>Sources:</h3>
 	  <ul class='sources'>
-<li><a target='_blank' href='https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'>https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/</a></li>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'>https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/</a></li>
 
 	  </ul>
     </div>
@@ -35,15 +36,17 @@ permalink: /:basename/
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.6.4/showdown.min.js" integrity="sha256-zA+ZIy6Tri6PReZFQ8DksaeqShqWgMi4EU4ZH0hDfys=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/reddit.js/0.1.3/reddit.min.js" integrity="sha384-BpEUvy3RFpPh44VcLmof+idfnnLl/rBocgC0+LI2Mcx/cvDwM0AAl5tCvzOfaIIC" crossorigin="anonymous"></script>
-<script src="../js/comments.js"></script>
+<script src="../js/promisepage.js"></script>
 <script>
 var converter = new showdown.Converter();
-reddit.comments("5d81tq", "trumptracker").limit(20).sort("hot").fetch(function(res) {
-    res.shift();
-    loopComments(res);
-    if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
-        $(".loader").hide();
-        $("#reddit_comments").append("<h4>There are no comments yet</h4>");
-    }
+window.addEventListener('load', function() {
+    reddit.comments("5d81tq", "trumptracker").limit(20).sort("hot").fetch(function(res) {
+        res.shift();
+        loopComments(res);
+        if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
+            $(".loader").hide();
+            $("#reddit_comments").append("<h4>There are no comments yet</h4>");
+        }
+    });
 });
 </script>

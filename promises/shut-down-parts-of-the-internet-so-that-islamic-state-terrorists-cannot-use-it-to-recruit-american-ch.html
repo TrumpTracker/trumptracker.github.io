@@ -6,7 +6,7 @@ permalink: /:basename/
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h1>Shut down parts of the Internet so that Islamic State terrorists cannot use it to recruit American children.</h1>
+      <h2>Shut down parts of the Internet so that Islamic State terrorists cannot use it to recruit American children.</h2>
 	  <a class='btn facebook' target="_blank" href="https://www.facebook.com/sharer.php?u=https://trumptracker.github.io/shut-down-parts-of-the-internet-so-that-islamic-state-terrorists-cannot-use-it-to-recruit-american-ch/&title=Shut+down+parts+of+the+Internet+so+that+Islamic+State+terrorists+cannot+use+it+to+recruit+American+children."> <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> Share</a>
 	  
 	  {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Achieved" %} achieved{% elsif promise.status == "Broken" %} broke{% elsif promise.status == "Compromised" %} compromised on{% else %}{% endif %}{% endcapture %}{% capture message %}@realDonaldTrump{{ status }} promise no. {{ forloop.index}}: {{ promise.title }} on{% endcapture %}
@@ -17,11 +17,12 @@ permalink: /:basename/
     <div class="col-md-12">
 	  <h3>Category: Security</h3>
       <h3>Status: <span style='color: #31708f;'>Not started</span></h3>
+	  <p>{{ promise.description }}</p>
     </div>
     <div class="col-md-12">
       <h3>Sources:</h3>
 	  <ul class='sources'>
-<li><a target='_blank' href='https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'>https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801</a></li>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'>https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801</a></li>
 
 	  </ul>
     </div>
@@ -35,15 +36,17 @@ permalink: /:basename/
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.6.4/showdown.min.js" integrity="sha256-zA+ZIy6Tri6PReZFQ8DksaeqShqWgMi4EU4ZH0hDfys=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/reddit.js/0.1.3/reddit.min.js" integrity="sha384-BpEUvy3RFpPh44VcLmof+idfnnLl/rBocgC0+LI2Mcx/cvDwM0AAl5tCvzOfaIIC" crossorigin="anonymous"></script>
-<script src="../js/comments.js"></script>
+<script src="../js/promisepage.js"></script>
 <script>
 var converter = new showdown.Converter();
-reddit.comments("5d81t4", "trumptracker").limit(20).sort("hot").fetch(function(res) {
-    res.shift();
-    loopComments(res);
-    if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
-        $(".loader").hide();
-        $("#reddit_comments").append("<h4>There are no comments yet</h4>");
-    }
+window.addEventListener('load', function() {
+    reddit.comments("5d81t4", "trumptracker").limit(20).sort("hot").fetch(function(res) {
+        res.shift();
+        loopComments(res);
+        if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
+            $(".loader").hide();
+            $("#reddit_comments").append("<h4>There are no comments yet</h4>");
+        }
+    });
 });
 </script>

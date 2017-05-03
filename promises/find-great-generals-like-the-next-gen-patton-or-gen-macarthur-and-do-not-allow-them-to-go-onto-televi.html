@@ -6,7 +6,7 @@ permalink: /:basename/
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h1>Find great generals -- like the next Gen. Patton or Gen. MacArthur -- and do not allow them to go onto television news shows to explain their military strategy: "I don't want my generals being interviewed, I want my generals kicking a--." Trump likes generals who are rough, foul-mouthed and beloved by their troops.</h1>
+      <h2>Find great generals -- like the next Gen. Patton or Gen. MacArthur -- and do not allow them to go onto television news shows to explain their military strategy: "I don't want my generals being interviewed, I want my generals kicking a--." Trump likes generals who are rough, foul-mouthed and beloved by their troops.</h2>
 	  <a class='btn facebook' target="_blank" href="https://www.facebook.com/sharer.php?u=https://trumptracker.github.io/find-great-generals-like-the-next-gen-patton-or-gen-macarthur-and-do-not-allow-them-to-go-onto-televi/&title=Find+great+generals+--+like+the+next+Gen.+Patton+or+Gen.+MacArthur+--+and+do+not+allow+them+to+go+onto+television+news+shows+to+explain+their+military+strategy%3A+%22I+don%27t+want+my+generals+being+interviewed%2C+I+want+my+generals+kicking+a--.%22+Trump+likes+generals+who+are+rough%2C+foul-mouthed+and+beloved+by+their+troops."> <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> Share</a>
 	  
 	  {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Achieved" %} achieved{% elsif promise.status == "Broken" %} broke{% elsif promise.status == "Compromised" %} compromised on{% else %}{% endif %}{% endcapture %}{% capture message %}@realDonaldTrump{{ status }} promise no. {{ forloop.index}}: {{ promise.title }} on{% endcapture %}
@@ -17,12 +17,13 @@ permalink: /:basename/
     <div class="col-md-12">
 	  <h3>Category: Security</h3>
       <h3>Status: <span style='color: #8a6d3b;'>In progress</span></h3>
+	  <p>{{ promise.description }}</p>
     </div>
     <div class="col-md-12">
       <h3>Sources:</h3>
 	  <ul class='sources'>
-<li><a target='_blank' href='https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'>https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801</a></li>
-<li><a target='_blank' href='https://web.archive.org/web/20170217043423/https://www.washingtonpost.com/world/national-security/trump-has-chosen-retired-marine-gen-james-mattis-for-secretary-of-defense/2016/12/01/6c6b3b74-aff9-11e6-be1c-8cec35b1ad25_story.html'>https://web.archive.org/web/20170217043423/https://www.washingtonpost.com/world/national-security/trump-has-chosen-retired-marine-gen-james-mattis-for-secretary-of-defense/2016/12/01/6c6b3b74-aff9-11e6-be1c-8cec35b1ad25_story.html</a></li>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'>https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801</a></li>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20170217043423/https://www.washingtonpost.com/world/national-security/trump-has-chosen-retired-marine-gen-james-mattis-for-secretary-of-defense/2016/12/01/6c6b3b74-aff9-11e6-be1c-8cec35b1ad25_story.html'>https://web.archive.org/web/20170217043423/https://www.washingtonpost.com/world/national-security/trump-has-chosen-retired-marine-gen-james-mattis-for-secretary-of-defense/2016/12/01/6c6b3b74-aff9-11e6-be1c-8cec35b1ad25_story.html</a></li>
 
 	  </ul>
     </div>
@@ -36,15 +37,17 @@ permalink: /:basename/
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.6.4/showdown.min.js" integrity="sha256-zA+ZIy6Tri6PReZFQ8DksaeqShqWgMi4EU4ZH0hDfys=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/reddit.js/0.1.3/reddit.min.js" integrity="sha384-BpEUvy3RFpPh44VcLmof+idfnnLl/rBocgC0+LI2Mcx/cvDwM0AAl5tCvzOfaIIC" crossorigin="anonymous"></script>
-<script src="../js/comments.js"></script>
+<script src="../js/promisepage.js"></script>
 <script>
 var converter = new showdown.Converter();
-reddit.comments("5d81t5", "trumptracker").limit(20).sort("hot").fetch(function(res) {
-    res.shift();
-    loopComments(res);
-    if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
-        $(".loader").hide();
-        $("#reddit_comments").append("<h4>There are no comments yet</h4>");
-    }
+window.addEventListener('load', function() {
+    reddit.comments("5d81t5", "trumptracker").limit(20).sort("hot").fetch(function(res) {
+        res.shift();
+        loopComments(res);
+        if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
+            $(".loader").hide();
+            $("#reddit_comments").append("<h4>There are no comments yet</h4>");
+        }
+    });
 });
 </script>

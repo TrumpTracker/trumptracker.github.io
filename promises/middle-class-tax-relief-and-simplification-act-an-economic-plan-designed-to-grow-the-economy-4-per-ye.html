@@ -6,7 +6,7 @@ permalink: /:basename/
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h1>Middle Class Tax Relief And Simplification Act. An economic plan designed to grow the economy 4% per year and create at least 25 million new jobs through massive tax reduction and simplification, in combination with trade reform, regulatory relief, and lifting the restrictions on American energy. The largest tax reductions are for the middle class. A middle-class family with 2 children will get a 35% tax cut. The current number of brackets will be reduced from 7 to 3, and tax forms will likewise be greatly simplified. The business rate will be lowered from 35 to 15 percent, and the trillions of dollars of American corporate money overseas can now be brought back at a 10 percent rate.</h1>
+      <h2>Middle Class Tax Relief And Simplification Act. An economic plan designed to grow the economy 4% per year and create at least 25 million new jobs through massive tax reduction and simplification, in combination with trade reform, regulatory relief, and lifting the restrictions on American energy. The largest tax reductions are for the middle class. A middle-class family with 2 children will get a 35% tax cut. The current number of brackets will be reduced from 7 to 3, and tax forms will likewise be greatly simplified. The business rate will be lowered from 35 to 15 percent, and the trillions of dollars of American corporate money overseas can now be brought back at a 10 percent rate.</h2>
 	  <a class='btn facebook' target="_blank" href="https://www.facebook.com/sharer.php?u=https://trumptracker.github.io/middle-class-tax-relief-and-simplification-act-an-economic-plan-designed-to-grow-the-economy-4-per-ye/&title=Middle+Class+Tax+Relief+And+Simplification+Act.+An+economic+plan+designed+to+grow+the+economy+4%25+per+year+and+create+at+least+25+million+new+jobs+through+massive+tax+reduction+and+simplification%2C+in+combination+with+trade+reform%2C+regulatory+relief%2C+and+lifting+the+restrictions+on+American+energy.+The+largest+tax+reductions+are+for+the+middle+class.+A+middle-class+family+with+2+children+will+get+a+35%25+tax+cut.+The+current+number+of+brackets+will+be+reduced+from+7+to+3%2C+and+tax+forms+will+likewise+be+greatly+simplified.+The+business+rate+will+be+lowered+from+35+to+15+percent%2C+and+the+trillions+of+dollars+of+American+corporate+money+overseas+can+now+be+brought+back+at+a+10+percent+rate."> <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> Share</a>
 	  
 	  {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Achieved" %} achieved{% elsif promise.status == "Broken" %} broke{% elsif promise.status == "Compromised" %} compromised on{% else %}{% endif %}{% endcapture %}{% capture message %}@realDonaldTrump{{ status }} promise no. {{ forloop.index}}: {{ promise.title }} on{% endcapture %}
@@ -17,13 +17,14 @@ permalink: /:basename/
     <div class="col-md-12">
 	  <h3>Category: First 100 Days</h3>
       <h3>Status: <span style='color: #d9534f;'>Broken</span></h3>
+	  <p>{{ promise.description }}</p>
     </div>
     <div class="col-md-12">
       <h3>Sources:</h3>
 	  <ul class='sources'>
-<li><a target='_blank' href='https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'>https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1</a></li>
-<li><a target='_blank' href='https://youtu.be/4t1xR9U6IAU?t=8m36s'>https://youtu.be/4t1xR9U6IAU?t=8m36s</a></li>
-<li><a target='_blank' href='https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'>https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days</a></li>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'>https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1</a></li>
+<li><a class='src' target='_blank' href='https://youtu.be/4t1xR9U6IAU?t=8m36s'>https://youtu.be/4t1xR9U6IAU?t=8m36s</a></li>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'>https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days</a></li>
 
 	  </ul>
     </div>
@@ -37,15 +38,17 @@ permalink: /:basename/
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.6.4/showdown.min.js" integrity="sha256-zA+ZIy6Tri6PReZFQ8DksaeqShqWgMi4EU4ZH0hDfys=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/reddit.js/0.1.3/reddit.min.js" integrity="sha384-BpEUvy3RFpPh44VcLmof+idfnnLl/rBocgC0+LI2Mcx/cvDwM0AAl5tCvzOfaIIC" crossorigin="anonymous"></script>
-<script src="../js/comments.js"></script>
+<script src="../js/promisepage.js"></script>
 <script>
 var converter = new showdown.Converter();
-reddit.comments("5d81si", "trumptracker").limit(20).sort("hot").fetch(function(res) {
-    res.shift();
-    loopComments(res);
-    if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
-        $(".loader").hide();
-        $("#reddit_comments").append("<h4>There are no comments yet</h4>");
-    }
+window.addEventListener('load', function() {
+    reddit.comments("5d81si", "trumptracker").limit(20).sort("hot").fetch(function(res) {
+        res.shift();
+        loopComments(res);
+        if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
+            $(".loader").hide();
+            $("#reddit_comments").append("<h4>There are no comments yet</h4>");
+        }
+    });
 });
 </script>

@@ -1,4 +1,3 @@
-
 # Status has five options: Not started, In progress, Achieved, Broken, and Compromised
 
 icons:
@@ -46,9 +45,9 @@ promises:
             - 'https://youtu.be/4t1xR9U6IAU?t=44s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: 'Institute a hiring freeze on all federal employees to reduce federal workforce through attrition (exempting military, public safety, and public health)'
-        description: ''
-        url: 'https://trumptracker.github.io/institute-a-hiring-freeze-on-all-federal-employees-to-reduce-federal-workforce-through-attrition-exem/'
+        title: 'Institute a hiring freeze on all federal employees to reduce federal workforce through attrition'
+        description: 'Institute a hiring freeze on all federal employees to reduce federal workforce through attrition (exempting military, public safety, and public health)'
+        url: 'https://trumptracker.github.io/institute-a-hiring-freeze-on-all-federal-employees-to-reduce-federal-workforce-through-attrition/'
         status: Broken
         category: First 100 Days
         tags:

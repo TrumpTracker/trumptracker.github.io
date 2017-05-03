@@ -15,7 +15,6 @@ function renderComment(reddit) {
     } else {
         comment += reddit.data.score + " points";
     }
-    console.log(reddit.data);
     comment += "</span> <span class='time'>" + moment.utc(reddit.data.created_utc * 1000).format('LL') + "</span>";
     if (reddit.data.edited != false) {
         comment += "*";
@@ -49,3 +48,12 @@ function loopComments(reddit, tree = true) {
         });
     }
 }
+window.addEventListener('load', function() {
+    $('.src').each(function(i, obj) {
+        $.get("https://luithollander.nl/trumptracker/title.php?url=" + encodeURIComponent(obj.href), function(data) {
+            if (data.length < 300) {
+                obj.innerHTML = data;
+            }
+        });
+    });
+});

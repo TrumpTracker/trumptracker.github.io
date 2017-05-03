@@ -6,7 +6,7 @@ permalink: /:basename/
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h1>End Illegal Immigration Act Fully-funds the construction of a wall on our southern border with the full understanding that the country Mexico will be reimbursing the United States for the full cost of such wall; establishes a 2-year mandatory minimum federal prison sentence for illegally re-entering the U.S. after a previous deportation, and a 5-year mandatory minimum for illegally re-entering for those with felony convictions, multiple misdemeanor convictions or two or more prior deportations; also reforms visa rules to enhance penalties for overstaying and to ensure open jobs are offered to American workers first.</h1>
+      <h2>End Illegal Immigration Act Fully-funds the construction of a wall on our southern border with the full understanding that the country Mexico will be reimbursing the United States for the full cost of such wall; establishes a 2-year mandatory minimum federal prison sentence for illegally re-entering the U.S. after a previous deportation, and a 5-year mandatory minimum for illegally re-entering for those with felony convictions, multiple misdemeanor convictions or two or more prior deportations; also reforms visa rules to enhance penalties for overstaying and to ensure open jobs are offered to American workers first.</h2>
 	  <a class='btn facebook' target="_blank" href="https://www.facebook.com/sharer.php?u=https://trumptracker.github.io/end-illegal-immigration-act-fullyfunds-the-construction-of-a-wall-on-our-southern-border-with-the-ful/&title=End+Illegal+Immigration+Act+Fully-funds+the+construction+of+a+wall+on+our+southern+border+with+the+full+understanding+that+the+country+Mexico+will+be+reimbursing+the+United+States+for+the+full+cost+of+such+wall%3B+establishes+a+2-year+mandatory+minimum+federal+prison+sentence+for+illegally+re-entering+the+U.S.+after+a+previous+deportation%2C+and+a+5-year+mandatory+minimum+for+illegally+re-entering+for+those+with+felony+convictions%2C+multiple+misdemeanor+convictions+or+two+or+more+prior+deportations%3B+also+reforms+visa+rules+to+enhance+penalties+for+overstaying+and+to+ensure+open+jobs+are+offered+to+American+workers+first."> <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> Share</a>
 	  
 	  {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Achieved" %} achieved{% elsif promise.status == "Broken" %} broke{% elsif promise.status == "Compromised" %} compromised on{% else %}{% endif %}{% endcapture %}{% capture message %}@realDonaldTrump{{ status }} promise no. {{ forloop.index}}: {{ promise.title }} on{% endcapture %}
@@ -17,14 +17,15 @@ permalink: /:basename/
     <div class="col-md-12">
 	  <h3>Category: First 100 Days</h3>
       <h3>Status: <span style='color: #d9534f;'>Broken</span></h3>
+	  <p>{{ promise.description }}</p>
     </div>
     <div class="col-md-12">
       <h3>Sources:</h3>
 	  <ul class='sources'>
-<li><a target='_blank' href='https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'>https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1</a></li>
-<li><a target='_blank' href='https://youtu.be/4t1xR9U6IAU?t=17m6s'>https://youtu.be/4t1xR9U6IAU?t=17m6s</a></li>
-<li><a target='_blank' href='https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'>https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days</a></li>
-<li><a target='_blank' href='https://web.archive.org/web/20170210172237/http://www.reuters.com/article/us-usa-trump-immigration-idUSKBN1591HP'>https://web.archive.org/web/20170210172237/http://www.reuters.com/article/us-usa-trump-immigration-idUSKBN1591HP</a></li>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'>https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1</a></li>
+<li><a class='src' target='_blank' href='https://youtu.be/4t1xR9U6IAU?t=17m6s'>https://youtu.be/4t1xR9U6IAU?t=17m6s</a></li>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'>https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days</a></li>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20170210172237/http://www.reuters.com/article/us-usa-trump-immigration-idUSKBN1591HP'>https://web.archive.org/web/20170210172237/http://www.reuters.com/article/us-usa-trump-immigration-idUSKBN1591HP</a></li>
 
 	  </ul>
     </div>
@@ -38,15 +39,17 @@ permalink: /:basename/
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.6.4/showdown.min.js" integrity="sha256-zA+ZIy6Tri6PReZFQ8DksaeqShqWgMi4EU4ZH0hDfys=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/reddit.js/0.1.3/reddit.min.js" integrity="sha384-BpEUvy3RFpPh44VcLmof+idfnnLl/rBocgC0+LI2Mcx/cvDwM0AAl5tCvzOfaIIC" crossorigin="anonymous"></script>
-<script src="../js/comments.js"></script>
+<script src="../js/promisepage.js"></script>
 <script>
 var converter = new showdown.Converter();
-reddit.comments("5d81sn", "trumptracker").limit(20).sort("hot").fetch(function(res) {
-    res.shift();
-    loopComments(res);
-    if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
-        $(".loader").hide();
-        $("#reddit_comments").append("<h4>There are no comments yet</h4>");
-    }
+window.addEventListener('load', function() {
+    reddit.comments("5d81sn", "trumptracker").limit(20).sort("hot").fetch(function(res) {
+        res.shift();
+        loopComments(res);
+        if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
+            $(".loader").hide();
+            $("#reddit_comments").append("<h4>There are no comments yet</h4>");
+        }
+    });
 });
 </script>
