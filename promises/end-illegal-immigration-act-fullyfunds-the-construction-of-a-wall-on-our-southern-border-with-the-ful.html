@@ -3,6 +3,9 @@ layout: page
 permalink: /:basename/
 ---
 <style>
+h3 {
+    margin-top: 10px;
+}
 hr {
 	margin-top: 7px;
 	margin-bottom: 7px;
@@ -53,6 +56,27 @@ hr {
 .archive {
 	color: #A8A8A8;
 }
+.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #555;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 </style>
 <div class="container">
   <div class="row">
@@ -84,7 +108,8 @@ hr {
   </div><BR>
    <div id="reddit_comments">
 	  <h3 class='comments'>Comments</h3>
-	  <a target="_blank" class="placecomment" href="https://redd.it/5d81sn"><i class="fa fa-pencil" aria-hidden="true"></i> Place comment</a><BR><BR>
+	  <a target="_blank" href="https://redd.it/5d81sn" class="btn btn-primary placecomment"><i class="fa fa-pencil" aria-hidden="true"></i> Place comment</a><BR><BR>
+	  <div class="loader"></div>
 	  <noscript>Please enable Javascript to view comments</noscript>
    </div>
 </div>
@@ -124,17 +149,13 @@ function loopComments(reddit,tree = true) {
 if(tree) {
 $.each(reddit,function(i, data) {
 		$.each(data,function(i, d) {
-			if(typeof d.children !== 'undefined') {
 			$.each(d.children,function(i, e) {
+				$(".loader").hide();
 				$("#reddit_comments").append("<div class='panel panel-default'><div class='panel-body'>" + renderComment(e) + "</div></div>");
 				if(e.data.replies != '') {
 					loopComments(e.data.replies,false);
 				}
 			});
-			}
-			else {
-				$("#reddit_comments").append("<h4>There are no comments yet</h4>");
-			}
 		});
 	}); 
 }
@@ -151,20 +172,9 @@ var converter = new showdown.Converter();
  reddit.comments("5d81sn", "trumptracker").limit(20).sort("hot").fetch(function(res) {
     res.shift();
 	loopComments(res);
+	if(!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
+	  $(".loader").hide();
+	  $("#reddit_comments").append("<h4>There are no comments yet</h4>");
+	}
   });
-  
-  /*$('a#src').each(function(i, obj) {
-if(obj.href.indexOf('https://web.archive.org/web/') > -1) {
-url = obj.href.replace("https://web.archive.org/web/","");
-url = url.split('/');
-url.shift();
-url = url.join('/');
-}
-else {
-url = obj.href;
-}
-$.get(url,function(data) {
-obj.innerHTML = data.filter('title').text();
-});
-});*/
 </script>
