@@ -58,7 +58,7 @@ task :generatestatic do
 	$sources = ''
 	 x['sources'].each {
        |y|
-	   $sources << "<li><a id='src' target='_blank' href='#{y}'>#{y}</a></li>\n";
+	   $sources << "<li><a target='_blank' href='#{y}'>#{y}</a></li>\n";
 	}
 	tweettext = '@realDonaldTrump '
 	if status == "Not started"
