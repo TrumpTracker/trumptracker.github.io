@@ -126,7 +126,7 @@ promises:
             - 'https://web.archive.org/web/20170404190756/http://money.cnn.com/2017/04/03/news/trump-salary-national-parks/'
     -
         title: 'I will announce my intention to renegotiate NAFTA or withdraw from the deal under Article 2205'
-        status: Broken
+        status: Achieved
         category: First 100 Days
         tags:
             - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
@@ -135,6 +135,8 @@ promises:
             - 'https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
             - 'https://youtu.be/4t1xR9U6IAU?t=2m23s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'https://web.archive.org/web/20170502020204/http://www.npr.org/sections/thetwo-way/2017/04/27/525826539/trump-tells-canada-and-mexico-he-will-renegotiate-not-withdraw-from-nafta'
+            - 'https://web.archive.org/web/20170429043139/https://www.whitehouse.gov/the-press-office/2017/04/26/readout-president-donald-j-trumps-call-president-pe%C3%B1a-nieto-mexico-and'
     -
         title: 'I will announce our withdrawal from the Trans-Pacific Partnership'
         status: Achieved
