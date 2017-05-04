@@ -30,6 +30,9 @@ hr {
 	background-color: #4099FF;
 	color: #fff;
 }
+.panel-body  {
+    word-break:break-all
+}
 .facebook:hover {
 	filter: brightness(70%);
 	color: #fff;

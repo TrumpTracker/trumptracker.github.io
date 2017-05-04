@@ -19,7 +19,7 @@ function renderComment(reddit) {
     if (reddit.data.edited != false) {
         comment += "*";
     }
-    comment += " <a target='_blank' href='https://reddit.com/r/trumptracker/comments/" + reddit.data.link_id.replace("t3_", "") + "/trumptracker/" + reddit.data.id + "/'><i class='fa fa-share-alt' aria-hidden='true'></i></a> <hr>" + converter.makeHtml(reddit.data.body);
+    comment += " <a target='_blank' href='https://reddit.com/r/trumptracker/comments/" + reddit.data.link_id.replace("t3_", "") + "/trumptracker/" + reddit.data.id + "/'><i class='fa fa-share-alt' aria-hidden='true'></i></a> <hr>" + SnuOwnd.getParser().render(reddit.data.body.replace(/(<([^>]+)>)/ig,""));
     if (reddit.data.archived != false) {
         comment += " <i class='fa fa-archive archive' aria-hidden='true'></i>";
     }
@@ -48,12 +48,14 @@ function loopComments(reddit, tree = true) {
         });
     }
 }
+
 window.addEventListener('load', function() {
-    $('.src').each(function(i, obj) {
-        $.get("https://luithollander.nl/trumptracker/title.php?url=" + encodeURIComponent(obj.href), function(data) {
-            if (data.length < 300 && data.length > 0) {
-                obj.innerHTML = data.replace(/<(?:.|\n)*?>/gm, '');
-            }
-        });
+	reddit.comments(redditid, "trumptracker").limit(20).sort("hot").fetch(function(res) {
+        res.shift();
+        loopComments(res);
+        if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
+            $(".loader").hide();
+            $("#reddit_comments").append("<h4>There are no comments yet</h4>");
+        }
     });
 });

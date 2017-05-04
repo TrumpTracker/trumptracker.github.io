@@ -28,7 +28,6 @@ theme: minima
 gems:
   - jekyll-feed
   - jekyll-sitemap
-  - html-proofer
 
 sass:
   sass_dir: css/partials
