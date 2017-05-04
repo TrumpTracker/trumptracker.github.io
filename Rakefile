@@ -74,7 +74,7 @@ task :generatestatic do
             #ensure
 			#    puts srctitle
 			    if srctitle.include? "https://web.archive.org/web/"
-				    srctitle.gsub! "https://web.archive.org/web/", ""
+				    srctitle = srctitle.gsub "https://web.archive.org/web/", ""
 					srctitle = srctitle.split("/")
 					srctitle.shift()
 					srctitle = srctitle.join("/")
