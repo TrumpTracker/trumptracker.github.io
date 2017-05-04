@@ -49,6 +49,7 @@ task :generatestatic do
 		yaml_file = File.open("./_data/data.yaml", 'r');
 	yaml = yaml_file.read
 	yaml = YAML::load(yaml)
+	Pathname.new("./promises/").children.each { |p| p.unlink }
 	yaml['promises'].each_with_index {
 		|x, index|
 		title = x['title'];
