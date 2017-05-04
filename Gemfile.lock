@@ -105,6 +105,7 @@ GEM
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
+    unf_ext (0.0.7.4)
     unf_ext (0.0.7.4-x86-mingw32)
     yell (2.0.7)
 
@@ -120,6 +121,7 @@ DEPENDENCIES
   metainspector
   minima (~> 2.0)
   rake
+  unf_ext
 
 RUBY VERSION
    ruby 2.3.3p222
