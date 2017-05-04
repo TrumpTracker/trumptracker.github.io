@@ -188,14 +188,7 @@ layout: page
                         </td> -->
                         <td class="promise__actions">
                             <!-- comment and twitter integration -->
-                            <a href="{{ promise.comments }}" target="_blank" rel="nofollow">
-                            <i class="fa fa-fw fa-comments text-muted" aria-hidden="true"></i></a>
-
-                            {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Achieved" %} achieved{% elsif promise.status == "Broken" %} broke{% elsif promise.status == "Compromised" %} compromised on{% else %}{% endif %}{% endcapture %}{% capture message %}@realDonaldTrump{{ status }} promise no. {{ forloop.index}}: {{ promise.title }} on{% endcapture %}
-
-                            {% capture tweettext %}{{ message }}{% endcapture %}
-
-                            <a href="https://twitter.com/share?url=https://trumptracker.github.io/&text={{ tweettext | truncate: 102 | url_encode }}&hashtags=TrumpTracker" target="_blank"><i class="fa fa-fw fa-twitter text-muted" aria-hidden="true"></i></a>
+                            <a href="{{ site.url }}{{ promise.url | replace: 'https://trumptracker.github.io', '' }}"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 
                         </td>
                     </tr>

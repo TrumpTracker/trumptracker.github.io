@@ -1,0 +1,41 @@
+---
+layout: page
+permalink: /:basename/
+---
+<link rel="stylesheet" type="text/css" href="../css/promisepage.css">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Scrap the earlier plan entirely. Here are new tax brackets: Trump took his earlier tax plan offline before a major economic policy address in early August, where he hiked his initially proposed tax brackets from 10 percent, 20 percent and 25 percent to 12 percent, 25 percent and 33 percent. These brackets more closely mimic his party's past views on taxes.</h2>
+	  <a class='btn facebook' target="_blank" href="https://www.facebook.com/sharer.php?u=https://trumptracker.github.io/scrap-the-earlier-plan-entirely-here-are-new-tax-brackets-trump-took-his-earlier-tax-plan-offline-bef/&title=Scrap+the+earlier+plan+entirely.+Here+are+new+tax+brackets%3A+Trump+took+his+earlier+tax+plan+offline+before+a+major+economic+policy+address+in+early+August%2C+where+he+hiked+his+initially+proposed+tax+brackets+from+10+percent%2C+20+percent+and+25+percent+to+12+percent%2C+25+percent+and+33+percent.+These+brackets+more+closely+mimic+his+party%27s+past+views+on+taxes."> <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> Share</a>
+	  
+	  {% capture status %}{% if promise.status == "Not started" %} hasn't started{% elsif promise.status == "In progress" %} is progressing{% elsif promise.status == "Achieved" %} achieved{% elsif promise.status == "Broken" %} broke{% elsif promise.status == "Compromised" %} compromised on{% else %}{% endif %}{% endcapture %}{% capture message %}@realDonaldTrump{{ status }} promise no. {{ forloop.index}}: {{ promise.title }} on{% endcapture %}
+
+                            {% capture tweettext %}{{ message }}{% endcapture %}
+                            <a class="btn twitter" href="https://twitter.com/share?url=https://trumptracker.github.io/&text=%40realDonaldTrump+hasn%27t+started+promise+no.+50%3A+Scrap+the+earlier+plan+entirely.+Here+are+new+tax+b...&hashtags=TrumpTracker" target="_blank"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> Tweet</a>
+    </div>
+    <div class="col-md-12">
+	  <h3>Category: Economy</h3>
+      <h3>Status: <span style='color: #31708f;'>Not started</span></h3>
+	  <p>{{ promise.description }}</p>
+    </div>
+    <div class="col-md-12">
+      <h3>Sources:</h3>
+	  <ul class='sources'>
+<li><a class='src' target='_blank' href='https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'>http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801</a></li>
+
+	  </ul>
+    </div>
+  </div><BR>
+   <div id="reddit_comments">
+	  <h3 class='comments'>Comments</h3>
+	  <a target="_blank" href="https://redd.it/5d81su" class="btn btn-primary placecomment"><i class="fa fa-pencil" aria-hidden="true"></i> Place comment</a><BR><BR>
+	  <div class="loader"></div>
+	  <div class="panel-group"></div>
+	  <noscript>Please enable Javascript to view comments</noscript>
+   </div>
+</div>
+<script src="https://cdn.jsdelivr.net/reddit.js/0.1.3/reddit.min.js" integrity="sha384-BpEUvy3RFpPh44VcLmof+idfnnLl/rBocgC0+LI2Mcx/cvDwM0AAl5tCvzOfaIIC" crossorigin="anonymous"></script>
+<script src="../js/snuownd.min.js"></script>
+<script>var redditid = '5d81su';</script>
+<script src="../js/promisepage.js"></script>
