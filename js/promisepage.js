@@ -1,5 +1,10 @@
-function renderComment(reddit) {
-    comment = '';
+function renderComment(reddit, reply = false) {
+	if(reply) {
+		comment = "<div class='panel panel-default replycomment'><div class='panel-body'><i class='fa reply fa-reply' aria-hidden='true'></i> ";
+	}
+	else {
+		comment = "<div class='panel panel-default'><div class='panel-body'>";
+	}
     if (reddit.data.distinguished != null) {
         comment += "<i class='fa fa-check-square-o check' aria-hidden='true'></i> ";
     }
@@ -23,27 +28,28 @@ function renderComment(reddit) {
     if (reddit.data.archived != false) {
         comment += " <i class='fa fa-archive archive' aria-hidden='true'></i>";
     }
+	comment += "</div></div>";
     return comment;
 }
 
-function loopComments(reddit, tree = true) {
-    if (tree) {
+function loopComments(reddit, reply = false) {
+    if (!reply) {
         $.each(reddit, function(i, data) {
             $.each(data, function(i, d) {
                 $.each(d.children, function(i, e) {
                     $(".loader").hide();
-                    $("#reddit_comments").append("<div class='panel panel-default'><div class='panel-body'>" + renderComment(e) + "</div></div>");
+                    $(".panel-group").append(renderComment(e));
                     if (e.data.replies != '') {
-                        loopComments(e.data.replies, false);
+                        loopComments(e.data.replies, true);
                     }
                 });
             });
         });
     } else {
         $.each(reddit.data.children, function(i, e) {
-            $("#reddit_comments").append("<div class='panel panel-default' ><div class='panel-body'>" + renderComment(e) + "</div></div>");
+            $(".panel-group").append(renderComment(e,true));
             if (e.data.replies != '') {
-                loopComments(e.data.replies, false);
+                loopComments(e.data.replies, true);
             }
         });
     }
@@ -53,7 +59,7 @@ window.addEventListener('load', function() {
 	reddit.comments(redditid, "trumptracker").limit(20).sort("hot").fetch(function(res) {
         res.shift();
         loopComments(res);
-        if (!~$("#reddit_comments").html().indexOf('<div class="panel ')) {
+        if ($(".panel-group").html().indexOf('<div class="panel ')) {
             $(".loader").hide();
             $("#reddit_comments").append("<h4>There are no comments yet</h4>");
         }

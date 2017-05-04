@@ -1,6 +1,9 @@
 h3 {
     margin-top: 10px;
 }
+p {
+	margin: 0;
+}
 hr {
 	margin-top: 7px;
 	margin-bottom: 7px;
@@ -30,8 +33,8 @@ hr {
 	background-color: #4099FF;
 	color: #fff;
 }
-.panel-body  {
-    word-break:break-all
+.panel-body,.container  {
+    word-break:break-word;
 }
 .facebook:hover {
 	filter: brightness(70%);
@@ -45,11 +48,17 @@ hr {
 	color: #5cb85c;
 	font-weight: bold;
 }
+.reply {
+	font-weight: bold;
+}
 .gild {
 	color: #FFD700;
 }
 .archive {
 	color: #A8A8A8;
+}
+.replycomment {
+	margin-left: 40px;
 }
 .loader {
   border: 5px solid #f3f3f3;
@@ -67,7 +76,7 @@ hr {
   0% { -webkit-transform: rotate(0deg); }
   100% { -webkit-transform: rotate(360deg); }
 }
-
+	
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }

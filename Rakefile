@@ -73,6 +73,12 @@ task :generatestatic do
 				srctitle = y
             #ensure
 			#    puts srctitle
+			    if srctitle.include? "https://web.archive.org/web/"
+				    srctitle.gsub! "https://web.archive.org/web/", ""
+					srctitle = srctitle.split("/")
+					srctitle.shift()
+					srctitle = srctitle.join("/")
+				end
 			    $sources << "<li><a class='src' target='_blank' href='#{y}'>#{srctitle}</a></li>\n";			
             #end  
 		}
