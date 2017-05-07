@@ -46,7 +46,7 @@ task :generatestatic do
 	puts 'Generating unique promise pages...'.bold
 	layout_file = File.open("./_layouts/promise.html", 'r');
 	layout_template = layout_file.read
-		yaml_file = File.open("./_data/data.yaml", 'r');
+	yaml_file = File.open("./_data/data.yaml", 'r');
 	yaml = yaml_file.read
 	yaml = YAML::load(yaml)
 	Pathname.new("./promises/").children.each { |p| p.unlink }
@@ -133,11 +133,16 @@ task :generateurls do
 	yaml = yaml_file.read
 	fullyaml = ''
 	yaml = yaml.split("    -")
+	url_prefix_file = File.open("./_config.yml", 'r')
+	url_prefix = url_prefix_file.read
+	url_prefix = url_prefix.split('url: "')[1].split('"')[0]
+	url_prefix_file.close
 	yaml.each_with_index {
 		|x, index|
 		if x.include? "title: '"
 			title = x.split("title: '")[1].split("'\n")[0]
-			url = "url: 'https://trumptracker.github.io/"
+			url = "url: '"
+			url << url_prefix
 			url << title.prettyurl
 			url << "/'"
 			oldurl = "url: '"
@@ -160,10 +165,10 @@ task :yaml2json do
 	puts 'Converting YAML to JSON...'.bold
 	input_filename = "./_data/data.yaml"
 	output_filename = input_filename.sub(/(yml|yaml)$/, 'json')
-		input_file = File.open(input_filename, 'r')
+	input_file = File.open(input_filename, 'r')
 	input_yml = input_file.read
 	input_file.close
-		output_json = JSON.dump(YAML::load(input_yml))
+	output_json = JSON.dump(YAML::load(input_yml))
 	output_file = File.open(output_filename, 'w+')
 	output_file.write(output_json)
 	output_file.close
