@@ -54,7 +54,7 @@ task :generatestatic do
 		|x, index|
 		title = x['title'];
 		status = x['status'];
-		comments = x['comments']
+		comments = x['comments'][0]
 		category = x['category']
 		description = x['description']
 		filename = title.prettyurl
