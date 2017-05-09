@@ -65,3 +65,6 @@ window.addEventListener('load', function() {
         }
     });
 });
+
+document.getElementsByClassName("loader")[0].style.display = 'block';
+document.getElementsByClassName("noscript")[0].outerHTML='';
