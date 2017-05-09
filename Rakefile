@@ -8,7 +8,7 @@ require 'yaml'
 # for parsing source titles
 #require 'openssl'
 #require 'open-uri'
-require 'metainspector'
+#require 'metainspector'
 
 # Extend string to allow for bold text.
 class String
@@ -18,6 +18,10 @@ class String
 	def prettyurl
 		"#{self}".downcase.strip.gsub('-', '').gsub(' ', '-').gsub(/[^\w-]/, '').gsub('--', '-')[0..100]
 	end
+end
+
+def check_file(file, string)
+  File.foreach(file).detect { |line| line.include?(string) }
 end
 
 # Rake Jekyll tasks
@@ -49,10 +53,11 @@ task :generatestatic do
 	yaml_file = File.open("./_data/data.yaml", 'r');
 	yaml = yaml_file.read
 	yaml = YAML::load(yaml)
-	Pathname.new("./promises/").children.each { |p| p.unlink }
+    titles = {}
 	yaml['promises'].each_with_index {
 		|x, index|
 		title = x['title'];
+		titles["#{title}"] = true;
 		status = x['status'];
 		comments = x['comments'][0]
 		category = x['category']
@@ -122,6 +127,25 @@ task :generatestatic do
 		layout.gsub! "{{ page.category }}", category
 		out_file.puts(layout)
 		out_file.close
+	}
+	Pathname.new("./promises/").children.each { |p|
+		rawp = p.basename.to_s.sub! ".html", ""
+		if !check_file "./_data/data.yaml", "#{rawp}"
+			if check_file p, "DO NOT DELETE THIS FILE"
+				if check_file p, "Redirect URL Placeholder"
+					abort("You need to update the redirect url of file: #{p}".bold)
+				end
+			else
+				redirect_template = File.open("./_layouts/redirect.html", 'r');
+				redirect = redirect_template.read
+				redirect_template.close
+				redirect.gsub! "{{ time }}", Time.now.utc.to_s
+				output_file = File.open(p, 'w+')
+				output_file.write(redirect)
+				output_file.close
+				abort("A dead url was found. The file was updated to redirect users but needs to be manually updated to use the correct redirect url. File: #{p}".bold)
+			end
+		end
 	}
 	yaml_file.close
 	layout_file.close
