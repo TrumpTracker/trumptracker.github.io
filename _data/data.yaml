@@ -137,8 +137,8 @@ promises:
         title: 'Donald Trump will refuse the $400,000 annual president''s salary or only take $1'
         description: ''
         url: 'https://trumptracker.github.io/donald-trump-will-refuse-the-400000-annual-presidents-salary-or-only-take-1/'
-        status: Broken
-        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
+        status: Achieved
+        status_info: 'While Trump still received the money, he donated everthing to the National Park Service, which is arguably even better than refusing.'
         category: First 100 Days
         tags:
             - 'Contract with the American Voter - 100 Day Plan'

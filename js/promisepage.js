@@ -58,7 +58,6 @@ function loopComments(reddit, reply = false) {
 window.addEventListener('load', function() {
 	reddit.comments(redditid, "trumptracker").limit(20).sort("hot").fetch(function(res) {
         res.shift();
-		console.log(res);
         loopComments(res);
         if ($(".panel-group").html().indexOf('<div class="panel ')) {
             $(".loader").hide();
