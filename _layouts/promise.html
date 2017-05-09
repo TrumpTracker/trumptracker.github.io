@@ -9,7 +9,8 @@
     <div class="col-md-12">
 	  <h3>Category: {{ page.category }}</h3>
       <h3>Status: <span style='color: {{ page.statuscolor }};'>{{ page.status }}</span></h3>
-	  <p>{{ promise.description }}</p>
+	  {{ page.status_info }}
+	  <p>{{ page.description }}</p>
     </div>
     <div class="col-md-12">
       <h3>Sources:</h3>

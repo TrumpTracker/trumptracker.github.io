@@ -56,9 +56,13 @@ task :generatestatic do
     titles = {}
 	yaml['promises'].each_with_index {
 		|x, index|
-		title = x['title'];
-		titles["#{title}"] = true;
-		status = x['status'];
+		title = x['title']
+		titles["#{title}"] = true
+		status = x['status']
+		status_info = x['status_info']
+		if status_info != ''
+		  status_info = "<b>#{status_info}</b><br><br>"
+		end
 		comments = x['comments'][0]
 		category = x['category']
 		description = x['description']
@@ -120,6 +124,7 @@ task :generatestatic do
 		layout.gsub! "{{ page.statuscolor }}", statuscolor
 		layout.gsub! "{{ page.status }}", status
 		layout.gsub! "{{ page.description }}", description
+		layout.gsub! "{{ page.status_info }}", status_info
 		layout.gsub! "{{ tweettext }}", tweettext
 		layout.gsub! "{{ page.comments }}", comments
 		comments.sub! "https://redd.it/", ""

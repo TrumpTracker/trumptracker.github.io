@@ -36,6 +36,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/propose-a-constitutional-amendment-to-impose-term-limits-on-all-members-of-congress/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Contract with the American Voter - 100 Day Plan'
@@ -50,6 +51,7 @@ promises:
         description: 'Institute a hiring freeze on all federal employees to reduce federal workforce through attrition (exempting military, public safety, and public health)'
         url: 'https://trumptracker.github.io/institute-a-hiring-freeze-on-all-federal-employees-to-reduce-federal-workforce-through-attrition/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Contract with the American Voter - 100 Day Plan'
@@ -70,6 +72,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/a-requirement-that-for-every-new-federal-regulation-two-existing-regulations-must-be-eliminated/'
         status: Achieved
+        status_info: ''
         category: First 100 Days
         tags:
             - 'Contract with the American Voter - 100 Day Plan'
@@ -85,6 +88,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/a-5year-ban-on-white-house-and-congressional-officials-becoming-lobbyists-after-they-leave-government/'
         status: Compromised
+        status_info: ''
         category: First 100 Days
         tags:
             - 'Contract with the American Voter - 100 Day Plan'
@@ -103,6 +107,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/a-lifetime-ban-on-white-house-officials-lobbying-on-behalf-of-a-foreign-government/'
         status: Achieved
+        status_info: ''
         category: First 100 Days
         tags:
             - 'Contract with the American Voter - 100 Day Plan'
@@ -118,6 +123,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/a-complete-ban-on-foreign-lobbyists-raising-money-for-american-elections/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Contract with the American Voter - 100 Day Plan'
@@ -132,6 +138,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/donald-trump-will-refuse-the-400000-annual-presidents-salary-or-only-take-1/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Contract with the American Voter - 100 Day Plan'
@@ -150,6 +157,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/i-will-announce-my-intention-to-renegotiate-nafta-or-withdraw-from-the-deal-under-article-2205/'
         status: Achieved
+        status_info: ''
         category: First 100 Days
         tags:
             - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
@@ -166,6 +174,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/i-will-announce-our-withdrawal-from-the-transpacific-partnership/'
         status: Achieved
+        status_info: ''
         category: First 100 Days
         tags:
             - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
@@ -182,6 +191,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/i-will-direct-my-secretary-of-the-treasury-to-label-china-a-currency-manipulator-also-adopting-a-zero/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
@@ -200,6 +210,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/i-will-direct-the-secretary-of-commerce-and-us-trade-representative-to-identify-all-foreign-trading-a/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
@@ -214,6 +225,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/i-will-lift-the-restrictions-on-the-production-of-50-trillion-dollars-worth-of-jobproducing-american-/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
@@ -235,6 +247,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/lift-the-obamaclinton-roadblocks-and-allow-vital-energy-infrastructure-projects-like-the-keystone-pip/'
         status: Achieved
+        status_info: ''
         category: First 100 Days
         tags:
             - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
@@ -253,6 +266,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/cancel-billions-in-payments-to-un-climate-change-programs-achieved-and-use-the-money-to-fix-americas-/'
         status: Compromised
+        status_info: ''
         category: First 100 Days
         tags:
             - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
@@ -268,6 +282,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/cancel-every-unconstitutional-executive-action-memorandum-and-order-issued-by-president-obama/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Additionally, on the first day, I will take the following five actions to restore security and the constitutional rule of law:'
@@ -282,6 +297,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/begin-the-process-of-selecting-a-replacement-for-justice-scalia-from-one-of-the-20-judges-on-my-list-/'
         status: Achieved
+        status_info: ''
         category: First 100 Days
         tags:
             - 'Additionally, on the first day, I will take the following five actions to restore security and the constitutional rule of law:'
@@ -297,6 +313,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/cancel-all-federal-funding-to-sanctuary-cities/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Additionally, on the first day, I will take the following five actions to restore security and the constitutional rule of law:'
@@ -313,6 +330,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/cancel-visas-to-foreign-countries-that-wont-take-criminal-illegal-immigrants-back/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Additionally, on the first day, I will take the following five actions to restore security and the constitutional rule of law:'
@@ -327,6 +345,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/suspend-immigration-from-terrorprone-regions-where-vetting-cannot-safely-occur-all-vetting-of-people-/'
         status: Achieved
+        status_info: ''
         category: First 100 Days
         tags:
             - 'Additionally, on the first day, I will take the following five actions to restore security and the constitutional rule of law:'
@@ -343,6 +362,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/middle-class-tax-relief-and-simplification-act-an-economic-plan-designed-to-grow-the-economy-4-per-ye/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
@@ -357,6 +377,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/end-the-offshoring-act-establishes-tariffs-to-discourage-companies-from-laying-off-their-workers-in-o/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
@@ -371,6 +392,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/american-energy-infrastructure-act-leverages-publicprivate-partnerships-and-private-investments-throu/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
@@ -385,6 +407,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/school-choice-and-education-opportunity-act-redirects-education-dollars-to-give-parents-the-right-to-/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
@@ -399,6 +422,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/repeal-and-replace-obamacare-act-fully-repeals-obamacare-and-replaces-it-with-health-savings-accounts/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
@@ -413,6 +437,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/affordable-childcare-and-eldercare-act-allows-americans-to-deduct-childcare-and-elder-care-from-their/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
@@ -427,6 +452,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/end-illegal-immigration-act-fullyfunds-the-construction-of-a-wall-on-our-southern-border-with-the-ful/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
@@ -442,6 +468,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/restoring-community-safety-act-reduces-surging-crime-drugs-and-violence-by-creating-a-task-force-on-v/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
@@ -456,6 +483,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/restoring-national-security-act-rebuilds-our-military-by-eliminating-the-defense-sequester-and-expand/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
@@ -470,6 +498,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/clean-up-corruption-in-washington-act-enacts-new-ethics-reforms-to-drain-the-swamp-and-reduce-the-cor/'
         status: Broken
+        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
         tags:
             - 'Next, I will work with Congress to introduce the following broader legislative measures and fight for their passage within the first 100 days of my Administration:'
@@ -484,6 +513,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/if-i-become-president-were-all-going-to-be-saying-merry-christmas-again/'
         status: Broken
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -499,6 +529,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/never-take-a-vacation-while-serving-as-president/'
         status: Broken
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -512,6 +543,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/bring-back-the-american-dream/'
         status: Not started
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -524,6 +556,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/be-a-cheerleader-for-america-and-bring-the-countrys-spirit-back-take-the-brand-of-the-united-states-a/'
         status: Not started
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -536,6 +569,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/make-america-great-again-and-strong-again-as-it-has-become-too-weak/'
         status: Not started
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -548,6 +582,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/say-things-that-are-politically-incorrect-because-the-country-does-not-have-time-to-waste-with-politi/'
         status: Not started
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -560,6 +595,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/i-will-take-care-of-women-and-i-have-great-respect-for-women-i-do-cherish-women-and-i-will-take-care-/'
         status: In progress
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -573,6 +609,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/frequently-use-the-term-radical-islamic-terrorism/'
         status: In progress
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -586,6 +623,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/assign-a-special-prosecutor-to-start-a-criminal-investigation-into-hillary-clinton-for-her-use-of-a-p/'
         status: Broken
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -602,6 +640,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/be-unpredictable-no-one-is-going-to-touch-us-because-im-so-unpredictable/'
         status: Not started
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -614,6 +653,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/students-at-wofford-college-in-south-carolina-where-trump-attended-a-town-hall-will-all-have-jobs-at-/'
         status: Not started
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -626,6 +666,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/drop-that-dirty-rotten-traitor-bowe-bergdahl-out-of-an-airplane-into-desolate-afghanistan-without-a-p/'
         status: Not started
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -638,6 +679,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/ensure-that-americans-can-still-afford-to-golf/'
         status: Not started
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -650,6 +692,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/if-i-am-elected-president-and-congress-passes-the-first-amendment-defense-act-i-will-sign-it-to-prote/'
         status: Not started
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -662,6 +705,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/we-wont-tweet-anymore-after-im-president-its-not-presidential/'
         status: Broken
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -675,6 +719,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/i-will-fight-for-the-lgbt-community/'
         status: Broken
+        status_info: ''
         category: Culture
         tags:
             - Trump
@@ -690,6 +735,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/raise-it-the-federal-minimum-wage-to-10-an-hour-ignore-what-i-said-before-get-rid-of-it/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Minimum Wage
@@ -702,6 +748,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/leave-social-security-as-is/'
         status: In progress
+        status_info: ''
         category: Economy
         tags:
             - Minimum Wage
@@ -715,6 +762,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/the-wealthy-should-pay-more/'
         status: Broken
+        status_info: ''
         category: Economy
         tags:
             - Taxes
@@ -729,6 +777,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/cut-taxes-for-the-wealthy-big-time/'
         status: In progress
+        status_info: ''
         category: Economy
         tags:
             - Taxes
@@ -743,6 +792,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/maybe-dont-slash-taxes-by-10-trillion-slash-taxes-by-3-trillion-instead-maybe-ditch-maybe-keep-a-1-tr/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Taxes
@@ -755,6 +805,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/scrap-the-earlier-plan-entirely-here-are-new-tax-brackets-trump-took-his-earlier-tax-plan-offline-bef/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Taxes
@@ -767,6 +818,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/pass-a-huge-tax-cut-roughly-double-the-one-george-w-bush-sponsored-that-delivers-a-windfall-to-the-we/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Taxes
@@ -779,6 +831,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/impose-tariffs-on-goods-made-in-china-and-mexico/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Taxes
@@ -791,6 +844,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/cut-taxes/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Taxes
@@ -803,6 +857,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/call-the-heads-of-major-companies-who-are-moving-operations-oversea-to-inform-them-that-theyll-face-3/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Taxes
@@ -815,6 +870,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/get-rid-of-most-corporate-tax-loopholes/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Taxes
@@ -827,6 +883,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/get-rid-of-income-tax-for-some-earners/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Taxes
@@ -839,6 +896,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/get-rid-of-the-national-debt-in-8-years/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - National Debt
@@ -851,6 +909,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/only-pay-down-a-little-invest-in-infrastructure-first/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - National Debt
@@ -863,6 +922,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/pay-off-the-debt-by-getting-americas-creditors-to-accept-less/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - National Debt
@@ -875,6 +935,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/either-chop-the-national-debt-using-an-approach-that-is-still-unclear-or-add-10-trillion-to-the-debt-/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - National Debt
@@ -887,6 +948,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/trump-supports-an-audit-of-the-fed/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - National Debt
@@ -899,6 +961,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/bring-back-jobs-especially-manufacturing-jobs-that-have-fled-the-country-over-the-past-few-decades/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Jobs
@@ -911,6 +974,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/direct-every-agency-in-government-to-begin-identifying-all-wasteful-jobkilling-regulations-and-they-a/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Jobs
@@ -923,6 +987,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/work-with-both-parties-to-pass-the-biggest-investment-in-new-goodpaying-jobs-since-world-war-ii/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Jobs
@@ -935,6 +1000,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/grow-the-nations-economy-by-at-least-6-percent/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -947,6 +1013,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/reduce-the-18-trillion-national-debt-by-vigorously-eliminating-waste-fraud-and-abuse-in-the-federal-g/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -959,6 +1026,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/cut-the-budget-by-20-percent-by-simply-renegotiating/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -971,6 +1039,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/get-rid-of-the-doddfrank-wall-street-reform-and-consumer-protection-act/'
         status: In progress
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -984,6 +1053,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/simplify-the-us-tax-code-and-reduce-the-number-of-tax-brackets-from-seven-to-four-the-highest-earners/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -996,6 +1066,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/no-longer-charge-income-tax-to-single-individuals-earning-less-than-25000-per-year-or-couples-earning/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -1008,6 +1079,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/allow-corporations-a-onetime-window-to-transfer-money-being-held-overseas-charging-a-muchreduced-10-p/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -1020,6 +1092,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/get-rid-of-most-corporate-tax-loopholes-or-incentives-but-continue-to-allow-taxpayers-to-deduct-mortg/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -1032,6 +1105,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/use-common-sense-to-fix-the-mental-health-system-and-prevent-mass-shootings-find-ways-to-arm-more-of-/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -1044,6 +1118,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/impose-a-minimum-sentence-of-five-years-in-federal-prison-for-any-violent-felon-who-commits-a-crime-u/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -1056,6 +1131,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/fix-the-background-check-system-used-when-purchasing-guns-to-ensure-states-are-properly-uploading-cri/'
         status: Broken
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -1071,6 +1147,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/sign-an-executive-order-calling-for-the-death-penalty-for-anyone-found-guilty-of-killing-a-police-off/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -1083,6 +1160,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/provide-more-funding-for-police-training/'
         status: Broken
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -1096,6 +1174,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/provide-more-funding-for-drug-treatment-especially-for-heroin-addicts/'
         status: Achieved
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -1109,6 +1188,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/on-the-first-day-in-office-terminate-president-obamas-executive-orders-related-to-immigration-this-in/'
         status: Broken
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -1122,6 +1202,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/deport-the-almost-11-million-immigrants-illegally-living-in-the-united-states/'
         status: In progress
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -1136,6 +1217,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/triple-the-number-of-us-immigration-and-customs-enforcement-officers/'
         status: In progress
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -1149,6 +1231,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/continue-to-allow-lowly-paid-foreign-workers-to-come-to-the-united-states-on-temporary-works-visas-be/'
         status: Not started
+        status_info: ''
         category: Economy
         tags:
             - Assorted Numbers
@@ -1161,6 +1244,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/end-the-war-on-coal/'
         status: In progress
+        status_info: ''
         category: Environment
         tags:
             - Natural resources
@@ -1177,6 +1261,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/end-the-clean-power-plan/'
         status: Achieved
+        status_info: ''
         category: Environment
         tags:
             - Natural resources
@@ -1191,6 +1276,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/if-im-president-carrier-wont-move-to-mexico/'
         status: Compromised
+        status_info: ''
         category: Environment
         tags:
             - Natural resources
@@ -1206,6 +1292,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/stop-spending-money-on-space-exploration-until-the-united-states-can-fix-its-potholes-encourage-priva/'
         status: Broken
+        status_info: ''
         category: Government
         tags:
             - Space Exploration
@@ -1219,6 +1306,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/pick-supreme-court-justices-who-are-really-great-legal-scholars/'
         status: Not started
+        status_info: ''
         category: Government
         tags:
             - Legal
@@ -1231,6 +1319,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/ensure-that-iowa-continues-to-host-the-nations-first-presidential-nominating-contest/'
         status: Not started
+        status_info: ''
         category: Government
         tags:
             - Assorted
@@ -1243,6 +1332,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/fire-the-corrupt-and-incompetent-leaders-of-the-us-department-of-veterans-affairs-and-dramatically-re/'
         status: Not started
+        status_info: ''
         category: Government
         tags:
             - Assorted
@@ -1255,6 +1345,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/invest-more-heavily-in-programs-that-help-military-veterans-transition-back-to-civilian-life-includin/'
         status: In progress
+        status_info: ''
         category: Government
         tags:
             - Assorted
@@ -1268,6 +1359,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/replace-free-trade-with-fair-trade-gather-together-the-smartest-negotiators-in-the-world-assign-them-/'
         status: Not started
+        status_info: ''
         category: Government
         tags:
             - Assorted
@@ -1280,6 +1372,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/tell-ford-motor-cos-president-that-unless-he-cancels-plans-to-build-a-massive-plant-in-mexico-the-com/'
         status: Achieved
+        status_info: ''
         category: Government
         tags:
             - Assorted
@@ -1293,6 +1386,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/force-nabisco-to-once-again-make-oreos-in-the-united-states-and-never-eat-another-oreo-until-that-hap/'
         status: Not started
+        status_info: ''
         category: Government
         tags:
             - Assorted
@@ -1305,6 +1399,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/impose-new-taxes-on-many-imports-into-the-country-numbers-thrown-around-have-included-32-percent-34-p/'
         status: Not started
+        status_info: ''
         category: Government
         tags:
             - Assorted
@@ -1317,6 +1412,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/reach-out-to-republicans-and-say-this-is-your-chance-to-help-millions-of-families-and-show-that-your-/'
         status: Not started
+        status_info: ''
         category: Government
         tags:
             - Assorted
@@ -1329,6 +1425,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/deport-criminal-illegal-immigrants-within-one-hour-of-being-sworn-in/'
         status: Broken
+        status_info: ''
         category: Immigration
         tags:
             - Deportation
@@ -1342,6 +1439,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/bring-the-good-undocumented-immigrants-back-legally-after-deportation-in-a-cnn-interview-in-july-2015/'
         status: Not started
+        status_info: ''
         category: Immigration
         tags:
             - Deportation
@@ -1354,6 +1452,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/use-a-deportation-force-to-implement-policy/'
         status: Not started
+        status_info: ''
         category: Immigration
         tags:
             - Deportation
@@ -1366,6 +1465,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/trump-might-be-flexible-on-actually-deporting-11-million-undocumented-immigrants-theres-no-amnesty-bu/'
         status: Not started
+        status_info: ''
         category: Immigration
         tags:
             - Deportation
@@ -1378,6 +1478,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/trump-says-he-will-deport-millions-but-he-has-not-ruled-out-creating-a-pathway-to-citizenship/'
         status: Not started
+        status_info: ''
         category: Immigration
         tags:
             - Deportation
@@ -1390,6 +1491,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/dreamers-can-maybe-stay/'
         status: Not started
+        status_info: ''
         category: Immigration
         tags:
             - Young Undocumented Immigrants and Children of Illegal Immigrants
@@ -1402,6 +1504,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/end-birthright-citizenship/'
         status: Not started
+        status_info: ''
         category: Immigration
         tags:
             - Young Undocumented Immigrants and Children of Illegal Immigrants
@@ -1414,6 +1517,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/build-a-wall-trumps-campaign-began-with-a-promise-to-build-a-wall-across-the-united-states-southern-b/'
         status: In progress
+        status_info: ''
         category: Immigration
         tags:
             - Young Undocumented Immigrants and Children of Illegal Immigrants
@@ -1427,6 +1531,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/against-the-h1b-visa-program/'
         status: Not started
+        status_info: ''
         category: Immigration
         tags:
             - '"Visa''s for High-Skilled Workers"'
@@ -1439,6 +1544,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/against-closing-the-borders-entirely-against-accepting-syrian-refugees-in-the-united-states-bar-syria/'
         status: In progress
+        status_info: ''
         category: Immigration
         tags:
             - Border Control and the Refugee Crisis
@@ -1452,6 +1558,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/create-a-database-of-syrian-refugees-trump-hasnt-ruled-out-creating-a-database-of-muslims-in-the-coun/'
         status: Not started
+        status_info: ''
         category: Immigration
         tags:
             - Border Control and the Refugee Crisis
@@ -1464,6 +1571,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/meet-with-homeland-security-officials-and-generals-to-begin-securing-the-southern-border/'
         status: Not started
+        status_info: ''
         category: Immigration
         tags:
             - Border Control and the Refugee Crisis
@@ -1476,6 +1584,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/suspend-syrian-refugee-resettlement/'
         status: Not started
+        status_info: ''
         category: Immigration
         tags:
             - Border Control and the Refugee Crisis
@@ -1488,6 +1597,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/donald-trump-its-time-to-heal-this-divided-nation/'
         status: Not started
+        status_info: ''
         category: Indigenous
         tags:
             - Indigenous
@@ -1500,6 +1610,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/deport-deport-deport-if-not-en-masse-through-a-federal-deportation-force-at-least-expulsions-in-numbe/'
         status: Not started
+        status_info: ''
         category: Indigenous
         tags:
             - Indigenous
@@ -1512,6 +1623,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/ban-muslim-brotherhood-affiliated-organizations/'
         status: Not started
+        status_info: ''
         category: Indigenous
         tags:
             - Indigenous
@@ -1524,6 +1636,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/there-must-be-consequences-for-burning-the-american-flag-like-loss-of-citizenship-or-a-year-in-jail/'
         status: Broken
+        status_info: ''
         category: Indigenous
         tags:
             - Indigenous
@@ -1538,6 +1651,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/declare-war-send-troops-in-definitely-go-after-the-oil-fields-destroy-the-oil-let-our-regional-allies/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Defeating ISIS
@@ -1550,6 +1664,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/its-still-unclear-what-trumps-plan-to-defeat-isis-is-but-it-will-involve-computers-and-it-will-be-tou/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Defeating ISIS
@@ -1562,6 +1677,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/allow-russia-to-deal-with-the-islamic-state-in-syria-andor-work-with-russian-president-vladimir-putin/'
         status: Broken
+        status_info: ''
         category: Security
         tags:
             - Defeating ISIS
@@ -1576,6 +1692,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/strengthen-the-military-so-that-its-so-big-and-so-strong-and-so-great-that-nobodys-going-to-mess-with/'
         status: In progress
+        status_info: ''
         category: Security
         tags:
             - Defeating ISIS
@@ -1589,6 +1706,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/target-and-kill-the-relatives-of-terrorists/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Defeating ISIS
@@ -1601,6 +1719,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/shut-down-parts-of-the-internet-so-that-islamic-state-terrorists-cannot-use-it-to-recruit-american-ch/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Defeating ISIS
@@ -1613,6 +1732,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/find-great-generals-like-the-next-gen-patton-or-gen-macarthur-and-do-not-allow-them-to-go-onto-televi/'
         status: In progress
+        status_info: ''
         category: Security
         tags:
             - Defeating ISIS
@@ -1626,6 +1746,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/convene-his-top-generals-and-inform-them-they-have-30-days-to-come-up-with-a-plan-to-stop-isis/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Defeating ISIS
@@ -1639,6 +1760,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/start-taking-care-of-our-military/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Military
@@ -1651,6 +1773,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/get-rid-of-gunfree-zones/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Guns
@@ -1664,6 +1787,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/no-guns-in-classrooms-except-maybe-some-guns-in-classrooms-lets-put-trained-gunmen-in-schools/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Guns
@@ -1676,6 +1800,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/more-guns-would-save-lives/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Guns
@@ -1688,6 +1813,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/more-guns-are-better-though-the-details-are-murky-and-evolving-on-how-many-gunfree-zones-would-be-abo/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Guns
@@ -1700,6 +1826,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/get-rid-of-gunfree-zones-in-schools-and-military-baseswhich-would-require-repealing-a-25yearold-feder/'
         status: Broken
+        status_info: ''
         category: Security
         tags:
             - Guns
@@ -1713,6 +1840,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/tackle-the-gun-lobby-to-try-to-reduce-the-outrageous-number-of-people-who-are-dying-from-gun-violence/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Guns
@@ -1725,6 +1853,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/allow-concealed-carry-permits-to-be-recognized-in-all-50-states/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Guns
@@ -1737,6 +1866,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/the-military-will-obey-potentially-illegal-orders/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Torture
@@ -1749,6 +1879,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/the-laws-forbidding-torture-should-be-changed-so-no-one-has-to-break-them/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Torture
@@ -1761,6 +1892,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/trump-says-hes-against-violating-international-laws-or-ordering-others-to-do-so-but-wants-to-change-t/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Torture
@@ -1773,6 +1905,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/ensure-that-the-crime-and-violence-that-today-afflicts-our-nation-will-soon-come-to-an-end-a-pledge-m/'
         status: In progress
+        status_info: ''
         category: Security
         tags:
             - Jail
@@ -1786,6 +1919,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/ask-congress-to-pass-kates-lawnamed-for-kate-steinleto-ensure-that-criminal-aliens-convicted-of-illeg/'
         status: Not started
+        status_info: ''
         category: Security
         tags:
             - Jail
@@ -1798,6 +1932,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/keep-the-military-prison-at-guantanamo-bay-open/'
         status: In progress
+        status_info: ''
         category: Security
         tags:
             - Jail
@@ -1811,6 +1946,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/overturn-roe-v-wade-then-let-states-decide-it/'
         status: Not started
+        status_info: ''
         category: Health
         tags:
             - Abortion
@@ -1823,6 +1959,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/defund-planned-parenthood/'
         status: Not started
+        status_info: ''
         category: Health
         tags:
             - Abortion
@@ -1835,6 +1972,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/defend-the-unborn/'
         status: Not started
+        status_info: ''
         category: Health
         tags:
             - Abortion
@@ -1847,6 +1985,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/replace-obamacare-upon-repeal/'
         status: Not started
+        status_info: ''
         category: Health
         tags:
             - Health Care
@@ -1860,6 +1999,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/knock-down-the-regulatory-walls-between-states-for-health-insurance-making-plans-available-nationally/'
         status: Not started
+        status_info: ''
         category: Health
         tags:
             - Health Care
@@ -1872,6 +2012,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/save-medicare-medicaid-and-social-security-without-cutting-benefits/'
         status: Broken
+        status_info: ''
         category: Health
         tags:
             - Health Care
@@ -1885,6 +2026,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/make-medical-marijuana-widely-available-to-patients-and-allow-states-to-decide-if-they-want-to-fully-/'
         status: Not started
+        status_info: ''
         category: Health
         tags:
             - Health Care
@@ -1898,6 +2040,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/repeal-the-affordable-care-act/'
         status: In progress
+        status_info: ''
         category: Health
         tags:
             - Health Care
@@ -1911,6 +2054,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/israel-is-a-staunch-ally-of-the-us-and-a-key-partner-in-the-global-war-against-islamic-jihadism-milit/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Israel
@@ -1923,6 +2067,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/the-american-people-value-our-close-friendship-and-alliance-with-israel-culturally-religiously-and-po/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Israel
@@ -1935,6 +2080,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/the-memorandum-of-understanding-signed-by-the-american-and-israeli-governments-is-a-good-first-step-b/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Israel
@@ -1947,6 +2093,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/the-us-should-veto-any-united-nations-votes-that-unfairly-single-out-israel-and-will-work-in-internat/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Israel
@@ -1959,6 +2106,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/the-us-should-cut-off-funds-for-the-un-human-rights-council-a-body-dominated-by-countries-presently-r/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Israel
@@ -1971,6 +2119,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/the-us-should-view-the-effort-to-boycott-divest-from-and-sanction-bds-israel-as-inherently-antisemiti/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Israel
@@ -1983,6 +2132,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/the-trump-administration-will-ask-the-justice-department-to-investigate-coordinated-attempts-on-colle/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Israel
@@ -1995,6 +2145,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/a-twostate-solution-between-israel-and-the-palestinians-appears-impossible-as-long-as-the-palestinian/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Israel
@@ -2007,6 +2158,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/the-palestinian-leadership-including-the-pa-has-undermined-any-chance-for-peace-with-israel-by-raisin/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Israel
@@ -2019,6 +2171,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/the-us-cannot-support-the-creation-of-a-new-state-where-terrorism-is-financially-incentivized-terrori/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Israel
@@ -2031,6 +2184,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/the-us-should-support-direct-negotiations-between-israel-and-the-palestinians-without-preconditions-a/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Israel
@@ -2043,6 +2197,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/israels-maintenance-of-defensible-borders-that-preserve-peace-and-promote-stability-in-the-region-is-/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Israel
@@ -2055,6 +2210,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/the-us-will-recognize-jerusalem-as-the-eternal-and-indivisible-capital-of-the-jewish-state-and-mr-tru/'
         status: In progress
+        status_info: ''
         category: World
         tags:
             - Israel
@@ -2068,6 +2224,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/despite-the-iran-nuclear-deal-in-2015-the-us-state-department-recently-designated-iran-yet-again-as-t/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Israel
@@ -2080,6 +2237,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/no-muslims-should-be-allowed-to-enter-the-united-states-as-immigrants-or-visitors-ban-muslims-from-en/'
         status: Broken
+        status_info: ''
         category: World
         tags:
             - Proposed Muslim Ban
@@ -2093,6 +2251,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/the-ban-would-call-for-extreme-vetting-that-includes-an-ideological-test/'
         status: Achieved
+        status_info: ''
         category: World
         tags:
             - Proposed Muslim Ban
@@ -2106,6 +2265,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/trump-would-allow-exceptions-to-his-muslim-ban-for-dignitaries-business-people-athletes-and-others-wh/'
         status: Achieved
+        status_info: ''
         category: World
         tags:
             - Proposed Muslim Ban
@@ -2119,6 +2279,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/heavily-surveil-mosques-in-the-united-states-trump-has-said-hes-open-to-the-idea-of-closing-some-mosq/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Proposed Muslim Ban
@@ -2131,6 +2292,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/japan-should-have-nuclear-weapons/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Japan
@@ -2143,6 +2305,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/renegotiate-the-iran-nuclear-deal/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Iran
@@ -2155,6 +2318,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/i-promise-i-will-never-be-in-a-bicycle-race-that-i-can-tell-you-this-promise-is-connected-to-criticis/'
         status: In progress
+        status_info: ''
         category: World
         tags:
             - Iran
@@ -2168,6 +2332,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/refuse-to-call-irans-leader-by-his-preferred-title-i-guarantee-you-i-will-be-never-calling-him-the-su/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Iran
@@ -2180,6 +2345,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/negotiate-the-release-of-all-us-prisoners-held-in-iran-before-taking-office-five-hostages-were-recent/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Iran
@@ -2192,6 +2358,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/leave-troops-in-afghanistan-because-its-such-a-mess-protect-israel-and-increase-us-military-presence-/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Afghanistan
@@ -2204,6 +2371,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/find-an-out-clause-in-the-iran-deal-and-then-totally-renegotiate-the-whole-thing/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Afghanistan
@@ -2216,6 +2384,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/rather-than-throw-the-chinese-president-a-state-dinner-buy-him-a-mcdonalds-hamburger-and-say-weve-got/'
         status: Broken
+        status_info: ''
         category: World
         tags:
             - China
@@ -2229,6 +2398,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/put-billionaire-hedge-fund-manager-carl-icahn-in-charge-of-trade-negotiations-with-china-and-japan-an/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - China
@@ -2241,6 +2411,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/shred-or-rework-trade-agreements-with-mexico-china-and-many-other-countries-and-if-companies-leave-fo/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - China
@@ -2253,6 +2424,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/notify-all-countries-that-refuse-to-take-back-dangerous-illegal-immigrants-who-have-committed-crimes-/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Global
@@ -2265,6 +2437,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/contact-countries-and-say-folks-we-love-protecting-you-we-want-to-continue-to-protect-you-but-youre-n/'
         status: Not started
+        status_info: ''
         category: World
         tags:
             - Global
@@ -2277,6 +2450,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/get-rid-of-common-core-because-its-a-disaster-and-a-very-bad-thing-trump-says-he-wants-to-give-local-/'
         status: Broken
+        status_info: ''
         category: Education
         tags:
             - Common Core
@@ -2291,6 +2465,7 @@ promises:
         description: ''
         url: 'https://trumptracker.github.io/learn-the-difference-between-hezbollah-and-hamas/'
         status: Not started
+        status_info: ''
         category: Education
         tags:
             - 'Trump''s education'
