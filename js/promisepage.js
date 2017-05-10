@@ -64,7 +64,7 @@ if (document.location.href.indexOf("?reddit") !== -1) {
 }
 
 window.addEventListener('load', function() {
-    $.get("http://www.reddit.com/r/trumptracker/comments/" + redditid + ".json", function(res) {
+    $.get("https://www.reddit.com/r/trumptracker/comments/" + redditid + ".json", function(res) {
         res.shift();
         loopComments(res);
         setTimeout(function() {
