@@ -55,6 +55,13 @@ function loopComments(reddit, reply = false) {
     }
 }
 
+if(document.location.href.indexOf("?reddit") !== -1) {
+	document.location = 'https://redd.it/' + redditid;
+}
+
+document.getElementsByClassName("loader")[0].style.display = 'block';
+document.getElementsByClassName("noscript")[0].outerHTML='';
+
 window.addEventListener('load', function() {
 	reddit.comments(redditid, "trumptracker").limit(20).sort("hot").fetch(function(res) {
         res.shift();
@@ -65,6 +72,3 @@ window.addEventListener('load', function() {
         }
     });
 });
-
-document.getElementsByClassName("loader")[0].style.display = 'block';
-document.getElementsByClassName("noscript")[0].outerHTML='';

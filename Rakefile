@@ -164,7 +164,7 @@ task :generateurls do
 	yaml = yaml.split("    -")
 	url_prefix_file = File.open("./_config.yml", 'r')
 	url_prefix = url_prefix_file.read
-	url_prefix = url_prefix.split('url: "')[1].split('"')[0]
+	url_prefix = url_prefix.split('url: ')[1].split("\n")[0]
 	url_prefix_file.close
 	yaml.each_with_index {
 		|x, index|
@@ -172,6 +172,7 @@ task :generateurls do
 			title = x.split("title: '")[1].split("'\n")[0]
 			url = "url: '"
 			url << url_prefix
+			url << '/'
 			url << title.prettyurl
 			url << "/'"
 			oldurl = "url: '"
