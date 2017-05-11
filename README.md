@@ -35,8 +35,10 @@ We'd love to get contributions from you! For a quick guide to getting your syste
 
 # Also check
 
-- [TrumpTrackerRSS](https://github.com/MrLuit/TrumpTrackerRSS) - A RSS feed of all changes in the database file
-- [TrumpTrackerBot](https://github.com/MrLuit/TrumpTrackerBot) - A bot that creates a new Reddit thread for every addition to the database
+- [TrumpTracker RSS](https://github.com/TrumpTracker/RSS) - An RSS feed of all changes in the database file (PHP)
+- [TrumpTracker RedditBot](https://github.com/TrumpTracker/RedditBot) - A bot that creates a new Reddit thread for every addition to the database (PHP)
+- [TrumpTracker AutoTwitterHeart](https://github.com/TrumpTracker/AutoTwitterHeart) - Automatically like tweets which mention a specific hashtag or username (Ruby)
+- [YourTracker](https://github.com/TrumpTracker/YourTracker) - Make your own TrumpTracker with this command line interface (Node.JS)
 
 # Report Issues
 1. Pull Request would be the best option.
