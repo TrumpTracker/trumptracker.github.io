@@ -71,10 +71,11 @@ function renderComments() {
             comments.splice(e[0] + i, 0, e[1]);
         });
         $(".loader").hide();
+		if(comments.length != 1) { plural = 's' } else { plural = '' }
         if (comments.length > comments_limit) {
-            $(".commentcount").html(comments.length + " comments (" + comments_limit + " shown)");
+            $(".commentcount").html(comments.length + " comment" + plural + " (" + comments_limit + " shown)");
         } else {
-            $(".commentcount").html(comments.length + " comments");
+            $(".commentcount").html(comments.length + " comment" + plural);
         }
 
         $(comments).each(function(i, e) {

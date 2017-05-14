@@ -187,9 +187,9 @@ promises:
             - 'https://web.archive.org/web/20170210171048/http://asia.nikkei.com/Spotlight/Trump-era-begins/US-announces-withdrawal-from-TPP'
             - 'https://web.archive.org/web/20170210171349/http://www.bbc.com/news/world-us-canada-38721056'
     -
-        title: 'I will direct my Secretary of the Treasury to label China a currency manipulator. Also adopting a "zero tolerance policy on intellectual property theft and forced technology transfer" and cracking down on China''s "lax labor and environmental standards".'
-        description: ''
-        url: 'https://trumptracker.github.io/i-will-direct-my-secretary-of-the-treasury-to-label-china-a-currency-manipulator-also-adopting-a-zero/'
+        title: 'I will direct my Secretary of the Treasury to label China a currency manipulator.'
+        description: 'Also adopting a "zero tolerance policy on intellectual property theft and forced technology transfer" and cracking down on China''s "lax labor and environmental standards".'
+        url: 'https://trumptracker.github.io/i-will-direct-my-secretary-of-the-treasury-to-label-china-a-currency-manipulator/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
@@ -206,8 +206,8 @@ promises:
             - 'https://web.archive.org/web/20170412213557/https://www.washingtonpost.com/news/wonk/wp/2017/04/12/trump-says-he-will-not-label-china-currency-manipulator-reversing-campaign-promise/'
             - 'https://web.archive.org/web/20170412215002/http://www.cnbc.com/2017/04/12/trump-backtracks-on-china-wont-label-it-a-currency-manipulator.html'
     -
-        title: 'I will direct the Secretary of Commerce and U.S. Trade Representative to identify all foreign trading abuses that unfairly impact American workers and direct them to use every tool under American and international law to end those abuses immediately'
-        description: ''
+        title: 'I will direct the Secretary of Commerce and U.S. Trade Representative to identify all foreign trading abuses that unfairly impact American workers'
+        description: 'I will direct the Secretary of Commerce and U.S. Trade Representative to identify all foreign trading abuses that unfairly impact American workers and direct them to use every tool under American and international law to end those abuses immediately'
         url: 'https://trumptracker.github.io/i-will-direct-the-secretary-of-commerce-and-us-trade-representative-to-identify-all-foreign-trading-a/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
@@ -262,11 +262,11 @@ promises:
             - 'https://web.archive.org/web/20170324112040/http://www.reuters.com/article/us-usa-pipeline-keystone-idUSKBN16U25E'
             - 'https://web.archive.org/web/20170324152805/https://www.washingtonpost.com/news/energy-environment/wp/2017/03/24/trump-administration-grants-approval-for-keystone-xl-pipeline/'
     -
-        title: 'Cancel billions in payments to U.N. climate change programs (achieved) and use the money to fix America''s water and environmental infrastructure (broken: cut funding)'
+        title: 'Cancel billions in payments to U.N. climate change programs and use the money to fix America''s water and environmental infrastructure'
         description: ''
-        url: 'https://trumptracker.github.io/cancel-billions-in-payments-to-un-climate-change-programs-achieved-and-use-the-money-to-fix-americas-/'
+        url: 'https://trumptracker.github.io/cancel-billions-in-payments-to-un-climate-change-programs-and-use-the-money-to-fix-americas-water-and/'
         status: Compromised
-        status_info: ''
+        status_info: 'While the first promise was achieved, the second was broken.'
         category: First 100 Days
         tags:
             - 'On the same day, I will begin taking the following 7 actions to protect American workers:'
@@ -341,9 +341,9 @@ promises:
             - 'https://youtu.be/4t1xR9U6IAU?t=6m33s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: 'Suspend immigration from terror-prone regions where vetting cannot safely occur. All vetting of people coming into our country will be considered extreme vetting.'
-        description: ''
-        url: 'https://trumptracker.github.io/suspend-immigration-from-terrorprone-regions-where-vetting-cannot-safely-occur-all-vetting-of-people-/'
+        title: 'Suspend immigration from terror-prone regions where vetting cannot safely occur.'
+        description: 'All vetting of people coming into our country will be considered extreme vetting.'
+        url: 'https://trumptracker.github.io/suspend-immigration-from-terrorprone-regions-where-vetting-cannot-safely-occur/'
         status: Achieved
         status_info: ''
         category: First 100 Days
@@ -358,9 +358,9 @@ promises:
             - 'https://web.archive.org/web/20170130180100/https://www.whitehouse.gov/the-press-office/2017/01/27/executive-order-protecting-nation-foreign-terrorist-entry-united-states'
             - 'https://web.archive.org/web/20170323181127/https://skift.com/2017/03/23/u-s-embassies-will-use-extreme-vetting-for-more-visa-applicants/'
     -
-        title: 'Middle Class Tax Relief And Simplification Act. An economic plan designed to grow the economy 4% per year and create at least 25 million new jobs through massive tax reduction and simplification, in combination with trade reform, regulatory relief, and lifting the restrictions on American energy. The largest tax reductions are for the middle class. A middle-class family with 2 children will get a 35% tax cut. The current number of brackets will be reduced from 7 to 3, and tax forms will likewise be greatly simplified. The business rate will be lowered from 35 to 15 percent, and the trillions of dollars of American corporate money overseas can now be brought back at a 10 percent rate.'
-        description: ''
-        url: 'https://trumptracker.github.io/middle-class-tax-relief-and-simplification-act-an-economic-plan-designed-to-grow-the-economy-4-per-ye/'
+        title: 'Middle Class Tax Relief And Simplification Act'
+        description: 'Middle Class Tax Relief And Simplification Act. An economic plan designed to grow the economy 4% per year and create at least 25 million new jobs through massive tax reduction and simplification, in combination with trade reform, regulatory relief, and lifting the restrictions on American energy. The largest tax reductions are for the middle class. A middle-class family with 2 children will get a 35% tax cut. The current number of brackets will be reduced from 7 to 3, and tax forms will likewise be greatly simplified. The business rate will be lowered from 35 to 15 percent, and the trillions of dollars of American corporate money overseas can now be brought back at a 10 percent rate.'
+        url: 'https://trumptracker.github.io/middle-class-tax-relief-and-simplification-act/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
@@ -373,9 +373,9 @@ promises:
             - 'https://youtu.be/4t1xR9U6IAU?t=8m36s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: 'End The Offshoring Act. Establishes tariffs to discourage companies from laying off their workers in order to relocate in other countries and ship their products back to the U.S. tax-free.'
-        description: ''
-        url: 'https://trumptracker.github.io/end-the-offshoring-act-establishes-tariffs-to-discourage-companies-from-laying-off-their-workers-in-o/'
+        title: 'End The Offshoring Act'
+        description: 'Establishes tariffs to discourage companies from laying off their workers in order to relocate in other countries and ship their products back to the U.S. tax-free.'
+        url: 'https://trumptracker.github.io/end-the-offshoring-act/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
@@ -388,9 +388,9 @@ promises:
             - 'https://youtu.be/4t1xR9U6IAU?t=10m39s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: 'American Energy & Infrastructure Act. Leverages public-private partnerships, and private investments through tax incentives, to spur $1 trillion in infrastructure investment over 10 years. It is revenue neutral.'
-        description: ''
-        url: 'https://trumptracker.github.io/american-energy-infrastructure-act-leverages-publicprivate-partnerships-and-private-investments-throu/'
+        title: 'American Energy & Infrastructure Act'
+        description: 'Leverages public-private partnerships, and private investments through tax incentives, to spur $1 trillion in infrastructure investment over 10 years. It is revenue neutral.'
+        url: 'https://trumptracker.github.io/american-energy-infrastructure-act/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
@@ -403,9 +403,9 @@ promises:
             - 'https://youtu.be/4t1xR9U6IAU?t=11m52s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: 'School Choice And Education Opportunity Act. Redirects education dollars to give parents the right to send their kid to the public, private, charter, magnet, religious or home school of their choice. Ends common core, brings education supervision to local communities. It expands vocational and technical education, and make 2 and 4-year college more affordable.'
-        description: ''
-        url: 'https://trumptracker.github.io/school-choice-and-education-opportunity-act-redirects-education-dollars-to-give-parents-the-right-to-/'
+        title: 'School Choice And Education Opportunity Act'
+        description: 'Redirects education dollars to give parents the right to send their kid to the public, private, charter, magnet, religious or home school of their choice. Ends common core, brings education supervision to local communities. It expands vocational and technical education, and make 2 and 4-year college more affordable.'
+        url: 'https://trumptracker.github.io/school-choice-and-education-opportunity-act/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
@@ -418,9 +418,9 @@ promises:
             - 'https://youtu.be/4t1xR9U6IAU?t=13m1s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: 'Repeal and Replace Obamacare Act. Fully repeals Obamacare and replaces it with Health Savings Accounts, the ability to purchase health insurance across state lines, and lets states manage Medicaid funds. Reforms will also include cutting the red tape at the FDA: there are over 4,000 drugs awaiting approval, and we especially want to speed the approval of life-saving medications.'
-        description: ''
-        url: 'https://trumptracker.github.io/repeal-and-replace-obamacare-act-fully-repeals-obamacare-and-replaces-it-with-health-savings-accounts/'
+        title: 'Repeal and Replace Obamacare Act'
+        description: 'Fully repeals Obamacare and replaces it with Health Savings Accounts, the ability to purchase health insurance across state lines, and lets states manage Medicaid funds. Reforms will also include cutting the red tape at the FDA: there are over 4,000 drugs awaiting approval, and we especially want to speed the approval of life-saving medications.'
+        url: 'https://trumptracker.github.io/repeal-and-replace-obamacare-act/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
@@ -433,9 +433,9 @@ promises:
             - 'https://youtu.be/4t1xR9U6IAU?t=15m1s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: 'Affordable Childcare and Eldercare Act. Allows Americans to deduct childcare and elder care from their taxes, incentivizes employers to provide on-site childcare services, and creates tax-free Dependent Care Savings Accounts for both young and elderly dependents, with matching contributions for low-income families.'
-        description: ''
-        url: 'https://trumptracker.github.io/affordable-childcare-and-eldercare-act-allows-americans-to-deduct-childcare-and-elder-care-from-their/'
+        title: 'Affordable Childcare and Eldercare Act'
+        description: ' Allows Americans to deduct childcare and elder care from their taxes, incentivizes employers to provide on-site childcare services, and creates tax-free Dependent Care Savings Accounts for both young and elderly dependents, with matching contributions for low-income families.'
+        url: 'https://trumptracker.github.io/affordable-childcare-and-eldercare-act/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
@@ -448,9 +448,9 @@ promises:
             - 'https://youtu.be/4t1xR9U6IAU?t=16m33s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: 'End Illegal Immigration Act Fully-funds the construction of a wall on our southern border with the full understanding that the country Mexico will be reimbursing the United States for the full cost of such wall; establishes a 2-year mandatory minimum federal prison sentence for illegally re-entering the U.S. after a previous deportation, and a 5-year mandatory minimum for illegally re-entering for those with felony convictions, multiple misdemeanor convictions or two or more prior deportations; also reforms visa rules to enhance penalties for overstaying and to ensure open jobs are offered to American workers first.'
-        description: ''
-        url: 'https://trumptracker.github.io/end-illegal-immigration-act-fullyfunds-the-construction-of-a-wall-on-our-southern-border-with-the-ful/'
+        title: 'End Illegal Immigration Act'
+        description: 'Fully-funds the construction of a wall on our southern border with the full understanding that the country Mexico will be reimbursing the United States for the full cost of such wall; establishes a 2-year mandatory minimum federal prison sentence for illegally re-entering the U.S. after a previous deportation, and a 5-year mandatory minimum for illegally re-entering for those with felony convictions, multiple misdemeanor convictions or two or more prior deportations; also reforms visa rules to enhance penalties for overstaying and to ensure open jobs are offered to American workers first.'
+        url: 'https://trumptracker.github.io/end-illegal-immigration-act/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
@@ -464,9 +464,9 @@ promises:
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
             - 'https://web.archive.org/web/20170210172237/http://www.reuters.com/article/us-usa-trump-immigration-idUSKBN1591HP'
     -
-        title: 'Restoring Community Safety Act. Reduces surging crime, drugs and violence by creating a Task Force On Violent Crime and increasing funding for programs that train and assist local police; increases resources for federal law enforcement agencies and federal prosecutors to dismantle criminal gangs and put violent offenders behind bars.'
-        description: ''
-        url: 'https://trumptracker.github.io/restoring-community-safety-act-reduces-surging-crime-drugs-and-violence-by-creating-a-task-force-on-v/'
+        title: 'Restoring Community Safety Act'
+        description: 'Reduces surging crime, drugs and violence by creating a Task Force On Violent Crime and increasing funding for programs that train and assist local police; increases resources for federal law enforcement agencies and federal prosecutors to dismantle criminal gangs and put violent offenders behind bars.'
+        url: 'https://trumptracker.github.io/restoring-community-safety-act/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
@@ -479,9 +479,9 @@ promises:
             - 'https://youtu.be/4t1xR9U6IAU?t=19m27s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: 'Restoring National Security Act. Rebuilds our military by eliminating the defense sequester and expanding military investment; provides Veterans with the ability to receive public VA treatment or attend the private doctor of their choice; protects our vital infrastructure from cyber-attack; establishes new screening procedures for immigration to ensure those who are admitted to our country support our people and our values'
-        description: ''
-        url: 'https://trumptracker.github.io/restoring-national-security-act-rebuilds-our-military-by-eliminating-the-defense-sequester-and-expand/'
+        title: 'Restoring National Security Act'
+        description: 'Rebuilds our military by eliminating the defense sequester and expanding military investment; provides Veterans with the ability to receive public VA treatment or attend the private doctor of their choice; protects our vital infrastructure from cyber-attack; establishes new screening procedures for immigration to ensure those who are admitted to our country support our people and our values'
+        url: 'https://trumptracker.github.io/restoring-national-security-act/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
@@ -494,9 +494,9 @@ promises:
             - 'https://youtu.be/4t1xR9U6IAU?t=20m5s'
             - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
     -
-        title: 'Clean up Corruption in Washington Act. Enacts new ethics reforms to Drain the Swamp and reduce the corrupting influence of special interests on our politics.'
-        description: ''
-        url: 'https://trumptracker.github.io/clean-up-corruption-in-washington-act-enacts-new-ethics-reforms-to-drain-the-swamp-and-reduce-the-cor/'
+        title: 'Clean up Corruption in Washington Act'
+        description: 'Enacts new ethics reforms to Drain the Swamp and reduce the corrupting influence of special interests on our politics.'
+        url: 'https://trumptracker.github.io/clean-up-corruption-in-washington-act/'
         status: Broken
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: First 100 Days
@@ -2063,9 +2063,9 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
-        title: 'The American people value our close friendship and alliance with Israel - culturally, religiously, and politically. While other nations have required U.S. troops to defend them, Israelis have always defended their own country by themselves and only ask for military equipment assistance and diplomatic support to do so. The U.S. does not need to nation-build in Israel or send troops to defend Israel.'
-        description: ''
-        url: 'https://trumptracker.github.io/the-american-people-value-our-close-friendship-and-alliance-with-israel-culturally-religiously-and-po/'
+        title: 'The U.S. does not need to nation-build in Israel or send troops to defend Israel.'
+        description: 'The American people value our close friendship and alliance with Israel - culturally, religiously, and politically. While other nations have required U.S. troops to defend them, Israelis have always defended their own country by themselves and only ask for military equipment assistance and diplomatic support to do so. '
+        url: 'https://trumptracker.github.io/the-us-does-not-need-to-nationbuild-in-israel-or-send-troops-to-defend-israel/'
         status: Not started
         status_info: ''
         category: World
@@ -2076,9 +2076,9 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
-        title: 'The Memorandum of Understanding signed by the American and Israeli Governments is a good first step, but there is much more to be done. A Trump Administration will ensure that Israel receives maximum military, strategic and tactical cooperation from the United States, and the MOU will not limit the support that we give. Further, Congress will not be limited to give support greater than that provided by the MOU if it chooses to do so. Israel and the United States benefit tremendously from what each country brings to the table - the relationship is a two way street.'
-        description: ''
-        url: 'https://trumptracker.github.io/the-memorandum-of-understanding-signed-by-the-american-and-israeli-governments-is-a-good-first-step-b/'
+        title: 'A Trump Administration will ensure that Israel receives maximum military, strategic and tactical cooperation from the United States, and the MOU will not limit the support that we give.'
+        description: 'The Memorandum of Understanding signed by the American and Israeli Governments is a good first step, but there is much more to be done. Congress will not be limited to give support greater than that provided by the MOU if it chooses to do so. Israel and the United States benefit tremendously from what each country brings to the table - the relationship is a two way street.'
+        url: 'https://trumptracker.github.io/a-trump-administration-will-ensure-that-israel-receives-maximum-military-strategic-and-tactical-coope/'
         status: Not started
         status_info: ''
         category: World
@@ -2089,9 +2089,9 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
-        title: 'The U.S. should veto any United Nations votes that unfairly single out Israel and will work in international institutions and forums, including in our relations with the European Union, to oppose efforts to delegitimize Israel, impose discriminatory double standards against Israel, or to impose special labeling requirements on Israeli products or boycotts on Israeli goods.'
-        description: ''
-        url: 'https://trumptracker.github.io/the-us-should-veto-any-united-nations-votes-that-unfairly-single-out-israel-and-will-work-in-internat/'
+        title: 'The U.S. should veto any United Nations votes that unfairly single out Israel.'
+        description: 'The U.S. should veto any United Nations votes that unfairly single out Israel and will work in international institutions and forums, including in our relations with the European Union, to oppose efforts to delegitimize Israel, impose discriminatory double standards against Israel, or to impose special labeling requirements on Israeli products or boycotts on Israeli goods.'
+        url: 'https://trumptracker.github.io/the-us-should-veto-any-united-nations-votes-that-unfairly-single-out-israel/'
         status: Not started
         status_info: ''
         category: World
@@ -2102,9 +2102,9 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
-        title: 'The U.S. should cut off funds for the UN Human Rights Council, a body dominated by countries presently run by dictatorships that seems solely devoted to slandering the Jewish State. UNESCO''s attempt to disconnect the State of Israel from Jerusalem is a one-sided attempt to ignore Israel''s 3,000-year bond to its capital city, and is further evidence of the enormous anti-Israel bias of the United Nations.'
-        description: ''
-        url: 'https://trumptracker.github.io/the-us-should-cut-off-funds-for-the-un-human-rights-council-a-body-dominated-by-countries-presently-r/'
+        title: 'The U.S. should cut off funds for the UN Human Rights Council.'
+        description: 'The U.S. should cut off funds for the UN Human Rights Council, a body dominated by countries presently run by dictatorships that seems solely devoted to slandering the Jewish State. UNESCO''s attempt to disconnect the State of Israel from Jerusalem is a one-sided attempt to ignore Israel''s 3,000-year bond to its capital city, and is further evidence of the enormous anti-Israel bias of the United Nations.'
+        url: 'https://trumptracker.github.io/the-us-should-cut-off-funds-for-the-un-human-rights-council/'
         status: Not started
         status_info: ''
         category: World
@@ -2115,8 +2115,8 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
-        title: 'The U.S. should view the effort to boycott, divest from, and sanction (BDS) Israel as inherently anti-Semitic and take strong measures, both diplomatic and legislative, to thwart actions that are intended to limit commercial relations with Israel, or persons or entities doing business in Israeli areas, in a discriminatory manner. The BDS movement is just another attempt by the Palestinians to avoid having to commit to a peaceful co-existence with Israel. The false notion that Israel is an occupier should be rejected.'
-        description: ''
+        title: 'The U.S. should view the effort to boycott, divest from, and sanction (BDS) Israel as inherently anti-Semitic.'
+        description: 'The U.S. should view the effort to boycott, divest from, and sanction (BDS) Israel as inherently anti-Semitic and take strong measures, both diplomatic and legislative, to thwart actions that are intended to limit commercial relations with Israel, or persons or entities doing business in Israeli areas, in a discriminatory manner. The BDS movement is just another attempt by the Palestinians to avoid having to commit to a peaceful co-existence with Israel. The false notion that Israel is an occupier should be rejected.'
         url: 'https://trumptracker.github.io/the-us-should-view-the-effort-to-boycott-divest-from-and-sanction-bds-israel-as-inherently-antisemiti/'
         status: Not started
         status_info: ''
@@ -2141,9 +2141,9 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
-        title: 'A two-state solution between Israel and the Palestinians appears impossible as long as the Palestinians are unwilling to renounce violence against Israel or recognize Israel''s right to exist as a Jewish state. Additionally, the Palestinians are divided between PA rule in the West Bank and Hamas rule in Gaza so there is not a united Palestinian people who could control a second state. Hamas is a US-designated terrorist organization that actively seeks Israel''s destruction. We will seek to assist the Israelis and the Palestinians in reaching a comprehensive and lasting peace, to be freely and fairly negotiated between those living in the region.'
-        description: ''
-        url: 'https://trumptracker.github.io/a-twostate-solution-between-israel-and-the-palestinians-appears-impossible-as-long-as-the-palestinian/'
+        title: 'We will seek to assist the Israelis and the Palestinians in reaching a comprehensive and lasting peace, to be freely and fairly negotiated between those living in the region.'
+        description: 'A two-state solution between Israel and the Palestinians appears impossible as long as the Palestinians are unwilling to renounce violence against Israel or recognize Israel''s right to exist as a Jewish state. Additionally, the Palestinians are divided between PA rule in the West Bank and Hamas rule in Gaza so there is not a united Palestinian people who could control a second state. Hamas is a US-designated terrorist organization that actively seeks Israel''s destruction. '
+        url: 'https://trumptracker.github.io/we-will-seek-to-assist-the-israelis-and-the-palestinians-in-reaching-a-comprehensive-and-lasting-peac/'
         status: Not started
         status_info: ''
         category: World
@@ -2154,22 +2154,9 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
-        title: 'The Palestinian leadership, including the PA, has undermined any chance for peace with Israel by raising generations of Palestinian children on an educational program of hatred of Israel and Jews. The larger Palestinian society is regularly taught such hatred on Palestinian television, in the Palestinian press, in entertainment media, and in political and religious communications. The two major Palestinian political parties - Hamas and Fatah - regularly promote anti-Semitism and jihad.'
-        description: ''
-        url: 'https://trumptracker.github.io/the-palestinian-leadership-including-the-pa-has-undermined-any-chance-for-peace-with-israel-by-raisin/'
-        status: Not started
-        status_info: ''
-        category: World
-        tags:
-            - Israel
-        comments: 
-            - 'https://redd.it/5d81tm'
-        sources:
-            - 'https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
-    -
-        title: 'The U.S. cannot support the creation of a new state where terrorism is financially incentivized, terrorists are celebrated by political parties and government institutions, and the corrupt diversion of foreign aid is rampant. The U.S. should not support the creation of a state that forbids the presence of Christian or Jewish citizens, or that discriminates against people on the basis of religion.'
-        description: ''
-        url: 'https://trumptracker.github.io/the-us-cannot-support-the-creation-of-a-new-state-where-terrorism-is-financially-incentivized-terrori/'
+        title: 'The U.S. should not support the creation of a state that forbids the presence of Christian or Jewish citizens, or that discriminates against people on the basis of religion.'
+        description: 'The U.S. cannot support the creation of a new state where terrorism is financially incentivized, terrorists are celebrated by political parties and government institutions, and the corrupt diversion of foreign aid is rampant. The Palestinian leadership, including the PA, has undermined any chance for peace with Israel by raising generations of Palestinian children on an educational program of hatred of Israel and Jews. The larger Palestinian society is regularly taught such hatred on Palestinian television, in the Palestinian press, in entertainment media, and in political and religious communications. The two major Palestinian political parties - Hamas and Fatah - regularly promote anti-Semitism and jihad.'
+        url: 'https://trumptracker.github.io/the-us-should-not-support-the-creation-of-a-state-that-forbids-the-presence-of-christian-or-jewish-ci/'
         status: Not started
         status_info: ''
         category: World
@@ -2180,8 +2167,8 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
-        title: 'The U.S. should support direct negotiations between Israel and the Palestinians without preconditions, and will oppose all Palestinian, European and other efforts to bypass direct negotiations between parties in favor of an imposed settlement. Any solutions imposed on Israel by outside parties including by the United Nations Security Council, should be opposed. We support Israel''s right and obligation to defend itself against terror attacks upon its people and against alternative forms of warfare being waged upon it legally, economically, culturally, and otherwise.'
-        description: ''
+        title: 'The U.S. should support direct negotiations between Israel and the Palestinians without preconditions, and will oppose all Palestinian, European and other efforts to bypass direct negotiations between parties in favor of an imposed settlement.'
+        description: 'Any solutions imposed on Israel by outside parties including by the United Nations Security Council, should be opposed. We support Israel''s right and obligation to defend itself against terror attacks upon its people and against alternative forms of warfare being waged upon it legally, economically, culturally, and otherwise.'
         url: 'https://trumptracker.github.io/the-us-should-support-direct-negotiations-between-israel-and-the-palestinians-without-preconditions-a/'
         status: Not started
         status_info: ''
@@ -2220,9 +2207,9 @@ promises:
             - 'https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
             - 'https://web.archive.org/web/20170210133159/http://www.independent.co.uk/news/world/middle-east/donald-trump-israel-embassy-jerusalem-tel-aviv-white-house-relocate-a7540661.html'
     -
-        title: 'Despite the Iran Nuclear deal in 2015, the U.S. State Department recently designated Iran, yet again, as the leading state sponsor of terrorism - putting the Middle East particularly, but the whole world at risk by financing, arming, and training terrorist groups operating around the world including Hamas, Hezbollah, and forces loyal to Syrian President Bashar al-Assad. The U.S. must counteract Iran''s ongoing violations of the Joint Comprehensive Plan of Action regarding Iran''s quest for nuclear weapons and their noncompliance with past and present sanctions, as well as the agreements they signed, and implement tough, new sanctions when needed to protect the world and Iran''s neighbors from its continuing nuclear and non-nuclear threats.'
-        description: ''
-        url: 'https://trumptracker.github.io/despite-the-iran-nuclear-deal-in-2015-the-us-state-department-recently-designated-iran-yet-again-as-t/'
+        title: 'The U.S. must counteract Iran''s ongoing violations of the Joint Comprehensive Plan of Action'
+        description: 'Despite the Iran Nuclear deal in 2015, the U.S. State Department recently designated Iran, yet again, as the leading state sponsor of terrorism - putting the Middle East particularly, but the whole world at risk by financing, arming, and training terrorist groups operating around the world including Hamas, Hezbollah, and forces loyal to Syrian President Bashar al-Assad. The U.S. must counteract Iran''s ongoing violations of the Joint Comprehensive Plan of Action regarding Iran''s quest for nuclear weapons and their noncompliance with past and present sanctions, as well as the agreements they signed, and implement tough, new sanctions when needed to protect the world and Iran''s neighbors from its continuing nuclear and non-nuclear threats.'
+        url: 'https://trumptracker.github.io/the-us-must-counteract-irans-ongoing-violations-of-the-joint-comprehensive-plan-of-action/'
         status: Not started
         status_info: ''
         category: World
@@ -2233,9 +2220,9 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161202090906/http://www.jewishpress.com/news/breaking-news/complete-list-of-the-trump-campaigns-promises-to-israel/2016/11/09/'
     -
-        title: 'No Muslims should be allowed to enter the United States -as immigrants or visitors. Ban Muslims from entering but make an exception for friends and Muslims serving in the US military. Ban Muslims as a matter of policy, as well as people from countries with a history of terrorism.'
-        description: ''
-        url: 'https://trumptracker.github.io/no-muslims-should-be-allowed-to-enter-the-united-states-as-immigrants-or-visitors-ban-muslims-from-en/'
+        title: 'No Muslims should be allowed to enter the United States -as immigrants or visitors.'
+        description: 'Ban Muslims from entering but make an exception for friends and Muslims serving in the US military. Ban Muslims as a matter of policy, as well as people from countries with a history of terrorism.'
+        url: 'https://trumptracker.github.io/no-muslims-should-be-allowed-to-enter-the-united-states-as-immigrants-or-visitors/'
         status: Broken
         status_info: ''
         category: World
@@ -2314,9 +2301,9 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: '"I promise I will never be in a bicycle race. That I can tell you." (This promise is connected to criticism of Secretary of State John F. Kerry, who was injured while riding a bicycle amid the Iran negotiations.)'
-        description: ''
-        url: 'https://trumptracker.github.io/i-promise-i-will-never-be-in-a-bicycle-race-that-i-can-tell-you-this-promise-is-connected-to-criticis/'
+        title: '"I promise I will never be in a bicycle race. That I can tell you."'
+        description: 'This promise is connected to criticism of Secretary of State John F. Kerry, who was injured while riding a bicycle amid the Iran negotiations.'
+        url: 'https://trumptracker.github.io/i-promise-i-will-never-be-in-a-bicycle-race-that-i-can-tell-you/'
         status: In progress
         status_info: ''
         category: World
@@ -2328,9 +2315,9 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
             - 'https://web.archive.org/web/20161007122027/http://www.businessinsider.com/donald-trump-criticizes-john-kerry-for-cycling-2015-6'
     -
-        title: 'Refuse to call Iran''s leader by his preferred title. "I guarantee you I will be never calling him the Supreme Leader... I''ll say, ''Hey baby, how ya doing?'' I will never call him the Supreme Leader".'
-        description: ''
-        url: 'https://trumptracker.github.io/refuse-to-call-irans-leader-by-his-preferred-title-i-guarantee-you-i-will-be-never-calling-him-the-su/'
+        title: 'Refuse to call Iran''s leader by his preferred title.'
+        description: '"I guarantee you I will be never calling him the Supreme Leader... I''ll say, ''Hey baby, how ya doing?'' I will never call him the Supreme Leader"'
+        url: 'https://trumptracker.github.io/refuse-to-call-irans-leader-by-his-preferred-title/'
         status: Not started
         status_info: ''
         category: World
@@ -2341,9 +2328,9 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
     -
-        title: 'Negotiate the release of all U.S. prisoners held in Iran before taking office. (Five hostages were recently released, including Washington Post reporter Jason Rezaian; Trump has taken some credit for this.)'
-        description: ''
-        url: 'https://trumptracker.github.io/negotiate-the-release-of-all-us-prisoners-held-in-iran-before-taking-office-five-hostages-were-recent/'
+        title: 'Negotiate the release of all U.S. prisoners held in Iran before taking office.'
+        description: 'Five hostages were recently released, including Washington Post reporter Jason Rezaian; Trump has taken some credit for this.'
+        url: 'https://trumptracker.github.io/negotiate-the-release-of-all-us-prisoners-held-in-iran-before-taking-office/'
         status: Not started
         status_info: ''
         category: World
@@ -2433,8 +2420,8 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
-        title: 'Contact countries and say ''Folks, we love protecting you, we want to continue to protect you but you''re not living up to the bargain'' They''re not paying what they''re supposed to be paying-which is very little, by the way.'
-        description: ''
+        title: 'Contact countries and say ''Folks, we love protecting you, we want to continue to protect you but you''re not living up to the bargain'''
+        description: 'They''re not paying what they''re supposed to be paying-which is very little, by the way.'
         url: 'https://trumptracker.github.io/contact-countries-and-say-folks-we-love-protecting-you-we-want-to-continue-to-protect-you-but-youre-n/'
         status: Not started
         status_info: ''
@@ -2446,9 +2433,9 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
     -
-        title: 'Get rid of Common Core because it''s "a disaster" and a "very bad thing." Trump says he wants to give local school districts more control and might even eliminate the Department of Education.'
-        description: ''
-        url: 'https://trumptracker.github.io/get-rid-of-common-core-because-its-a-disaster-and-a-very-bad-thing-trump-says-he-wants-to-give-local-/'
+        title: 'Get rid of Common Core because it''s "a disaster" and a "very bad thing."'
+        description: 'Trump says he wants to give local school districts more control and might even eliminate the Department of Education.'
+        url: 'https://trumptracker.github.io/get-rid-of-common-core-because-its-a-disaster-and-a-very-bad-thing/'
         status: Broken
         status_info: ''
         category: Education
