@@ -1,3 +1,7 @@
+var comments = [];
+var insertedreplies = [];
+var subreddit = "trumptracker";
+
 function renderComment(reddit, reply = false) {
     if (reply) {
         comment = "<div class='panel panel-default replycomment'><div class='panel-body'><i class='fa reply fa-reply' aria-hidden='true'></i> ";
@@ -13,7 +17,12 @@ function renderComment(reddit, reply = false) {
     if (reddit.data.gilded > 0) {
         comment += "<i class='fa fa-trophy gild' aria-hidden='true'></i> ";
     }
+	if(reddit.data.author != "[deleted]") {
     comment += "<a target='_blank' class='author' href='https://reddit.com/u/" + reddit.data.author + "'>" + reddit.data.author + "</a><span class='score'> &#8226; ";
+	}
+	else {
+	comment += reddit.data.author + "<span class='score'> &#8226; ";	
+	}
     if (reddit.data.score == 1) {
         comment += reddit.data.score + " point";
     } else {
@@ -23,7 +32,7 @@ function renderComment(reddit, reply = false) {
     if (reddit.data.edited != false) {
         comment += "*";
     }
-    comment += " <a target='_blank' href='https://reddit.com/r/trumptracker/comments/" + reddit.data.link_id.replace("t3_", "") + "/trumptracker/" + reddit.data.id + "/'><i class='fa fa-share-alt' aria-hidden='true'></i></a> <hr>" + SnuOwnd.getParser().render(reddit.data.body.replace(/(<([^>]+)>)/ig, ""));
+    comment += " <a target='_blank' href='https://reddit.com/r/" + subreddit + "/comments/" + reddit.data.link_id.replace("t3_", "") + "/" + subreddit + "/" + reddit.data.id + "/'><i class='fa fa-share-alt' aria-hidden='true'></i></a> <hr>" + SnuOwnd.getParser().render(reddit.data.body.replace(/(<([^>]+)>)/ig, ""));
     if (reddit.data.archived != false) {
         comment += " <i class='fa fa-archive archive' aria-hidden='true'></i>";
     }
@@ -31,50 +40,80 @@ function renderComment(reddit, reply = false) {
     return comment;
 }
 
-var nocomments = true;
+function renderComments() {
+	$(".loader").hide();
+	if (comments.length == 0) {
+		$("#reddit_comments").append("<h4>There are no comments yet</h4>");
+	}
+	else {
+		comments.sort(function(a, b) {
+			if(!a.stickied) {
+				return -1;
+			}
+			if(a.archived) {
+				return 1;
+			}
+			if(a.score > b.score) {
+				return -1;
+			}
+			return 0;
+		});
+		$(comments).each(function(i, e) {
+			if (e.replies != '') {
+                loopReplies(e.replies,(i+1));
+            }
+		});
+		$(insertedreplies).each(function(i,e) {
+			comments.splice(e[0]+i, 0, e[1]);
+		});
+		$(comments).each(function(i, e) {
+		   $(".panel-group").append(e.rendered_body);
+		});
+	}
+}
 
-function loopComments(reddit, reply = false) {
-    if (!reply) {
-        $.each(reddit, function(i, data) {
-            $.each(data, function(i, d) {
+function loopComments(reddit) {
+    $.each(reddit, function(i, data) {
+        $.each(data, function(i, d) {
                 if (d.hasOwnProperty("children")) {
                     $.each(d.children, function(i, e) {
-                        nocomments = false;
-                        $(".loader").hide();
-                        $(".panel-group").append(renderComment(e));
-                        if (e.data.replies != '') {
-                            loopComments(e.data.replies, true);
-                        }
+						e.data.rendered_body = renderComment(e);
+						comments.push(e.data)
                     });
                 }
             });
         });
-    } else {
-        $.each(reddit.data.children, function(i, e) {
-            $(".panel-group").append(renderComment(e, true));
+}
+
+function loopReplies(replies,index) {
+	 $.each(replies.data.children, function(i, e) {
+			e.data.rendered_body = renderComment(e,true);
+			insertedreplies.push([index,e.data]);
             if (e.data.replies != '') {
-                loopComments(e.data.replies, true);
-            }
-        });
-    }
+                return loopReplies(e.data.replies,(index+i));
+           }
+		   else {
+			   return true;
+		   }
+    });
 }
 
 if (document.location.href.indexOf("?reddit") !== -1) {
-    document.location = 'https://redd.it/' + redditid;
+    document.location = 'https://redd.it/' + JSON.parse(redditid)[0];
 }
 
 window.addEventListener('load', function() {
-    $.get("https://www.reddit.com/r/trumptracker/comments/" + redditid + ".json", function(res) {
-        res.shift();
-        loopComments(res);
-        setTimeout(function() {
-            if (nocomments) {
-                $(".loader").hide();
-                $("#reddit_comments").append("<h4>There are no comments yet</h4>");
-            }
-        }, 500);
-    }).fail(function() {
-        $(".loader").hide();
-        $(".noscript").show();
-    });
+	var count = JSON.parse(redditid).length;
+	$(JSON.parse(redditid)).each(function(index,redditid) {
+		$.get("https://www.reddit.com/r/" + subreddit + "/comments/" + redditid + ".json", function(res) {
+			res.shift();
+			loopComments(res);
+			if (!--count) {
+				renderComments();
+			}
+		}).fail(function() {
+			$(".loader").hide();
+			$(".noscript").show();
+		});
+	});
 });

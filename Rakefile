@@ -48,9 +48,9 @@ end
 
 task :generatestatic do
 	puts 'Generating unique promise pages...'.bold
-	layout_file = File.open("./_layouts/promise.html", 'r');
+	layout_file = File.open("./_layouts/promise.html", 'r')
 	layout_template = layout_file.read
-	yaml_file = File.open("./_data/data.yaml", 'r');
+	yaml_file = File.open("./_data/data.yaml", 'r')
 	yaml = yaml_file.read
 	yaml = YAML::load(yaml)
     titles = {}
@@ -64,13 +64,12 @@ task :generatestatic do
 		  status_info = "<b>#{status_info}</b><br><br>"
 		end
 		comments = x['comments'][0]
+		commentsarray = x['comments'].to_json.sub! "https://redd.it/", ""
 		category = x['category']
 		description = x['description']
 		filename = title.prettyurl
 		out_file = File.new("./promises/#{filename}.html", "w+")
-		layout = "---\nlayout: page\npermalink: /:basename/\n---\n"
-		layout << layout_template
-		$sources = ''
+		sources = ''
 		x['sources'].each {
 			|y|
 			#begin
@@ -89,7 +88,7 @@ task :generatestatic do
 					srctitle.shift()
 					srctitle = srctitle.join("/")
 				end
-			    $sources << "<li><a class='src' target='_blank' href='#{y}'>#{srctitle}</a></li>\n";			
+			    sources << "<li><a class='src' target='_blank' href='#{y}'>#{srctitle}</a></li>\n"			
             #end  
 		}
 		tweettext = '@realDonaldTrump '
@@ -117,7 +116,9 @@ task :generatestatic do
 		tweettext = CGI.escape(tweettext_short)
 		url = title.prettyurl
 		titleurl = CGI.escape(title)
-		layout.gsub! "<ul class='sources'>", "<ul class='sources'>\n#{$sources}"
+		layout = ""
+		layout << layout_template
+		layout.gsub! "<ul class='sources'>", "<ul class='sources'>\n#{sources}"
 		layout.gsub! "{{ page.title }}", title
 		layout.gsub! "{{ page.titleurl }}", titleurl
 		layout.gsub! "{{ page.url }}", url
@@ -127,8 +128,7 @@ task :generatestatic do
 		layout.gsub! "{{ page.status_info }}", status_info
 		layout.gsub! "{{ tweettext }}", tweettext
 		layout.gsub! "{{ page.comments }}", comments
-		comments.sub! "https://redd.it/", ""
-		layout.gsub! "{{ page.commentsid }}", comments
+		layout.gsub! "{{ page.commentsid }}", commentsarray
 		layout.gsub! "{{ page.category }}", category
 		out_file.puts(layout)
 		out_file.close
@@ -141,7 +141,7 @@ task :generatestatic do
 					abort("You need to update the redirect url of file: #{p}".bold)
 				end
 			else
-				redirect_template = File.open("./_layouts/redirect.html", 'r');
+				redirect_template = File.open("./_layouts/redirect.html", 'r')
 				redirect = redirect_template.read
 				redirect_template.close
 				redirect.gsub! "{{ time }}", Time.now.utc.to_s
@@ -158,7 +158,7 @@ task :generatestatic do
 end
 
 task :generateurls do
-	yaml_file = File.open("./_data/data.yaml", 'r');
+	yaml_file = File.open("./_data/data.yaml", 'r')
 	yaml = yaml_file.read
 	fullyaml = ''
 	yaml = yaml.split("    -")
