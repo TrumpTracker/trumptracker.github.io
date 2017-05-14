@@ -214,7 +214,7 @@ task :test do
 	Rake::Task["yaml2json"].invoke
 	options = {
 		:allow_hash_href => true,
-		:check_favicon => true,
+		:check_favicon => false,
 		:check_opengraph => true,
 		:check_html => true,
 		:check_img_http => true,
