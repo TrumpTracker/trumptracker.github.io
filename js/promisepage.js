@@ -17,12 +17,11 @@ function renderComment(reddit, reply = false) {
     if (reddit.data.gilded > 0) {
         comment += "<i class='fa fa-trophy gild' aria-hidden='true'></i> ";
     }
-	if(reddit.data.author != "[deleted]") {
-    comment += "<a target='_blank' class='author' href='https://reddit.com/u/" + reddit.data.author + "'>" + reddit.data.author + "</a><span class='score'> &#8226; ";
-	}
-	else {
-	comment += reddit.data.author + "<span class='score'> &#8226; ";	
-	}
+    if (reddit.data.author != "[deleted]") {
+        comment += "<a target='_blank' class='author' href='https://reddit.com/u/" + reddit.data.author + "'>" + reddit.data.author + "</a><span class='score'> &#8226; ";
+    } else {
+        comment += reddit.data.author + "<span class='score'> &#8226; ";
+    }
     if (reddit.data.score == 1) {
         comment += reddit.data.score + " point";
     } else {
@@ -41,60 +40,60 @@ function renderComment(reddit, reply = false) {
 }
 
 function renderComments() {
-	$(".loader").hide();
-	if (comments.length == 0) {
-		$("#reddit_comments").append("<h4>There are no comments yet</h4>");
-	}
-	else {
-		comments.sort(function(a, b) {
-			if(!a.stickied) {
-				return -1;
-			}
-			if(a.archived) {
-				return 1;
-			}
-			if(a.score > b.score) {
-				return -1;
-			}
-			return 0;
-		});
-		$(comments).each(function(i, e) {
-			if (e.replies != '') {
-                loopReplies(e.replies,(i+1));
+    $(".loader").hide();
+    if (comments.length == 0) {
+        $("#reddit_comments").append("<h4>There are no comments yet</h4>");
+    } else {
+        comments.sort(function(a, b) {
+            if (!a.stickied) {
+                return -1;
             }
-		});
-		$(insertedreplies).each(function(i,e) {
-			comments.splice(e[0]+i, 0, e[1]);
-		});
-		$(comments).each(function(i, e) {
-		   $(".panel-group").append(e.rendered_body);
-		});
-	}
+            if (a.archived) {
+                return 1;
+            }
+            if (a.score > b.score) {
+                return -1;
+            }
+            return 0;
+        });
+        $(comments).each(function(i, e) {
+            if (e.replies != '') {
+                loopReplies(e.replies, (i + 1));
+            }
+        });
+        $(insertedreplies).each(function(i, e) {
+            comments.splice(e[0] + i, 0, e[1]);
+        });
+        $(comments).each(function(i, e) {
+            $(".panel-group").append(e.rendered_body);
+        });
+    }
 }
 
 function loopComments(reddit) {
     $.each(reddit, function(i, data) {
         $.each(data, function(i, d) {
-                if (d.hasOwnProperty("children")) {
-                    $.each(d.children, function(i, e) {
-						e.data.rendered_body = renderComment(e);
-						comments.push(e.data)
-                    });
-                }
-            });
+            if (d.hasOwnProperty("children")) {
+                $.each(d.children, function(i, e) {
+                    if (!(e.data.author == "TrumpTracker" && (e.data.body.indexOf('This is an archived post.') !== false || e.data.body.indexOf('Please use the comments to discuss this promise/policy') !== false))) {
+                        e.data.rendered_body = renderComment(e);
+                        comments.push(e.data);
+                    }
+                });
+            }
         });
+    });
 }
 
-function loopReplies(replies,index) {
-	 $.each(replies.data.children, function(i, e) {
-			e.data.rendered_body = renderComment(e,true);
-			insertedreplies.push([index,e.data]);
-            if (e.data.replies != '') {
-                return loopReplies(e.data.replies,(index+i));
-           }
-		   else {
-			   return true;
-		   }
+function loopReplies(replies, index) {
+    $.each(replies.data.children, function(i, e) {
+        e.data.rendered_body = renderComment(e, true);
+        insertedreplies.push([index, e.data]);
+        if (e.data.replies != '') {
+            return loopReplies(e.data.replies, (index + i));
+        } else {
+            return true;
+        }
     });
 }
 
@@ -103,17 +102,17 @@ if (document.location.href.indexOf("?reddit") !== -1) {
 }
 
 window.addEventListener('load', function() {
-	var count = JSON.parse(redditid).length;
-	$(JSON.parse(redditid)).each(function(index,redditid) {
-		$.get("https://www.reddit.com/r/" + subreddit + "/comments/" + redditid + ".json", function(res) {
-			res.shift();
-			loopComments(res);
-			if (!--count) {
-				renderComments();
-			}
-		}).fail(function() {
-			$(".loader").hide();
-			$(".noscript").show();
-		});
-	});
+    var count = JSON.parse(redditid).length;
+    $(JSON.parse(redditid)).each(function(index, redditid) {
+        $.get("https://www.reddit.com/r/" + subreddit + "/comments/" + redditid + ".json", function(res) {
+            res.shift();
+            loopComments(res);
+            if (!--count) {
+                renderComments();
+            }
+        }).fail(function() {
+            $(".loader").hide();
+            $(".noscript").show();
+        });
+    });
 });
