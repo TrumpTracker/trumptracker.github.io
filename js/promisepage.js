@@ -1,47 +1,53 @@
+var subreddit = "trumptracker";
+var comments_limit = 200;
+
 var comments = [];
 var insertedreplies = [];
-var subreddit = "trumptracker";
 
 function renderComment(reddit, reply = false) {
-    if (reply) {
-        comment = "<div class='panel panel-default replycomment'><div class='panel-body'><i class='fa reply fa-reply' aria-hidden='true'></i> ";
+    if (typeof reddit.data.link_id !== 'undefined') {
+        if (reply) {
+            comment = "<div class='panel panel-default replycomment'><div class='panel-body'><i class='fa reply fa-reply' aria-hidden='true'></i> ";
+        } else {
+            comment = "<div class='panel panel-default'><div class='panel-body'>";
+        }
+        if (reddit.data.distinguished != null) {
+            comment += "<i class='fa fa-check-square-o check' aria-hidden='true'></i> ";
+        }
+        if (reddit.data.stickied != false) {
+            comment += "<i class='fa fa-thumb-tack check' aria-hidden='true'></i> ";
+        }
+        if (reddit.data.gilded > 0) {
+            comment += "<i class='fa fa-trophy gild' aria-hidden='true'></i> ";
+        }
+        if (reddit.data.author != "[deleted]") {
+            comment += "<a target='_blank' class='author' href='https://reddit.com/u/" + reddit.data.author + "'>" + reddit.data.author + "</a><span class='score'> &#8226; ";
+        } else {
+            comment += reddit.data.author + "<span class='score'> &#8226; ";
+        }
+        if (reddit.data.score == 1) {
+            comment += reddit.data.score + " point";
+        } else {
+            comment += reddit.data.score + " points";
+        }
+        comment += "</span> <span class='time'>" + moment.utc(reddit.data.created_utc * 1000).format('LL') + "</span>";
+        if (reddit.data.edited != false) {
+            comment += "*";
+        }
+        comment += " <a target='_blank' href='https://reddit.com/r/" + subreddit + "/comments/" + reddit.data.link_id.replace("t3_", "") + "/" + subreddit + "/" + reddit.data.id + "/'><i class='fa fa-share-alt' aria-hidden='true'></i></a> <hr>" + SnuOwnd.getParser().render(reddit.data.body.replace(/(<([^>]+)>)/ig, ""));
+        if (reddit.data.archived != false) {
+            comment += " <i class='fa fa-archive archive' aria-hidden='true'></i>";
+        }
+        comment += "</div></div>";
+        return comment;
     } else {
-        comment = "<div class='panel panel-default'><div class='panel-body'>";
+        return false;
     }
-    if (reddit.data.distinguished != null) {
-        comment += "<i class='fa fa-check-square-o check' aria-hidden='true'></i> ";
-    }
-    if (reddit.data.stickied != false) {
-        comment += "<i class='fa fa-thumb-tack check' aria-hidden='true'></i> ";
-    }
-    if (reddit.data.gilded > 0) {
-        comment += "<i class='fa fa-trophy gild' aria-hidden='true'></i> ";
-    }
-    if (reddit.data.author != "[deleted]") {
-        comment += "<a target='_blank' class='author' href='https://reddit.com/u/" + reddit.data.author + "'>" + reddit.data.author + "</a><span class='score'> &#8226; ";
-    } else {
-        comment += reddit.data.author + "<span class='score'> &#8226; ";
-    }
-    if (reddit.data.score == 1) {
-        comment += reddit.data.score + " point";
-    } else {
-        comment += reddit.data.score + " points";
-    }
-    comment += "</span> <span class='time'>" + moment.utc(reddit.data.created_utc * 1000).format('LL') + "</span>";
-    if (reddit.data.edited != false) {
-        comment += "*";
-    }
-    comment += " <a target='_blank' href='https://reddit.com/r/" + subreddit + "/comments/" + reddit.data.link_id.replace("t3_", "") + "/" + subreddit + "/" + reddit.data.id + "/'><i class='fa fa-share-alt' aria-hidden='true'></i></a> <hr>" + SnuOwnd.getParser().render(reddit.data.body.replace(/(<([^>]+)>)/ig, ""));
-    if (reddit.data.archived != false) {
-        comment += " <i class='fa fa-archive archive' aria-hidden='true'></i>";
-    }
-    comment += "</div></div>";
-    return comment;
 }
 
 function renderComments() {
-    $(".loader").hide();
     if (comments.length == 0) {
+        $(".loader").hide();
         $("#reddit_comments").append("<h4>There are no comments yet</h4>");
     } else {
         comments.sort(function(a, b) {
@@ -64,7 +70,17 @@ function renderComments() {
         $(insertedreplies).each(function(i, e) {
             comments.splice(e[0] + i, 0, e[1]);
         });
+        $(".loader").hide();
+        if (comments.length > comments_limit) {
+            $(".commentcount").html(comments.length + " comments (" + comments_limit + " shown)");
+        } else {
+            $(".commentcount").html(comments.length + " comments");
+        }
+
         $(comments).each(function(i, e) {
+            if (i >= comments_limit) {
+                return false;
+            }
             $(".panel-group").append(e.rendered_body);
         });
     }
@@ -86,15 +102,17 @@ function loopComments(reddit) {
 }
 
 function loopReplies(replies, index) {
-    $.each(replies.data.children, function(i, e) {
-        e.data.rendered_body = renderComment(e, true);
-        insertedreplies.push([index, e.data]);
-        if (e.data.replies != '') {
-            return loopReplies(e.data.replies, (index + i));
-        } else {
-            return true;
-        }
-    });
+    if (typeof replies !== 'undefined') {
+        $.each(replies.data.children, function(i, e) {
+            e.data.rendered_body = renderComment(e, true);
+            insertedreplies.push([index, e.data]);
+            if (e.data.replies != '') {
+                return loopReplies(e.data.replies, (index + i));
+            } else {
+                return true;
+            }
+        });
+    }
 }
 
 if (document.location.href.indexOf("?reddit") !== -1) {
