@@ -30,7 +30,7 @@ We'd love to get contributions from you! For a quick guide to getting your syste
 7. ~~Add Open Source Links and Credits on Footer~~
 8. ~~Clean up duplicates, if any.~~
 9. ~~Implement functionality to let me click on the "broken", "in progress", "achieved" categories so I can see which things fall into those categories.~~
-10. ~~Rich data so Google can parse it. Maybe something on http://schema.org/?~~
+10. Implement http://schema.org/? on all policy pages
 11. ~~Add tweet button #47~~
 
 # Also check
@@ -41,5 +41,7 @@ We'd love to get contributions from you! For a quick guide to getting your syste
 - [YourTracker](https://github.com/TrumpTracker/YourTracker) - Make your own TrumpTracker with this command line interface (Node.JS)
 
 # Report Issues
-1. Pull Request would be the best option.
-2. Otherwise you can email me @ {firstName}.{lastName}+trump@gmail.com
+1. Create a [pull request](https://github.com/TrumpTracker/trumptracker.github.io/pulls) or create an [issue](https://github.com/TrumpTracker/trumptracker.github.io/issues)
+2. Message the Reddit mods at [/r/trumptracker](https://www.reddit.com/message/compose?to=%2Fr%2Ftrumptracker)
+3. Send a message on [Gitter](https://gitter.im/trump-tracker/Lobby)
+4. Otherwise you can fill out [the typeform](https://viren8.typeform.com/to/CA1RiV?)
