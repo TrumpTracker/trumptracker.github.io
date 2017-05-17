@@ -4,32 +4,37 @@ permalink: /:basename/
 ---
 <link rel="stylesheet" type="text/css" href="../css/promisepage.css">
 <div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <h2>{{ page.title }}</h2>
-	  <a class='btn facebook' target="_blank" href="https://www.facebook.com/sharer.php?u=https://trumptracker.github.io/{{ page.url }}/&title={{ page.titleurl }}"> <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> Share</a>
-      <a class="btn twitter" href="https://twitter.com/share?url=https://trumptracker.github.io/&text={{ tweettext }}&hashtags=TrumpTracker" target="_blank"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> Tweet</a>
-    </div>
-    <div class="col-md-12">
-	  <h3>Category: {{ page.category }}</h3>
-      <h3>Status: <span style='color: {{ page.statuscolor }};'>{{ page.status }}</span></h3>
-	  {{ page.status_info }}
-	  <p>{{ page.description }}</p>
-    </div>
-    <div class="col-md-12">
-      <h3>Sources:</h3>
-	  <ul class='sources'>
-	  </ul>
-    </div>
-  </div><BR>
-   <div id="reddit_comments">
-	  <h3 class='comments'>Comments</h3>
-	  <a target="_blank" href="{{ page.comments }}" class="btn btn-primary placecomment"><i class="fa fa-pencil" aria-hidden="true"></i> Place comment</a>
-	  <p class='commentcount'></p>
-	  <div class="loader"></div>
-	  <div class="panel-group"><div class="noscript">Please enable Javascript and disable any adblocker to view comments.</div></div>
+   <div class="row">
+      <div class="col-md-12">
+         <h2>{{ page.title }}</h2>
+         <a class='btn facebook' target="_blank" href="https://www.facebook.com/sharer.php?u=https://trumptracker.github.io/{{ page.url }}/&title={{ page.titleurl }}"> <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> Share</a>
+         <a class="btn twitter" href="https://twitter.com/share?url=https://trumptracker.github.io/&text={{ tweettext }}&hashtags=TrumpTracker" target="_blank"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> Tweet</a>
+      </div>
+      <div class="col-md-12">
+         <h3>Category: {{ page.category }}</h3>
+         <h3>Status: <span style='color: {{ page.statuscolor }};'>{{ page.status }}</span></h3>
+         {{ page.status_info }}
+         <p>{{ page.description }}</p>
+      </div>
+      <div class="col-md-12">
+         <h3>Sources:</h3>
+         <ul class='sources'>
+         </ul>
+      </div>
    </div>
+   <BR>
+   <div id="disqus_thread"></div>
+   <script>
+      var disqus_config = function () {
+      this.page.url = '{{ site.url }}/{{ page.url }}/';
+      this.page.identifier = '{{ page.url }}';
+      };
+      (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://trump-tracker.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+   </script>
+   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-<script>var redditid = '{{ page.commentsid }}';</script>
-<script src="../js/snuownd.min.js"></script>
-<script src="../js/promisepage.js"></script>
