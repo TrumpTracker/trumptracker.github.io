@@ -2453,9 +2453,10 @@ promises:
         url: 'https://trumptracker.github.io/learn-the-difference-between-hezbollah-and-hamas/'
         status: Not started
         status_info: ''
-        category: Education
+        category: World
         tags:
             - 'Trump''s education'
+            - Middle East
         comments: 
             - 'https://redd.it/5d7sto'
         sources:
