@@ -1583,7 +1583,7 @@ promises:
         title: 'Suspend Syrian refugee resettlement.'
         description: ''
         url: 'https://trumptracker.github.io/suspend-syrian-refugee-resettlement/'
-        status: Not started
+        status: Achieved
         status_info: ''
         category: Immigration
         tags:
@@ -1591,7 +1591,8 @@ promises:
         comments: 
             - 'https://redd.it/5d7stg'
         sources:
-            - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483
+	    - 'http://web.archive.org/web/20170815132024/http://www.bbc.com/news/world-us-canada-38777437'
     -
         title: 'Donald Trump: It''s time to heal this divided nation'
         description: ''
@@ -1958,7 +1959,7 @@ promises:
         title: 'Defund Planned Parenthood.'
         description: ''
         url: 'https://trumptracker.github.io/defund-planned-parenthood/'
-        status: Not started
+        status: In progress
         status_info: ''
         category: Health
         tags:
@@ -1967,6 +1968,7 @@ promises:
             - 'https://redd.it/5d7sqx'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+	    - 'http://web.archive.org/web/20170904222220/https://www.nytimes.com/2017/04/13/us/politics/planned-parenthood-trump.html'
     -
         title: 'Defend the unborn.'
         description: ''
