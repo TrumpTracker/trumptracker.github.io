@@ -581,7 +581,7 @@ promises:
         title: 'Say things that are politically incorrect, because the country does not have time to waste with political correctness.'
         description: ''
         url: 'https://trumptracker.github.io/say-things-that-are-politically-incorrect-because-the-country-does-not-have-time-to-waste-with-politi/'
-        status: Not started
+        status: Achieved
         status_info: ''
         category: Culture
         tags:
@@ -590,6 +590,7 @@ promises:
             - 'https://redd.it/5d7sn9'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20180815054217/https://www.nilc.org/issues/litigation/trump-tweets-with-muslim-muslims/'
     -
         title: 'I will take care of women, and I have great respect for women. I do cherish women, and I will take care of women.'
         description: ''
@@ -879,7 +880,7 @@ promises:
         title: 'Get rid of most corporate tax loopholes'
         description: ''
         url: 'https://trumptracker.github.io/get-rid-of-most-corporate-tax-loopholes/'
-        status: Not started
+        status: Broken
         status_info: ''
         category: Economy
         tags:
@@ -888,6 +889,7 @@ promises:
             - 'https://redd.it/5d7stx'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20180223223856/http://www.latimes.com/business/hiltzik/la-fi-hiltzik-pass-through-trump-tax-20171004-story.html'
     -
         title: 'Get rid of income tax for some earners'
         description: ''
@@ -915,6 +917,7 @@ promises:
             - 'https://redd.it/5d7so7'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20180614060300/http://www.latimes.com/politics/la-na-pol-trump-deficits-20180409-story.html'
     -
         title: 'Only pay down a little. Invest in infrastructure first.'
         description: ''
@@ -928,6 +931,8 @@ promises:
             - 'https://redd.it/5d7so9'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20180614060300/http://www.latimes.com/politics/la-na-pol-trump-deficits-20180409-story.html'
+            - 'https://web.archive.org/web/20180715220233/https://www.washingtonpost.com/news/wonk/wp/2018/03/29/trump-promised-1-5-trillion-in-infrastructure-spending-hes-1-percent-of-the-way-there?utm_term=.b31cefe45199'
     -
         title: 'Pay off the debt by getting America''s creditors to accept less.'
         description: ''
@@ -1109,7 +1114,7 @@ promises:
         title: 'Get rid of most corporate tax loopholes or incentives, but continue to allow taxpayers to deduct mortgage interest and charitable donations from their taxes.'
         description: ''
         url: 'https://trumptracker.github.io/get-rid-of-most-corporate-tax-loopholes-or-incentives-but-continue-to-allow-taxpayers-to-deduct-mortg/'
-        status: Not started
+        status: Compromised
         status_info: ''
         category: Economy
         tags:
@@ -1118,6 +1123,8 @@ promises:
             - 'https://redd.it/5d7soq'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20180223223856/http://www.latimes.com/business/hiltzik/la-fi-hiltzik-pass-through-trump-tax-20171004-story.html'
+            - 'https://web.archive.org/web/20180428034402/https://www.businessinsider.com/trump-new-tax-law-mortgage-interest-property-tax-deduction-affect-homeowners-2018-3'
     -
         title: 'Use "common sense" to fix the mental health system and prevent mass shootings. Find ways to arm more of the "good guys" like him who can take out the "sickos." Get rid of bans on certain types of guns and magazines so that "good, honest people" can own the guns of their choice.'
         description: ''
@@ -1602,7 +1609,7 @@ promises:
         title: 'Suspend Syrian refugee resettlement.'
         description: ''
         url: 'https://trumptracker.github.io/suspend-syrian-refugee-resettlement/'
-        status: Not started
+        status: Compromised
         status_info: ''
         category: Immigration
         tags:
@@ -1611,6 +1618,7 @@ promises:
             - 'https://redd.it/5d7stg'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20180825231005/https://www.nytimes.com/2018/08/01/us/politics/trump-refugees-reduction.html'
     -
         title: 'Donald Trump: It''s time to heal this divided nation'
         description: ''
@@ -1937,7 +1945,7 @@ promises:
         title: 'Ask Congress to pass ''Kate''s Law''-named for Kate Steinle-to ensure that criminal aliens convicted of illegal reentry receive strong mandatory minimum sentences.'
         description: ''
         url: 'https://trumptracker.github.io/ask-congress-to-pass-kates-lawnamed-for-kate-steinleto-ensure-that-criminal-aliens-convicted-of-illeg/'
-        status: Not started
+        status: Achieved
         status_info: ''
         category: Security
         tags:
@@ -1946,6 +1954,7 @@ promises:
             - 'https://redd.it/5d7stm'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20180825160420/https://www.whitehouse.gov/briefings-statements/statement-president-donald-j-trump-house-passage-kates-law-no-sanctuary-criminals-act/'
     -
         title: 'Keep the military prison at Guantanamo Bay open'
         description: ''
@@ -2022,7 +2031,7 @@ promises:
         category: Health
         tags:
             - Health Care
-        comments: 
+        comments:
             - 'https://redd.it/5d7sr0'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
