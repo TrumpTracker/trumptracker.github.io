@@ -220,6 +220,7 @@ task :test do
 		:check_img_http => true,
 		:cache => { :timeframe => '15d' },
 		:enforce_https => true,
+		:only_4xx => true,
 		:check_external_hash => true,
 		:url_ignore => [/https:\/\/web.archive.org\/web\//]
 	}

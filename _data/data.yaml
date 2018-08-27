@@ -581,7 +581,7 @@ promises:
         title: 'Say things that are politically incorrect, because the country does not have time to waste with political correctness.'
         description: ''
         url: 'https://trumptracker.github.io/say-things-that-are-politically-incorrect-because-the-country-does-not-have-time-to-waste-with-politi/'
-        status: Not started
+        status: Achieved
         status_info: ''
         category: Culture
         tags:
@@ -590,6 +590,7 @@ promises:
             - 'https://redd.it/5d7sn9'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20180815054217/https://www.nilc.org/issues/litigation/trump-tweets-with-muslim-muslims/'
     -
         title: 'I will take care of women, and I have great respect for women. I do cherish women, and I will take care of women.'
         description: ''
@@ -747,7 +748,7 @@ promises:
         title: 'Leave Social Security as is'
         description: ''
         url: 'https://trumptracker.github.io/leave-social-security-as-is/'
-        status: In progress
+        status: Broken
         status_info: ''
         category: Economy
         tags:
@@ -757,6 +758,7 @@ promises:
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
             - 'https://web.archive.org/web/20170302080748/http://www.reuters.com/article/us-usa-trump-economy-idUSKBN1650LL'
+            - 'https://web.archive.org/web/20180817163404/https://www.whitehouse.gov/wp-content/uploads/2018/02/budget-fy2019.pdf'
     -
         title: 'The wealthy should pay more.'
         description: ''
@@ -776,7 +778,7 @@ promises:
         title: 'Cut taxes for the wealthy big time.'
         description: ''
         url: 'https://trumptracker.github.io/cut-taxes-for-the-wealthy-big-time/'
-        status: In progress
+        status: Achieved
         status_info: ''
         category: Economy
         tags:
@@ -787,11 +789,12 @@ promises:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
             - 'https://web.archive.org/web/20170302053119/http://www.npr.org/2017/02/28/517523714/what-we-know-about-the-trump-house-gop-tax-plans-so-far'
             - 'https://web.archive.org/web/20170203215354/http://www.taxpolicycenter.org/sites/default/files/alfresco/publication-pdfs/2000924-an-analysis-of-donald-trumps-revised-tax-plan.pdf'
+            - 'https://web.archive.org/web/20180825002317/https://www.nytimes.com/2018/07/30/us/politics/trump-tax-cuts-rich.html'
     -
         title: 'Maybe don''t slash taxes by $10 trillion - slash taxes by $3 trillion, instead. Maybe ditch, maybe keep a $1 trillion tax cut for small businesses (depending on who is asking).'
         description: ''
         url: 'https://trumptracker.github.io/maybe-dont-slash-taxes-by-10-trillion-slash-taxes-by-3-trillion-instead-maybe-ditch-maybe-keep-a-1-tr/'
-        status: Not started
+        status: Compromised
         status_info: ''
         category: Economy
         tags:
@@ -800,11 +803,13 @@ promises:
             - 'https://redd.it/5d7so4'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20180824055850/https://www.bloomberg.com/news/articles/2017-12-22/trump-signs-1-5-trillion-tax-cut-in-first-major-legislative-win'
+            - 'https://web.archive.org/web/20180806140022/https://www.politico.com/story/2018/02/28/tax-cuts-trump-gop-analysis-430781'
     -
         title: 'Scrap the earlier plan entirely. Here are new tax brackets: Trump took his earlier tax plan offline before a major economic policy address in early August, where he hiked his initially proposed tax brackets from 10 percent, 20 percent and 25 percent to 12 percent, 25 percent and 33 percent. These brackets more closely mimic his party''s past views on taxes.'
         description: ''
         url: 'https://trumptracker.github.io/scrap-the-earlier-plan-entirely-here-are-new-tax-brackets-trump-took-his-earlier-tax-plan-offline-bef/'
-        status: Not started
+        status: Broken
         status_info: ''
         category: Economy
         tags:
@@ -813,11 +818,12 @@ promises:
             - 'https://redd.it/5d81su'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20180823124028/https://www.businessinsider.com/tax-brackets-2018-trump-tax-plan-chart-2017-12'
     -
         title: 'Pass a huge tax cut, roughly double the one George W. Bush sponsored, that delivers a windfall to the wealthiest Americans and a relative paltry sum to the middle class, never mind the debt-inflating impact.'
         description: ''
         url: 'https://trumptracker.github.io/pass-a-huge-tax-cut-roughly-double-the-one-george-w-bush-sponsored-that-delivers-a-windfall-to-the-we/'
-        status: Not started
+        status: Compromised
         status_info: ''
         category: Economy
         tags:
@@ -826,11 +832,13 @@ promises:
             - 'https://redd.it/5d7ssq'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20180211114143/https://www.washingtonpost.com/news/posteverything/wp/2017/08/17/trumps-tax-cuts-theyre-even-more-regressive-than-i-thought/'
+            - 'https://web.archive.org/web/20180825231309/https://www.cnn.com/2017/12/15/politics/is-trumps-bill-largest-tax-cut-in-history-no/'
     -
         title: 'Impose tariffs on goods made in China and Mexico'
         description: ''
         url: 'https://trumptracker.github.io/impose-tariffs-on-goods-made-in-china-and-mexico/'
-        status: Not started
+        status: Achieved
         status_info: ''
         category: Economy
         tags:
@@ -839,11 +847,13 @@ promises:
             - 'https://redd.it/5d7ssw'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20180812201733/https://www.businessinsider.com/trump-tariffs-china-trade-war-chinese-goods-2018-8'
+            - 'https://web.archive.org/web/20180824030504/https://www.bbc.com/news/world-latin-america-44378660'
     -
         title: 'Cut taxes'
         description: ''
         url: 'https://trumptracker.github.io/cut-taxes/'
-        status: Not started
+        status: Achieved
         status_info: ''
         category: Economy
         tags:
@@ -852,6 +862,7 @@ promises:
             - 'https://redd.it/5d7st0'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20180823124028/https://www.businessinsider.com/tax-brackets-2018-trump-tax-plan-chart-2017-12'
     -
         title: 'Call the heads of major companies who are moving operations oversea to inform them that they''ll face 35 percent tariffs.'
         description: ''
@@ -869,7 +880,7 @@ promises:
         title: 'Get rid of most corporate tax loopholes'
         description: ''
         url: 'https://trumptracker.github.io/get-rid-of-most-corporate-tax-loopholes/'
-        status: Not started
+        status: Broken
         status_info: ''
         category: Economy
         tags:
@@ -878,11 +889,12 @@ promises:
             - 'https://redd.it/5d7stx'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20180223223856/http://www.latimes.com/business/hiltzik/la-fi-hiltzik-pass-through-trump-tax-20171004-story.html'
     -
         title: 'Get rid of income tax for some earners'
         description: ''
         url: 'https://trumptracker.github.io/get-rid-of-income-tax-for-some-earners/'
-        status: Not started
+        status: Broken
         status_info: ''
         category: Economy
         tags:
@@ -891,6 +903,7 @@ promises:
             - 'https://redd.it/5d7sty'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20180823124028/https://www.businessinsider.com/tax-brackets-2018-trump-tax-plan-chart-2017-12'
     -
         title: 'Get rid of the national debt in 8 years.'
         description: ''
@@ -904,6 +917,7 @@ promises:
             - 'https://redd.it/5d7so7'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20180614060300/http://www.latimes.com/politics/la-na-pol-trump-deficits-20180409-story.html'
     -
         title: 'Only pay down a little. Invest in infrastructure first.'
         description: ''
@@ -917,6 +931,8 @@ promises:
             - 'https://redd.it/5d7so9'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20180614060300/http://www.latimes.com/politics/la-na-pol-trump-deficits-20180409-story.html'
+            - 'https://web.archive.org/web/20180715220233/https://www.washingtonpost.com/news/wonk/wp/2018/03/29/trump-promised-1-5-trillion-in-infrastructure-spending-hes-1-percent-of-the-way-there?utm_term=.b31cefe45199'
     -
         title: 'Pay off the debt by getting America''s creditors to accept less.'
         description: ''
@@ -999,7 +1015,7 @@ promises:
         title: 'Grow the nation''s economy by at least 6 percent.'
         description: ''
         url: 'https://trumptracker.github.io/grow-the-nations-economy-by-at-least-6-percent/'
-        status: Not started
+        status: In progress
         status_info: ''
         category: Economy
         tags:
@@ -1008,6 +1024,7 @@ promises:
             - 'https://redd.it/5d7sof'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20180825131339/https://www.nytimes.com/2018/07/27/business/economy/economy-gdp.html'
     -
         title: 'Reduce the $18 trillion national debt by "vigorously eliminating waste, fraud and abuse in the federal government, ending redundant government programs and growing the economy to increase tax revenues."'
         description: ''
@@ -1052,7 +1069,7 @@ promises:
         title: 'Simplify the U.S. tax code and reduce the number of tax brackets from seven to four. The highest earners would pay a 25-percent tax. The corporate tax rate would fall to 15 percent. Eliminate the "marriage penalty" for taxpayers and get rid of the alternate minimum tax.'
         description: ''
         url: 'https://trumptracker.github.io/simplify-the-us-tax-code-and-reduce-the-number-of-tax-brackets-from-seven-to-four-the-highest-earners/'
-        status: Not started
+        status: Compromised
         status_info: ''
         category: Economy
         tags:
@@ -1061,11 +1078,14 @@ promises:
             - 'https://redd.it/5d7soj'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20180823124028/https://www.businessinsider.com/tax-brackets-2018-trump-tax-plan-chart-2017-12'
+            - 'https://web.archive.org/web/20180819133003/https://www.congress.gov/bill/115th-congress/house-bill/1/text'
+            - 'https://web.archive.org/web/20180210034919/http://www.politifact.com:80/truth-o-meter/promises/trumpometer/promise/1427/eliminate-marriage-penalty/'
     -
         title: 'No longer charge income tax to single individuals earning less than $25,000 per year or couples earning less than $50,000. These people will, however, be required to file a one-page form with the Internal Revenue Service that states: "I win."'
         description: ''
         url: 'https://trumptracker.github.io/no-longer-charge-income-tax-to-single-individuals-earning-less-than-25000-per-year-or-couples-earning/'
-        status: Not started
+        status: Broken
         status_info: ''
         category: Economy
         tags:
@@ -1074,11 +1094,13 @@ promises:
             - 'https://redd.it/5d7sol'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20180823124028/https://www.businessinsider.com/tax-brackets-2018-trump-tax-plan-chart-2017-12'
+            - 'https://web.archive.org/web/20180819133003/https://www.congress.gov/bill/115th-congress/house-bill/1/text'
     -
         title: 'Allow corporations a one-time window to transfer money being held overseas, charging a much-reduced 10 percent tax.'
         description: ''
         url: 'https://trumptracker.github.io/allow-corporations-a-onetime-window-to-transfer-money-being-held-overseas-charging-a-muchreduced-10-p/'
-        status: Not started
+        status: Achieved
         status_info: ''
         category: Economy
         tags:
@@ -1087,11 +1109,12 @@ promises:
             - 'https://redd.it/5d7som'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20180824000051/https://www.nytimes.com/2017/11/29/business/taxes-offshore-repatriation.html'
     -
         title: 'Get rid of most corporate tax loopholes or incentives, but continue to allow taxpayers to deduct mortgage interest and charitable donations from their taxes.'
         description: ''
         url: 'https://trumptracker.github.io/get-rid-of-most-corporate-tax-loopholes-or-incentives-but-continue-to-allow-taxpayers-to-deduct-mortg/'
-        status: Not started
+        status: Compromised
         status_info: ''
         category: Economy
         tags:
@@ -1100,6 +1123,8 @@ promises:
             - 'https://redd.it/5d7soq'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20180223223856/http://www.latimes.com/business/hiltzik/la-fi-hiltzik-pass-through-trump-tax-20171004-story.html'
+            - 'https://web.archive.org/web/20180428034402/https://www.businessinsider.com/trump-new-tax-law-mortgage-interest-property-tax-deduction-affect-homeowners-2018-3'
     -
         title: 'Use "common sense" to fix the mental health system and prevent mass shootings. Find ways to arm more of the "good guys" like him who can take out the "sickos." Get rid of bans on certain types of guns and magazines so that "good, honest people" can own the guns of their choice.'
         description: ''
@@ -1398,7 +1423,7 @@ promises:
         title: 'Impose new taxes on many imports into the country. Numbers thrown around have included 32 percent, 34 percent and 35 percent.'
         description: ''
         url: 'https://trumptracker.github.io/impose-new-taxes-on-many-imports-into-the-country-numbers-thrown-around-have-included-32-percent-34-p/'
-        status: Not started
+        status: Achieved
         status_info: ''
         category: Government
         tags:
@@ -1407,6 +1432,7 @@ promises:
             - 'https://redd.it/5d7spm'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
+            - 'https://web.archive.org/web/20180808024317/https://www.politifact.com/truth-o-meter/promises/trumpometer/promise/1411/raise-tariffs-goods-imported-us/'
     -
         title: 'Reach out to Republicans and say, ''This is your chance to help millions of families and show that your party, the party of Lincoln, is better than Donald Trump.'''
         description: ''
@@ -1583,7 +1609,7 @@ promises:
         title: 'Suspend Syrian refugee resettlement.'
         description: ''
         url: 'https://trumptracker.github.io/suspend-syrian-refugee-resettlement/'
-        status: Not started
+        status: Compromised
         status_info: ''
         category: Immigration
         tags:
@@ -1592,6 +1618,7 @@ promises:
             - 'https://redd.it/5d7stg'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20180825231005/https://www.nytimes.com/2018/08/01/us/politics/trump-refugees-reduction.html'
     -
         title: 'Donald Trump: It''s time to heal this divided nation'
         description: ''
@@ -1918,7 +1945,7 @@ promises:
         title: 'Ask Congress to pass ''Kate''s Law''-named for Kate Steinle-to ensure that criminal aliens convicted of illegal reentry receive strong mandatory minimum sentences.'
         description: ''
         url: 'https://trumptracker.github.io/ask-congress-to-pass-kates-lawnamed-for-kate-steinleto-ensure-that-criminal-aliens-convicted-of-illeg/'
-        status: Not started
+        status: Achieved
         status_info: ''
         category: Security
         tags:
@@ -1927,6 +1954,7 @@ promises:
             - 'https://redd.it/5d7stm'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20180825160420/https://www.whitehouse.gov/briefings-statements/statement-president-donald-j-trump-house-passage-kates-law-no-sanctuary-criminals-act/'
     -
         title: 'Keep the military prison at Guantanamo Bay open'
         description: ''
@@ -2003,7 +2031,7 @@ promises:
         category: Health
         tags:
             - Health Care
-        comments: 
+        comments:
             - 'https://redd.it/5d7sr0'
         sources:
             - 'https://web.archive.org/web/20161110005306/https://www.washingtonpost.com/news/post-politics/wp/2016/01/22/here-are-76-of-donald-trumps-many-campaign-promises/'
@@ -2331,7 +2359,7 @@ promises:
         title: 'Negotiate the release of all U.S. prisoners held in Iran before taking office.'
         description: 'Five hostages were recently released, including Washington Post reporter Jason Rezaian; Trump has taken some credit for this.'
         url: 'https://trumptracker.github.io/negotiate-the-release-of-all-us-prisoners-held-in-iran-before-taking-office/'
-        status: Not started
+        status: Broken
         status_info: ''
         category: World
         tags:
@@ -2340,6 +2368,7 @@ promises:
             - 'https://redd.it/5d7ssb'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20180712165448/https://www.npr.org/sections/parallels/2018/05/16/611041453/for-relatives-of-u-s-prisoners-in-iran-uncertainty-grows-after-iran-deal-pullout'
     -
         title: 'Leave troops in Afghanistan because it''s such "a mess." Protect Israel. And increase U.S. military presence in the East and South China Seas.'
         description: ''
@@ -2357,7 +2386,7 @@ promises:
         title: 'Find an "out" clause in the Iran deal and then "totally" renegotiate the whole thing.'
         description: ''
         url: 'https://trumptracker.github.io/find-an-out-clause-in-the-iran-deal-and-then-totally-renegotiate-the-whole-thing/'
-        status: Not started
+        status: In progress
         status_info: ''
         category: World
         tags:
@@ -2366,6 +2395,7 @@ promises:
             - 'https://redd.it/5d7sse'
         sources:
             - 'https://web.archive.org/web/20161101182505/http://www.nbcnews.com/politics/2016-election/full-list-donald-trump-s-rapidly-changing-policy-positions-n547801'
+            - 'https://web.archive.org/web/20180825063212/https://www.nytimes.com/2018/05/08/world/middleeast/trump-iran-nuclear-deal.html'
     -
         title: 'Rather than throw the Chinese president a state dinner, buy him "a McDonald''s hamburger and say we''ve got to get down to work".'
         description: ''
@@ -2423,7 +2453,7 @@ promises:
         title: 'Contact countries and say ''Folks, we love protecting you, we want to continue to protect you but you''re not living up to the bargain'''
         description: 'They''re not paying what they''re supposed to be paying-which is very little, by the way.'
         url: 'https://trumptracker.github.io/contact-countries-and-say-folks-we-love-protecting-you-we-want-to-continue-to-protect-you-but-youre-n/'
-        status: Not started
+        status: Achieved
         status_info: ''
         category: World
         tags:
@@ -2432,6 +2462,7 @@ promises:
             - 'https://redd.it/5d7st9'
         sources:
             - 'https://web.archive.org/web/20161110165423/http://www.nydailynews.com/news/politics/donald-trump-big-list-promises-article-1.2865483'
+            - 'https://web.archive.org/web/20180816034544/https://www.nytimes.com/2017/05/26/world/europe/nato-trump-spending.html'
     -
         title: 'Get rid of Common Core because it''s "a disaster" and a "very bad thing."'
         description: 'Trump says he wants to give local school districts more control and might even eliminate the Department of Education.'

@@ -124,7 +124,7 @@ DEPENDENCIES
   unf_ext
 
 RUBY VERSION
-   ruby 2.2.3p173
+   ruby 2.5.1p57
 
 BUNDLED WITH
-   1.15.0
+   1.16.4
